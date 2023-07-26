@@ -1,0 +1,424 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #1c1a1a;
+  color: #fff;
+  background-image: url("imgs//capa.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-size: 36px;
+  margin: 20px 0;
+  background: linear-gradient(270deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8);
+}
+
+.filme-poster {
+  display: flex; /* Utiliza o Flexbox para alinhar os elementos */
+  align-items: center; /* Centraliza verticalmente os elementos */
+  margin-bottom: 20px; /* Espaçamento entre os filmes */
+}
+
+/* Estilo para o pôster */
+.filme-poster img {
+  max-width: 150px; /* Limita a largura máxima do pôster */
+  margin-right: 20px; /* Espaçamento entre o pôster e os textos */
+}
+
+/* Estilo para o texto do filme */
+.filme-texto {
+  flex: 1; /* Faz o texto ocupar todo o espaço disponível */
+}
+
+/* Estilo para a linha de separação */
+.filme-separador {
+  border: none;
+  border-top: 2px solid #444444; /* Cor e espessura da linha */
+  margin: 10px 0; /* Espaçamento entre os filmes */
+}
+
+/* Estilizando o tooltip personalizado */
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+}
+
+/* Adicionamos uma classe para o card de programação */
+#programacao {
+  background-color: rgba(43, 43, 43, 0.7);
+  border-radius: 10px;
+  padding: 10px;
+  list-style-type: none;
+  width: 100%;
+  height: auto;  
+}
+
+.ativo {
+  background-color: rgba(43, 43, 43, 0.7);
+  font-style: oblique;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+}
+
+.slide {
+  flex: 0 0 100%; 
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%) translateX(0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.prev-button,
+.next-button {
+  margin: 0 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -50px;
+}
+
+/* Botões */
+.dates-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+  /* Removemos a propriedade list-style-type que adicionava os pontos */
+  list-style-type: none;
+  display: inline; /* Adicionando para ficar em uma única linha */
+  border-radius: 10px;  
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.button:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.button:active {
+  color: #000;
+}
+
+.button:hover:before {
+  opacity: 1;
+}
+
+.button:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes button {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+.embreve {
+  width: 120px;
+  height: 50px;  
+  color: #000000;
+  background: linear-gradient(270deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  text-align: center;
+}
+
+footer p {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+#weather {
+  /* Removemos algumas configurações para manter o fundo transparente */
+  text-align: right;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Adicionamos uma classe para o card de temperatura */
+.weather-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: right;
+  background-color: rgba(43, 43, 43, 0.7);
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+/* Adicionamos estilos para a temperatura ficar em uma linha única */
+#date-time,
+#location,
+#temperature,
+#weather-icon {
+  margin: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .banner {
+    height: 200px;
+  }
+
+  .dates-container {
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+/* Adicionamos estilos para os horários em forma de card */
+.horario {
+  color: #42ca64;
+  font-weight: bold;
+  margin: 0;
+  padding: 5px;
+  border:solid;
+  border-color: rgb(0, 255, 76);
+  border-radius: 10px;
+  text-align: center;
+  font-style: arial;
+  /* Removemos a propriedade list-style-type que adicionava os pontos */
+  list-style-type: none;
+  display: inline; /* Adicionando para ficar em uma única linha */
+}
+
+/* Adicionamos um estilo para a div de dia */
+.dia {
+  /* Mantemos as configurações anteriores para a div de dia */
+  color: #42b6ca;
+  font-weight: bold;
+  margin: 0;
+  padding: 5px;
+  background-color: rgba(43, 43, 43, 0.7);     
+  border-radius: 7px;
+  text-align: center;
+  font-style: arial;
+  list-style-type: none;
+  display: inline; /* Adicionando para ficar em uma única linha */
+}
+
+.filme {
+  color: #ffffff;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  font-style: arial;
+  line-height: 2.5; /* Espaçamento entre as linhas dos filmes */
+  display: inline; /* Adicionando para ficar em uma única linha */
+  list-style-type: none;
+}
+
+.label-dub {
+  color: #ffffff;
+  margin: 0;
+  padding: 5px;
+  background-color: #7a1600;     
+  border-radius: 5px;
+  text-align: center;
+  font-style: arial;  
+}
+
+.label-leg {
+  color: #ffffff;
+  margin: 0;
+  padding: 5px;
+  background-color: #7a1600;     
+  border-radius: 5px;
+  text-align: center;
+  font-style: arial;
+} 
+
+.label-orig {
+  color: #ffffff;
+  margin: 0;
+  padding: 5px;
+  background-color: #7a1600;     
+  border-radius: 5px;
+  text-align: center;
+  font-style: arial;
+}     
+
+.class-livre {
+  color: #ffffff;
+  padding: 5px;
+  font-weight: 700;
+  background-color: #0ea477;     
+  border-radius: 5px;
+  max-width: 26px
+}  
+
+.class-10 {
+  color: #ffffff;
+  padding: 5px;
+  font-weight: 700;
+  background-color: #0095de;     
+  border-radius: 5px;
+  max-width: 26px
+} 
+
+.class-12 {
+  color: #ffffff;
+  padding: 5px;
+  font-weight: 700;
+  background-color: #ffca00;     
+  border-radius: 5px;
+  max-width: 26px  
+}   
+
+.class-14 {
+  color: #ffffff;
+  padding: 5px;
+  font-weight: 700;
+  background-color: #f98300;     
+  border-radius: 5px;
+  max-width: 26px
+}   
+
+.class-16 {
+  padding: 5px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #ef2517;
+  border-radius: 5px;
+  max-width: 26px
+}     
+   
+.class-18 {
+  color: #ffffff;
+  padding: 5px;
+  font-weight: 700;
+  background-color: #242424;     
+  border-radius: 5px;
+  max-width: 26px
+}     
+   
+.class-0 {
+  color: #000000;
+  padding: 5px;
+  font-weight: 700;
+  background-color: #ffffff;     
+  border-radius: 5px;
+  max-width: 26px
+}     
+
+::-webkit-scrollbar-thumb{
+  background-color: #ff008c;
+  border-radius: 10px;
+}
