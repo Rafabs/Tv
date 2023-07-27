@@ -10,17 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
   
-  if (data === '26/07') {
-    programacaoDiv.innerHTML = `
-      <ul>
-        <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
-        <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-        <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-        <li><span class="horario">19:15</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E10-T1</span></li> <hr class="filme-separador">
-        <li><span class="horario">19:35</span> <span class="label-orig">DUB</span> <span class="class-16">16</span> <span class="filme">TITÃS - E2-T4</span></li> <hr class="filme-separador">
-      </ul>
-    `;
-  } else if (data === '27/07') {
+  if (data === '27/07') {
     programacaoDiv.innerHTML = `
       <ul>
         <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
@@ -234,13 +224,23 @@ function mostrarProgramacao(button, data) {
         </li>
         <hr class="filme-separador">
 
+        <li class="filme-poster">
+          <img src="imgs//poster-ragnarok.jpg" alt="Ragnarok">
+          <div class="filme-texto">
+            <span class="dia">24/08</span>
+            <span class="class-14">14</span>
+            <span class="filme">RAGNAROK</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
         <li><span class="dia">AGOSTO</span> <span class="class-16">16</span> <span class="filme">MARK CAVENDISH: PEDALANDO ATÉ O FIM</span></li>    
         <hr class="filme-separador">
 
-        <li><span class="dia">AGOSTO</span> <span class="class-12">12</span> <span class="filme">CONTAMINAÇÃO: A VERDADE SOBRE O QUE COMEMOS - T1</span></li>        
+        <li><span class="dia">AGOSTO</span> <span class="class-12">12</span> <span class="filme">CONTAMINAÇÃO: A VERDADE SOBRE O QUE COMEMOS</span></li>        
         <hr class="filme-separador">
 
-        <li><span class="dia">EM BREVE</span> <span class="class-16">16</span> <span class="filme">IMPÉRIO DA DOR - T1</span></li>        
+        <li><span class="dia">EM BREVE</span> <span class="class-16">16</span> <span class="filme">IMPÉRIO DA DOR</span></li>        
         <hr class="filme-separador">
 
         <li class="filme-poster">
