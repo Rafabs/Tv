@@ -444,20 +444,17 @@ function getExchangeRates() {
   var api_Key = '23c8f4feb1538c3497d790a9693a8c18'; // Substitua "YOUR_API_KEY" pela sua chave de API real
   var url = "https://v6.exchangerate-api.com/v6/" + api_Key + "/latest/USD";
 
-    // Fazer uma requisição GET para a API de clima
-    fetch(url)
-      .then(response => response.json())
-      .then(data => {
-        var temperature = Math.round(data.main.temp - 273.15); // Converter temperatura de Kelvin para Celsius
-        var weatherIcon = data.weather[0].icon;
-
-        // Atualizar os elementos HTML com os dados obtidos
-        document.getElementById("temperature").textContent = temperature + "°C";
-        document.getElementById("weather-icon").innerHTML = '<img src="http://openweathermap.org/img/w/' + weatherIcon + '.png" alt="Weather Icon">';
-      })
-      .catch(error => {
-        console.log("Erro ao obter dados do clima:", error);
-      });
+  fetch(url)
+  .then(response => response.json())
+  .then(data => {
+    if (data.result === "success") {
+      var euroRate = data.conversion_rates.EUR.toFixed(2);
+      var dollarRate = 1.00.toFixed(2);
+      document.getElementById("exchange-rates").textContent = "EUR: " + euroRate + " | USD: " + dollarRate;
+    } else {
+      document.getElementById("exchange-rates").textContent = "Erro ao obter cotação.";
+    }
+  })
 }
 
 // Chamar a função para obter as cotações do euro e dólar
