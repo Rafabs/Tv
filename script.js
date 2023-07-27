@@ -441,7 +441,7 @@ function checkAndRemoveFirstButton() {
 
 // Função para obter a cotação do euro e dólar (substitua "YOUR_API_KEY" pela sua chave de API real)
 function getExchangeRates() {
-  var api_Key = 'bcd78ea965fa9540a18a2517'; // Substitua "YOUR_API_KEY" pela sua chave de API real
+  //var api_Key = 'bcd78ea965fa9540a18a2517'; Substitua "YOUR_API_KEY" pela sua chave de API real
   var url_cotacao = "https://v6.exchangerate-api.com/v6/bcd78ea965fa9540a18a2517/latest/USD";
 
   fetch(url_cotacao)
