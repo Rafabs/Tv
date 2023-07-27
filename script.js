@@ -439,20 +439,25 @@ function checkAndRemoveFirstButton() {
   }
 }
 
-// Função para obter a cotação do euro e dólar (substitua "YOUR_API_KEY" pela sua chave de API real)
+// Função para obter a cotação do euro e dólar
 function getExchangeRates() {
-  //var api_Key = 'bcd78ea965fa9540a18a2517'; Substitua "YOUR_API_KEY" pela sua chave de API real
-  var url_cotacao = "https://v6.exchangerate-api.com/v6/bcd78ea965fa9540a18a2517/latest/USD";
+  var api_Key = '23c8f4feb1538c3497d790a9693a8c18'; // Substitua "YOUR_API_KEY" pela sua chave de API real
+  var url = "https://v6.exchangerate-api.com/v6/" + api_Key + "/latest/USD";
 
-  fetch(url_cotacao)
+  fetch(url)
     .then(response => response.json())
     .then(data => {
-      var euroRate = data.rates.EUR.toFixed(2);
-      var dollarRate = 1.00.toFixed(2); // A taxa de câmbio base é 1.00, pois estamos obtendo a cotação do euro em relação ao dólar
-      document.getElementById("exchange-rates").textContent = "EUR: " + euroRate + " | USD: " + dollarRate;
+      if (data.result === "success") {
+        var euroRate = data.conversion_rates.EUR.toFixed(2);
+        var dollarRate = 1.00.toFixed(2);
+        document.getElementById("exchange-rates").textContent = "EUR: " + euroRate + " | USD: " + dollarRate;
+      } else {
+        document.getElementById("exchange-rates").textContent = "Erro ao obter cotação.";
+      }
     })
     .catch(error => {
       console.log("Erro ao obter cotação:", error);
+      document.getElementById("exchange-rates").textContent = "Erro ao obter cotação.";
     });
 }
 
