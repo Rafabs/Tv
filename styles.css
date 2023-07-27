@@ -74,6 +74,8 @@ h1 {
   padding: 10px;
   max-width: 75%;
   margin: 0 auto; /* Define margem automática nos lados, centralizando horizontalmente */
+  overflow: auto;
+  max-height: 300px; /* Ajuste o valor conforme necessário */
 }
   /* Não é necessário display, justify-content e align-items aqui */
   /* height e overflow não são mais necessários */
@@ -88,6 +90,7 @@ h1 {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  overflow: auto;  
 }
 
 .banner {
@@ -148,6 +151,7 @@ h1 {
   justify-content: center;
   align-items: center;
   height: 10vh; /* Ajuste a altura conforme necessário */
+  overflow: auto;
 }
 
 .button {
@@ -419,4 +423,5 @@ footer p {
 ::-webkit-scrollbar-thumb{
   background-color: #ff008c;
   border-radius: 10px;
+  overflow: auto;
 }
