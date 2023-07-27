@@ -445,15 +445,15 @@ function getExchangeRates() {
   var url_cotacao = "https://v6.exchangerate-api.com/v6/bcd78ea965fa9540a18a2517/latest/USD";
 
   fetch(url_cotacao)
-  .then(response => response.json())
-  .then(data => {
-  var euroRate = data.rates.EUR.toFixed(2);
-  var dollarRate = 1.00.toFixed(2); // A taxa de câmbio base é 1.00, pois estamos obtendo a cotação do euro em relação ao dólar
-  document.getElementById("exchange-rates").textContent = "EUR: " + euroRate + " | USD: " + dollarRate;
-  })
-  .catch(error => {
-    console.log("Erro ao obter cotação:", error);
-  });
+    .then(response => response.json())
+    .then(data => {
+      var euroRate = data.rates.EUR.toFixed(2);
+      var dollarRate = 1.00.toFixed(2); // A taxa de câmbio base é 1.00, pois estamos obtendo a cotação do euro em relação ao dólar
+      document.getElementById("exchange-rates").textContent = "EUR: " + euroRate + " | USD: " + dollarRate;
+    })
+    .catch(error => {
+      console.log("Erro ao obter cotação:", error);
+    });
 }
 
 // Chamar a função para obter as cotações do euro e dólar
