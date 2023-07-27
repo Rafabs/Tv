@@ -456,5 +456,8 @@ function getExchangeRates() {
   });
 }
 
+// Chamar a função para obter as cotações do euro e dólar
+getExchangeRates();
+
 // Chama a função para verificar a cada segundo
 setInterval(checkAndRemoveFirstButton, 1000);
