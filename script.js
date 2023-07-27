@@ -439,26 +439,5 @@ function checkAndRemoveFirstButton() {
   }
 }
 
-// Função para obter a cotação do euro e dólar
-function getExchangeRates() {
-  var api_Key = '23c8f4feb1538c3497d790a9693a8c18'; // Substitua "YOUR_API_KEY" pela sua chave de API real
-  var url = "https://v6.exchangerate-api.com/v6/" + api_Key + "/latest/USD";
-
-  fetch(url)
-  .then(response => response.json())
-  .then(data => {
-    if (data.result === "success") {
-      var euroRate = data.conversion_rates.EUR.toFixed(2);
-      var dollarRate = 1.00.toFixed(2);
-      document.getElementById("exchange-rates").textContent = "EUR: " + euroRate + " | USD: " + dollarRate;
-    } else {
-      document.getElementById("exchange-rates").textContent = "Erro ao obter cotação.";
-    }
-  })
-}
-
-// Chamar a função para obter as cotações do euro e dólar
-getExchangeRates();
-
 // Chama a função para verificar a cada segundo
 setInterval(checkAndRemoveFirstButton, 1000);
