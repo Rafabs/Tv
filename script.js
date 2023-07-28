@@ -236,12 +236,26 @@ function mostrarProgramacao(button, data) {
         </li>
         <hr class="filme-separador">
 
-        <li><span class="dia">AGOSTO</span> <span class="class-16">16</span> <span class="filme">MARK CAVENDISH: PEDALANDO ATÉ O FIM</span></li>    
+        <li class="filme-poster">
+          <img src="imgs//poster-mark-cavendish.jpg" alt="MARK CAVENDISH: PEDALANDO ATÉ O FIM">
+          <div class="filme-texto">
+            <span class="dia">AGOSTO</span>
+            <span class="class-16">16</span>
+            <span class="filme">MARK CAVENDISH: PEDALANDO ATÉ O FIM</span>
+          </div>
+        </li>
         <hr class="filme-separador">
 
-        <li><span class="dia">AGOSTO</span> <span class="class-12">12</span> <span class="filme">CONTAMINAÇÃO: A VERDADE SOBRE O QUE COMEMOS</span></li>        
+        <li class="filme-poster">
+          <img src="imgs//poster-contamicao.jpg" alt="CONTAMINAÇÃO: A VERDADE SOBRE O QUE COMEMOS">
+          <div class="filme-texto">
+            <span class="dia">AGOSTO</span>
+            <span class="class-12">12</span>
+            <span class="filme">CONTAMINAÇÃO: A VERDADE SOBRE O QUE COMEMOS</span>
+          </div>
+        </li>
         <hr class="filme-separador">
-
+        
         <li><span class="dia">EM BREVE</span> <span class="class-16">16</span> <span class="filme">IMPÉRIO DA DOR</span></li>        
         <hr class="filme-separador">
 
