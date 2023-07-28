@@ -18,6 +18,13 @@ h1 {
   background: linear-gradient(270deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8);
 }
 
+/* Estilos para os ícones de cotação */
+#USD, #EUR {
+  font-size: 24px;
+  margin-top: 5px;
+  background-color: transparent; /* Remove o fundo */
+}
+
 .filme-poster {
   display: flex; /* Utiliza o Flexbox para alinhar os elementos */
   align-items: center; /* Centraliza verticalmente os elementos */
