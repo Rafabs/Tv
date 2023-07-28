@@ -102,6 +102,8 @@ function mostrarProgramacao(button, data) {
         <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
       </ul>
     `;
+
+  // Eliminar o primeiro item de Em Breve 
   } else if (data === '06/08') {
     programacaoDiv.innerHTML = `
       <ul>
