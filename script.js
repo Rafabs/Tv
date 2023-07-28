@@ -205,6 +205,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+        <img src="imgs//poster-guardioes-da-galaxia3.jpg" alt="Guardiões da Galáxia - Vol. 3">
+        <div class="filme-texto">
+          <span class="dia">AGOSTO</span>
+          <span class="class-14">14</span>
+          <span class="filme">GUARDIÕES DA GALÁXIA - VOL. 3</span>
+        </div>
+      </li>
+      <hr class="filme-separador">
+        
+        <li class="filme-poster">
           <img src="imgs//poster-explorando.jpg" alt="Explorando o Desconhecido: A Máquina do Tempo Cósmica">
           <div class="filme-texto">
             <span class="dia">AGOSTO</span>
