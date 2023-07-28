@@ -439,5 +439,42 @@ function checkAndRemoveFirstButton() {
   }
 }
 
+const axios = require('axios');
+const cheerio = require('cheerio');
+
+// URL da página de trânsito da CET
+const url = 'https://www.cetsp.com.br/traffic/traffic-map/';
+
+// Função para fazer o web scraping da página de trânsito da CET
+async function scrapeCetTraffic() {
+  try {
+    const response = await axios.get(url);
+    const $ = cheerio.load(response.data);
+
+    // Extrair informações de trânsito
+    const trafficInfo = $('.panel-body p').first().text();
+
+    // Retornar as informações de trânsito
+    return trafficInfo;
+  } catch (error) {
+    console.log('Erro ao fazer web scraping:', error.message);
+    return null;
+  }
+}
+
+// Chamar a função para obter as informações de trânsito da CET
+scrapeCetTraffic()
+  .then((trafficInfo) => {
+    if (trafficInfo) {
+      console.log('Informações de Trânsito:');
+      console.log(trafficInfo);
+    } else {
+      console.log('Não foi possível obter as informações de trânsito.');
+    }
+  })
+  .catch((error) => {
+    console.log('Erro:', error.message);
+  });
+
 // Chama a função para verificar a cada segundo
 setInterval(checkAndRemoveFirstButton, 1000);
