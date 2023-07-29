@@ -237,7 +237,7 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
-          <img src="imgs//poster-contamicao.jpg" alt="CONTAMINAÇÃO: A VERDADE SOBRE O QUE COMEMOS">
+          <img src="imgs//poster-contaminacao.jpg" alt="CONTAMINAÇÃO: A VERDADE SOBRE O QUE COMEMOS">
           <div class="filme-texto">
             <span class="dia">AGOSTO</span>
             <span class="class-12">12</span>
@@ -291,6 +291,16 @@ function mostrarProgramacao(button, data) {
         </div>
       </li>
       <hr class="filme-separador">
+
+      <li class="filme-poster">
+      <img src="imgs//poster-the-flash.jpg" alt="THE FLASH (2023)">
+      <div class="filme-texto">
+      <span class="dia">EM BREVE</span>
+        <span class="class-14">14</span>
+        <span class="filme">THE FLASH (2023)</span>
+      </div>
+    </li>
+    <hr class="filme-separador">
 
       <li class="filme-poster">
       <img src="imgs//poster-ironheart.jpg" alt="Ironheart">
