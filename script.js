@@ -10,19 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
   
-  if (data === '29/07') {
-    programacaoDiv.innerHTML = `
-    <ul>
-        <li><span class="horario">06:30</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">COPA DO MUNDO FEMININA 2023</span></li> <hr class="filme-separador">
-        <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-        <li><span class="horario">15:00</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E13-T1</span></li> <hr class="filme-separador">
-        <li><span class="horario">15:20</span> <span class="label-orig">DUB</span> <span class="class-16">16</span> <span class="filme">TITÃS - E5-T4</span></li> <hr class="filme-separador">         
-        <li><span class="horario">16:10</span> <span class="label-orig">DUB</span> <span class="class-16">16</span> <span class="filme">BIRD BOX: BARCELONA</span></li> <hr class="filme-separador">         
-        <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-
-      </ul>
-    `;
-  } else if (data === '30/07') {
+  if (data === '30/07') {
     programacaoDiv.innerHTML = `
       <ul>
         <li><span class="horario">11:00</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">
