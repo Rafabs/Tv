@@ -10,17 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
   
-  if (data === '31/07') {
-    programacaoDiv.innerHTML = `
-      <ul>
-        <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
-        <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-        <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-        <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E15-T1</span></li> <hr class="filme-separador">
-        <li><span class="horario">20:00</span> <span class="label-orig">DUB</span> <span class="class-16">16</span> <span class="filme">TITÃS - E7-T4</span></li> <hr class="filme-separador">     
-      </ul>
-    `;
-  } else if (data === '01/08') {
+  if (data === '01/08') {
     programacaoDiv.innerHTML = `
       <ul>
         <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
@@ -34,7 +24,7 @@ function mostrarProgramacao(button, data) {
     programacaoDiv.innerHTML = `
       <ul>
         <li><span class="horario">06:30</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">COPA DO MUNDO FEMININA 2023</span></li> <hr class="filme-separador">
-        <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+        <li><span class="horario">12:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
         <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
         <li><span class="horario">19:15</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E17-T1</span></li> <hr class="filme-separador">
         <li><span class="horario">19:35</span> <span class="label-orig">DUB</span> <span class="class-16">16</span> <span class="filme">TITÃS - E9-T4</span></li> <hr class="filme-separador">     
@@ -314,7 +304,7 @@ function mostrarProgramacao(button, data) {
           <div class="filme-texto">
             <span class="dia">AGOSTO</span>
             <span class="class-16">16</span>
-            <span class="filme">IMPÉRIO DA DOR</span>
+            <span class="filme">IMPÉRIO DA DOR - T1</span>
           </div>
         </li>
         <hr class="filme-separador">
