@@ -309,7 +309,14 @@ function mostrarProgramacao(button, data) {
         </li>
         <hr class="filme-separador">
         
-        <li><span class="dia">EM BREVE</span> <span class="class-16">16</span> <span class="filme">IMPÉRIO DA DOR</span></li>        
+        <li class="filme-poster">
+          <img src="imgs//poster-imperio-da-dor.jpg" alt="Império da Dor">
+          <div class="filme-texto">
+            <span class="dia">AGOSTO</span>
+            <span class="class-16">16</span>
+            <span class="filme">IMPÉRIO DA DOR</span>
+          </div>
+        </li>
         <hr class="filme-separador">
 
         <li class="filme-poster">
@@ -338,7 +345,7 @@ function mostrarProgramacao(button, data) {
         <li class="filme-poster">
           <img src="imgs//poster-loki.jpg" alt="Loki">
           <div class="filme-texto">
-          <span class="dia">EM BREVE</span>
+          <span class="dia">OUTUBRO</span>
             <span class="class-14">14</span>
             <span class="filme">LOKI - T2</span>
           </div>
@@ -348,7 +355,7 @@ function mostrarProgramacao(button, data) {
         <li class="filme-poster">
         <img src="imgs//poster-echo.jpg" alt="Echo">
         <div class="filme-texto">
-        <span class="dia">EM BREVE</span>
+        <span class="dia">NOVEMBRO</span>
           <span class="class-0">0</span>
           <span class="filme">ECHO - T1</span>
         </div>
