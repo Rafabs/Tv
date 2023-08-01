@@ -320,9 +320,19 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+        <img src="imgs//poster-the-flash.jpg" alt="THE FLASH (2023)">
+        <div class="filme-texto">
+          <span class="dia">AGOSTO</span>
+          <span class="class-14">14</span>
+          <span class="filme">THE FLASH (2023)</span>
+        </div>
+      </li>
+      <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster-agente-stone.jpg" alt="Agente Stone">
           <div class="filme-texto">
-            <span class="dia">EM BREVE</span>
+            <span class="dia">AGOSTO</span>
             <span class="class-14">14</span>
             <span class="filme">AGENTE STONE</span>
           </div>
@@ -372,17 +382,6 @@ function mostrarProgramacao(button, data) {
         </div>
       </li>
       <hr class="filme-separador">
-
-
-      <li class="filme-poster">
-      <img src="imgs//poster-the-flash.jpg" alt="THE FLASH (2023)">
-      <div class="filme-texto">
-        <span class="dia">EM BREVE</span>
-        <span class="class-14">14</span>
-        <span class="filme">THE FLASH (2023)</span>
-      </div>
-    </li>
-    <hr class="filme-separador">
           
       <li class="filme-poster">
       <img src="imgs//poster-ironheart.jpg" alt="Ironheart">
