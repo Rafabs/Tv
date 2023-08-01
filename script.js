@@ -332,6 +332,17 @@ function mostrarProgramacao(button, data) {
         <li><span class="dia">EM BREVE</span> <span class="class-14">14</span> <span class="filme">UNTOLD: A VERGONHA DO DOPING</span></li>      
         <hr class="filme-separador">
 
+        
+        <li class="filme-poster">
+          <img src="imgs//poster-sex-education.jpg" alt="Sex Education">
+          <div class="filme-texto">
+          <span class="dia">SETEMBRO</span>
+            <span class="class-16">16</span>
+            <span class="filme">SEX EDUCATION - T4</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
         <li class="filme-poster">
           <img src="imgs//poster-lupin.jpg" alt="Lupin">
           <div class="filme-texto">
