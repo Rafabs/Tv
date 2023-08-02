@@ -187,16 +187,42 @@ function mostrarProgramacao(button, data) {
       <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
       <li><span class="horario">13:30</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E16-T2</span></li> <hr class="filme-separador">
       <li><span class="horario">13:20</span> <span class="label-orig">NAC</span> <span class="class-16">16</span> <span class="filme">SINTONIA - E08-T4</span></li> <hr class="filme-separador">
+      <li><span class="horario">16:00</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">
       <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
       </ul>
     `;
-    // AGUARDANDO AMANDA DEFINIR FILME + ESTREIA THE WITCHER T3
-  } else if (data === 'XX/08') {
+
+  // Eliminar o primeiro item de Em Breve 
+} else if (data === '20/08') {
     programacaoDiv.innerHTML = `
       <ul>
+      <li><span class="horario">14:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E10-T2</span></li> <hr class="filme-separador">
+      <li><span class="horario">15:05</span> <span class="label-dub">DUB</span> <span class="class-18">18</span> <span class="filme">THE WITCHER - E06-T3</span></li> <hr class="filme-separador">
+      <li><span class="horario">16:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">GREASE</span></li> <hr class="filme-separador">
+      <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">          
       </ul>
     `;
-  } else if (data === 'em-breve') {
+} else if (data === '21/08') {
+  programacaoDiv.innerHTML = `
+    <ul>
+    <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E16-T2</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">THE WITCHER - E07-T3</span></li> <hr class="filme-separador">
+    </ul>
+  `;
+} else if (data === '22/08') {
+  programacaoDiv.innerHTML = `
+    <ul>
+    <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E16-T2</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">THE WITCHER - E08-T3</span></li> <hr class="filme-separador">
+    </ul>
+  `;
+} else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
         <li class="filme-poster">
