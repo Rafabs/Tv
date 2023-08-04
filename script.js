@@ -183,7 +183,7 @@ function mostrarProgramacao(button, data) {
 } else if (data === '20/08') {
     programacaoDiv.innerHTML = `
       <ul>
-      <li><span class="horario">14:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E10-T2</span></li> <hr class="filme-separador">
+      <li><span class="horario">14:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E17-T2</span></li> <hr class="filme-separador">
       <li><span class="horario">15:05</span> <span class="label-dub">DUB</span> <span class="class-18">18</span> <span class="filme">THE WITCHER - E06-T3</span></li> <hr class="filme-separador">
       <li><span class="horario">16:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">GREASE</span></li> <hr class="filme-separador">
       <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">          
@@ -195,8 +195,8 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E16-T2</span></li> <hr class="filme-separador">
-    <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">THE WITCHER - E07-T3</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E18-T2</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-18">18</span> <span class="filme">THE WITCHER - E07-T3</span></li> <hr class="filme-separador">
     </ul>
   `;
 } else if (data === '22/08') {
@@ -205,10 +205,12 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E16-T2</span></li> <hr class="filme-separador">
-    <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">THE WITCHER - E08-T3</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E19-T2</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-18">18</span> <span class="filme">THE WITCHER - E08-T3</span></li> <hr class="filme-separador">
     </ul>
   `;
+
+// THE BIG BANG THEORY VAI ATÉ E23-T2  
 } else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
@@ -338,7 +340,7 @@ function mostrarProgramacao(button, data) {
         <li class="filme-poster">
           <img src="imgs//poster-sex-education.jpg" alt="Sex Education">
           <div class="filme-texto">
-          <span class="dia">SETEMBRO</span>
+          <span class="dia">21/09</span>
             <span class="class-16">16</span>
             <span class="filme">SEX EDUCATION - T4</span>
           </div>
