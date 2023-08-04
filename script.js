@@ -18,8 +18,10 @@ function mostrarProgramacao(button, data) {
         <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
         <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E02-T2</span></li> <hr class="filme-separador">
         <li><span class="horario">20:00</span> <span class="label-orig">DUB</span> <span class="class-16">16</span> <span class="filme">TITÃS - E11-T4</span></li> <hr class="filme-separador">      
+        <li><span class="horario">22:25</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">CONTAMINAÇÃO - A VERDADE SOBRE TUDO O QUE COMEMOS</span></li> <hr class="filme-separador">      
       </ul>
     `;
+    
   } else if (data === '05/08') {
     programacaoDiv.innerHTML = `
       <ul>
@@ -269,7 +271,7 @@ function mostrarProgramacao(button, data) {
         </div>
       </li>
       <hr class="filme-separador">
-      
+
         <li class="filme-poster">
         <img src="imgs//poster-guardioes-da-galaxia3.jpg" alt="Guardiões da Galáxia - Vol. 3">
         <div class="filme-texto">
@@ -289,17 +291,7 @@ function mostrarProgramacao(button, data) {
           </div>
         </li>
         <hr class="filme-separador">
-
-        <li class="filme-poster">
-          <img src="imgs//poster-contaminacao.jpg" alt="CONTAMINAÇÃO: A VERDADE SOBRE O QUE COMEMOS">
-          <div class="filme-texto">
-            <span class="dia">AGOSTO</span>
-            <span class="class-12">12</span>
-            <span class="filme">CONTAMINAÇÃO: A VERDADE SOBRE O QUE COMEMOS</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
-        
+       
         <li class="filme-poster">
           <img src="imgs//poster-imperio-da-dor.jpg" alt="Império da Dor">
           <div class="filme-texto">
