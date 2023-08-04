@@ -81,6 +81,8 @@ function mostrarProgramacao(button, data) {
         <li><span class="horario">18:40</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">COPA SULAMERICANA</span></li> <hr class="filme-separador">    
       </ul>
     `;
+
+  // Eliminar o primeiro item de Em Breve 
   } else if (data === '11/08') {
     programacaoDiv.innerHTML = `
       <ul>
@@ -89,6 +91,7 @@ function mostrarProgramacao(button, data) {
         <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
         <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E09-T2</span></li> <hr class="filme-separador">
         <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">INVASÃO SECRETA - E06-T1</span></li> <hr class="filme-separador">
+        <li><span class="horario">22:25</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">MARK CAVENDISH: PEDALANDO ATÉ O FIM</span></li> <hr class="filme-separador">
       </ul>
     `;
   // Eliminar o primeiro item de Em Breve 
@@ -216,6 +219,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+        <img src="imgs//poster-mark-cavendish.jpg" alt="MARK CAVENDISH: PEDALANDO ATÉ O FIM">
+        <div class="filme-texto">
+          <span class="dia">11/08</span>
+          <span class="class-16">16</span>
+          <span class="filme">MARK CAVENDISH: PEDALANDO ATÉ O FIM</span>
+        </div>
+      </li>
+      <hr class="filme-separador">
+      
+        <li class="filme-poster">
           <img src="imgs//poster-sintonia.jpg" alt="Sintonia">
           <div class="filme-texto">
             <span class="dia">12/08</span>
@@ -271,16 +284,6 @@ function mostrarProgramacao(button, data) {
             <span class="dia">24/08</span>
             <span class="class-14">14</span>
             <span class="filme">RAGNAROK</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
-
-        <li class="filme-poster">
-          <img src="imgs//poster-mark-cavendish.jpg" alt="MARK CAVENDISH: PEDALANDO ATÉ O FIM">
-          <div class="filme-texto">
-            <span class="dia">AGOSTO</span>
-            <span class="class-16">16</span>
-            <span class="filme">MARK CAVENDISH: PEDALANDO ATÉ O FIM</span>
           </div>
         </li>
         <hr class="filme-separador">
