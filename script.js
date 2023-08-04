@@ -154,6 +154,7 @@ function mostrarProgramacao(button, data) {
         <li><span class="horario">20:00</span> <span class="label-orig">NAC</span> <span class="class-16">16</span> <span class="filme">SINTONIA - E06-T4</span></li> <hr class="filme-separador">
       </ul>
     `;
+  // Eliminar o primeiro item de Em Breve 
   } else if (data === '18/08') {
     programacaoDiv.innerHTML = `
       <ul>
@@ -162,6 +163,7 @@ function mostrarProgramacao(button, data) {
       <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
       <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E16-T2</span></li> <hr class="filme-separador">
       <li><span class="horario">20:00</span> <span class="label-orig">NAC</span> <span class="class-16">16</span> <span class="filme">SINTONIA - E07-T4</span></li> <hr class="filme-separador">
+      <li><span class="horario">22:25</span> <span class="label-dub">DUB</span> <span class="class-10">10</span> <span class="filme">EXPLORANDO O DESCONHECIDO: A MÁQUINA DO TEMPO CÓSMICA</span></li> <hr class="filme-separador">
       </ul>
     `;
   } else if (data === '19/08') {
@@ -227,7 +229,7 @@ function mostrarProgramacao(button, data) {
         </div>
       </li>
       <hr class="filme-separador">
-      
+
         <li class="filme-poster">
           <img src="imgs//poster-sintonia.jpg" alt="Sintonia">
           <div class="filme-texto">
@@ -237,6 +239,16 @@ function mostrarProgramacao(button, data) {
           </div>
         </li>
         <hr class="filme-separador">
+
+        <li class="filme-poster">
+        <img src="imgs//poster-explorando.jpg" alt="Explorando o Desconhecido: A Máquina do Tempo Cósmica">
+        <div class="filme-texto">
+          <span class="dia">18/10</span>
+          <span class="class-10">10</span>
+          <span class="filme">EXPLORANDO O DESCONHECIDO: A MÁQUINA DO TEMPO CÓSMICA</span>
+        </div>
+      </li>
+      <hr class="filme-separador">
 
         <li class="filme-poster">
           <img src="imgs//poster-the-witcher.jpg" alt="The Witcher">
@@ -257,16 +269,6 @@ function mostrarProgramacao(button, data) {
         </div>
       </li>
       <hr class="filme-separador">
-
-        <li class="filme-poster">
-          <img src="imgs//poster-explorando.jpg" alt="Explorando o Desconhecido: A Máquina do Tempo Cósmica">
-          <div class="filme-texto">
-            <span class="dia">AGOSTO</span>
-            <span class="class-10">10</span>
-            <span class="filme">EXPLORANDO O DESCONHECIDO: A MÁQUINA DO TEMPO CÓSMICA</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
 
         <li class="filme-poster">
           <img src="imgs//poster-paraiso.jpg" alt="Paraiso">
