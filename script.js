@@ -261,6 +261,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+        <img src="imgs//poster-ragnarok.jpg" alt="Ragnarok">
+        <div class="filme-texto">
+          <span class="dia">24/08</span>
+          <span class="class-14">14</span>
+          <span class="filme">RAGNAROK</span>
+        </div>
+      </li>
+      <hr class="filme-separador">
+      
+        <li class="filme-poster">
         <img src="imgs//poster-guardioes-da-galaxia3.jpg" alt="Guardiões da Galáxia - Vol. 3">
         <div class="filme-texto">
           <span class="dia">AGOSTO</span>
@@ -276,16 +286,6 @@ function mostrarProgramacao(button, data) {
             <span class="dia">AGOSTO</span>
             <span class="class-16">16</span>
             <span class="filme">PARAÍSO</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
-
-        <li class="filme-poster">
-          <img src="imgs//poster-ragnarok.jpg" alt="Ragnarok">
-          <div class="filme-texto">
-            <span class="dia">24/08</span>
-            <span class="class-14">14</span>
-            <span class="filme">RAGNAROK</span>
           </div>
         </li>
         <hr class="filme-separador">
