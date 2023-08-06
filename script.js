@@ -10,31 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
   
-  if (data === '04/08') {
-    programacaoDiv.innerHTML = `
-      <ul>
-        <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
-        <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-        <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-        <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E02-T2</span></li> <hr class="filme-separador">
-        <li><span class="horario">20:00</span> <span class="label-orig">DUB</span> <span class="class-16">16</span> <span class="filme">TITÃS - E11-T4</span></li> <hr class="filme-separador">      
-        <li><span class="horario">22:25</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">CONTAMINAÇÃO - A VERDADE SOBRE TUDO O QUE COMEMOS</span></li> <hr class="filme-separador">      
-      </ul>
-    `;
-    
-  } else if (data === '05/08') {
-    programacaoDiv.innerHTML = `
-      <ul>
-        <li><span class="horario">10:25</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">TITÃS - E12-T4</span></li> <hr class="filme-separador">
-        <li><span class="horario">11:25</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E03-T2</span></li> <hr class="filme-separador">
-        <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-        <li><span class="horario">14:00</span> <span class="label-leg">LEG</span> <span class="class-livre">L</span> <span class="filme">ROCKY</span></li> <hr class="filme-separador">
-        <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-      </ul>
-    `;
-
-  // Eliminar o primeiro item de Em Breve 
-  } else if (data === '06/08') {
+  if (data === '06/08') {
     programacaoDiv.innerHTML = `
       <ul>
         <li><span class="horario">11:00</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">INVASÃO SECRETA - E01-T1</span></li> <hr class="filme-separador">
@@ -213,17 +189,7 @@ function mostrarProgramacao(button, data) {
 // THE BIG BANG THEORY VAI ATÉ E23-T2  
 } else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
-      <ul>
-        <li class="filme-poster">
-          <img src="imgs//poster-invasao-secreta.jpg" alt="Invasão Secreta">
-          <div class="filme-texto">
-            <span class="dia">06/08</span>
-            <span class="class-14">14</span>
-            <span class="filme">INVASÃO SECRETA - T1</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
-
+      <ul>
         <li class="filme-poster">
         <img src="imgs//poster-mark-cavendish.jpg" alt="MARK CAVENDISH: PEDALANDO ATÉ O FIM">
         <div class="filme-texto">
