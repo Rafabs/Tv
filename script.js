@@ -297,6 +297,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+          <img src="imgs//poster-depois-da-cabana.jpg" alt="Depois da Cabana">
+          <div class="filme-texto">
+          <span class="dia">11/09</span>
+            <span class="class-0">0</span>
+            <span class="filme">DEPOIS DA CABANA - T1</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster-sex-education.jpg" alt="Sex Education">
           <div class="filme-texto">
           <span class="dia">21/09</span>
