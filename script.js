@@ -213,10 +213,20 @@ function mostrarProgramacao(button, data) {
       </li>
       <hr class="filme-separador">
 
+      <li class="filme-poster">
+      <img src="imgs//poster-agente-stone.jpg" alt="Agente Stone">
+      <div class="filme-texto">
+        <span class="dia">25/08</span>
+        <span class="class-14">14</span>
+        <span class="filme">AGENTE STONE</span>
+      </div>
+    </li>
+    <hr class="filme-separador">
+
         <li class="filme-poster">
         <img src="imgs//poster-guardioes-da-galaxia3.jpg" alt="Guardiões da Galáxia - Vol. 3">
         <div class="filme-texto">
-          <span class="dia">AGOSTO</span>
+          <span class="dia">26/08</span>
           <span class="class-14">14</span>
           <span class="filme">GUARDIÕES DA GALÁXIA - VOL. 3</span>
         </div>
@@ -252,16 +262,6 @@ function mostrarProgramacao(button, data) {
         </div>
       </li>
       <hr class="filme-separador">
-
-        <li class="filme-poster">
-          <img src="imgs//poster-agente-stone.jpg" alt="Agente Stone">
-          <div class="filme-texto">
-            <span class="dia">AGOSTO</span>
-            <span class="class-14">14</span>
-            <span class="filme">AGENTE STONE</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
 
         <li><span class="dia">EM BREVE</span> <span class="class-14">14</span> <span class="filme">UNTOLD: A VERGONHA DO DOPING</span></li>      
         <hr class="filme-separador">
