@@ -267,6 +267,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+          <img src="imgs//poster-groot.jpg" alt="Eu Sou Groot">
+          <div class="filme-texto">
+          <span class="dia">06/09</span>
+            <span class="class-14">14</span>
+            <span class="filme">EU SOU GROOT - T2</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster-depois-da-cabana.jpg" alt="Depois da Cabana">
           <div class="filme-texto">
           <span class="dia">11/09</span>
