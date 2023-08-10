@@ -311,7 +311,7 @@ function mostrarProgramacao(button, data) {
           <div class="filme-texto">
           <span class="dia">03/11</span>
             <span class="class-0">0</span>
-            <span class="filme">Ferry: A Série</span>
+            <span class="filme">FERRY: A SÉRIE</span>
           </div>
         </li>
         <hr class="filme-separador">
