@@ -270,7 +270,7 @@ function mostrarProgramacao(button, data) {
           <img src="imgs//poster-groot.jpg" alt="Eu Sou Groot">
           <div class="filme-texto">
           <span class="dia">06/09</span>
-            <span class="class-14">14</span>
+            <span class="class-L">L</span>
             <span class="filme">EU SOU GROOT - T2</span>
           </div>
         </li>
