@@ -139,17 +139,7 @@ function mostrarProgramacao(button, data) {
 } else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-
-        <li class="filme-poster">
-        <img src="imgs//poster-mark-cavendish.jpg" alt="MARK CAVENDISH: PEDALANDO ATÉ O FIM">
-        <div class="filme-texto">
-          <span class="dia">11/08</span>
-          <span class="class-16">16</span>
-          <span class="filme">MARK CAVENDISH: PEDALANDO ATÉ O FIM</span>
-        </div>
-      </li>
-      <hr class="filme-separador">
+
 
         <li class="filme-poster">
           <img src="imgs//poster-sintonia.jpg" alt="Sintonia">
