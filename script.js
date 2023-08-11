@@ -136,6 +136,9 @@ function mostrarProgramacao(button, data) {
   `;
 
 // THE BIG BANG THEORY VAI ATÉ E23-T2  
+// SUL-AMERICANA 24/08 - QUI - 19H
+// SUL-AMERICANA 31/08 - QUI - 19H
+
 } else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
