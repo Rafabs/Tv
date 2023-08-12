@@ -133,16 +133,6 @@ function mostrarProgramacao(button, data) {
 
 
         <li class="filme-poster">
-          <img src="imgs//poster-sintonia.jpg" alt="Sintonia">
-          <div class="filme-texto">
-            <span class="dia">12/08</span>
-            <span class="class-16">16</span>
-            <span class="filme">SINTONIA - T4</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
-
-        <li class="filme-poster">
         <img src="imgs//poster-explorando.jpg" alt="Explorando o Desconhecido: A Máquina do Tempo Cósmica">
         <div class="filme-texto">
           <span class="dia">18/10</span>
