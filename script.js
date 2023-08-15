@@ -167,18 +167,48 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E02-T3</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E03-T3</span></li> <hr class="filme-separador">
     <li><span class="horario">20:00</span> <span class="label-dub">LEG</span> <span class="class-14">14</span> <span class="filme">RAGNAROK - E06-T3</span></li> <hr class="filme-separador">    
     </ul>
-  `;           
-// SUL-AMERICANA 31/08 - QUI - 19H
+  `;  
+  // Excluir primeiro item Em Breve   
+} else if (data === '30/08') {
+  programacaoDiv.innerHTML = `
+    <ul>
+    <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E04-T3</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">UNTOLD: A VERGONHA DO DOPING</span></li> <hr class="filme-separador">    
+    </ul>
+  `;         
+  // Excluir primeiro item Em Breve  
+} else if (data === '31/08') {
+  programacaoDiv.innerHTML = `
+    <ul>
+    <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+    <li><span class="horario">15:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E05-T3</span></li> <hr class="filme-separador">
+    <li><span class="horario">16:00</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">THE FLASH (2023)</span></li> <hr class="filme-separador">    
+    <li><span class="horario">18:40</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">COPA SULAMERICANA</span></li> <hr class="filme-separador">
+    </ul>
+  `;    
+  // Excluir primeiro e segundo item Em Breve  
+} else if (data === '01/09') {
+  programacaoDiv.innerHTML = `
+    <ul>
+    <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E06-T3</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">(DES)ENCANTO - E01-T5</span></li> <hr class="filme-separador">    
+    <li><span class="horario">22:25</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">PARAÍSO</span></li> <hr class="filme-separador">    
+    </ul>
+  `;         
 
 } else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-
-
         <li class="filme-poster">
         <img src="imgs//poster-explorando.jpg" alt="Explorando o Desconhecido: A Máquina do Tempo Cósmica">
         <div class="filme-texto">
@@ -239,28 +269,28 @@ function mostrarProgramacao(button, data) {
       </li>
       <hr class="filme-separador">
 
-        <li class="filme-poster">
-          <img src="imgs//poster-paraiso.jpg" alt="Paraiso">
-          <div class="filme-texto">
-            <span class="dia">AGOSTO</span>
-            <span class="class-16">16</span>
-            <span class="filme">PARAÍSO</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
-       
+      <li><span class="dia">30/08</span> <span class="class-14">14</span> <span class="filme">UNTOLD: A VERGONHA DO DOPING</span></li>      
+      <hr class="filme-separador">
+
         <li class="filme-poster">
         <img src="imgs//poster-the-flash.jpg" alt="THE FLASH (2023)">
         <div class="filme-texto">
-          <span class="dia">AGOSTO</span>
+          <span class="dia">31/08</span>
           <span class="class-14">14</span>
           <span class="filme">THE FLASH (2023)</span>
         </div>
       </li>
       <hr class="filme-separador">
 
-        <li><span class="dia">30/08</span> <span class="class-14">14</span> <span class="filme">UNTOLD: A VERGONHA DO DOPING</span></li>      
-        <hr class="filme-separador">
+        <li class="filme-poster">
+        <img src="imgs//poster-paraiso.jpg" alt="Paraiso">
+        <div class="filme-texto">
+          <span class="dia">01/09</span>
+          <span class="class-16">16</span>
+          <span class="filme">PARAÍSO</span>
+        </div>
+      </li>
+      <hr class="filme-separador">
 
         <li class="filme-poster">
           <img src="imgs//poster-desencanto.jpg" alt="(Des)encanto">
