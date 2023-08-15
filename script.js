@@ -56,7 +56,7 @@ function mostrarProgramacao(button, data) {
     programacaoDiv.innerHTML = `
       <ul>      
       <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-      <li><span class="horario">13:30</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E16-T2</span></li> <hr class="filme-separador">
+      <li><span class="horario">13:30</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E17-T2</span></li> <hr class="filme-separador">
       <li><span class="horario">13:50</span> <span class="label-orig">NAC</span> <span class="class-16">16</span> <span class="filme">SINTONIA - E08-T4</span></li> <hr class="filme-separador">
       <li><span class="horario">16:00</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">
       <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
@@ -67,7 +67,7 @@ function mostrarProgramacao(button, data) {
 } else if (data === '20/08') {
     programacaoDiv.innerHTML = `
       <ul>
-      <li><span class="horario">14:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E17-T2</span></li> <hr class="filme-separador">
+      <li><span class="horario">14:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E18-T2</span></li> <hr class="filme-separador">
       <li><span class="horario">15:05</span> <span class="label-dub">DUB</span> <span class="class-18">18</span> <span class="filme">THE WITCHER - E06-T3</span></li> <hr class="filme-separador">
       <li><span class="horario">16:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">GREASE</span></li> <hr class="filme-separador">
       <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">          
@@ -79,7 +79,7 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E18-T2</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E19-T2</span></li> <hr class="filme-separador">
     <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-18">18</span> <span class="filme">THE WITCHER - E07-T3</span></li> <hr class="filme-separador">
     </ul>
   `;
@@ -89,7 +89,7 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E19-T2</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E20-T2</span></li> <hr class="filme-separador">
     <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-18">18</span> <span class="filme">THE WITCHER - E08-T3</span></li> <hr class="filme-separador">
     </ul>
   `;
@@ -100,7 +100,7 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E20-T2</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E21-T2</span></li> <hr class="filme-separador">
     <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">IMPÉRIO DA DOR - E01-T1</span></li> <hr class="filme-separador">
     </ul>
   `;
@@ -110,7 +110,7 @@ function mostrarProgramacao(button, data) {
     <ul>
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-    <li><span class="horario">16:30</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E21-T2</span></li> <hr class="filme-separador">
+    <li><span class="horario">16:30</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E22-T2</span></li> <hr class="filme-separador">
     <li><span class="horario">16:50</span> <span class="label-dub">LEG</span> <span class="class-14">14</span> <span class="filme">RAGNAROK - E01-T3</span></li> <hr class="filme-separador">    
     <li><span class="horario">17:50</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">IMPÉRIO DA DOR - E02-T1</span></li> <hr class="filme-separador">
     <li><span class="horario">18:40</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">COPA SULAMERICANA</span></li> <hr class="filme-separador">
@@ -123,7 +123,7 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E22-T2</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E23-T2</span></li> <hr class="filme-separador">
     <li><span class="horario">20:00</span> <span class="label-dub">LEG</span> <span class="class-14">14</span> <span class="filme">RAGNAROK - E02-T3</span></li> <hr class="filme-separador">    
     <li><span class="horario">20:55</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">IMPÉRIO DA DOR - E03-T1</span></li> <hr class="filme-separador">
     <li><span class="horario">22:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">AGENTE STONE</span></li> <hr class="filme-separador">
@@ -135,7 +135,7 @@ function mostrarProgramacao(button, data) {
     <ul>
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E23-T2</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E01-T3</span></li> <hr class="filme-separador">
     <li><span class="horario">20:00</span> <span class="label-dub">LEG</span> <span class="class-14">14</span> <span class="filme">RAGNAROK - E03-T3</span></li> <hr class="filme-separador">    
     <li><span class="horario">20:55</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">IMPÉRIO DA DOR - E04-T1</span></li> <hr class="filme-separador">
     <li><span class="horario">22:00</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">GUARDIÕES DA GALÁXIA - VOL.3</span></li> <hr class="filme-separador">
@@ -144,7 +144,7 @@ function mostrarProgramacao(button, data) {
 } else if (data === '27/08') {
   programacaoDiv.innerHTML = `
     <ul>
-    <li><span class="horario">18:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E01-T3</span></li> <hr class="filme-separador">
+    <li><span class="horario">18:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E02-T3</span></li> <hr class="filme-separador">
     <li><span class="horario">18:30</span> <span class="label-dub">LEG</span> <span class="class-14">14</span> <span class="filme">RAGNAROK - E04-T3</span></li> <hr class="filme-separador">    
     <li><span class="horario">19:30</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">IMPÉRIO DA DOR - E05-T1</span></li> <hr class="filme-separador">
     <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">          
@@ -156,7 +156,7 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E02-T3</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E03-T3</span></li> <hr class="filme-separador">
     <li><span class="horario">20:00</span> <span class="label-dub">LEG</span> <span class="class-14">14</span> <span class="filme">RAGNAROK - E05-T3</span></li> <hr class="filme-separador">    
     <li><span class="horario">20:55</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">IMPÉRIO DA DOR - E06-T1</span></li> <hr class="filme-separador">
     </ul>
@@ -167,7 +167,7 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E03-T3</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E04-T3</span></li> <hr class="filme-separador">
     <li><span class="horario">20:00</span> <span class="label-dub">LEG</span> <span class="class-14">14</span> <span class="filme">RAGNAROK - E06-T3</span></li> <hr class="filme-separador">    
     </ul>
   `;  
@@ -178,7 +178,7 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E04-T3</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E05-T3</span></li> <hr class="filme-separador">
     <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">UNTOLD: A VERGONHA DO DOPING</span></li> <hr class="filme-separador">    
     </ul>
   `;         
@@ -188,7 +188,7 @@ function mostrarProgramacao(button, data) {
     <ul>
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-    <li><span class="horario">15:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E05-T3</span></li> <hr class="filme-separador">
+    <li><span class="horario">15:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E06-T3</span></li> <hr class="filme-separador">
     <li><span class="horario">16:00</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">THE FLASH (2023)</span></li> <hr class="filme-separador">    
     <li><span class="horario">18:40</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">COPA SULAMERICANA</span></li> <hr class="filme-separador">
     </ul>
@@ -200,7 +200,7 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E06-T3</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E07-T3</span></li> <hr class="filme-separador">
     <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">(DES)ENCANTO - E01-T5</span></li> <hr class="filme-separador">    
     <li><span class="horario">22:25</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">PARAÍSO</span></li> <hr class="filme-separador">    
     </ul>
