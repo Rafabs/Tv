@@ -161,6 +161,7 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">20:00</span> <span class="label-dub">LEG</span> <span class="class-14">14</span> <span class="filme">RAGNAROK - E06-T3</span></li> <hr class="filme-separador">    
     </ul>
   `;  
+// 17 e 24/09 
   // Excluir primeiro item Em Breve   
 } else if (data === '30/08') {
   programacaoDiv.innerHTML = `
