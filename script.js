@@ -10,18 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
   
- if (data === '17/08') {
-    programacaoDiv.innerHTML = `
-      <ul>
-        <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
-        <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-        <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-        <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E15-T2</span></li> <hr class="filme-separador">
-        <li><span class="horario">20:00</span> <span class="label-orig">NAC</span> <span class="class-16">16</span> <span class="filme">SINTONIA - E06-T4</span></li> <hr class="filme-separador">
-      </ul>
-    `;
-  // Eliminar o primeiro item de Em Breve 
-  } else if (data === '18/08') {
+ if (data === '18/08') {
     programacaoDiv.innerHTML = `
       <ul>
       <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
@@ -190,15 +179,6 @@ function mostrarProgramacao(button, data) {
 } else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-        <li class="filme-poster">
-        <img src="imgs//poster-explorando.jpg" alt="Explorando o Desconhecido: A Máquina do Tempo Cósmica">
-        <div class="filme-texto">
-          <span class="dia">18/10</span>
-          <span class="class-10">10</span>
-          <span class="filme">EXPLORANDO O DESCONHECIDO: A MÁQUINA DO TEMPO CÓSMICA</span>
-        </div>
-      </li>
-      <hr class="filme-separador">
 
         <li class="filme-poster">
           <img src="imgs//poster-the-witcher.jpg" alt="The Witcher">
