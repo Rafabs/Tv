@@ -294,6 +294,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+          <img src="imgs//poster-destinos.jpg" alt="DESTINOS À DERIVA">
+          <div class="filme-texto">
+          <span class="dia">SETEMBRO</span>
+            <span class="class-0">0</span>
+            <span class="filme">DESTINOS À DERIVA</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster-lupin.jpg" alt="Lupin">
           <div class="filme-texto">
           <span class="dia">OUTUBRO</span>
