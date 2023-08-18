@@ -306,9 +306,19 @@ function mostrarProgramacao(button, data) {
         <li class="filme-poster">
           <img src="imgs//poster-lupin.jpg" alt="Lupin">
           <div class="filme-texto">
-          <span class="dia">OUTUBRO</span>
+          <span class="dia">05/10</span>
             <span class="class-12">12</span>
             <span class="filme">LUPIN - T3</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
+          <img src="imgs//poster-queda.jpg" alt="A QUEDA DA CASA DE USHER">
+          <div class="filme-texto">
+          <span class="dia">12/10</span>
+            <span class="class-0">0</span>
+            <span class="filme">A QUEDA DA CASA DE USHER - T1</span>
           </div>
         </li>
         <hr class="filme-separador">
