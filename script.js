@@ -15,7 +15,7 @@ function mostrarProgramacao(button, data) {
       <ul>
       <li><span class="horario">14:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E18-T2</span></li> <hr class="filme-separador">
       <li><span class="horario">15:05</span> <span class="label-dub">DUB</span> <span class="class-18">18</span> <span class="filme">THE WITCHER - E06-T3</span></li> <hr class="filme-separador">
-      <li><span class="horario">16:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">GREASE</span></li> <hr class="filme-separador">
+      <li><span class="horario">16:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">MAD MAX</span></li> <hr class="filme-separador">
       <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">          
       </ul>
     `;
