@@ -148,17 +148,7 @@ function mostrarProgramacao(button, data) {
     programacaoDiv.innerHTML = `    
       <ul>
 
-        <li class="filme-poster">
-          <img src="imgs//poster-the-witcher.jpg" alt="The Witcher">
-          <div class="filme-texto">
-            <span class="dia">20/08</span>
-            <span class="class-18">18</span>
-            <span class="filme">THE WITCHER - T3</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
-
-        <li class="filme-poster">
+      <li class="filme-poster">
           <img src="imgs//poster-imperio-da-dor.jpg" alt="Império da Dor">
           <div class="filme-texto">
             <span class="dia">23/08</span>
