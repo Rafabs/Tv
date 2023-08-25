@@ -34,6 +34,7 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">22:00</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">GUARDIÕES DA GALÁXIA - VOL.3</span></li> <hr class="filme-separador">
     </ul>
   `;
+ // trocar capa 
 } else if (data === '27/08') {
   programacaoDiv.innerHTML = `
     <ul>
