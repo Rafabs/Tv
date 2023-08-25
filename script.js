@@ -10,19 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
   
- if (data === '24/08') {
-  programacaoDiv.innerHTML = `
-    <ul>
-    <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
-    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-    <li><span class="horario">16:30</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E22-T2</span></li> <hr class="filme-separador">
-    <li><span class="horario">16:50</span> <span class="label-dub">LEG</span> <span class="class-14">14</span> <span class="filme">RAGNAROK - E01-T3</span></li> <hr class="filme-separador">    
-    <li><span class="horario">17:50</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">IMPÉRIO DA DOR - E02-T1</span></li> <hr class="filme-separador">
-    <li><span class="horario">18:40</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">COPA SULAMERICANA</span></li> <hr class="filme-separador">
-    </ul>
-  `;
-// Excluir primeiro item Em Breve  
-} else if (data === '25/08') {
+ if (data === '25/08') {
   programacaoDiv.innerHTML = `
     <ul>
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
@@ -116,16 +104,6 @@ function mostrarProgramacao(button, data) {
 } else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-      <li class="filme-poster">
-      <img src="imgs//poster-agente-stone.jpg" alt="Agente Stone">
-      <div class="filme-texto">
-        <span class="dia">25/08</span>
-        <span class="class-14">14</span>
-        <span class="filme">AGENTE STONE</span>
-      </div>
-    </li>
-    <hr class="filme-separador">
 
         <li class="filme-poster">
         <img src="imgs//poster-guardioes-da-galaxia3.jpg" alt="Guardiões da Galáxia - Vol. 3">
