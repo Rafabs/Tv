@@ -25,7 +25,6 @@ function mostrarProgramacao(button, data) {
 } else if (data === '27/08') {
   programacaoDiv.innerHTML = `
     <ul>
-    <li><span class="horario">13:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">O ILUMINADO</span></li> <hr class="filme-separador">
     <li><span class="horario">15:45</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">
     <li><span class="horario">18:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E02-T3</span></li> <hr class="filme-separador">
     <li><span class="horario">18:30</span> <span class="label-dub">LEG</span> <span class="class-14">14</span> <span class="filme">RAGNAROK - E04-T3</span></li> <hr class="filme-separador">    
