@@ -185,6 +185,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+          <img src="imgs//poster-elite.jpg" alt="ELITE">
+          <div class="filme-texto">
+          <span class="dia">20/10</span>
+            <span class="class-18">18</span>
+            <span class="filme">ELITE - T7</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster-loki.jpg" alt="Loki">
           <div class="filme-texto">
           <span class="dia">OUTUBRO</span>
