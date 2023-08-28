@@ -10,18 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
  
- if (data === '27/08') {
-  programacaoDiv.innerHTML = `
-    <ul>
- <li><span class="horario">13:00</span> <span class="label-orig">LEG</span> <span class="class-16">16</span> <span class="filme">O ILUMINADO</span></li> <hr class="filme-separador">
-    <li><span class="horario">15:45</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">
-    <li><span class="horario">18:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E02-T3</span></li> <hr class="filme-separador">
-    <li><span class="horario">18:30</span> <span class="label-dub">LEG</span> <span class="class-14">14</span> <span class="filme">RAGNAROK - E04-T3</span></li> <hr class="filme-separador">    
-    <li><span class="horario">19:30</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">IMPÉRIO DA DOR - E05-T1</span></li> <hr class="filme-separador">
-    <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">          
-    </ul>
-  `;
-} else if (data === '28/08') {
+ if (data === '28/08') {
   programacaoDiv.innerHTML = `
     <ul>
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
