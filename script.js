@@ -157,7 +157,7 @@ function mostrarProgramacao(button, data) {
           <img src="imgs//poster-depois-da-cabana.jpg" alt="Depois da Cabana">
           <div class="filme-texto">
           <span class="dia">11/09</span>
-            <span class="class-0">0</span>
+            <span class="class-16">16</span>
             <span class="filme">DEPOIS DA CABANA - T1</span>
           </div>
         </li>
@@ -177,7 +177,7 @@ function mostrarProgramacao(button, data) {
           <img src="imgs//poster-destinos.jpg" alt="DESTINOS À DERIVA">
           <div class="filme-texto">
           <span class="dia">SETEMBRO</span>
-            <span class="class-0">0</span>
+            <span class="class-16">16</span>
             <span class="filme">DESTINOS À DERIVA</span>
           </div>
         </li>
@@ -197,7 +197,7 @@ function mostrarProgramacao(button, data) {
           <img src="imgs//poster-queda.jpg" alt="A QUEDA DA CASA DE USHER">
           <div class="filme-texto">
           <span class="dia">12/10</span>
-            <span class="class-0">0</span>
+            <span class="class-18">18</span>
             <span class="filme">A QUEDA DA CASA DE USHER - T1</span>
           </div>
         </li>
@@ -227,7 +227,7 @@ function mostrarProgramacao(button, data) {
           <img src="imgs//poster-ferry.jpg" alt="Ferry: A Série">
           <div class="filme-texto">
           <span class="dia">03/11</span>
-            <span class="class-0">0</span>
+            <span class="class-16">16</span>
             <span class="filme">FERRY: A SÉRIE</span>
           </div>
         </li>
