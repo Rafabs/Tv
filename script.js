@@ -92,7 +92,19 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">(DES)ENCANTO - E06-T5</span></li> <hr class="filme-separador">    
     <li><span class="horario">20:30</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">I AM GROOT - E01-T2</span></li> <hr class="filme-separador">    
     </ul>
-  `;        
+  `;   
+} else if (data === '17/09') {
+  programacaoDiv.innerHTML = `
+    <ul>
+    <li><span class="horario">15:45</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">COPA DO BRASIL</span></li> <hr class="filme-separador">
+    </ul>
+  `;   
+} else if (data === '24/09') {
+  programacaoDiv.innerHTML = `
+    <ul>
+    <li><span class="horario">15:45</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">COPA DO BRASIL</span></li> <hr class="filme-separador">
+    </ul>
+  `;            
 } else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
