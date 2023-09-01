@@ -366,6 +366,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+          <img src="imgs//poster-maestro.jpg" alt="MAESTRO">
+          <div class="filme-texto">
+          <span class="dia">20/12</span>
+            <span class="class-14">14</span>
+            <span class="filme">MAESTRO</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster-rebel.jpg" alt="REBEL MOON - PARTE 1: A MENINA DO FOGO">
           <div class="filme-texto">
           <span class="dia">22/12</span>
