@@ -36,7 +36,7 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">17:10</span> <span class="label-leg">LEG</span> <span class="class-livre">L</span> <span class="filme">STAR WARS EPISÓDIO V: O IMPÉRIO CONTRA-ATACA</span></li> <hr class="filme-separador">
     <li><span class="horario">19:20</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E09-T3</span></li> <hr class="filme-separador">
     <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">(DES)ENCANTO - E03-T5</span></li> <hr class="filme-separador">    
-    <li><span class="horario">20:10</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">
     </ul>
   `;    
 } else if (data === '04/09') {
