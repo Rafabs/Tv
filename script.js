@@ -357,34 +357,38 @@ function mostrarProgramacao(button, data) {
         </li>
         <hr class="filme-separador">
 
-        <li class="filme-poster">
-        <img src="imgs//poster-echo.jpg" alt="Echo">
-        <div class="filme-texto">
-        <span class="dia">NOVEMBRO</span>
-          <span class="class-0">0</span>
-          <span class="filme">ECHO - T1</span>
-        </div>
-      </li>
-      <hr class="filme-separador">
-          
-      <li class="filme-poster">
-      <img src="imgs//poster-ironheart.jpg" alt="Ironheart">
-      <div class="filme-texto">
-      <span class="dia">EM BREVE</span>
-        <span class="class-0">0</span>
-        <span class="filme">IRONHEART - T1</span>
-      </div>
-    </li>
-    <hr class="filme-separador">
-
-        <li><span class="dia">EM BREVE</span> <span class="class-0">0</span> <span class="filme">THE PENGUIN - T1</span></li>      
-        <hr class="filme-separador">
-
       </ul>
     `;
   } else {
     programacaoDiv.innerHTML = "<p>Não há programação disponível para esta data.</p>";
   }
+
+
+  //  A DEFINIR
+  /*
+  <li class="filme-poster">
+  <img src="imgs//poster-echo.jpg" alt="Echo">
+  <div class="filme-texto">
+  <span class="dia">NOVEMBRO</span>
+    <span class="class-0">0</span>
+    <span class="filme">ECHO - T1</span>
+  </div>
+</li>
+<hr class="filme-separador">
+    
+<li class="filme-poster">
+<img src="imgs//poster-ironheart.jpg" alt="Ironheart">
+<div class="filme-texto">
+<span class="dia">EM BREVE</span>
+  <span class="class-0">0</span>
+  <span class="filme">IRONHEART - T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+        <li><span class="dia">EM BREVE</span> <span class="class-0">0</span> <span class="filme">THE PENGUIN - T1</span></li>      
+        <hr class="filme-separador">
+*/
 
   // Obter a hora atual
   var dataAtual = new Date();
