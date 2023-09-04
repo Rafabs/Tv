@@ -338,6 +338,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+          <img src="imgs//poster-galinhas.jpg" alt="A FUGA DAS GALINHAS: A AMEAÇA DOS NUGGETS">
+          <div class="filme-texto">
+          <span class="dia">15/12</span>
+            <span class="class-livre">L</span>
+            <span class="filme">A FUGA DAS GALINHAS: A AMEAÇA DOS NUGGETS</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster-maestro.jpg" alt="MAESTRO">
           <div class="filme-texto">
           <span class="dia">20/12</span>
