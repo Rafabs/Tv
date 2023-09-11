@@ -9,19 +9,8 @@ function mostrarProgramacao(button, data) {
   
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
- 
- if (data === '10/09') {
-  programacaoDiv.innerHTML = `
-    <ul>
-    <li><span class="horario">13:30</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E16-T3</span></li> <hr class="filme-separador">
-    <li><span class="horario">13:50</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">(DES)ENCANTO - E10-T5</span></li> <hr class="filme-separador">    
-    <li><span class="horario">14:35</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">I AM GROOT - E05-T2</span></li> <hr class="filme-separador">     
-    <li><span class="horario">15:00</span> <span class="label-dub">LEG</span> <span class="class-0">0</span> <span class="filme">MAD MAX: A CAÇADA CONTINUA</span></li> <hr class="filme-separador">     
-    <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">   
-    </ul>
-  `;       
-  // Apagar primeiro excluir
-} else if (data === '11/09') {
+
+if (data === '11/09') {
   programacaoDiv.innerHTML = `
     <ul>
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
@@ -167,16 +156,6 @@ function mostrarProgramacao(button, data) {
 } else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-        <li class="filme-poster">
-          <img src="imgs//poster-depois-da-cabana.jpg" alt="Depois da Cabana">
-          <div class="filme-texto">
-          <span class="dia">11/09</span>
-            <span class="class-16">16</span>
-            <span class="filme">DEPOIS DA CABANA - T1</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
 
         <li class="filme-poster">
           <img src="imgs//poster-sex-education.jpg" alt="Sex Education">
