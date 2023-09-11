@@ -28,6 +28,7 @@ if (data === '11/09') {
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
     <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E18-T3</span></li> <hr class="filme-separador">
     <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">DEPOIS DA CABANA - E02-T1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">22:45</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">ELIMINATÓRIAS DA COPA</span></li> <hr class="filme-separador">
     </ul>
   `;  
 } else if (data === '13/09') {
