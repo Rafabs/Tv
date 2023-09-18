@@ -245,6 +245,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+          <img src="imgs//poster-berlim.jpg" alt="BERLIM">
+          <div class="filme-texto">
+          <span class="dia">29/12</span>
+            <span class="class-14">14</span>
+            <span class="filme">BERLIM</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster-pokemon.jpg" alt="A CONCIERGE POKÉMON">
           <div class="filme-texto">
           <span class="dia">DEZEMBRO</span>
