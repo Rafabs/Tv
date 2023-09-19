@@ -120,7 +120,14 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E12-T4</span></li> <hr class="filme-separador">
     <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">DESTINOS À DERIVA</span></li> <hr class="filme-separador">    
     </ul>
-  `;                             
+  `;                          
+// Excluir primeiro item - Loki novos episódios toda sexta
+} else if (data === '06/10') {
+  programacaoDiv.innerHTML = `
+    <ul> 
+    </ul>
+  `;          
+  
 } else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
@@ -164,7 +171,7 @@ function mostrarProgramacao(button, data) {
           </div>
         </li>
         <hr class="filme-separador">
-                
+
         <li class="filme-poster">
           <img src="imgs//poster-queda.jpg" alt="A QUEDA DA CASA DE USHER">
           <div class="filme-texto">
