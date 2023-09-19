@@ -156,6 +156,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+          <img src="imgs//poster-loki.jpg" alt="Loki">
+          <div class="filme-texto">
+          <span class="dia">06/10</span>
+            <span class="class-14">14</span>
+            <span class="filme">LOKI - T2</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+                
+        <li class="filme-poster">
           <img src="imgs//poster-queda.jpg" alt="A QUEDA DA CASA DE USHER">
           <div class="filme-texto">
           <span class="dia">12/10</span>
@@ -181,16 +191,6 @@ function mostrarProgramacao(button, data) {
           <span class="dia">20/10</span>
             <span class="class-18">18</span>
             <span class="filme">ELITE - T7</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
-
-        <li class="filme-poster">
-          <img src="imgs//poster-loki.jpg" alt="Loki">
-          <div class="filme-texto">
-          <span class="dia">OUTUBRO</span>
-            <span class="class-14">14</span>
-            <span class="filme">LOKI - T2</span>
           </div>
         </li>
         <hr class="filme-separador">
