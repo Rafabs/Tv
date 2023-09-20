@@ -194,6 +194,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+          <img src="imgs//poster-lego.jpg" alt="LEGO MARVEL VINGADORES: CÓDIGO VERMELHO">
+          <div class="filme-texto">
+          <span class="dia">20/10</span>
+            <span class="class-0">0</span>
+            <span class="filme">LEGO MARVEL VINGADORES: CÓDIGO VERMELHO</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster-ferry.jpg" alt="Ferry: A Série">
           <div class="filme-texto">
           <span class="dia">03/11</span>
