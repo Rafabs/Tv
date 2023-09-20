@@ -224,6 +224,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+          <img src="imgs//poster-percy.jpg" alt="PERCY JACKSON E OS OLIMPIANOS">
+          <div class="filme-texto">
+          <span class="dia">20/12</span>
+            <span class="class-0">0</span>
+            <span class="filme">PERCY JACKSON E OS OLIMPIANOS</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster-rebel.jpg" alt="REBEL MOON - PARTE 1: A MENINA DO FOGO">
           <div class="filme-texto">
           <span class="dia">22/12</span>
