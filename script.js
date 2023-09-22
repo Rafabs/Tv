@@ -133,6 +133,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+        <img src="imgs//poster-estrela.jpg" alt="ERA UMA VEZ UMA ESTRELA">
+        <div class="filme-texto">
+        <span class="dia">12/10</span>
+          <span class="class-12">12</span>
+          <span class="filme">ERA UMA VEZ UMA ESTRELA - T1</span>
+        </div>
+      </li>
+      <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster-queda.jpg" alt="A QUEDA DA CASA DE USHER">
           <div class="filme-texto">
           <span class="dia">12/10</span>
@@ -163,6 +173,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+        <img src="imgs//poster-tiozoes.jpg" alt="TIOZÕES">
+        <div class="filme-texto">
+        <span class="dia">20/10</span>
+          <span class="class-16">16</span>
+          <span class="filme">TIOZÕES - T7</span>
+        </div>
+      </li>
+      <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster-lego.jpg" alt="LEGO MARVEL VINGADORES: CÓDIGO VERMELHO">
           <div class="filme-texto">
           <span class="dia">27/10</span>
@@ -178,6 +198,16 @@ function mostrarProgramacao(button, data) {
           <span class="dia">03/11</span>
             <span class="class-16">16</span>
             <span class="filme">FERRY: A SÉRIE</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
+          <img src="imgs//poster-nyad.jpg" alt="NYAD">
+          <div class="filme-texto">
+          <span class="dia">03/11</span>
+            <span class="class-16">16</span>
+            <span class="filme">NYAD</span>
           </div>
         </li>
         <hr class="filme-separador">
