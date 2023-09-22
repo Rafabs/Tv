@@ -137,7 +137,7 @@ function mostrarProgramacao(button, data) {
         <div class="filme-texto">
         <span class="dia">12/10</span>
           <span class="class-12">12</span>
-          <span class="filme">ERA UMA VEZ UMA ESTRELA - T1</span>
+          <span class="filme">ERA UMA VEZ UMA ESTRELA</span>
         </div>
       </li>
       <hr class="filme-separador">
@@ -177,7 +177,7 @@ function mostrarProgramacao(button, data) {
         <div class="filme-texto">
         <span class="dia">20/10</span>
           <span class="class-16">16</span>
-          <span class="filme">TIOZÕES - T7</span>
+          <span class="filme">TIOZÕES</span>
         </div>
       </li>
       <hr class="filme-separador">
