@@ -10,25 +10,14 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
- if (data === '26/09') {
+ if (data === '27/09') {
   programacaoDiv.innerHTML = `
     <ul>
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E09-T4</span></li> <hr class="filme-separador">
-    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">SEX EDUCATION - E06-T4</span></li> <hr class="filme-separador">    
-    </ul>
-  `;     
-} else if (data === '27/09') {
-  programacaoDiv.innerHTML = `
-    <ul>
-    <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
-    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-    <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E10-T4</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:35</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">SEX EDUCATION - E07-T4</span></li> <hr class="filme-separador">    
-    <li><span class="horario">21:15</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">    
+    <li><span class="horario">17:00</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E10-T4</span></li> <hr class="filme-separador">
+    <li><span class="horario">17:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">SEX EDUCATION - E07-T4</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:00</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">    
     </ul>
   `; 
 } else if (data === '28/09') {
