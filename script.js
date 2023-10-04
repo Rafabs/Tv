@@ -1,17 +1,17 @@
 function mostrarProgramacao(button, data) {
   var programacaoDiv = document.getElementById("programacao");
   var buttons = document.getElementsByClassName("button");
-  
+
   // Remove a classe 'active' de todos os botões
   for (var i = 0; i < buttons.length; i++) {
     buttons[i].classList.remove("active");
   }
-  
+
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
- if (data === '04/10') {
-  programacaoDiv.innerHTML = `
+  if (data === '04/10') {
+    programacaoDiv.innerHTML = `
     <ul>
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
@@ -20,9 +20,9 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">19:35</span> <span class="label-dub">DUB</span> <span class="class-10">10</span> <span class="filme">SONIC 2</span></li> <hr class="filme-separador">
     </ul>
   `;
-// Excluir primeiro item    
-} else if (data === '05/10') {
-  programacaoDiv.innerHTML = `
+    // Excluir primeiro item    
+  } else if (data === '05/10') {
+    programacaoDiv.innerHTML = `
     <ul>
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
@@ -30,10 +30,10 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E18-T4</span></li> <hr class="filme-separador">
     <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">LUPIN - E01-T3</span></li> <hr class="filme-separador">
     </ul>
-  `;                               
-// Excluir primeiro item - Loki novos episódios toda sexta
-} else if (data === '06/10') {
-  programacaoDiv.innerHTML = `
+  `;
+    // Excluir primeiro item - Loki novos episódios toda sexta
+  } else if (data === '06/10') {
+    programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
@@ -42,10 +42,10 @@ function mostrarProgramacao(button, data) {
   <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">LUPIN - E02-T3</span></li> <hr class="filme-separador">
   <li><span class="horario">20:50</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">LOKI - E01-T2</span></li> <hr class="filme-separador">
   </ul>
-  `;          
-// Confirmar quantidade Lupin  
-} else if (data === '07/10') {
-  programacaoDiv.innerHTML = `
+  `;
+    // Confirmar quantidade Lupin  
+  } else if (data === '07/10') {
+    programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
   <li><span class="horario">13:30</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E20-T4</span></li> <hr class="filme-separador">
@@ -53,17 +53,17 @@ function mostrarProgramacao(button, data) {
   <li><span class="horario">14:50</span> <span class="label-leg">LEG</span> <span class="class-livre">L</span> <span class="filme">A HISTÓRIA SEM FIM</span></li> <hr class="filme-separador">
   <li><span class="horario">18:00</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">
   </ul>
-  `;     
-} else if (data === '08/10') {
-  programacaoDiv.innerHTML = `
+  `;
+  } else if (data === '08/10') {
+    programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">19:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E21-T4</span></li> <hr class="filme-separador">
   <li><span class="horario">19:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">LUPIN - E04-T3</span></li> <hr class="filme-separador">
   <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">
   </ul>
-  `;    
-} else if (data === '09/10') {
-  programacaoDiv.innerHTML = `
+  `;
+  } else if (data === '09/10') {
+    programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
@@ -71,28 +71,28 @@ function mostrarProgramacao(button, data) {
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E22-T4</span></li> <hr class="filme-separador">
   <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">LUPIN - E05-T3</span></li> <hr class="filme-separador">
   </ul>
-  `;    
-} else if (data === '10/10') {
-  programacaoDiv.innerHTML = `
+  `;
+  } else if (data === '10/10') {
+    programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E23-T4</span></li> <hr class="filme-separador">
   </ul>
-  `;     
-} else if (data === '11/10') {
-  programacaoDiv.innerHTML = `
+  `;
+  } else if (data === '11/10') {
+    programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E24-T4</span></li> <hr class="filme-separador">
   </ul>
-  `;     
-  // Excluir primeiro e segundo
-} else if (data === '12/10') {
-  programacaoDiv.innerHTML = `
+  `;
+    // Excluir primeiro e segundo
+  } else if (data === '12/10') {
+    programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
   <li><span class="horario">08:30</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">ERA UMA VEZ UMA ESTRELA</span></li> <hr class="filme-separador">
@@ -101,9 +101,9 @@ function mostrarProgramacao(button, data) {
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E01-T5</span></li> <hr class="filme-separador">
   <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">A QUEDA DA CASA DE USHER - E01 - T1</span></li> <hr class="filme-separador">
   </ul>
-  `;        
-} else if (data === '13/10') {
-  programacaoDiv.innerHTML = `
+  `;
+  } else if (data === '13/10') {
+    programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
@@ -112,8 +112,8 @@ function mostrarProgramacao(button, data) {
   <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">A QUEDA DA CASA DE USHER - E02 - T1</span></li> <hr class="filme-separador">
   <li><span class="horario">20:50</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">LOKI - E02-T2</span></li> <hr class="filme-separador">
   </ul>
-  `;        
-} else if (data === 'em-breve') {
+  `;
+  } else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
 
@@ -313,7 +313,7 @@ function mostrarProgramacao(button, data) {
   // Obter a hora atual
   var dataAtual = new Date();
   var horaAtual = dataAtual.getHours();
-  
+
   // Remove a classe 'active' de todos os botões
   for (var i = 1; i < buttons.length; i++) {
     buttons[i].classList.remove("active");
@@ -325,7 +325,7 @@ function mostrarProgramacao(button, data) {
     var item = items[i];
     var horario = item.getElementsByClassName("horario")[0];
     var horaPrograma = parseInt(horario.innerText.split(":")[0]);
-    
+
     // Verifica se o programa pertence ao primeiro botão
     if (button.classList.contains("active") && horaPrograma <= horaAtual) {
       item.classList.add("ativo");
@@ -342,46 +342,46 @@ function ocultarBotao() {
 
 // Função para formatar o horário
 function formatTime(date) {
-var hours = date.getHours();
-var minutes = date.getMinutes();
-return hours + ":" + (minutes < 10 ? "0" + minutes : minutes);
+  var hours = date.getHours();
+  var minutes = date.getMinutes();
+  return hours + ":" + (minutes < 10 ? "0" + minutes : minutes);
 }
 
 // Função para formatar a data
 function formatDate(date) {
-var options = { weekday: 'long', month: 'long', day: 'numeric' };
-return date.toLocaleDateString('pt-BR', options);
+  var options = { weekday: 'long', month: 'long', day: 'numeric' };
+  return date.toLocaleDateString('pt-BR', options);
 }
 
 // Função para obter a temperatura e o clima da API de clima (substitua "YOUR_API_KEY" pela sua chave de API real)
 function getWeather() {
-var apiKey = '16771021c6dc278a8a9ebdb23e682e50'; // Substitua "YOUR_API_KEY" pela sua chave de API real
-var url = "https://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=" + apiKey;
+  var apiKey = '16771021c6dc278a8a9ebdb23e682e50'; // Substitua "YOUR_API_KEY" pela sua chave de API real
+  var url = "https://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=" + apiKey;
 
-// Fazer uma requisição GET para a API de clima
-fetch(url)
-  .then(response => response.json())
-  .then(data => {
-    var temperature = Math.round(data.main.temp - 273.15); // Converter temperatura de Kelvin para Celsius
-    var weatherIcon = data.weather[0].icon;
+  // Fazer uma requisição GET para a API de clima
+  fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      var temperature = Math.round(data.main.temp - 273.15); // Converter temperatura de Kelvin para Celsius
+      var weatherIcon = data.weather[0].icon;
 
-    // Atualizar os elementos HTML com os dados obtidos
-    document.getElementById("temperature").textContent = temperature + "°C";
-    document.getElementById("weather-icon").innerHTML = '<img src="http://openweathermap.org/img/w/' + weatherIcon + '.png" alt="Weather Icon">';
-  })
-  .catch(error => {
-    console.log("Erro ao obter dados do clima:", error);
-  });
+      // Atualizar os elementos HTML com os dados obtidos
+      document.getElementById("temperature").textContent = temperature + "°C";
+      document.getElementById("weather-icon").innerHTML = '<img src="http://openweathermap.org/img/w/' + weatherIcon + '.png" alt="Weather Icon">';
+    })
+    .catch(error => {
+      console.log("Erro ao obter dados do clima:", error);
+    });
 }
 
 // Função para atualizar o horário, data e localização a cada segundo
 function updateDateTime() {
-var date = new Date();
-var time = formatTime(date);
-var formattedDate = formatDate(date);
+  var date = new Date();
+  var time = formatTime(date);
+  var formattedDate = formatDate(date);
 
-// Atualizar os elementos HTML com os dados atuais
-document.getElementById("date-time").textContent = formattedDate + " " + time;
+  // Atualizar os elementos HTML com os dados atuais
+  document.getElementById("date-time").textContent = formattedDate + " " + time;
 }
 
 // Chamar a função para obter o clima
