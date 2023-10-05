@@ -10,18 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-  if (data === '04/10') {
-    programacaoDiv.innerHTML = `
-    <ul>
-    <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
-    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-    <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:15</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E17-T4</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:35</span> <span class="label-dub">DUB</span> <span class="class-10">10</span> <span class="filme">SONIC 2</span></li> <hr class="filme-separador">
-    </ul>
-  `;
-    // Excluir primeiro item    
-  } else if (data === '05/10') {
+  if (data === '05/10') {
     programacaoDiv.innerHTML = `
     <ul>
     <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
@@ -116,16 +105,6 @@ function mostrarProgramacao(button, data) {
   } else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-        <li class="filme-poster">
-          <img src="imgs//poster-lupin.jpg" alt="Lupin">
-          <div class="filme-texto">
-          <span class="dia">05/10</span>
-            <span class="class-16">16</span>
-            <span class="filme">LUPIN - T3</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
 
         <li class="filme-poster">
           <img src="imgs//poster-loki.jpg" alt="Loki">
