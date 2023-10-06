@@ -10,18 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-  if (data === '05/10') {
-    programacaoDiv.innerHTML = `
-    <ul>
-    <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
-    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E18-T4</span></li> <hr class="filme-separador">
-    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">LUPIN - E01-T3</span></li> <hr class="filme-separador">
-    </ul>
-  `;
-    // Excluir primeiro item - Loki novos episódios toda sexta
-  } else if (data === '06/10') {
+  if (data === '06/10') {
     programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
@@ -107,16 +96,6 @@ function mostrarProgramacao(button, data) {
   } else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-        <li class="filme-poster">
-          <img src="imgs//poster-loki.jpg" alt="Loki">
-          <div class="filme-texto">
-          <span class="dia">06/10</span>
-            <span class="class-14">14</span>
-            <span class="filme">LOKI - T2</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
 
         <li class="filme-poster">
         <img src="imgs//poster-estrela.jpg" alt="ERA UMA VEZ UMA ESTRELA">
