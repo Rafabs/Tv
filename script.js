@@ -158,6 +158,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+          <img src="imgs//poster-luz.jpg" alt="TODA LUZ QUE NÃO PODEMOS VER">
+          <div class="filme-texto">
+          <span class="dia">02/11</span>
+            <span class="class-16">16</span>
+            <span class="filme">TODA LUZ QUE NÃO PODEMOS VER - T1</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster-ferry.jpg" alt="Ferry: A Série">
           <div class="filme-texto">
           <span class="dia">03/11</span>
@@ -173,6 +183,16 @@ function mostrarProgramacao(button, data) {
           <span class="dia">03/11</span>
             <span class="class-16">16</span>
             <span class="filme">NYAD</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+        
+        <li class="filme-poster">
+          <img src="imgs//poster.jpg" alt="O MUNDO DEPOIS DE NÓS">
+          <div class="filme-texto">
+          <span class="dia">08/12</span>
+            <span class="class-0">0</span>
+            <span class="filme">O MUNDO DEPOIS DE NÓS</span>
           </div>
         </li>
         <hr class="filme-separador">
