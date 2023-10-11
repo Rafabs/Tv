@@ -188,6 +188,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+          <img src="imgs//poster-suburra.jpg" alt="SUBURRA ETERNA">
+          <div class="filme-texto">
+          <span class="dia">14/12</span>
+            <span class="class-16">16</span>
+            <span class="filme">SUBURRA ETERNA</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster-galinhas.jpg" alt="A FUGA DAS GALINHAS: A AMEAÇA DOS NUGGETS">
           <div class="filme-texto">
           <span class="dia">15/12</span>
