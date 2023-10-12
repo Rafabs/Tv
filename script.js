@@ -10,18 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
- if (data === '11/10') {
-    programacaoDiv.innerHTML = `
-  <ul>
-  <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E24-T4</span></li> <hr class="filme-separador">
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">LUPIN - E07-T3</span></li> <hr class="filme-separador">
-  </ul>
-  `;
-   // Excluir primeiro e confirmar qtd
-  } else if (data === '12/10') {
+ if (data === '12/10') {
     programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
@@ -86,26 +75,6 @@ function mostrarProgramacao(button, data) {
   } else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-        <li class="filme-poster">
-        <img src="imgs//poster-estrela.jpg" alt="ERA UMA VEZ UMA ESTRELA">
-        <div class="filme-texto">
-        <span class="dia">12/10</span>
-          <span class="class-12">12</span>
-          <span class="filme">ERA UMA VEZ UMA ESTRELA</span>
-        </div>
-      </li>
-      <hr class="filme-separador">
-
-        <li class="filme-poster">
-          <img src="imgs//poster-queda.jpg" alt="A QUEDA DA CASA DE USHER">
-          <div class="filme-texto">
-          <span class="dia">12/10</span>
-            <span class="class-18">18</span>
-            <span class="filme">A QUEDA DA CASA DE USHER - T1</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
 
         <li class="filme-poster">
           <img src="imgs//poster-corpos.jpg" alt="CORPOS">
