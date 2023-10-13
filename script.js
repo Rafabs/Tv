@@ -9,8 +9,8 @@ function mostrarProgramacao(button, data) {
 
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
-
-  } else if (data === '13/10') {
+  
+  if (data === '13/10') {
     programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
@@ -256,37 +256,10 @@ function mostrarProgramacao(button, data) {
     programacaoDiv.innerHTML = "<p>Não há programação disponível para esta data.</p>";
   }
 
-
-  //  A DEFINIR
-  /*
-  <li class="filme-poster">
-  <img src="imgs//poster-echo.jpg" alt="Echo">
-  <div class="filme-texto">
-  <span class="dia">NOVEMBRO</span>
-    <span class="class-0">0</span>
-    <span class="filme">ECHO - T1</span>
-  </div>
-</li>
-<hr class="filme-separador">
-    
-<li class="filme-poster">
-<img src="imgs//poster-ironheart.jpg" alt="Ironheart">
-<div class="filme-texto">
-<span class="dia">EM BREVE</span>
-  <span class="class-0">0</span>
-  <span class="filme">IRONHEART - T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-        <li><span class="dia">EM BREVE</span> <span class="class-0">0</span> <span class="filme">THE PENGUIN - T1</span></li>      
-        <hr class="filme-separador">
-*/
-
   // Obter a hora atual
   var dataAtual = new Date();
   var horaAtual = dataAtual.getHours();
-
+  
   // Remove a classe 'active' de todos os botões
   for (var i = 1; i < buttons.length; i++) {
     buttons[i].classList.remove("active");
@@ -298,7 +271,7 @@ function mostrarProgramacao(button, data) {
     var item = items[i];
     var horario = item.getElementsByClassName("horario")[0];
     var horaPrograma = parseInt(horario.innerText.split(":")[0]);
-
+    
     // Verifica se o programa pertence ao primeiro botão
     if (button.classList.contains("active") && horaPrograma <= horaAtual) {
       item.classList.add("ativo");
@@ -315,46 +288,46 @@ function ocultarBotao() {
 
 // Função para formatar o horário
 function formatTime(date) {
-  var hours = date.getHours();
-  var minutes = date.getMinutes();
-  return hours + ":" + (minutes < 10 ? "0" + minutes : minutes);
+var hours = date.getHours();
+var minutes = date.getMinutes();
+return hours + ":" + (minutes < 10 ? "0" + minutes : minutes);
 }
 
 // Função para formatar a data
 function formatDate(date) {
-  var options = { weekday: 'long', month: 'long', day: 'numeric' };
-  return date.toLocaleDateString('pt-BR', options);
+var options = { weekday: 'long', month: 'long', day: 'numeric' };
+return date.toLocaleDateString('pt-BR', options);
 }
 
 // Função para obter a temperatura e o clima da API de clima (substitua "YOUR_API_KEY" pela sua chave de API real)
 function getWeather() {
-  var apiKey = '16771021c6dc278a8a9ebdb23e682e50'; // Substitua "YOUR_API_KEY" pela sua chave de API real
-  var url = "https://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=" + apiKey;
+var apiKey = '16771021c6dc278a8a9ebdb23e682e50'; // Substitua "YOUR_API_KEY" pela sua chave de API real
+var url = "https://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=" + apiKey;
 
-  // Fazer uma requisição GET para a API de clima
-  fetch(url)
-    .then(response => response.json())
-    .then(data => {
-      var temperature = Math.round(data.main.temp - 273.15); // Converter temperatura de Kelvin para Celsius
-      var weatherIcon = data.weather[0].icon;
+// Fazer uma requisição GET para a API de clima
+fetch(url)
+  .then(response => response.json())
+  .then(data => {
+    var temperature = Math.round(data.main.temp - 273.15); // Converter temperatura de Kelvin para Celsius
+    var weatherIcon = data.weather[0].icon;
 
-      // Atualizar os elementos HTML com os dados obtidos
-      document.getElementById("temperature").textContent = temperature + "°C";
-      document.getElementById("weather-icon").innerHTML = '<img src="http://openweathermap.org/img/w/' + weatherIcon + '.png" alt="Weather Icon">';
-    })
-    .catch(error => {
-      console.log("Erro ao obter dados do clima:", error);
-    });
+    // Atualizar os elementos HTML com os dados obtidos
+    document.getElementById("temperature").textContent = temperature + "°C";
+    document.getElementById("weather-icon").innerHTML = '<img src="http://openweathermap.org/img/w/' + weatherIcon + '.png" alt="Weather Icon">';
+  })
+  .catch(error => {
+    console.log("Erro ao obter dados do clima:", error);
+  });
 }
 
 // Função para atualizar o horário, data e localização a cada segundo
 function updateDateTime() {
-  var date = new Date();
-  var time = formatTime(date);
-  var formattedDate = formatDate(date);
+var date = new Date();
+var time = formatTime(date);
+var formattedDate = formatDate(date);
 
-  // Atualizar os elementos HTML com os dados atuais
-  document.getElementById("date-time").textContent = formattedDate + " " + time;
+// Atualizar os elementos HTML com os dados atuais
+document.getElementById("date-time").textContent = formattedDate + " " + time;
 }
 
 // Chamar a função para obter o clima
@@ -419,3 +392,30 @@ function checkAndRemoveFirstButton() {
 
 // Chama a função para verificar a cada segundo
 setInterval(checkAndRemoveFirstButton, 1000);
+
+
+  //  A DEFINIR
+  /*
+  <li class="filme-poster">
+  <img src="imgs//poster-echo.jpg" alt="Echo">
+  <div class="filme-texto">
+  <span class="dia">NOVEMBRO</span>
+    <span class="class-0">0</span>
+    <span class="filme">ECHO - T1</span>
+  </div>
+</li>
+<hr class="filme-separador">
+    
+<li class="filme-poster">
+<img src="imgs//poster-ironheart.jpg" alt="Ironheart">
+<div class="filme-texto">
+<span class="dia">EM BREVE</span>
+  <span class="class-0">0</span>
+  <span class="filme">IRONHEART - T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+        <li><span class="dia">EM BREVE</span> <span class="class-0">0</span> <span class="filme">THE PENGUIN - T1</span></li>      
+        <hr class="filme-separador">
+*/
