@@ -41,7 +41,7 @@ function mostrarProgramacao(button, data) {
 <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
 <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
 <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E09-T5</span></li> <hr class="filme-separador">
-<li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">LOKI - E03 - T2</span></li> <hr class="filme-separador">
+<li><span class="horario">20:00</span> <span class="label-leg">DUB</span> <span class="class-14">14</span> <span class="filme">LOKI - E03 - T2</span></li> <hr class="filme-separador">
 <li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">CORPOS - E02 - T1</span></li> <hr class="filme-separador">
 <li><span class="horario">21:40</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ELITE - E01 - T7</span></li> <hr class="filme-separador">
 </ul>
@@ -121,6 +121,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
         
         <li class="filme-poster">
+          <img src="imgs//poster-crown.jpg" alt="THE CROWN - T6 - PARTE 1">
+          <div class="filme-texto">
+          <span class="dia">16/11</span>
+            <span class="class-16">16</span>
+            <span class="filme">THE CROWN - T6 - PARTE 1</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster.jpg" alt="O MUNDO DEPOIS DE NÓS">
           <div class="filme-texto">
           <span class="dia">08/12</span>
@@ -136,6 +146,16 @@ function mostrarProgramacao(button, data) {
           <span class="dia">14/12</span>
             <span class="class-16">16</span>
             <span class="filme">SUBURRA ETERNA</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
+          <img src="imgs//poster-crown.jpg" alt="THE CROWN - T6 - PARTE 2">
+          <div class="filme-texto">
+          <span class="dia">14/12</span>
+            <span class="class-16">16</span>
+            <span class="filme">THE CROWN - T6 - PARTE 2</span>
           </div>
         </li>
         <hr class="filme-separador">
@@ -196,6 +216,16 @@ function mostrarProgramacao(button, data) {
           <span class="dia">DEZEMBRO</span>
             <span class="class-0">0</span>
             <span class="filme">A CONCIERGE POKÉMON</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
+          <img src="imgs//poster-neve.jpg" alt="A SOCIEDADE DA NEVE">
+          <div class="filme-texto">
+          <span class="dia">04/01</span>
+            <span class="class-16">16</span>
+            <span class="filme">A SOCIEDADE DA NEVE</span>
           </div>
         </li>
         <hr class="filme-separador">
