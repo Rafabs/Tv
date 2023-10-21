@@ -16,7 +16,6 @@ function mostrarProgramacao(button, data) {
 <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
 <li><span class="horario">13:30</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E10-T5</span></li> <hr class="filme-separador">
 <li><span class="horario">13:50</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">CORPOS - E03 - T1</span></li> <hr class="filme-separador">
-<li><span class="horario">14:50</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ELITE - E02 - T7</span></li> <hr class="filme-separador">
 <li><span class="horario">18:00</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">
 </ul>
 `;  
@@ -25,7 +24,6 @@ function mostrarProgramacao(button, data) {
 <ul>
 <li><span class="horario">13:30</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E11-T5</span></li> <hr class="filme-separador">
 <li><span class="horario">13:50</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">CORPOS - E04 - T1</span></li> <hr class="filme-separador">
-<li><span class="horario">14:50</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ELITE - E03 - T7</span></li> <hr class="filme-separador">
 <li><span class="horario">15:50</span> <span class="label-leg">LEG</span> <span class="class-0">0</span> <span class="filme">MAD MAX 3</span></li> <hr class="filme-separador">
 <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">
 </ul>
@@ -37,8 +35,7 @@ function mostrarProgramacao(button, data) {
 <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
 <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
 <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - 12-T5</span></li> <hr class="filme-separador">
-<li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">CORPOS - E05 - T1</span></li> <hr class="filme-separador">
-<li><span class="horario">21:40</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ELITE - E04 - T7</span></li> <hr class="filme-separador">
+<li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">CORPOS - E05 - T1</span></li> <hr class="filme-separador">
 </ul>
 `;   
 } else if (data === '24/10') {
@@ -48,8 +45,7 @@ function mostrarProgramacao(button, data) {
 <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
 <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
 <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - 13-T5</span></li> <hr class="filme-separador">
-<li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">CORPOS - E06 - T1</span></li> <hr class="filme-separador">
-<li><span class="horario">21:40</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ELITE - E05 - T7</span></li> <hr class="filme-separador">
+<li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">CORPOS - E06 - T1</span></li> <hr class="filme-separador">
 </ul>
 `; 
 } else if (data === '25/10') {
@@ -57,9 +53,8 @@ function mostrarProgramacao(button, data) {
 <ul>
 <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
 <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-<li><span class="horario">17:05</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - 14-T5</span></li> <hr class="filme-separador">
-<li><span class="horario">17:35</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">CORPOS - E07 - T1</span></li> <hr class="filme-separador">
-<li><span class="horario">18:35</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ELITE - E06 - T7</span></li> <hr class="filme-separador">
+<li><span class="horario">18:05</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - 14-T5</span></li> <hr class="filme-separador">
+<li><span class="horario">18:35</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">CORPOS - E07 - T1</span></li> <hr class="filme-separador">
 <li><span class="horario">19:30</span> <span class="label-orig">NAC</span> <span class="class-livre">L</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">
 </ul>
 `; 
@@ -70,8 +65,7 @@ function mostrarProgramacao(button, data) {
 <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
 <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
 <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - 15-T5</span></li> <hr class="filme-separador">
-<li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">CORPOS - E08 - T1</span></li> <hr class="filme-separador">
-<li><span class="horario">21:40</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ELITE - E07 - T7</span></li> <hr class="filme-separador">
+<li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">CORPOS - E08 - T1</span></li> <hr class="filme-separador">
 </ul>
 `; 
 // Exluir o primeiro
@@ -83,7 +77,6 @@ function mostrarProgramacao(button, data) {
 <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
 <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - 16-T5</span></li> <hr class="filme-separador">
 <li><span class="horario">20:00</span> <span class="label-leg">DUB</span> <span class="class-14">14</span> <span class="filme">LOKI - E04 - T2</span></li> <hr class="filme-separador">
-<li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ELITE - E08 - T7</span></li> <hr class="filme-separador">
 <li><span class="horario">22:35</span> <span class="label-leg">DUB</span> <span class="class-0">0</span> <span class="filme">LEGO MARVEL VINGADORES: CÓDIGO VERMELHO</span></li> <hr class="filme-separador">
 </ul>
 `; 
