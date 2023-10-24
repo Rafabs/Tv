@@ -162,7 +162,7 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
-          <img src="imgs//poster.jpg" alt="O MUNDO DEPOIS DE NÓS">
+          <img src="imgs//poster-mundo.jpg" alt="O MUNDO DEPOIS DE NÓS">
           <div class="filme-texto">
           <span class="dia">08/12</span>
             <span class="class-0">0</span>
