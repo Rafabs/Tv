@@ -165,7 +165,7 @@ function mostrarProgramacao(button, data) {
           <img src="imgs//poster-mundo.jpg" alt="O MUNDO DEPOIS DE NÓS">
           <div class="filme-texto">
           <span class="dia">08/12</span>
-            <span class="class-0">0</span>
+            <span class="class-16">16</span>
             <span class="filme">O MUNDO DEPOIS DE NÓS</span>
           </div>
         </li>
