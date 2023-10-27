@@ -10,18 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
   
- if (data === '26/10') {
-  programacaoDiv.innerHTML = `
-<ul>
-<li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
-<li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-<li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-<li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E15-T5</span></li> <hr class="filme-separador">
-<li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">CORPOS - E08 - T1</span></li> <hr class="filme-separador">
-</ul>
-`; 
-// Exluir o primeiro
-} else if (data === '27/10') {
+ if (data === '27/10') {
   programacaoDiv.innerHTML = `
 <ul>
 <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
@@ -91,15 +80,6 @@ function mostrarProgramacao(button, data) {
     programacaoDiv.innerHTML = `    
       <ul>
 
-        <li class="filme-poster">
-          <img src="imgs//poster-lego.jpg" alt="LEGO MARVEL VINGADORES: CÓDIGO VERMELHO">
-          <div class="filme-texto">
-          <span class="dia">27/10</span>
-            <span class="class-0">0</span>
-            <span class="filme">LEGO MARVEL VINGADORES: CÓDIGO VERMELHO</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
 
         <li class="filme-poster">
           <img src="imgs//poster-luz.jpg" alt="TODA LUZ QUE NÃO PODEMOS VER">
