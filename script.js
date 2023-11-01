@@ -120,11 +120,11 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
-          <img src="imgs//poster-sweet.jpg" alt="O SWEET HOME - T2">
+          <img src="imgs//poster-sweet.jpg" alt=SWEET HOME - T2">
           <div class="filme-texto">
           <span class="dia">01/12</span>
             <span class="class-16">16</span>
-            <span class="filme">O SWEET HOME - T2</span>
+            <span class="filme">SWEET HOME - T2</span>
           </div>
         </li>
         <hr class="filme-separador">
