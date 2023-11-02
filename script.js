@@ -10,17 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
   
- if (data === '01/11') {
-  programacaoDiv.innerHTML = `
-<ul>
-<li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
-<li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-<li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-<li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E21-T5</span></li> <hr class="filme-separador">
-</ul>
-`;
-// Excluir primeiro e confirmar quantidade
-} else if (data === '02/11') {
+ if (data === '02/11') {
   programacaoDiv.innerHTML = `
 <ul>
 <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
@@ -78,16 +68,6 @@ function mostrarProgramacao(button, data) {
     programacaoDiv.innerHTML = `    
       <ul>
 
-
-        <li class="filme-poster">
-          <img src="imgs//poster-luz.jpg" alt="TODA LUZ QUE NÃO PODEMOS VER">
-          <div class="filme-texto">
-          <span class="dia">02/11</span>
-            <span class="class-16">16</span>
-            <span class="filme">TODA LUZ QUE NÃO PODEMOS VER - T1</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
 
         <li class="filme-poster">
           <img src="imgs//poster-ferry.jpg" alt="Ferry: A Série">
