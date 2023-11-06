@@ -10,16 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
   
- if (data === '05/11') {
-  programacaoDiv.innerHTML = `
-<ul>
-<li><span class="horario">18:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E01-T6</span></li> <hr class="filme-separador">
-<li><span class="horario">18:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">TODA LUZ QUE NÃO PODEMOS VER - E04-T1</span></li> <hr class="filme-separador">
-<li><span class="horario">19:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">FERRY: A SÉRIE - E03-T1</span></li> <hr class="filme-separador">
-<li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">
-</ul>
-`;
-} else if (data === '06/11') {
+ if (data === '06/11') {
   programacaoDiv.innerHTML = `
 <ul>
 <li><span class="horario">06:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">BOM DIA SP</span></li> <hr class="filme-separador">
