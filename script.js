@@ -56,7 +56,6 @@ function mostrarProgramacao(button, data) {
 <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
 <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
 <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E16-T6</span></li> <hr class="filme-separador">
-<li><span class="horario">19:35</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">THE CROWN - E05 - T6</span></li> <hr class="filme-separador">
 </ul>
 `;
   } else if (data === 'em-breve') {
@@ -79,16 +78,6 @@ function mostrarProgramacao(button, data) {
           <span class="dia">08/12</span>
             <span class="class-16">16</span>
             <span class="filme">O MUNDO DEPOIS DE NÓS</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
-
-        <li class="filme-poster">
-          <img src="imgs//poster-suburra.jpg" alt="SUBURRA ETERNA">
-          <div class="filme-texto">
-          <span class="dia">14/12</span>
-            <span class="class-16">16</span>
-            <span class="filme">SUBURRA ETERNA</span>
           </div>
         </li>
         <hr class="filme-separador">
@@ -144,6 +133,26 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+          <img src="imgs//poster-what.jpg" alt="WHAT IF...? - T2">
+          <div class="filme-texto">
+          <span class="dia">22/12</span>
+            <span class="class-14">14</span>
+            <span class="filme">WHAT IF...? - T2</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
+          <img src="imgs//poster-pokemon.jpg" alt="A CONCIERGE POKÉMON">
+          <div class="filme-texto">
+          <span class="dia">28/12</span>
+            <span class="class-10">10</span>
+            <span class="filme">A CONCIERGE POKÉMON</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster-berlim.jpg" alt="BERLIM">
           <div class="filme-texto">
           <span class="dia">29/12</span>
@@ -154,21 +163,31 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
-          <img src="imgs//poster-pokemon.jpg" alt="A CONCIERGE POKÉMON">
-          <div class="filme-texto">
-          <span class="dia">DEZEMBRO</span>
-            <span class="class-0">0</span>
-            <span class="filme">A CONCIERGE POKÉMON</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
-
-        <li class="filme-poster">
           <img src="imgs//poster-neve.jpg" alt="A SOCIEDADE DA NEVE">
           <div class="filme-texto">
           <span class="dia">04/01</span>
             <span class="class-16">16</span>
             <span class="filme">A SOCIEDADE DA NEVE</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
+          <img src="imgs//poster-orion.jpg" alt="ORION E O ESCURO">
+          <div class="filme-texto">
+          <span class="dia">02/02</span>
+            <span class="class-10">10</span>
+            <span class="filme">ORION E O ESCURO</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
+          <img src="imgs//poster-avatar.jpg" alt="AVATAR: O ÚLTIMO MESTRE DO AR - T1">
+          <div class="filme-texto">
+          <span class="dia">22/02</span>
+            <span class="class-0">0</span>
+            <span class="filme">AVATAR: O ÚLTIMO MESTRE DO AR - T1</span>
           </div>
         </li>
         <hr class="filme-separador">
