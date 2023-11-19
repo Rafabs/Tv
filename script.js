@@ -9,18 +9,8 @@ function mostrarProgramacao(button, data) {
 
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
-  
- if (data === '18/11') {
-  programacaoDiv.innerHTML = `
-<ul>
-<li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-<li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E14-T6</span></li> <hr class="filme-separador">
-<li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">THE CROWN - E03 - T6</span></li> <hr class="filme-separador">
-<li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-0">0</span> <span class="filme">SESSÃO RETRÔ</span></li> <hr class="filme-separador">
-<li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-</ul>
-`;
-} else if (data === '19/11') {
+
+ if (data === '19/11') {
   programacaoDiv.innerHTML = `
 <ul>
 <li><span class="horario">19:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E15-T6</span></li> <hr class="filme-separador">
