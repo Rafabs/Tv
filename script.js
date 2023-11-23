@@ -157,6 +157,16 @@ function mostrarProgramacao(button, data) {
         <hr class="filme-separador">
 
         <li class="filme-poster">
+          <img src="imgs//poster-criatura.jpg" alt="A CRIATURA DE GYEONGSEONG">
+          <div class="filme-texto">
+          <span class="dia">22/12</span>
+            <span class="class-16">16</span>
+            <span class="filme">A CRIATURA DE GYEONGSEONG</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
           <img src="imgs//poster-what.jpg" alt="WHAT IF...? - T2">
           <div class="filme-texto">
           <span class="dia">22/12</span>
