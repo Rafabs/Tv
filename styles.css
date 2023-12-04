@@ -27,6 +27,20 @@ h1 {
   max-height: 300px; /* Ajuste o valor conforme necessário */
 }
 
+.filme-info {
+  display: flex;
+  align-items: center; /* alinha verticalmente */
+}
+
+.filme-info > span {
+  margin-right: 4px; /* adiciona espaço à direita de cada item */
+}
+
+.logo-dts {
+  height: 35px; /* ajuste conforme necessário */
+  width: 45px; /* ajuste conforme necessário */
+}
+
 .filme-poster {
   display: flex; /* Utiliza o Flexbox para alinhar os elementos */
   align-items: center; /* Centraliza verticalmente os elementos */

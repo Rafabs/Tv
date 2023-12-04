@@ -45,12 +45,15 @@ function mostrarProgramacao(button, data) {
 <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
 </ul>
 `;
-} else if (data === '08/12') {
-  programacaoDiv.innerHTML = `
-<ul>
-<li><span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">TESTE TESTE TESTE TESTE</span></li> <img src="caminho/para/dts.png" alt="Logo DTS" class="logo-dts"> <hr class="filme-separador">
-</ul>
-`;
+// else if (data === '08/12') {
+  // programacaoDiv.innerHTML = `
+// <ul>
+// <li class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
+// <li class="filme-container"> <div class="filme-info"> <span class="horario">02:40</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
+// <li class="filme-container"> <div class="filme-info"> <span class="horario">03:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
+// <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+// </ul>
+// `;
 // SWEET HOME - 8EP.
   } else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
