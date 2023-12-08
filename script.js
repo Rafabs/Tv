@@ -33,16 +33,6 @@ if (data === '10/12') {
       <ul>
 
         <li class="filme-poster">
-          <img src="imgs//poster-mundo.jpg" alt="O MUNDO DEPOIS DE NÓS">
-          <div class="filme-texto">
-          <span class="dia">08/12</span>
-            <span class="class-16">16</span>
-            <span class="filme">O MUNDO DEPOIS DE NÓS</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
-
-        <li class="filme-poster">
           <img src="imgs//poster-crown.jpg" alt="THE CROWN - T6 - PARTE 2">
           <div class="filme-texto">
           <span class="dia">14/12</span>
