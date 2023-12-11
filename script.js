@@ -20,15 +20,16 @@ function mostrarProgramacao(button, data) {
 } else if (data === '12/12') {
   programacaoDiv.innerHTML = `
 <ul>
-<li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-<li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E14-T7</span></li> <hr class="filme-separador">
+<li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
 </ul>
 `;
 } else if (data === '13/12') {
   programacaoDiv.innerHTML = `
 <ul>
+<li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
 <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-<li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E15-T7</span></li> <hr class="filme-separador">
+<li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E14-T7</span></li> <hr class="filme-separador">
+<li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E15-T7</span></li> <hr class="filme-separador">
 </ul>
 `;
 // excluir primeiro e confirmar quantidade
@@ -48,6 +49,62 @@ function mostrarProgramacao(button, data) {
 <li><span class="horario">19:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">THE CROWN - E07-T6</span></li> <hr class="filme-separador">
 </ul>
 `;
+} else if (data === '16/12') {
+  programacaoDiv.innerHTML = `
+<ul>
+<li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+<li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E18-T7</span></li> <hr class="filme-separador">
+<li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">THE CROWN - 08-T6</span></li> <hr class="filme-separador">
+<li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">BARBIE</span></li> <hr class="filme-separador">
+<li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+</ul>
+`;
+} else if (data === '17/12') {
+  programacaoDiv.innerHTML = `
+<ul>
+<li><span class="horario">17:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E19-T7</span></li> <hr class="filme-separador">
+<li><span class="horario">17:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">THE CROWN - 09-T6</span></li> <hr class="filme-separador">
+<li><span class="horario">18:30</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">A FUGA É DAS GALINHAS</span></li> <hr class="filme-separador">
+<li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">
+</ul>
+`;
+} else if (data === '18/12') {
+  programacaoDiv.innerHTML = `
+<ul>
+<li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+<li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E20-T7</span></li> <hr class="filme-separador">
+<li><span class="horario">19:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">THE CROWN - E10-T6</span></li> <hr class="filme-separador">
+</ul>
+`;
+} else if (data === '19/12') {
+  programacaoDiv.innerHTML = `
+<ul>
+<li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+<li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E21-T7</span></li> <hr class="filme-separador">
+<li><span class="horario">19:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">THE CROWN - E11-T6</span></li> <hr class="filme-separador">
+</ul>
+`;
+// Excluir primeiro
+} else if (data === '20/12') {
+  programacaoDiv.innerHTML = `
+<ul>
+<li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+<li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E22-T7</span></li> <hr class="filme-separador">
+<li><span class="horario">19:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">THE CROWN - E12-T6</span></li> <hr class="filme-separador">
+<li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">PERCY JACKSON E OS OLIMPIANOS - E01 - T1</span></li> <hr class="filme-separador">
+</ul>
+`;
+// Excluir primeiro
+} else if (data === '21/12') {
+  programacaoDiv.innerHTML = `
+<ul>
+<li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+<li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E23-T7</span></li> <hr class="filme-separador">
+<li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">PERCY JACKSON E OS OLIMPIANOS - E02 - T1</span></li> <hr class="filme-separador">
+<li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">MAESTRO</span></li> <hr class="filme-separador">
+<li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+</ul>
+`; //TBBT VAI ATÉ EP24
 // else if (data === '08/12') {
   // programacaoDiv.innerHTML = `
 // <ul>
@@ -96,7 +153,7 @@ function mostrarProgramacao(button, data) {
           <img src="imgs//poster-percy.jpg" alt="PERCY JACKSON E OS OLIMPIANOS">
           <div class="filme-texto">
           <span class="dia">20/12</span>
-            <span class="class-0">0</span>
+            <span class="class-12">12</span>
             <span class="filme">PERCY JACKSON E OS OLIMPIANOS - T1</span>
           </div>
         </li>
