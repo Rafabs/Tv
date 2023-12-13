@@ -226,6 +226,16 @@ function mostrarProgramacao(button, data) {
         </li>
         <hr class="filme-separador">
 
+        <li class="filme-poster">
+        <img src="imgs//poster-donzela.jpg" alt="DONZELA">
+        <div class="filme-texto">
+        <span class="dia">08/03</span>
+          <span class="class-12">12</span>
+          <span class="filme">DONZELA</span>
+        </div>
+      </li>
+      <hr class="filme-separador">
+
       </ul>
     `;
   } else {
