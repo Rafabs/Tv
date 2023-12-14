@@ -10,17 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
- if (data === '13/12') {
-  programacaoDiv.innerHTML = `
-<ul>
-<li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-<li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-<li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E14-T7</span></li> <hr class="filme-separador">
-<li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E15-T7</span></li> <hr class="filme-separador">
-</ul>
-`;
-// excluir primeiro e confirmar quantidade
-} else if (data === '14/12') {
+ if (data === '14/12') {
   programacaoDiv.innerHTML = `
 <ul>
 <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
@@ -106,15 +96,6 @@ function mostrarProgramacao(button, data) {
     programacaoDiv.innerHTML = `    
       <ul>
 
-        <li class="filme-poster">
-          <img src="imgs//poster-crown.jpg" alt="THE CROWN - T6 - PARTE 2">
-          <div class="filme-texto">
-          <span class="dia">14/12</span>
-            <span class="class-16">16</span>
-            <span class="filme">THE CROWN - T6 - PARTE 2</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
 
         <li class="filme-poster">
           <img src="imgs//poster-galinhas.jpg" alt="A FUGA DAS GALINHAS: A AMEAÇA DOS NUGGETS">
