@@ -42,7 +42,7 @@ function mostrarProgramacao(button, data) {
 <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
 <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E22-T7</span></li> <hr class="filme-separador">
 <li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">THE CROWN - E12-T6</span></li> <hr class="filme-separador">
-<li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">PERCY JACKSON E OS OLIMPIANOS - E01 - T1</span></li> <hr class="filme-separador">
+<li><span class="horario">21:00</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">PERCY JACKSON E OS OLIMPIANOS - E01 - T1</span></li> <hr class="filme-separador">
 </ul>
 `;
 // Excluir primeiro
@@ -51,7 +51,7 @@ function mostrarProgramacao(button, data) {
 <ul>
 <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
 <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E23-T7</span></li> <hr class="filme-separador">
-<li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">PERCY JACKSON E OS OLIMPIANOS - E02 - T1</span></li> <hr class="filme-separador">
+<li><span class="horario">13:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">PERCY JACKSON E OS OLIMPIANOS - E02 - T1</span></li> <hr class="filme-separador">
 <li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">MAESTRO</span></li> <hr class="filme-separador">
 <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
 </ul>
@@ -69,17 +69,6 @@ function mostrarProgramacao(button, data) {
   } else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-
-        <li class="filme-poster">
-          <img src="imgs//poster-galinhas.jpg" alt="A FUGA DAS GALINHAS: A AMEAÇA DOS NUGGETS">
-          <div class="filme-texto">
-          <span class="dia">15/12</span>
-            <span class="class-livre">L</span>
-            <span class="filme">A FUGA DAS GALINHAS: A AMEAÇA DOS NUGGETS</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
 
         <li class="filme-poster">
           <img src="imgs//poster-maestro.jpg" alt="MAESTRO">
