@@ -10,78 +10,96 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
- if (data === '22/12') {
+ if (data === '30/12') {
+  programacaoDiv.innerHTML = `
+<ul>
+<li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+<li><span class="horario">13:30</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E03 - T8</span></li> <hr class="filme-separador">
+<li><span class="horario">13:50</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">WHAT IF...? - E02 - T2</span></li> <hr class="filme-separador">
+<li><span class="horario">14:20</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">BERLIM - E01 - T1</span></li> <hr class="filme-separador">
+<li><span class="horario">15:20</span> <span class="label-leg">LEG</span> <span class="class-0">0</span> <span class="filme">SESSÃO RETRÔ</span></li> <hr class="filme-separador">
+<li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+<li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E04 - T8</span></li> <hr class="filme-separador">
+<li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">REBEL MOON - PARTE 1: A MENINA DO FOGO</span></li> <hr class="filme-separador">
+</ul>
+`;
+}
+else if (data === '31/12') {
+  programacaoDiv.innerHTML = `
+<ul>
+<li><span class="horario">13:30</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E05 - T8</span></li> <hr class="filme-separador">
+<li><span class="horario">13:50</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">WHAT IF...? - E03 - T2</span></li> <hr class="filme-separador">
+<li><span class="horario">14:20</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">BERLIM - E02 - T1</span></li> <hr class="filme-separador">
+</ul>
+`;
+}
+else if (data === '03/01') {
   programacaoDiv.innerHTML = `
 <ul>
 <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-<li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E24-T7</span></li> <hr class="filme-separador">
-<li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">A CRIATURA DE GYEONGSEONG - E01 - T1</span></li> <hr class="filme-separador">
+<li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E06 - T8</span></li> <hr class="filme-separador">
+<li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-10">10</span> <span class="filme">A CONCIERGE POKÉMON E01 - T01</span></li> <hr class="filme-separador">
+<li><span class="horario">20:20</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">BERLIM - E03 - T1</span></li> <hr class="filme-separador">
 </ul>
 `;
-//TBBT VAI ATÉ EP24
-// else if (data === '08/12') {
-  // programacaoDiv.innerHTML = `
-// <ul>
+}
+// excluir o primeiro
+else if (data === '04/01') {
+  programacaoDiv.innerHTML = `
+<ul>
+<li class="filme-container"> <div class="filme-info"> <span class="horario">00:20</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A SOCIEDADE DA NEVE</span> </div> </li> <hr class="filme-separador"> </li>
+<li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+<li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+<li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E07 - T8</span></li> <hr class="filme-separador">
+<li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-10">10</span> <span class="filme">A CONCIERGE POKÉMON E02 - T01</span></li> <hr class="filme-separador">
+<li><span class="horario">20:20</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">BERLIM - E04 - T1</span></li> <hr class="filme-separador">
+</ul>
+`;
+}
+else if (data === '05/01') {
+  programacaoDiv.innerHTML = `
+<ul>
+<li class="filme-container"> <div class="filme-info"> <span class="horario">00:20</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">BERLIM - E05 - T1</span> </div> </li> <hr class="filme-separador"> </li>
+<li class="filme-container"> <div class="filme-info"> <span class="horario">01:15</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">THE BIG BANG THEORY - E08 - T8</span> </div> </li> <hr class="filme-separador"> </li>
+<li class="filme-container"> <div class="filme-info"> <span class="horario">01:35</span> <span class="label-dub">DUB</span> <span class="class-10">10</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A CONCIERGE POKÉMON E03 - T01</span> </div> </li> <hr class="filme-separador"> </li>
+</ul>
+`;
+}
+else if (data === '08/01') {
+  programacaoDiv.innerHTML = `
+  <ul>
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E09 - T8</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-10">10</span> <span class="filme">A CONCIERGE POKÉMON E04 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:20</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">BERLIM - E06 - T1</span></li> <hr class="filme-separador">
+  </ul>
+`;
+}
+else if (data === '09/01') {
+  programacaoDiv.innerHTML = `
+  <ul>
+  <li class="filme-container"> <div class="filme-info"> <span class="horario">00:20</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">BERLIM - E07 - T1</span> </div> </li> <hr class="filme-separador"> </li>
+  <li class="filme-container"> <div class="filme-info"> <span class="horario">01:15</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">THE BIG BANG THEORY - E10 - T8</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E11 - T8</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:20</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">BERLIM - E08 - T1</span></li> <hr class="filme-separador">
+  </ul>
+`;
+}
+else if (data === '10/01') {
+  programacaoDiv.innerHTML = `
+  <ul>
+  <li class="filme-container"> <div class="filme-info"> <span class="horario">00:20</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">THE BIG BANG THEORY - E12 - T8</span> </div> </li> <hr class="filme-separador"> </li>
+  </ul>
+`;
+}
 // <li class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
-// <li class="filme-container"> <div class="filme-info"> <span class="horario">02:40</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
-// <li class="filme-container"> <div class="filme-info"> <span class="horario">03:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
-// <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-// </ul>
-// `;
-// SWEET HOME - 8EP.
-  } else if (data === 'em-breve') {
+// 20/01 - jogo spfc
+
+  else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-        <li class="filme-poster">
-          <img src="imgs//poster-rebel.jpg" alt="REBEL MOON - PARTE 1: A MENINA DO FOGO">
-          <div class="filme-texto">
-          <span class="dia">22/12</span>
-            <span class="class-14">14</span>
-            <span class="filme">REBEL MOON - PARTE 1: A MENINA DO FOGO</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
-
-        <li class="filme-poster">
-          <img src="imgs//poster-criatura.jpg" alt="A CRIATURA DE GYEONGSEONG">
-          <div class="filme-texto">
-          <span class="dia">22/12</span>
-            <span class="class-16">16</span>
-            <span class="filme">A CRIATURA DE GYEONGSEONG</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
-
-        <li class="filme-poster">
-          <img src="imgs//poster-what.jpg" alt="WHAT IF...? - T2">
-          <div class="filme-texto">
-          <span class="dia">22/12</span>
-            <span class="class-14">14</span>
-            <span class="filme">WHAT IF...? - T2</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
-
-        <li class="filme-poster">
-          <img src="imgs//poster-pokemon.jpg" alt="A CONCIERGE POKÉMON">
-          <div class="filme-texto">
-          <span class="dia">28/12</span>
-            <span class="class-10">10</span>
-            <span class="filme">A CONCIERGE POKÉMON</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
-
-        <li class="filme-poster">
-          <img src="imgs//poster-berlim.jpg" alt="BERLIM">
-          <div class="filme-texto">
-          <span class="dia">29/12</span>
-            <span class="class-14">14</span>
-            <span class="filme">BERLIM - T1</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
 
         <li class="filme-poster">
           <img src="imgs//poster-neve.jpg" alt="A SOCIEDADE DA NEVE">
@@ -89,6 +107,26 @@ function mostrarProgramacao(button, data) {
           <span class="dia">04/01</span>
             <span class="class-16">16</span>
             <span class="filme">A SOCIEDADE DA NEVE</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
+          <img src="imgs//poster-kubra.jpg" alt="KUBRA">
+          <div class="filme-texto">
+          <span class="dia">18/01</span>
+            <span class="class-16">16</span>
+            <span class="filme">KUBRA - T01</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
+          <img src="imgs//poster-herdeira.jpg" alt="A HERDEIRA">
+          <div class="filme-texto">
+          <span class="dia">19/01</span>
+            <span class="class-16">16</span>
+            <span class="filme">KUBRA - T01</span>
           </div>
         </li>
         <hr class="filme-separador">
