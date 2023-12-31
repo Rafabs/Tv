@@ -131,7 +131,7 @@ else if (data === '10/01') {
           <img src="imgs//poster-avatar.jpg" alt="AVATAR: O ÚLTIMO MESTRE DO AR - T1">
           <div class="filme-texto">
           <span class="dia">22/02</span>
-            <span class="class-0">0</span>
+            <span class="class-10">10</span>
             <span class="filme">AVATAR: O ÚLTIMO MESTRE DO AR - T1</span>
           </div>
         </li>
