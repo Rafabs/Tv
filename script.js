@@ -39,6 +39,7 @@ else if (data === '05/01') {
 <li class="filme-container"> <div class="filme-info"> <span class="horario">00:20</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">BERLIM - E05 - T1</span> </div> </li> <hr class="filme-separador"> </li>
 <li class="filme-container"> <div class="filme-info"> <span class="horario">01:15</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">THE BIG BANG THEORY - E08 - T8</span> </div> </li> <hr class="filme-separador"> </li>
 <li class="filme-container"> <div class="filme-info"> <span class="horario">01:35</span> <span class="label-dub">DUB</span> <span class="class-10">10</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A CONCIERGE POKÉMON E03 - T01</span> </div> </li> <hr class="filme-separador"> </li>
+<li class="filme-container"> <div class="filme-info"> <span class="horario">01:50</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">PERCY JACKSON E OS OLIMPIANOS - E03 - T01</span> </div> </li> <hr class="filme-separador"> </li>
 </ul>
 `;
 }
