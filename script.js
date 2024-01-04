@@ -139,6 +139,16 @@ else if (data === '10/01') {
       </li>
       <hr class="filme-separador">
 
+      <li class="filme-poster">
+      <img src="imgs//poster-rebel.jpg" alt="REBEL MOON - PARTE 2 : A MARCADORA DE CICATRIZES">
+      <div class="filme-texto">
+      <span class="dia">04/04</span>
+        <span class="class-16">16</span>
+        <span class="filme">REBEL MOON - PARTE 2 : A MARCADORA DE CICATRIZES</span>
+      </div>
+    </li>
+    <hr class="filme-separador">
+          
       </ul>
     `;
   } else {
