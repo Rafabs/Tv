@@ -14,7 +14,7 @@ function mostrarProgramacao(button, data) {
   programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-  <li><span class="horario">13:30</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E18 - T8</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E18 - T8</span></li> <hr class="filme-separador">
   </ul>
 `;
 }
