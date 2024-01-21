@@ -10,19 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
- if (data === '19/01') {
-  programacaoDiv.innerHTML = `
-  <ul>
-  <li class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">PERCY JACKSON E OS OLÍMPIANOS - E04 - T01</span> </div> </li> <hr class="filme-separador"> </li>
-  <li class="filme-container"> <div class="filme-info"> <span class="horario">00:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">PERCY JACKSON E OS OLÍMPIANOS - E05 - T01</span> </div> </li> <hr class="filme-separador"> </li>
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-  <li><span class="horario">13:30</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E20 - T8</span></li> <hr class="filme-separador">
-  <li><span class="horario">13:50</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">KUBRA - E02 - T01</span></li> <hr class="filme-separador">
-  </ul>
-`;
-}
-// excluir primeiro
-else if (data === '22/01') {
+ if (data === '22/01') {
   programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
@@ -60,16 +48,6 @@ else if (data === '24/01') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-        <li class="filme-poster">
-          <img src="imgs//poster-herdeira.jpg" alt="A HERDEIRA">
-          <div class="filme-texto">
-          <span class="dia">19/01</span>
-            <span class="class-16">16</span>
-            <span class="filme">A HERDEIRA - T01</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
 
         <li class="filme-poster">
           <img src="imgs//poster-orion.jpg" alt="ORION E O ESCURO">
