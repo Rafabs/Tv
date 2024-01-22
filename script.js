@@ -23,6 +23,7 @@ function mostrarProgramacao(button, data) {
 else if (data === '23/01') {
   programacaoDiv.innerHTML = `
   <ul>
+  <li class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">DETETIVE PIKACHU</span> </div> </li> <hr class="filme-separador"> </li>
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
   <li><span class="horario">13:30</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E22 - T8</span></li> <hr class="filme-separador">
   <li><span class="horario">13:50</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">KUBRA - E04 - T01</span></li> <hr class="filme-separador">
@@ -55,6 +56,16 @@ else if (data === '24/01') {
           <span class="dia">02/02</span>
             <span class="class-10">10</span>
             <span class="filme">ORION E O ESCURO</span>
+          </div>
+        </li>
+        <hr class="filme-separador">
+
+        <li class="filme-poster">
+          <img src="imgs//poster-amante.jpg" alt="AMANTE, STALKER E MORTAL">
+          <div class="filme-texto">
+          <span class="dia">09/02</span>
+            <span class="class-12">12</span>
+            <span class="filme">AMANTE, STALKER E MORTAL</span>
           </div>
         </li>
         <hr class="filme-separador">
@@ -109,6 +120,16 @@ else if (data === '24/01') {
     </li>
     <hr class="filme-separador">
           
+    <li class="filme-poster">
+    <img src="imgs//poster-ripley.jpg" alt="RIPLEY - T1">
+    <div class="filme-texto">
+    <span class="dia">04/04</span>
+      <span class="class-14">14</span>
+      <span class="filme">RIPLEY - T1</span>
+    </div>
+  </li>
+  <hr class="filme-separador">
+
       </ul>
     `;
   } else {
