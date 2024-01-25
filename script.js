@@ -9,18 +9,9 @@ function mostrarProgramacao(button, data) {
 
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
+// 07/02 - as marvels
 
- if (data === '24/01') {
-  programacaoDiv.innerHTML = `
-  <ul>
-  <li class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">PERCY JACKSON E OS OLÍMPIANOS - E07 - T01</span> </div> </li> <hr class="filme-separador"> </li>
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-  <li><span class="horario">13:30</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E23 - T8</span></li> <hr class="filme-separador">
-  <li><span class="horario">13:50</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">A HERDEIRA - E03 - T01</span></li> <hr class="filme-separador">
-  </ul>
-`;
-}
-else if (data === '26/01') {
+ if (data === '26/01') {
   programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
