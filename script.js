@@ -11,16 +11,7 @@ function mostrarProgramacao(button, data) {
   button.classList.add("active");
 // 07/02 - as marvels
 
- if (data === '27/01') {
-  programacaoDiv.innerHTML = `
-  <ul>
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E01 - T9</span></li> <hr class="filme-separador">
-  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">A HERDEIRA - E05 - T01</span></li> <hr class="filme-separador">
-  </ul>
-`;
-}
-else if (data === '28/01') {
+ if (data === '28/01') {
   programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">19:20</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E02 - T9</span></li> <hr class="filme-separador">
