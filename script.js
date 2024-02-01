@@ -52,6 +52,7 @@ else if (data === '06/02') {
 else if (data === '07/02') {
   programacaoDiv.innerHTML = `
   <ul>
+  <li class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">ECO - E01 - T01</span> </div> </li> <hr class="filme-separador"> </li>
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
   <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E09 - T9</span></li> <hr class="filme-separador">
   </ul>
@@ -98,7 +99,7 @@ else if (data === '09/02') {
           <img src="imgs//poster-veronica.jpg" alt="BOM DIA, VERONICA: A CAÇADA FINAL">
           <div class="filme-texto">
           <span class="dia">14/02</span>
-            <span class="class-16">16</span>
+            <span class="class-18">18</span>
             <span class="filme">BOM DIA, VERONICA: A CAÇADA FINAL</span>
           </div>
         </li>
@@ -113,6 +114,16 @@ else if (data === '09/02') {
           </div>
         </li>
         <hr class="filme-separador">
+
+        <li class="filme-poster">
+        <img src="imgs//poster-.jpg" alt="F1: DIRIGIR PARA VIVER - T6">
+        <div class="filme-texto">
+        <span class="dia">23/03</span>
+          <span class="class-12">12</span>
+          <span class="filme">F1: DIRIGIR PARA VIVER - T6</span>
+        </div>
+      </li>
+      <hr class="filme-separador">
 
         <li class="filme-poster">
         <img src="imgs//poster-astronauta.jpg" alt="O ASTRONAUTA">
@@ -153,6 +164,16 @@ else if (data === '09/02') {
     </div>
   </li>
   <hr class="filme-separador">
+
+  <li class="filme-poster">
+  <img src="imgs//poster-beaultiful.jpg" alt="RIPLEY - T1">
+  <div class="filme-texto">
+  <span class="dia">02/05</span>
+    <span class="class-16">16</span>
+    <span class="filme">BEAUTIFUL REBEL</span>
+  </div>
+</li>
+<hr class="filme-separador">
 
       </ul>
     `;
@@ -300,16 +321,7 @@ setInterval(checkAndRemoveFirstButton, 1000);
 
   //  A DEFINIR
   /*
-  <li class="filme-poster">
-  <img src="imgs//poster-echo.jpg" alt="Echo">
-  <div class="filme-texto">
-  <span class="dia">NOVEMBRO</span>
-    <span class="class-0">0</span>
-    <span class="filme">ECHO - T01</span>
-  </div>
-</li>
-<hr class="filme-separador">
-    
+   
 <li class="filme-poster">
 <img src="imgs//poster-ironheart.jpg" alt="Ironheart">
 <div class="filme-texto">
