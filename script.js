@@ -11,17 +11,7 @@ function mostrarProgramacao(button, data) {
   button.classList.add("active");
 // 07/02 - as marvels
 
- if (data === '02/02') {
-  programacaoDiv.innerHTML = `
-  <ul>
-  <li class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">PERCY JACKSON E OS OLÍMPIANOS - E08 - T01</span> </div> </li> <hr class="filme-separador"> </li>
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E06 - T9</span></li> <hr class="filme-separador">
-  </ul>
-`;
-}
-// apagar primeiro
-else if (data === '05/02') {
+ if (data === '05/02') {
   programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
@@ -65,16 +55,6 @@ else if (data === '09/02') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-        <li class="filme-poster">
-          <img src="imgs//poster-orion.jpg" alt="ORION E O ESCURO">
-          <div class="filme-texto">
-          <span class="dia">02/02</span>
-            <span class="class-10">10</span>
-            <span class="filme">ORION E O ESCURO</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
 
         <li class="filme-poster">
           <img src="imgs//poster-amante.jpg" alt="AMANTE, STALKER E MORTAL">
