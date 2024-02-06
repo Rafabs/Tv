@@ -34,8 +34,27 @@ else if (data === '09/02') {
   programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E09 - T9</span></li> <hr class="filme-separador">
-  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">AMANTE, STALKER E MORTAL</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E10 - T9</span></li> <hr class="filme-separador">
+  <li class="filme-container"> <div class="filme-info"> <span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">ECO - E01 - T01</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">AMANTE, STALKER E MORTAL</span></li> <hr class="filme-separador">
+  </ul>
+`;
+}
+else if (data === '10/02') {
+  programacaoDiv.innerHTML = `
+  <ul>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E11 - T9</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-0">0</span> <span class="filme">SESSÃO CAMPEÇÕES DE BILHETERIA</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+  </ul>
+`;
+}
+if (data === '12/02') {
+  programacaoDiv.innerHTML = `
+  <ul>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E12 - T9</span></li> <hr class="filme-separador">
   </ul>
 `;
 }
