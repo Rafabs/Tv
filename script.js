@@ -27,7 +27,78 @@ else if (data === '16/02') {
   <ul>
   <li class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">ECO - E04 - T01</span> </div> </li> <hr class="filme-separador"> </li>
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E14 - T9</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E15 - T9</span></li> <hr class="filme-separador">
+  </ul>
+`;
+}
+else if (data === '19/02') {
+  programacaoDiv.innerHTML = `
+  <ul>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E16 - T9</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:00</span> <span class="label-orig">NAC</span> <span class="class-18">18</span> <span class="filme">BOM DIA, VERONICA: A CAÇADA FINAL - E02 - T04</span></li> <hr class="filme-separador">
+  </ul>
+`;
+}
+else if (data === '20/02') {
+  programacaoDiv.innerHTML = `
+  <ul>
+  <li class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">ECO - E05 - T01</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E17 - T9</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:00</span> <span class="label-orig">NAC</span> <span class="class-18">18</span> <span class="filme">BOM DIA, VERONICA: A CAÇADA FINAL - E03 - T04</span></li> <hr class="filme-separador">
+  </ul>
+`;
+}
+else if (data === '21/02') {
+  programacaoDiv.innerHTML = `
+  <ul>
+  <li class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">O PIOR VIZINHO DO MUNDO</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E18 - T9</span></li> <hr class="filme-separador">
+  </ul>
+`;
+}
+else if (data === '23/02') {
+  programacaoDiv.innerHTML = `
+  <ul>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E19 - T9</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">AVATAR: O ÚLTIMO MESTRE DO AR - E01 - T01</span></li> <hr class="filme-separador">
+  </ul>
+`;
+}
+else if (data === '24/02') {
+  programacaoDiv.innerHTML = `
+  <ul>
+  <li class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">O ESQUADRÃO SUÍCIDA</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E20 - T9</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">AVATAR: O ÚLTIMO MESTRE DO AR - E01 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-0">0</span> <span class="filme">SESSÃO VENCEDORES DE OSCAR</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+  </ul>
+`;
+}
+else if (data === '25/02') {
+  programacaoDiv.innerHTML = `
+  <ul>
+  <li><span class="horario">16:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E21 - T9</span></li> <hr class="filme-separador">
+  <li><span class="horario">16:30</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">AVATAR: O ÚLTIMO MESTRE DO AR - E01 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">17:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO PAULISTA</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">
+  </ul>
+`;
+}
+else if (data === '26/02') {
+  programacaoDiv.innerHTML = `
+  <ul>
+  <li class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">AVES DE RAPINA</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E22 - T9</span></li> <hr class="filme-separador">
   </ul>
 `;
 }
