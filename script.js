@@ -11,17 +11,7 @@ function mostrarProgramacao(button, data) {
   button.classList.add("active");
 // 07/02 - as marvels
 
- if (data === '14/02') {
-  programacaoDiv.innerHTML = `
-  <ul>
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E13 - T9</span></li> <hr class="filme-separador">
-  </ul>
-`;
-}
-// excluir primeiro
-else if (data === '15/02') {
+ if (data === '15/02') {
   programacaoDiv.innerHTML = `
   <ul>
   <li class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">ECO - E03 - T01</span> </div> </li> <hr class="filme-separador"> </li>
@@ -47,16 +37,6 @@ else if (data === '16/02') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-        <li class="filme-poster">
-          <img src="imgs//poster-veronica.jpg" alt="BOM DIA, VERONICA: A CAÇADA FINAL">
-          <div class="filme-texto">
-          <span class="dia">14/02</span>
-            <span class="class-18">18</span>
-            <span class="filme">BOM DIA, VERONICA: A CAÇADA FINAL</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
 
         <li class="filme-poster">
           <img src="imgs//poster-avatar.jpg" alt="AVATAR: O ÚLTIMO MESTRE DO AR - T01">
