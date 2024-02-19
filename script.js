@@ -130,6 +130,16 @@ else if (data === '26/02') {
       <hr class="filme-separador">
 
       <li class="filme-poster">
+      <img src="imgs//poster-xmen.jpg" alt="X-MEN '97">
+      <div class="filme-texto">
+      <span class="dia">20/03</span>
+        <span class="class-14">14</span>
+        <span class="filme">X-MEN '97</span>
+      </div>
+    </li>
+    <hr class="filme-separador">
+
+      <li class="filme-poster">
       <img src="imgs//poster-rebel.jpg" alt="REBEL MOON - PARTE 2 : A MARCADORA DE CICATRIZES">
       <div class="filme-texto">
       <span class="dia">04/04</span>
