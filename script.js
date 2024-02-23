@@ -27,7 +27,7 @@ else if (data === '24/02') {
   <li class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">O ESQUADRÃO SUÍCIDA</span> </div> </li> <hr class="filme-separador"> </li>
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
   <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E20 - T9</span></li> <hr class="filme-separador">
-  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">AVATAR: O ÚLTIMO MESTRE DO AR - E01 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">AVATAR: O ÚLTIMO MESTRE DO AR - E02 - T01</span></li> <hr class="filme-separador">
   <li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-0">0</span> <span class="filme">SESSÃO VENCEDORES DE OSCAR</span></li> <hr class="filme-separador">
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
   </ul>
@@ -37,7 +37,7 @@ else if (data === '25/02') {
   programacaoDiv.innerHTML = `
   <ul>
   <li><span class="horario">16:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E21 - T9</span></li> <hr class="filme-separador">
-  <li><span class="horario">16:30</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">AVATAR: O ÚLTIMO MESTRE DO AR - E01 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">16:30</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">AVATAR: O ÚLTIMO MESTRE DO AR - E03 - T01</span></li> <hr class="filme-separador">
   <li><span class="horario">17:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO PAULISTA</span></li> <hr class="filme-separador">
   <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">
   </ul>
@@ -52,22 +52,54 @@ else if (data === '26/02') {
   </ul>
 `;
 }
+else if (data === '28/02') {
+  programacaoDiv.innerHTML = `
+  <ul>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E23 - T9</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">AVATAR: O ÚLTIMO MESTRE DO AR - E04 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">21:35</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO PAULISTA</span></li> <hr class="filme-separador">
+  </ul>
+`;
+}
+else if (data === '29/02') {
+  programacaoDiv.innerHTML = `
+  <ul>
+  <li class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">SHAZAM! FÚRIA DOS DEUSES</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E24 - T9</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">AVATAR: O ÚLTIMO MESTRE DO AR - E05 - T01</span></li> <hr class="filme-separador">
+  </ul>
+`;
+}
+else if (data === '01/03') {
+  programacaoDiv.innerHTML = `
+  <ul>
+  <li class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">ADÃO NEGRO</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E01 - T10</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">AVATAR: O ÚLTIMO MESTRE DO AR - E06 - T01</span></li> <hr class="filme-separador">
+  </ul>
+`;
+}
+else if (data === '04/03') {
+  programacaoDiv.innerHTML = `
+  <ul>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E02 - T10</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">AVATAR: O ÚLTIMO MESTRE DO AR - E07 - T01</span></li> <hr class="filme-separador">
+  </ul>
+`;
+}
 // <li class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
 // 20/01 - jogo spfc
 
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-        <li class="filme-poster">
-          <img src="imgs//poster-avatar.jpg" alt="AVATAR: O ÚLTIMO MESTRE DO AR - T01">
-          <div class="filme-texto">
-          <span class="dia">22/02</span>
-            <span class="class-10">10</span>
-            <span class="filme">AVATAR: O ÚLTIMO MESTRE DO AR - T01</span>
-          </div>
-        </li>
-        <hr class="filme-separador">
 
         <li class="filme-poster">
         <img src="imgs//poster-.jpg" alt="F1: DIRIGIR PARA VIVER - T6">
@@ -98,6 +130,16 @@ else if (data === '26/02') {
         </div>
       </li>
       <hr class="filme-separador">
+
+      <li class="filme-poster">
+      <img src="imgs//poster-virada.jpg" alt="PONTO DE VIRADA: A BOMBA E A GUERRA FRIA">
+      <div class="filme-texto">
+      <span class="dia">12/03</span>
+        <span class="class-16">16</span>
+        <span class="filme">PONTO DE VIRADA: A BOMBA E A GUERRA FRIA</span>
+      </div>
+    </li>
+    <hr class="filme-separador">
 
       <li class="filme-poster">
       <img src="imgs//poster-xmen.jpg" alt="X-MEN '97">
