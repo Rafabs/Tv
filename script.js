@@ -101,26 +101,6 @@ else if (data === '15/03') {
       <ul>
 
         <li class="filme-poster">
-        <img src="imgs//poster-.jpg" alt="F1: DIRIGIR PARA VIVER - T6">
-        <div class="filme-texto">
-        <span class="dia">23/03</span>
-          <span class="class-12">12</span>
-          <span class="filme">F1: DIRIGIR PARA VIVER - T6</span>
-        </div>
-      </li>
-      <hr class="filme-separador">
-
-        <li class="filme-poster">
-        <img src="imgs//poster-astronauta.jpg" alt="O ASTRONAUTA">
-        <div class="filme-texto">
-        <span class="dia">01/03</span>
-          <span class="class-14">14</span>
-          <span class="filme">O ASTRONAUTA</span>
-        </div>
-      </li>
-      <hr class="filme-separador">
-
-        <li class="filme-poster">
         <img src="imgs//poster-donzela.jpg" alt="DONZELA">
         <div class="filme-texto">
         <span class="dia">08/03</span>
