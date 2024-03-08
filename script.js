@@ -90,16 +90,6 @@ else if (data === '15/03') {
     programacaoDiv.innerHTML = `    
       <ul>
 
-        <li class="filme-poster">
-        <img src="imgs//poster-donzela.jpg" alt="DONZELA">
-        <div class="filme-texto">
-        <span class="dia">08/03</span>
-          <span class="class-12">12</span>
-          <span class="filme">DONZELA</span>
-        </div>
-      </li>
-      <hr class="filme-separador">
-
       <li class="filme-poster">
       <img src="imgs//poster-virada.jpg" alt="PONTO DE VIRADA: A BOMBA E A GUERRA FRIA">
       <div class="filme-texto">
@@ -139,6 +129,26 @@ else if (data === '15/03') {
     </div>
   </li>
   <hr class="filme-separador">
+
+  <li class="filme-poster">
+  <img src="imgs//poster-parasyte.jpg" alt="PARASYTE: THE GREY - T1">
+  <div class="filme-texto">
+  <span class="dia">05/04</span>
+    <span class="class-16">16</span>
+    <span class="filme">PARASYTE: THE GREY - T1</span>
+  </div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-ANTRACITE.jpg" alt="ANTRACITE - T1">
+<div class="filme-texto">
+<span class="dia">10/04</span>
+  <span class="class-18">18</span>
+  <span class="filme">ANTRACITE - T1</span>
+</div>
+</li>
+<hr class="filme-separador">
 
   <li class="filme-poster">
   <img src="imgs//poster-beaultiful.jpg" alt="RIPLEY - T1">
