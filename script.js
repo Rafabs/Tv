@@ -98,7 +98,7 @@ else if (data === '24/03') {
   <ul>
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E15 - T10</span></li> <hr class="filme-separador">
   <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">X-MEN '97 - E04 - T01</span></li> <hr class="filme-separador">
-  <li><span class="horario">20:30/span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">
   </ul>
 `;
 }
