@@ -11,19 +11,7 @@ function mostrarProgramacao(button, data) {
   button.classList.add("active");
 // 07/02 - as marvels
 
- if (data === '19/03') {
-  programacaoDiv.innerHTML = `
-  <ul>
-  <li> <class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">WONKA</span> </div> </li> <hr class="filme-separador"> </li>
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E11 - T10</span></li> <hr class="filme-separador">
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">F1: DIRIGIR PARA VIVER - E10 - T06</span></li> <hr class="filme-separador">
-  </ul>
-`;
-}
-// APAGAR PRIMEIRO E CONFIRMAR EP
-else if (data === '20/03') {
+ if (data === '20/03') {
   programacaoDiv.innerHTML = `
   <ul>
   <li> <class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">AQUAMAN 2: O REINO PERDIDO</span> </div> </li> <hr class="filme-separador"> </li>
@@ -68,26 +56,6 @@ else if (data === '24/03') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-      <li class="filme-poster">
-      <img src="imgs//poster-virada.jpg" alt="PONTO DE VIRADA: A BOMBA E A GUERRA FRIA">
-      <div class="filme-texto">
-      <span class="dia">12/03</span>
-        <span class="class-16">16</span>
-        <span class="filme">PONTO DE VIRADA: A BOMBA E A GUERRA FRIA</span>
-      </div>
-    </li>
-    <hr class="filme-separador">
-
-      <li class="filme-poster">
-      <img src="imgs//poster-xmen.jpg" alt="X-MEN '97">
-      <div class="filme-texto">
-      <span class="dia">20/03</span>
-        <span class="class-14">14</span>
-        <span class="filme">X-MEN '97</span>
-      </div>
-    </li>
-    <hr class="filme-separador">
 
       <li class="filme-poster">
       <img src="imgs//poster-rebel.jpg" alt="REBEL MOON - PARTE 2 : A MARCADORA DE CICATRIZES">
