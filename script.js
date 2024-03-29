@@ -205,6 +205,16 @@ function mostrarProgramacao(button, data) {
 </li>
 <hr class="filme-separador">
 
+<li class="filme-poster">
+<img src="imgs//poster-adeus.jpg" alt="ADEUS, TERRA - T1">
+<div class="filme-texto">
+<span class="dia">26/04</span>
+  <span class="class-16">16</span>
+  <span class="filme">ADEUS, TERRA - T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
   <li class="filme-poster">
   <img src="imgs//poster-beaultiful.jpg" alt="BELA E REBELDE">
   <div class="filme-texto">
