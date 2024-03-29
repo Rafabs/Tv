@@ -206,11 +206,11 @@ function mostrarProgramacao(button, data) {
 <hr class="filme-separador">
 
   <li class="filme-poster">
-  <img src="imgs//poster-beaultiful.jpg" alt="RIPLEY - T1">
+  <img src="imgs//poster-beaultiful.jpg" alt="BELA E REBELDE">
   <div class="filme-texto">
   <span class="dia">02/05</span>
     <span class="class-16">16</span>
-    <span class="filme">BEAUTIFUL REBEL</span>
+    <span class="filme">BELA E REBELDE</span>
   </div>
 </li>
 <hr class="filme-separador">
