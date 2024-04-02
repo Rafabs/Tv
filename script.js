@@ -209,6 +209,16 @@ function mostrarProgramacao(button, data) {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-doctor.jpg" alt="DOCTOR WHO - T1">
+<div class="filme-texto">
+<span class="dia">10/05</span>
+  <span class="class-14">14</span>
+  <span class="filme">DOCTOR WHO - T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-atlas.jpg" alt="ATLAS">
 <div class="filme-texto">
 <span class="dia">24/05</span>
@@ -224,6 +234,16 @@ function mostrarProgramacao(button, data) {
 <span class="dia">30/05</span>
   <span class="class-16">16</span>
   <span class="filme">ERIC - T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-acolyte.jpg" alt="THE ACOLYTE - T1">
+<div class="filme-texto">
+<span class="dia">04/06</span>
+  <span class="class-14">14</span>
+  <span class="filme">THE ACOLYTE - T1 - T1</span>
 </div>
 </li>
 <hr class="filme-separador">
