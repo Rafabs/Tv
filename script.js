@@ -10,18 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
- if (data === '03/04') {
-    programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">TREM BALA</span></li> <hr class="filme-separador">
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E24 - T10</span></li> <hr class="filme-separador">
-  <li><span class="horario">13:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">X-MEN '97 - E03 - T01</span></li> <hr class="filme-separador">
-  </ul>
-`;
-  }  
-    // excluir primeiro   
-  else if (data === '05/04') {
+ if (data === '05/04') {
     programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
@@ -97,16 +86,6 @@ function mostrarProgramacao(button, data) {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-      <li class="filme-poster">
-      <img src="imgs//poster-rebel.jpg" alt="REBEL MOON - PARTE 2 : A MARCADORA DE CICATRIZES">
-      <div class="filme-texto">
-      <span class="dia">04/04</span>
-        <span class="class-16">16</span>
-        <span class="filme">REBEL MOON - PARTE 2 : A MARCADORA DE CICATRIZES</span>
-      </div>
-    </li>
-    <hr class="filme-separador">
           
     <li class="filme-poster">
     <img src="imgs//poster-ripley.jpg" alt="RIPLEY - T1">
