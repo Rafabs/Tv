@@ -195,6 +195,16 @@ function mostrarProgramacao(button, data) {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-bodkin.jpg" alt="BODKIN - T1">
+<div class="filme-texto">
+<span class="dia">09/05</span>
+  <span class="class-16">16</span>
+  <span class="filme">BODKIN - T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-doctor.jpg" alt="DOCTOR WHO - T1">
 <div class="filme-texto">
 <span class="dia">10/05</span>
