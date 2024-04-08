@@ -94,26 +94,6 @@ function mostrarProgramacao(button, data) {
     programacaoDiv.innerHTML = `    
       <ul>
 
-  <li class="filme-poster">
-  <img src="imgs//poster-parasyte.jpg" alt="PARASYTE: THE GREY - T1">
-  <div class="filme-texto">
-  <span class="dia">05/04</span>
-    <span class="class-16">16</span>
-    <span class="filme">PARASYTE: THE GREY - T1</span>
-  </div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-rede.jpg" alt="A REDE ANTISSOCIAL: DOS MEMES AO CAOS">
-<div class="filme-texto">
-<span class="dia">05/04</span>
-  <span class="class-14">14</span>
-  <span class="filme">A REDE ANTISSOCIAL: DOS MEMES AO CAOS</span>
-</div>
-</li>
-<hr class="filme-separador">
-
 <li class="filme-poster">
 <img src="imgs//poster-ANTRACITE.jpg" alt="ANTRACITE - T1">
 <div class="filme-texto">
