@@ -84,16 +84,6 @@ function mostrarProgramacao(button, data) {
 <hr class="filme-separador">
 
 <li class="filme-poster">
-<img src="imgs//poster-jennifer.jpg" alt="O QUE JENNIFER FEZ?">
-<div class="filme-texto">
-<span class="dia">10/04</span>
-  <span class="class-12">12</span>
-  <span class="filme">O QUE JENNIFER FEZ?</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-herança.jpg" alt="HERANÇA ROUBADA">
 <div class="filme-texto">
 <span class="dia">12/04</span>
