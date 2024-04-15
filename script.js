@@ -41,7 +41,28 @@ function mostrarProgramacao(button, data) {
   <li><span class="horario">14:15</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">PARASYTE: THE GREY - E05 - T01</span></li> <hr class="filme-separador">
   </ul>
 `;
-  }    
+  }   
+  else if (data === '19/04') {
+    programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E09 - T11</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">PARASYTE: THE GREY - E06 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ANTRACITE - E01 - T01</span></li> <hr class="filme-separador">
+  </ul>
+`;
+  }   
+  else if (data === '20/04') {
+    programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E09 - T11</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ANTRACITE - E02 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">OPPENHEIMER</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+  </ul>
+`;
+  }         
   else if (data === '24/04') {
     programacaoDiv.innerHTML = `
   <ul>  
@@ -76,26 +97,6 @@ function mostrarProgramacao(button, data) {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-ANTRACITE.jpg" alt="ANTRACITE - T1">
-<div class="filme-texto">
-<span class="dia">10/04</span>
-  <span class="class-18">18</span>
-  <span class="filme">ANTRACITE - T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-herança.jpg" alt="HERANÇA ROUBADA">
-<div class="filme-texto">
-<span class="dia">12/04</span>
-  <span class="class-16">16</span>
-  <span class="filme">HERANÇA ROUBADA</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-planeta.jpg" alt="PLANETA VIVO - T1">
