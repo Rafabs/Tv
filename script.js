@@ -11,16 +11,7 @@ function mostrarProgramacao(button, data) {
   button.classList.add("active");
 
 
- if (data === '21/04') {
-    programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">19:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E12 - T11</span></li> <hr class="filme-separador">
-  <li><span class="horario">19:30</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ANTRACITE - E04 - T01</span></li> <hr class="filme-separador">
-  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">
-  </ul>
-`;
-  }     
-  else if (data === '22/04') {
+if (data === '22/04') {
     programacaoDiv.innerHTML = `
   <ul>  
   <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">PLANETA VIVO - E01 - T01</span> </div> </li> <hr class="filme-separador"> </li>  
@@ -86,16 +77,6 @@ function mostrarProgramacao(button, data) {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-adeus.jpg" alt="ADEUS, TERRA - T1">
-<div class="filme-texto">
-<span class="dia">26/04</span>
-  <span class="class-16">16</span>
-  <span class="filme">ADEUS, TERRA - T1</span>
-</div>
-</li>
-<hr class="filme-separador">
 
   <li class="filme-poster">
   <img src="imgs//poster-beaultiful.jpg" alt="BELA E REBELDE">
