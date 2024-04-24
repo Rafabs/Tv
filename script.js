@@ -14,10 +14,10 @@ function mostrarProgramacao(button, data) {
  if (data === '24/04') {
     programacaoDiv.innerHTML = `
   <ul>  
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-  <li><span class="horario">19:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E14 - T11</span></li> <hr class="filme-separador">
-  <li><span class="horario">20:05</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">X-MEN '97 - E07 - T01</span></li> <hr class="filme-separador">
-  <li><span class="horario">20:25</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ANTRACITE - E06 - T01</span></li> <hr class="filme-separador">  
+  <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:15</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E14 - T11</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:35</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">X-MEN '97 - E07 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ANTRACITE - E06 - T01</span></li> <hr class="filme-separador">  
   </ul>
 `;
   }    
@@ -27,7 +27,8 @@ function mostrarProgramacao(button, data) {
   <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">PLANETA VIVO - E02 - T01</span> </div> </li> <hr class="filme-separador"> </li>  
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
   <li><span class="horario">19:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E15 - T11</span></li> <hr class="filme-separador">
-  <li><span class="horario">20:05</span> <span class="label-orig">NAC</span> <span class="class-10">10</span> <span class="filme">PLANETA VIVO - E03 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">PLANETA VIVO - E03 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:55</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">COPA LIBERTADORES</span></li> <hr class="filme-separador">
   </ul>
 `;
   }  
@@ -39,14 +40,41 @@ function mostrarProgramacao(button, data) {
   <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E16 - T11</span></li> <hr class="filme-separador">
   </ul>
 `;
-  }     
+  }    
+  else if (data === '29/04') {
+    programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E17 - T11</span></li> <hr class="filme-separador">
+   </ul>
+`;
+  }   
+  else if (data === '30/04') {
+    programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E18 - T11</span></li> <hr class="filme-separador">
+   </ul>
+`;
+  }        
   else if (data === '01/05') {
     programacaoDiv.innerHTML = `
   <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E19 - T11</span></li> <hr class="filme-separador">  
   <li><span class="horario">13:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">X-MEN '97 - E08 - T01</span></li> <hr class="filme-separador">
   </ul>
 `;
   }  
+  else if (data === '03/05') {
+    programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E20 - T11</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">BELA E REBELDE - E01 - T01</span></li> <hr class="filme-separador">
+  </ul>
+`;
+  }    
   else if (data === '08/05') {
     programacaoDiv.innerHTML = `
   <ul>  
@@ -133,7 +161,17 @@ function mostrarProgramacao(button, data) {
 <div class="filme-texto">
 <span class="dia">04/06</span>
   <span class="class-14">14</span>
-  <span class="filme">THE ACOLYTE - T1 - T1</span>
+  <span class="filme">THE ACOLYTE - T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-sweet.jpg" alt="SWEET TOOTH - T3">
+<div class="filme-texto">
+<span class="dia">06/06</span>
+  <span class="class-10">10</span>
+  <span class="filme">SWEET TOOTH - T3</span>
 </div>
 </li>
 <hr class="filme-separador">
