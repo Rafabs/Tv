@@ -14,9 +14,11 @@ function mostrarProgramacao(button, data) {
  if (data === '29/04') {
     programacaoDiv.innerHTML = `
   <ul>  
+  <li><span class="horario">17:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E01 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">18:50</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E17 - T11</span></li> <hr class="filme-separador">
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-  <li><span class="horario">19:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E17 - T11</span></li> <hr class="filme-separador">
-   </ul>
+  <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">
+  </ul>
 `;
   }   
   else if (data === '30/04') {
@@ -24,7 +26,8 @@ function mostrarProgramacao(button, data) {
   <ul>  
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
   <li><span class="horario">19:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E18 - T11</span></li> <hr class="filme-separador">
-   </ul>
+  <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E02 - T01</span></li> <hr class="filme-separador">
+  </ul>
 `;
   }        
   else if (data === '01/05') {
