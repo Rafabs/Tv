@@ -11,16 +11,7 @@ function mostrarProgramacao(button, data) {
   button.classList.add("active");
 
  
-  if (data === '30/04') {
-    programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-  <li><span class="horario">19:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E19 - T11</span></li> <hr class="filme-separador">
-  <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E02 - T01</span></li> <hr class="filme-separador">
-  </ul>
-`;
-  }        
-  else if (data === '01/05') {
+if (data === '01/05') {
     programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
@@ -156,6 +147,16 @@ function mostrarProgramacao(button, data) {
 <span class="dia">04/06</span>
   <span class="class-14">14</span>
   <span class="filme">THE ACOLYTE - T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-sob.jpg" alt="SOB AS ÁGUAS DO SENA">
+<div class="filme-texto">
+<span class="dia">05/06</span>
+  <span class="class-16">16</span>
+  <span class="filme">SOB AS ÁGUAS DO SENA</span>
 </div>
 </li>
 <hr class="filme-separador">
