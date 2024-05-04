@@ -16,7 +16,7 @@ if (data === '04/05') {
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
   <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E22 - T11</span></li> <hr class="filme-separador">
-  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E03 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E04 - T01</span></li> <hr class="filme-separador">
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
   </ul>
 `;
@@ -26,7 +26,7 @@ if (data === '04/05') {
   <ul>  
   <li><span class="horario">15:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">
   <li><span class="horario">18:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E23 - T11</span></li> <hr class="filme-separador">
-  <li><span class="horario">18:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E04 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">18:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E05 - T01</span></li> <hr class="filme-separador">
   <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">
   </ul>
 `;
@@ -45,8 +45,9 @@ if (data === '04/05') {
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E01 - T12</span></li> <hr class="filme-separador">
   <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">X-MEN '97 - E09 - T01</span></li> <hr class="filme-separador">
-  <li><span class="horario">20:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E05 - T01</span></li> <hr class="filme-separador">
- </ul>
+  <li><span class="horario">20:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E06 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">21:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CONMEBOL LIBERTADORES</span></li> <hr class="filme-separador"> 
+  </ul>
 `;
   }    
   else if (data === '09/05') {
@@ -55,19 +56,27 @@ if (data === '04/05') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E01 - T12</span></li> <hr class="filme-separador">
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E06 - T01</span></li> <hr class="filme-separador">
- </ul>
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E07 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">BODKIN - E01 - T01</span></li> <hr class="filme-separador">
+  </ul>
 `;
   }   
   else if (data === '10/05') {
     programacaoDiv.innerHTML = `
   <ul>  
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">BODKIN E01 - T01</span> </div> </li> <hr class="filme-separador"> </li>
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">BODKIN E02 - T01</span> </div> </li> <hr class="filme-separador"> </li>
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
   <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E02 - T12</span></li> <hr class="filme-separador">
   </ul>
 `;
-  }      
+  }
+  else if (data === '13/05') {
+    programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">19:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">
+  </ul>
+`;
+  }   
   else if (data === '15/05') {
     programacaoDiv.innerHTML = `
   <ul>  
