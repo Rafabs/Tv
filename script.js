@@ -11,23 +11,12 @@ function mostrarProgramacao(button, data) {
   button.classList.add("active");
 
  
-if (data === '03/05') {
-    programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-  <li><span class="horario">19:45</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E21 - T11</span></li> <hr class="filme-separador">
-  <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">BELA E REBELDE - E01 - T01</span></li> <hr class="filme-separador">
-  <li><span class="horario">21:05</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E03 - T01</span></li> <hr class="filme-separador">
-  </ul>
-`;
-  }    
-  else if (data === '04/05') {
+if (data === '04/05') {
     programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
   <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E22 - T11</span></li> <hr class="filme-separador">
-  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">BELA E REBELDE - E02 - T01</span></li> <hr class="filme-separador">
-  <li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E03 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E03 - T01</span></li> <hr class="filme-separador">
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
   </ul>
 `;
@@ -37,8 +26,7 @@ if (data === '03/05') {
   <ul>  
   <li><span class="horario">15:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">
   <li><span class="horario">18:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E23 - T11</span></li> <hr class="filme-separador">
-  <li><span class="horario">18:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">BELA E REBELDE - E03 - T01</span></li> <hr class="filme-separador">
-  <li><span class="horario">19:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E04 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">18:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E04 - T01</span></li> <hr class="filme-separador">
   <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">
   </ul>
 `;
@@ -57,8 +45,7 @@ if (data === '03/05') {
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E01 - T12</span></li> <hr class="filme-separador">
   <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">X-MEN '97 - E09 - T01</span></li> <hr class="filme-separador">
-  <li><span class="horario">20:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">BELA E REBELDE - E04 - T01</span></li> <hr class="filme-separador">
-  <li><span class="horario">21:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E05 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E05 - T01</span></li> <hr class="filme-separador">
  </ul>
 `;
   }    
@@ -68,8 +55,7 @@ if (data === '03/05') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E01 - T12</span></li> <hr class="filme-separador">
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">BELA E REBELDE - E05 - T01</span></li> <hr class="filme-separador">
-  <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E06 - T01</span></li> <hr class="filme-separador">
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E06 - T01</span></li> <hr class="filme-separador">
  </ul>
 `;
   }   
@@ -95,16 +81,6 @@ if (data === '03/05') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-  <li class="filme-poster">
-  <img src="imgs//poster-beaultiful.jpg" alt="BELA E REBELDE">
-  <div class="filme-texto">
-  <span class="dia">02/05</span>
-    <span class="class-16">16</span>
-    <span class="filme">BELA E REBELDE</span>
-  </div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-bodkin.jpg" alt="BODKIN - T1">
