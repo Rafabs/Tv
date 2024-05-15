@@ -104,16 +104,6 @@ function mostrarProgramacao(button, data) {
 <hr class="filme-separador">
 
 <li class="filme-poster">
-<img src="imgs//poster-france.jpg" alt="TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - T2">
-<div class="filme-texto">
-<span class="dia">JUNHO</span>
-  <span class="class-12">12</span>
-  <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - T2</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-supacell.jpg" alt="SUPACELL - T1">
 <div class="filme-texto">
 <span class="dia">01/06</span>
@@ -149,6 +139,16 @@ function mostrarProgramacao(button, data) {
 <span class="dia">06/06</span>
   <span class="class-10">10</span>
   <span class="filme">SWEET TOOTH - T3</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-france.jpg" alt="TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - T2">
+<div class="filme-texto">
+<span class="dia">11/06</span>
+  <span class="class-12">12</span>
+  <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - T2</span>
 </div>
 </li>
 <hr class="filme-separador">
