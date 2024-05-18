@@ -49,11 +49,23 @@ if (data === '18/05') {
     <li><span class="horario">19:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">BODKIN - E07 - T01</span></li> <hr class="filme-separador">
     </ul>
 `;
-  }     
+  }    
+  else if (data === '23/05') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E12 - T12</span></li> <hr class="filme-separador">
+    <li><span class="horario">21:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">COPA DO BRASIL</span></li> <hr class="filme-separador">   
+    </ul>
+`;
+  }      
   else if (data === '24/05') {
     programacaoDiv.innerHTML = `
   <ul>  
   <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A ERA DO GELO: O BIG BANG</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E13 - T12</span></li> <hr class="filme-separador">
   </ul>
 `;
   } 
