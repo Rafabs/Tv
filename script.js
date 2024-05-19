@@ -10,20 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '18/05') {
-    programacaoDiv.innerHTML = `
-    <ul>  
-    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">DOCTOR WHO - E03 - T01</span> </div> </li> <hr class="filme-separador"> </li>
-    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-    <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E08 - T12</span></li> <hr class="filme-separador">
-    <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ADEUS, TERRA - E11 - T01</span></li> <hr class="filme-separador">
-    <li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">BODKIN - E05 - T01</span></li> <hr class="filme-separador">
-    <li><span class="horario">15:45</span> <span class="label-leg">LEG</span> <span class="class-0">0</span> <span class="filme">SESSÃO RETRÔ</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    </ul>
-`;
-  } 
-  else if (data === '19/05') {
+ if (data === '19/05') {
     programacaoDiv.innerHTML = `
     <ul>  
     <li><span class="horario">18:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E09 - T12</span></li> <hr class="filme-separador">
