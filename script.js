@@ -166,6 +166,17 @@ if (data === '24/05') {
 </div>
 </li>
 <hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-lego.jpg" alt="LEGO® STAR WARS: REBUILD THE GALAXY">
+<div class="filme-texto">
+<span class="dia">SETEMBRO</span>
+  <span class="class-0">0</span>
+  <span class="filme">LEGO® STAR WARS: REBUILD THE GALAXY</span>
+</div>
+</li>
+<hr class="filme-separador">
+
       </ul>
     `;
   } else {
