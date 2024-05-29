@@ -338,6 +338,60 @@ h1 {
   font-style: arial;
 }     
 
+.class-temporada {
+  color: #ffffff;
+  padding: 5px;
+  font-weight: 700;
+  background-color: #000caf;     
+  border-radius: 5px;
+  max-width: 26px
+}   
+
+.class-serie {
+  color: #ffffff;
+  padding: 5px;
+  font-weight: 700;
+  background-color: #009baf;     
+  border-radius: 5px;
+  max-width: 26px
+}   
+
+.class-filme {
+  color: #ffffff;
+  padding: 5px;
+  font-weight: 700;
+  background-color: #f93a00;     
+  border-radius: 5px;
+  max-width: 26px
+}   
+
+.class-documentario {
+  color: #000000;
+  padding: 5px;
+  font-weight: 700;
+  background-color: #d4f900;     
+  border-radius: 5px;
+  max-width: 26px
+}   
+
+.class-esporte {
+  color: #ffffff;
+  padding: 5px;
+  font-weight: 700;
+  background-color: #3af900;     
+  border-radius: 5px;
+  max-width: 26px
+}   
+
+.class-novela {
+  color: #ffffff;
+  padding: 5px;
+  font-weight: 700;
+  background-color: #f900f9;     
+  border-radius: 5px;
+  max-width: 26px
+}   
+
 .class-livre {
   color: #ffffff;
   padding: 5px;

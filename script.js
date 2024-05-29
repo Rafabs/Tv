@@ -101,11 +101,14 @@ if (data === '29/05') {
       <ul>
 
 <li class="filme-poster">
-<img src="imgs//poster-acolyte.jpg" alt="THE ACOLYTE - T1">
+<img src="imgs//poster-acolyte.jpg" alt="THE ACOLYTE">
 <div class="filme-texto">
 <span class="dia">04/06</span>
-  <span class="class-14">14</span>
-  <span class="filme">THE ACOLYTE - T1</span>
+<span class="class-14">14</span>
+<span class="filme">THE ACOLYTE</span>
+<div class="filme-texto">
+<span class="class-serie">SÉRIE</span>
+<span class="class-temporada">T1</span>
 </div>
 </li>
 <hr class="filme-separador">
@@ -114,59 +117,76 @@ if (data === '29/05') {
 <img src="imgs//poster-sob.jpg" alt="SOB AS ÁGUAS DO SENA">
 <div class="filme-texto">
 <span class="dia">05/06</span>
-  <span class="class-16">16</span>
-  <span class="filme">SOB AS ÁGUAS DO SENA</span>
+<span class="class-16">16</span>
+<span class="filme">SOB AS ÁGUAS DO SENA</span>
+<div class="filme-texto">
+<span class="class-filme">FILME</span>
 </div>
 </li>
 <hr class="filme-separador">
 
 <li class="filme-poster">
-<img src="imgs//poster-sweet.jpg" alt="SWEET TOOTH - T3">
+<img src="imgs//poster-sweet.jpg" alt="SWEET TOOTH">
 <div class="filme-texto">
 <span class="dia">06/06</span>
-  <span class="class-10">10</span>
-  <span class="filme">SWEET TOOTH - T3</span>
+<span class="class-10">10</span>
+<span class="filme">SWEET TOOTH</span>
+<div class="filme-texto">
+<span class="class-serie">SÉRIE</span>
+<span class="class-temporada">T3</span>
 </div>
 </li>
 <hr class="filme-separador">
 
 <li class="filme-poster">
-<img src="imgs//poster-france.jpg" alt="TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - T2">
+<img src="imgs//poster-france.jpg" alt="TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO">
 <div class="filme-texto">
 <span class="dia">11/06</span>
-  <span class="class-12">12</span>
-  <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - T2</span>
+<span class="class-12">12</span>
+<span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO</span>
+<div class="filme-texto">
+<span class="class-documentario">DOCUMENTÁRIO</span>
+<span class="class-temporada">T2</span>
 </div>
 </li>
 <hr class="filme-separador">
 
 <li class="filme-poster">
-<img src="imgs//poster-supacell.jpg" alt="SUPACELL - T1">
+<img src="imgs//poster-supacell.jpg" alt="SUPACELL">
 <div class="filme-texto">
 <span class="dia">JUNHO</span>
-  <span class="class-16">16</span>
-  <span class="filme">SUPACELL - T1</span>
+<span class="class-16">16</span>
+<span class="filme">SUPACELL</span>
+<div class="filme-texto">
+<span class="class-serie">SÉRIE</span>
+<span class="class-temporada">T1</span>
 </div>
 </li>
 <hr class="filme-separador">
 
 
 <li class="filme-poster">
-<img src="imgs//poster-umbrella.jpg" alt="THE UMBRELLA ACADEMY - T4">
+<img src="imgs//poster-umbrella.jpg" alt="THE UMBRELLA ACADEMY">
 <div class="filme-texto">
 <span class="dia">08/08</span>
-  <span class="class-14">14</span>
-  <span class="filme">THE UMBRELLA ACADEMY - T4</span>
+<span class="class-14">14</span>
+<span class="filme">THE UMBRELLA ACADEMY</span>
+<div class="filme-texto">
+<span class="class-serie">SÉRIE</span>
+<span class="class-temporada">T4</span>
 </div>
 </li>
 <hr class="filme-separador">
 
 <li class="filme-poster">
-<img src="imgs//poster-terminator.jpg" alt="TERMINATOR - T1">
+<img src="imgs//poster-terminator.jpg" alt="TERMINATOR">
 <div class="filme-texto">
 <span class="dia">29/08</span>
-  <span class="class-0">0</span>
-  <span class="filme">TERMINATOR - T1</span>
+<span class="class-0">0</span>
+<span class="filme">TERMINATOR</span>
+<div class="filme-texto">
+<span class="class-serie">SÉRIE</span>
+<span class="class-temporada">T1</span>
 </div>
 </li>
 <hr class="filme-separador">
@@ -175,8 +195,10 @@ if (data === '29/05') {
 <img src="imgs//poster-lego.jpg" alt="LEGO® STAR WARS: REBUILD THE GALAXY">
 <div class="filme-texto">
 <span class="dia">SETEMBRO</span>
-  <span class="class-0">0</span>
-  <span class="filme">LEGO® STAR WARS: REBUILD THE GALAXY</span>
+<span class="class-0">0</span>
+<span class="filme">LEGO® STAR WARS: REBUILD THE GALAXY</span>
+<div class="filme-texto">
+<span class="class-filme">FILME</span>
 </div>
 </li>
 <hr class="filme-separador">
