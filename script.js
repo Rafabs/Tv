@@ -10,18 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '28/05') {
-    programacaoDiv.innerHTML = `
-    <ul>  
-    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A CASA DO DRAGÃO - E01 - T01</span> </div> </li> <hr class="filme-separador"> </li>
-    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E15 - T12</span></li> <hr class="filme-separador">
-    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">ATLAS</span></li> <hr class="filme-separador">
-    </ul>
-`;
-  }       
-  else if (data === '29/05') {
+if (data === '29/05') {
     programacaoDiv.innerHTML = `
     <ul>  
     <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A CASA DO DRAGÃO - E02 - T01</span> </div> </li> <hr class="filme-separador"> </li>
@@ -52,31 +41,64 @@ if (data === '28/05') {
     </ul>
 `;
   }         
+
+  else if (data === '02/06') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">16:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E19 - T12</span></li> <hr class="filme-separador">
+    <li><span class="horario">17:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ERIC - E03 - T01</span></li> <hr class="filme-separador">
+    <li><span class="horario">18:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">
+    </ul>
+`;
+  }    
+  else if (data === '03/06') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A CASA DO DRAGÃO - E04 - T01</span> </div> </li> <hr class="filme-separador"> </li>
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+    <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E20 - T12</span></li> <hr class="filme-separador">
+    </ul>
+`;
+  }  
+  else if (data === '05/06') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E21 - T12</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ERIC - E04 - T01</span></li> <hr class="filme-separador">
+    <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">THE ACOLYTE - E01 - T01</span></li> <hr class="filme-separador">
+    </ul>
+`;
+  }    
+  else if (data === '06/06') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">SOB AS ÁGUAS DO SENA</span> </div> </li> <hr class="filme-separador"> </li>
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E22 - T12</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">SWEET TOOTH - E01 - T03</span></li> <hr class="filme-separador">
+    <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ERIC - E05 - T01</span></li> <hr class="filme-separador">
+    <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">THE ACOLYTE - E02 - T01</span></li> <hr class="filme-separador">
+    </ul>
+`;
+  }    
+  else if (data === '07/06') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A CASA DO DRAGÃO - E04 - T01</span> </div> </li> <hr class="filme-separador"> </li>
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+    <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E23 - T12</span></li> <hr class="filme-separador">
+    </ul>
+`;
+  }      
+  
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
 
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-ERIC.jpg" alt="ERIC">
-<div class="filme-texto">
-<span class="dia">30/05</span>
-  <span class="class-16">16</span>
-  <span class="filme">ERIC - T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-supacell.jpg" alt="SUPACELL - T1">
-<div class="filme-texto">
-<span class="dia">01/06</span>
-  <span class="class-16">16</span>
-  <span class="filme">SUPACELL - T1</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-acolyte.jpg" alt="THE ACOLYTE - T1">
@@ -117,6 +139,17 @@ if (data === '28/05') {
 </div>
 </li>
 <hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-supacell.jpg" alt="SUPACELL - T1">
+<div class="filme-texto">
+<span class="dia">JUNHO</span>
+  <span class="class-16">16</span>
+  <span class="filme">SUPACELL - T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
 
 <li class="filme-poster">
 <img src="imgs//poster-umbrella.jpg" alt="THE UMBRELLA ACADEMY - T4">
