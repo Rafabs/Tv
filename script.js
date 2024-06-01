@@ -145,6 +145,17 @@ if (data === '01/06') {
 </li>
 <hr class="filme-separador">
 
+<li class="filme-poster">
+<img src="imgs//poster-imaginarios.jpg" alt="OS IMAGINÁRIOS">
+<div class="filme-texto">
+<span class="dia">05/07</span>
+<span class="class-10">10</span>
+<span class="filme">OS IMAGINÁRIOS</span>
+<div class="filme-texto">
+<span class="class-filme">FILME</span>
+</div>
+</li>
+<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-umbrella.jpg" alt="THE UMBRELLA ACADEMY">
