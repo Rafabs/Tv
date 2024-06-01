@@ -57,12 +57,11 @@ if (data === '01/06') {
     <ul>  
     <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">SOB AS ÁGUAS DO SENA</span> </div> </li> <hr class="filme-separador"> </li>
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
-    <li><span class="horario">17:10</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">SWEET TOOTH - E01 - T03</span></li> <hr class="filme-separador">
-    <li><span class="horario">18:10</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">THE ACOLYTE - E02 - T01</span></li> <hr class="filme-separador">
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
     <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E22 - T12</span></li> <hr class="filme-separador">
-    <li><span class="horario">20:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">
-    <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ERIC - E05 - T01</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">SWEET TOOTH - E01 - T03</span></li> <hr class="filme-separador">
+    <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ERIC - E05 - T01</span></li> <hr class="filme-separador">
+    <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">THE ACOLYTE - E02 - T01</span></li> <hr class="filme-separador">
     </ul>
 `;
   }    
@@ -75,7 +74,7 @@ if (data === '01/06') {
     </ul>
 `;
   }      
-  
+  // 16/06 JOGO SPFC BRASILEIRO 16H
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
 
   else if (data === 'em-breve') {
