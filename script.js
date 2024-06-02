@@ -75,7 +75,7 @@ if (data === '02/06') {
 <span class="class-14">14</span>
 <span class="filme">THE ACOLYTE</span>
 <div class="filme-texto">
-<span class="class-serie">SÉRIE</span>
+<span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
 </div>
 </li>
@@ -88,7 +88,7 @@ if (data === '02/06') {
 <span class="class-16">16</span>
 <span class="filme">SOB AS ÁGUAS DO SENA</span>
 <div class="filme-texto">
-<span class="class-filme">FILME</span>
+<span class="class-filme">Filme</span>
 </div>
 </li>
 <hr class="filme-separador">
@@ -100,7 +100,7 @@ if (data === '02/06') {
 <span class="class-10">10</span>
 <span class="filme">SWEET TOOTH</span>
 <div class="filme-texto">
-<span class="class-serie">SÉRIE</span>
+<span class="class-serie">Série</span>
 <span class="class-temporada">T3</span>
 </div>
 </li>
@@ -113,7 +113,7 @@ if (data === '02/06') {
 <span class="class-12">12</span>
 <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO</span>
 <div class="filme-texto">
-<span class="class-documentario">DOCUMENTÁRIO</span>
+<span class="class-documentario">Documentário</span>
 <span class="class-temporada">T2</span>
 </div>
 </li>
@@ -126,7 +126,7 @@ if (data === '02/06') {
 <span class="class-16">16</span>
 <span class="filme">SUPACELL</span>
 <div class="filme-texto">
-<span class="class-serie">SÉRIE</span>
+<span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
 </div>
 </li>
@@ -139,7 +139,7 @@ if (data === '02/06') {
 <span class="class-10">10</span>
 <span class="filme">OS IMAGINÁRIOS</span>
 <div class="filme-texto">
-<span class="class-filme">FILME</span>
+<span class="class-filme">Filme</span>
 </div>
 </li>
 <hr class="filme-separador">
@@ -151,7 +151,7 @@ if (data === '02/06') {
 <span class="class-14">14</span>
 <span class="filme">THE UMBRELLA ACADEMY</span>
 <div class="filme-texto">
-<span class="class-serie">SÉRIE</span>
+<span class="class-serie">Série</span>
 <span class="class-temporada">T4</span>
 </div>
 </li>
@@ -164,7 +164,7 @@ if (data === '02/06') {
 <span class="class-0">0</span>
 <span class="filme">TERMINATOR</span>
 <div class="filme-texto">
-<span class="class-serie">SÉRIE</span>
+<span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
 </div>
 </li>
@@ -177,7 +177,7 @@ if (data === '02/06') {
 <span class="class-0">0</span>
 <span class="filme">LEGO® STAR WARS: REBUILD THE GALAXY</span>
 <div class="filme-texto">
-<span class="class-filme">FILME</span>
+<span class="class-filme">Filme</span>
 </div>
 </li>
 <hr class="filme-separador">
