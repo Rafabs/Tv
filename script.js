@@ -17,10 +17,10 @@ if (data === '06/06') {
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
     <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E22 - T12</span></li> <hr class="filme-separador">
-    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">SWEET TOOTH - E01 - T03</span></li> <hr class="filme-separador">
-    <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ERIC - E05 - T01</span></li> <hr class="filme-separador">
     <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">THE ACOLYTE - E02 - T01</span></li> <hr class="filme-separador">
-    </ul>
+     <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">SWEET TOOTH - E01 - T03</span></li> <hr class="filme-separador">
+    <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ERIC - E05 - T01</span></li> <hr class="filme-separador">
+   </ul>
 `;
   }    
   else if (data === '07/06') {
@@ -31,7 +31,40 @@ if (data === '06/06') {
     <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E23 - T12</span></li> <hr class="filme-separador">
     </ul>
 `;
+  }   
+  else if (data === '10/06') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E24 - T12</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">SWEET TOOTH - E02 - T03</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:50</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">DOCTOR WHO - E07 - T01</span></li> <hr class="filme-separador">
+    <li><span class="horario">21:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ERIC - E06 - T01</span></li> <hr class="filme-separador">
+    </ul>
+`;
   }      
+  else if (data === '11/06') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A CASA DO DRAGÃO - E05 - T01</span> </div> </li> <hr class="filme-separador"> </li>
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E01 - T01</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">SWEET TOOTH - E03 - T03</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:50</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">THE ACOLYTE - E03 - T01</span></li> <hr class="filme-separador">
+    <li><span class="horario">21:30</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - E01 - T02</span></li> <hr class="filme-separador">
+    </ul>
+`;
+  }    
+  else if (data === '12/06') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A CASA DO DRAGÃO - E06 - T01</span> </div> </li> <hr class="filme-separador"> </li>
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">
+    <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E02 - T01</span></li> <hr class="filme-separador">
+    </ul>
+`;
+  }       
   // 16/06 JOGO SPFC BRASILEIRO 16H
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
 
@@ -106,11 +139,11 @@ if (data === '06/06') {
 <li class="filme-poster">
 <img src="imgs//poster-lego.jpg" alt="LEGO® STAR WARS: REBUILD THE GALAXY">
 <div class="filme-texto">
-<span class="dia">SETEMBRO</span>
+<span class="dia">13/09</span>
 <span class="class-0">0</span>
 <span class="filme">LEGO® STAR WARS: REBUILD THE GALAXY</span>
 <div class="filme-texto">
-<span class="class-filme">Filme</span>
+<span class="class-serie">Série</span>
 </div>
 </li>
 <hr class="filme-separador">
