@@ -10,17 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '05/06') {
-    programacaoDiv.innerHTML = `
-    <ul>  
-    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">THE BIG BANG THEORY - E21 - T12</span></li> <hr class="filme-separador">
-    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ERIC - E04 - T01</span></li> <hr class="filme-separador">
-    <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">THE ACOLYTE - E01 - T01</span></li> <hr class="filme-separador">
-    </ul>
-`;
-  }    
-  else if (data === '06/06') {
+if (data === '06/06') {
     programacaoDiv.innerHTML = `
     <ul>  
     <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">SOB AS ÁGUAS DO SENA</span> </div> </li> <hr class="filme-separador"> </li>
@@ -48,44 +38,6 @@ if (data === '05/06') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-acolyte.jpg" alt="THE ACOLYTE">
-<div class="filme-texto">
-<span class="dia">04/06</span>
-<span class="class-14">14</span>
-<span class="filme">THE ACOLYTE</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-sob.jpg" alt="SOB AS ÁGUAS DO SENA">
-<div class="filme-texto">
-<span class="dia">05/06</span>
-<span class="class-16">16</span>
-<span class="filme">SOB AS ÁGUAS DO SENA</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-sweet.jpg" alt="SWEET TOOTH">
-<div class="filme-texto">
-<span class="dia">06/06</span>
-<span class="class-10">10</span>
-<span class="filme">SWEET TOOTH</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T3</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-france.jpg" alt="TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO">
