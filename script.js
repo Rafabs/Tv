@@ -10,18 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
- if (data === '16/06') {
-    programacaoDiv.innerHTML = `
-    <ul>  
-    <li><span class="horario">15:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">
-    <li><span class="horario">18:00</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E05 - T01</span></li> <hr class="filme-separador">
-    <li><span class="horario">18:20</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">SWEET TOOTH - E06 - T03</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:20</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - E05 - T02</span></li> <hr class="filme-separador">
-    <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">
-    </ul>
-`;
-  }     
-  else if (data === '17/06') {
+ if (data === '17/06') {
     programacaoDiv.innerHTML = `
     <ul>  
     <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A CASA DO DRAGÃO - E09 - T01</span> </div> </li> <hr class="filme-separador"> </li>
