@@ -28,6 +28,78 @@ function mostrarProgramacao(button, data) {
     </ul>
 `;
   }    
+  else if (data === '24/06') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E09 - T01</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">SWEET TOOTH - E08 - T03</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:50</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - E06 - T02</span></li> <hr class="filme-separador">
+    </ul>
+    `;
+  }    
+  else if (data === '25/06') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">THE ACOLYTE - E04 - T01</span> </div> </li> <hr class="filme-separador"> </li>    
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E10 - T01</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:50</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - E07 - T02</span></li> <hr class="filme-separador">
+    </ul>
+    `;
+  }    
+  else if (data === '26/06') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">THE ACOLYTE - E05 - T01</span> </div> </li> <hr class="filme-separador"> </li>    
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E11 - T01</span></li> <hr class="filme-separador">
+    </ul>
+`;
+  }    
+  else if (data === '28/06') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E12 - T01</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:50</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - E08 - T02</span></li> <hr class="filme-separador">
+    <li><span class="horario">21:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">SUPACELL - E01 - T01</span></li> <hr class="filme-separador">
+    </ul>
+    `;
+  }    
+  else if (data === '29/06') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A CASA DO DRAGÃO - E01 - T02</span> </div> </li> <hr class="filme-separador"> </li>    
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E13 - T01</span></li> <hr class="filme-separador">
+    <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">SUPACELL - E02 - T01</span></li> <hr class="filme-separador">
+    <li><span class="horario">14:45</span> <span class="label-orig">NAC</span> <span class="class-16">16</span> <span class="filme">CIDADE DE DEUS</span></li> <hr class="filme-separador">
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">        
+    </ul>
+`;
+  }    
+  else if (data === '30/06') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">15:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">     
+    <li><span class="horario">18:00</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E14 - T01</span></li> <hr class="filme-separador">
+    <li><span class="horario">18:20</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">SUPACELL - E03 - T01</span></li> <hr class="filme-separador">
+    <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">     
+    </ul>
+`;
+  }    
+  else if (data === '01/07') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A CASA DO DRAGÃO - E02 - T02</span> </div> </li> <hr class="filme-separador"> </li>    
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E15 - T01</span></li> <hr class="filme-separador">    
+    </ul>
+`;
+  }              
+
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
 
   else if (data === 'em-breve') {
@@ -80,6 +152,19 @@ function mostrarProgramacao(button, data) {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T3</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-laliga.jpg" alt="LALIGA: ALÉM DO CAMPO">
+<div class="filme-texto">
+<span class="dia">JULHO</span>
+<span class="class-12">12</span>
+<span class="filme">LALIGA: ALÉM DO CAMPO</span>
+<div class="filme-texto">
+<span class="class-documentario">Documentário</span>
+<span class="class-temporada">T1</span>
 </div>
 </li>
 <hr class="filme-separador">
