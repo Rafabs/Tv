@@ -101,6 +101,18 @@ function mostrarProgramacao(button, data) {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-pesada.jpg" alt="UM TIRA DA PESADA 4">
+<div class="filme-texto">
+<span class="dia">03/07</span>
+<span class="class-14">14</span>
+<span class="filme">UM TIRA DA PESADA 4</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-imaginarios.jpg" alt="OS IMAGINÁRIOS">
 <div class="filme-texto">
 <span class="dia">05/07</span>
