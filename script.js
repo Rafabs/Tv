@@ -10,17 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
- if (data === '28/06') {
-    programacaoDiv.innerHTML = `
-    <ul>  
-    <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
-    <li><span class="horario">19:15</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E12 - T01</span></li> <hr class="filme-separador">
-    <li><span class="horario">19:35</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - E08 - T02</span></li> <hr class="filme-separador">
-    <li><span class="horario">20:35</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">SUPACELL - E01 - T01</span></li> <hr class="filme-separador">
-    </ul>
-    `;
-  }    
-  else if (data === '29/06') {
+ if (data === '29/06') {
     programacaoDiv.innerHTML = `
     <ul>  
     <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A CASA DO DRAGÃO - E01 - T02</span> </div> </li> <hr class="filme-separador"> </li>    
@@ -57,18 +47,6 @@ function mostrarProgramacao(button, data) {
     programacaoDiv.innerHTML = `    
       <ul>
 
-<li class="filme-poster">
-<img src="imgs//poster-supacell.jpg" alt="SUPACELL">
-<div class="filme-texto">
-<span class="dia">27/06</span>
-<span class="class-16">16</span>
-<span class="filme">SUPACELL</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-pesada.jpg" alt="UM TIRA DA PESADA 4">
