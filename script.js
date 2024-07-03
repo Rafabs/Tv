@@ -13,9 +13,10 @@ function mostrarProgramacao(button, data) {
  if (data === '03/07') {
     programacaoDiv.innerHTML = `
     <ul>  
-    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E16 - T01</span></li> <hr class="filme-separador">    
-    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">SUPACELL - E04 - T01</span></li> <hr class="filme-separador">
+    <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:15</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E16 - T01</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:35</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">SUPACELL - E04 - T01</span></li> <hr class="filme-separador">
+ <li><span class="horario">20:25</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">TTE ACOLYTE - E06 - T01</span></li> <hr class="filme-separador">
     <li><span class="horario">21:15</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">     
     </ul>
 `;
