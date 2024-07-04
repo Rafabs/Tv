@@ -52,7 +52,6 @@ function mostrarProgramacao(button, data) {
   else if (data === '08/07') {
     programacaoDiv.innerHTML = `
     <ul>  
-    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">UM TIRA DA PESADA 4</span> </div> </li> <hr class="filme-separador"> </li>    
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
     <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E20 - T01</span></li> <hr class="filme-separador">    
     </ul>
@@ -61,7 +60,7 @@ function mostrarProgramacao(button, data) {
   else if (data === '09/07') {
     programacaoDiv.innerHTML = `
     <ul>  
-    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TRANSFORMERS: O DESPERTAR DA FERA</span> </div> </li> <hr class="filme-separador"> </li>    
+    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TRANSFORMERS: O DESPERTAR DAS FERAS</span> </div> </li> <hr class="filme-separador"> </li>    
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
     <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E21 - T01</span></li> <hr class="filme-separador">    
     </ul>
@@ -80,19 +79,6 @@ function mostrarProgramacao(button, data) {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-
-<li class="filme-poster">
-<img src="imgs//poster-pesada.jpg" alt="UM TIRA DA PESADA 4">
-<div class="filme-texto">
-<span class="dia">03/07</span>
-<span class="class-14">14</span>
-<span class="filme">UM TIRA DA PESADA 4</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-imaginarios.jpg" alt="OS IMAGINÁRIOS">
@@ -119,6 +105,19 @@ function mostrarProgramacao(button, data) {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-laliga.jpg" alt="LALIGA: ALÉM DO CAMPO">
+<div class="filme-texto">
+<span class="dia">15/07</span>
+<span class="class-12">12</span>
+<span class="filme">LALIGA: ALÉM DO CAMPO</span>
+<div class="filme-texto">
+<span class="class-documentario">Documentário</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-sweet.jpg" alt="SWEET HOME">
 <div class="filme-texto">
 <span class="dia">19/07</span>
@@ -127,19 +126,6 @@ function mostrarProgramacao(button, data) {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T3</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-laliga.jpg" alt="LALIGA: ALÉM DO CAMPO">
-<div class="filme-texto">
-<span class="dia">JULHO</span>
-<span class="class-12">12</span>
-<span class="filme">LALIGA: ALÉM DO CAMPO</span>
-<div class="filme-texto">
-<span class="class-documentario">Documentário</span>
-<span class="class-temporada">T1</span>
 </div>
 </li>
 <hr class="filme-separador">
@@ -158,6 +144,18 @@ function mostrarProgramacao(button, data) {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-orangotango.jpg" alt="A VIDA SECRETA DOS ORANGOTANGOS">
+<div class="filme-texto">
+<span class="dia">22/08</span>
+<span class="class-0">0</span>
+<span class="filme">A VIDA SECRETA DOS ORANGOTANGOS</span>
+<div class="filme-texto">
+<span class="class-documentario">Documentário</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-terminator.jpg" alt="TERMINATOR">
 <div class="filme-texto">
 <span class="dia">29/08</span>
@@ -171,13 +169,38 @@ function mostrarProgramacao(button, data) {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-libertacao.jpg" alt="A LIBERTAÇÃO">
+<div class="filme-texto">
+<span class="dia">30/08</span>
+<span class="class-16">16</span>
+<span class="filme">A LIBERTAÇÃO</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-lego.jpg" alt="LEGO® STAR WARS: REBUILD THE GALAXY">
 <div class="filme-texto">
 <span class="dia">13/09</span>
 <span class="class-10">10</span>
 <span class="filme">LEGO® STAR WARS: REBUILD THE GALAXY</span>
 <div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-.jpg" alt="TOMB RAIDER: A LENDA DE LARA CROFT">
+<div class="filme-texto">
+<span class="dia">10/10</span>
+<span class="class-12">12</span>
+<span class="filme">TOMB RAIDER: A LENDA DE LARA CROFT</span>
+<div class="filme-texto">
 <span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
 </div>
 </li>
 <hr class="filme-separador">
