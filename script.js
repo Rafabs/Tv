@@ -34,7 +34,7 @@ function mostrarProgramacao(button, data) {
     programacaoDiv.innerHTML = `
     <ul>  
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
-    <li><span class="horario">20:40</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">     
+    <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">     
     </ul>
 `;
   }         
