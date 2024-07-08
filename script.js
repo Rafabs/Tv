@@ -14,9 +14,9 @@ function mostrarProgramacao(button, data) {
     programacaoDiv.innerHTML = `
     <ul>  
     <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TRANSFORMERS: O DESPERTAR DAS FERAS</span> </div> </li> <hr class="filme-separador"> </li>    
-    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E21 - T01</span></li> <hr class="filme-separador">    
-    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">THE ACOLYTE - E07 - T01</span></li> <hr class="filme-separador">    
+    <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:15</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E21 - T01</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:35</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">THE ACOLYTE - E07 - T01</span></li> <hr class="filme-separador">    
     </ul>
 `;
   }   
