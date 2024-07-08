@@ -10,15 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
- if (data === '08/07') {
-    programacaoDiv.innerHTML = `
-    <ul>  
-    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E20 - T01</span></li> <hr class="filme-separador">    
-    </ul>
-`;
-  }   
-  else if (data === '09/07') {
+ if (data === '09/07') {
     programacaoDiv.innerHTML = `
     <ul>  
     <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TRANSFORMERS: O DESPERTAR DAS FERAS</span> </div> </li> <hr class="filme-separador"> </li>    
@@ -99,18 +91,6 @@ function mostrarProgramacao(button, data) {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-imaginarios.jpg" alt="OS IMAGINÁRIOS">
-<div class="filme-texto">
-<span class="dia">05/07</span>
-<span class="class-10">10</span>
-<span class="filme">OS IMAGINÁRIOS</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-desaparecidos.jpg" alt="DESAPARECIDOS NA NOITE">
@@ -206,6 +186,18 @@ function mostrarProgramacao(button, data) {
 <span class="dia">13/09</span>
 <span class="class-10">10</span>
 <span class="filme">LEGO® STAR WARS: REBUILD THE GALAXY</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-agatha.jpg" alt="AGATHA DESDE SEMPRE">
+<div class="filme-texto">
+<span class="dia">18/09</span>
+<span class="class-0">0</span>
+<span class="filme">AGATHA DESDE SEMPRE</span>
 <div class="filme-texto">
 <span class="class-filme">Filme</span>
 </div>
