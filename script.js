@@ -10,18 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
- if (data === '07/07') {
-    programacaoDiv.innerHTML = `
-    <ul>  
-    <li><span class="horario">17:20</span> <span class="label-dub">DUB</span> <span class="class-10">10</span> <span class="filme">OS IMAGINÁRIOS</span></li> <hr class="filme-separador">    
-    <li><span class="horario">19:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E19 - T01</span></li> <hr class="filme-separador">    
-    <li><span class="horario">19:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">SUPACELL - E06 - T01</span></li> <hr class="filme-separador">
-    <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">    
-    <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">A CASA DO DRAGÃO - E04 - T02</span></li> <hr class="filme-separador">
-    </ul>
-`;
-  }      
-  else if (data === '08/07') {
+ if (data === '08/07') {
     programacaoDiv.innerHTML = `
     <ul>  
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
