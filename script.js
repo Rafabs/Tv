@@ -168,7 +168,7 @@ function mostrarProgramacao(button, data) {
 <img src="imgs//poster-poço.jpg" alt="O POÇO 2">
 <div class="filme-texto">
 <span class="dia">04/10</span>
-<span class="class-6">6</span>
+<span class="class-16">16</span>
 <span class="filme">O POÇO 2</span>
 <div class="filme-texto">
 <span class="class-filme">Filme</span>
