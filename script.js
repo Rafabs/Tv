@@ -165,6 +165,18 @@ function mostrarProgramacao(button, data) {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-poço.jpg" alt="O POÇO 2">
+<div class="filme-texto">
+<span class="dia">04/10</span>
+<span class="class-6">6</span>
+<span class="filme">O POÇO 2</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-.jpg" alt="TOMB RAIDER: A LENDA DE LARA CROFT">
 <div class="filme-texto">
 <span class="dia">10/10</span>
