@@ -28,19 +28,6 @@ function mostrarProgramacao(button, data) {
       <ul>
 
 <li class="filme-poster">
-<img src="imgs//poster-laliga.jpg" alt="LALIGA: ALÉM DO CAMPO">
-<div class="filme-texto">
-<span class="dia">15/07</span>
-<span class="class-12">12</span>
-<span class="filme">LALIGA: ALÉM DO CAMPO</span>
-<div class="filme-texto">
-<span class="class-documentario">Documentário</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-sweet.jpg" alt="SWEET HOME">
 <div class="filme-texto">
 <span class="dia">19/07</span>
