@@ -91,6 +91,19 @@ function mostrarProgramacao(button, data) {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-hotel.jpg" alt="MEIA-NOITE NO HOTEL PERA PALACE">
+<div class="filme-texto">
+<span class="dia">12/09</span>
+<span class="class-14">14</span>
+<span class="filme">MEIA-NOITE NO HOTEL PERA PALACE</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T2</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-lego.jpg" alt="LEGO® STAR WARS: REBUILD THE GALAXY">
 <div class="filme-texto">
 <span class="dia">13/09</span>
@@ -109,7 +122,8 @@ function mostrarProgramacao(button, data) {
 <span class="class-0">0</span>
 <span class="filme">AGATHA DESDE SEMPRE</span>
 <div class="filme-texto">
-<span class="class-filme">Filme</span>
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
 </div>
 </li>
 <hr class="filme-separador">
