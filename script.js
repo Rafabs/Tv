@@ -49,19 +49,6 @@ function mostrarProgramacao(button, data) {
       <ul>
 
 <li class="filme-poster">
-<img src="imgs//poster-sweet.jpg" alt="SWEET HOME">
-<div class="filme-texto">
-<span class="dia">19/07</span>
-<span class="class-16">16</span>
-<span class="filme">SWEET HOME</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T3</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-umbrella.jpg" alt="THE UMBRELLA ACADEMY">
 <div class="filme-texto">
 <span class="dia">08/08</span>
