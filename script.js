@@ -81,6 +81,7 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">20:50</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">SWEET HOME - E06 - T03</span></li> <hr class="filme-separador">    
     </ul>
 `;
+// PLANETA DOS MACAOOS: O REINADO - A PARTIR 2/8
   }    
   else if (data === '09/08') {
     programacaoDiv.innerHTML = `
