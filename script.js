@@ -10,19 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
- if (data === '27/07') {
-    programacaoDiv.innerHTML = `
-    <ul>  
-    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">LALIGA: ALÉM DO CAMPO - E08 - T01</span> </div> </li> <hr class="filme-separador"> </li>    
-    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-    <li><span class="horario">14:00</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E12 - T02</span></li> <hr class="filme-separador">    
-    <li><span class="horario">14:20</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">SWEET HOME - E04 - T03</span></li> <hr class="filme-separador">    
-    <li><span class="horario">15:10</span> <span class="label-leg">LEG</span> <span class="class-0">0</span> <span class="filme"> SESSÃO CLÁSSICOS DO CINEMA</span></li> <hr class="filme-separador">    
-    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
-    </ul>
-`;
-  }   
-  else if (data === '28/07') {
+ if (data === '28/07') {
     programacaoDiv.innerHTML = `
     <ul>  
     <li><span class="horario">19:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E13 - T02</span></li> <hr class="filme-separador">    
