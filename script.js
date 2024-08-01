@@ -67,6 +67,36 @@ function mostrarProgramacao(button, data) {
     </ul>
 `;
   }
+  else if (data === '10/08') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-dub">DUB</span> <span class="class-10">10</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">DENTRO DA MENTE DE UM CACHORRO</span> </div> </li> <hr class="filme-separador"> </li>    
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E22 - T02</span></li> <hr class="filme-separador">    
+    <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">THE UMBRELLA ACADEMY - E02 - T04</span></li> <hr class="filme-separador">    
+    <li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-0">0</span> <span class="filme">SESSÃO CLÁSSICOS</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+    </ul>
+`;
+  }  
+  else if (data === '11/08') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">15:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">    
+    <li><span class="horario">18:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E01 - T03</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:30</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">THE UMBRELLA ACADEMY - E03 - T04</span></li> <hr class="filme-separador">    
+    <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">    
+    </ul>
+`;
+  }    
+  else if (data === '12/08') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E02 - T03</span></li> <hr class="filme-separador">    
+    </ul>
+`;
+  }      
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
 
   else if (data === 'em-breve') {
@@ -87,10 +117,22 @@ function mostrarProgramacao(button, data) {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-cachorro.jpg" alt="DENTRO DA MENTE DE UM CACHORRO">
+<div class="filme-texto">
+<span class="dia">08/08</span>
+<span class="class-10">10</span>
+<span class="filme">DENTRO DA MENTE DE UM CACHORRO</span>
+<div class="filme-texto">
+<span class="class-documentario">Documentário</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-orangotango.jpg" alt="A VIDA SECRETA DOS ORANGOTANGOS">
 <div class="filme-texto">
 <span class="dia">22/08</span>
-<span class="class-0">0</span>
+<span class="class-10">10</span>
 <span class="filme">A VIDA SECRETA DOS ORANGOTANGOS</span>
 <div class="filme-texto">
 <span class="class-documentario">Documentário</span>
