@@ -64,7 +64,7 @@ function mostrarProgramacao(button, data) {
   else if (data === '12/08') {
     programacaoDiv.innerHTML = `
     <ul>  
-    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">FREE GUY: ASSUMINDO O CONTROLE</span> </div> </li> <hr class="filme-separador"> </li>    
+    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">FREE GUY: ASSUMINDO O CONTROLE (2021)</span> </div> </li> <hr class="filme-separador"> </li>    
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
     <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E02 - T03</span></li> <hr class="filme-separador">    
     </ul>
