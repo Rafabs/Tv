@@ -201,6 +201,19 @@ function mostrarProgramacao(button, data) {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-pinguim.jpg" alt="PINGUIM">
+<div class="filme-texto">
+<span class="dia">19/09</span>
+<span class="class-16">16</span>
+<span class="filme">PINGUIM</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-poço.jpg" alt="O POÇO 2">
 <div class="filme-texto">
 <span class="dia">04/10</span>
