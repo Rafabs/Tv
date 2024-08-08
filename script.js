@@ -58,31 +58,6 @@ function mostrarProgramacao(button, data) {
       <ul>
 
 <li class="filme-poster">
-<img src="imgs//poster-umbrella.jpg" alt="THE UMBRELLA ACADEMY">
-<div class="filme-texto">
-<span class="dia">08/08</span>
-<span class="class-14">14</span>
-<span class="filme">THE UMBRELLA ACADEMY</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T4</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-cachorro.jpg" alt="DENTRO DA MENTE DE UM CACHORRO">
-<div class="filme-texto">
-<span class="dia">08/08</span>
-<span class="class-10">10</span>
-<span class="filme">DENTRO DA MENTE DE UM CACHORRO</span>
-<div class="filme-texto">
-<span class="class-documentario">Documentário</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-orangotango.jpg" alt="A VIDA SECRETA DOS ORANGOTANGOS">
 <div class="filme-texto">
 <span class="dia">22/08</span>
