@@ -10,17 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
- if (data === '09/08') {
-    programacaoDiv.innerHTML = `
-    <ul>  
-    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E21 - T02</span></li> <hr class="filme-separador">    
-    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">THE UMBRELLA ACADEMY - E01 - T04</span></li> <hr class="filme-separador">    
-    </ul>
-`;
-  }
-  else if (data === '10/08') {
+ if (data === '10/08') {
     programacaoDiv.innerHTML = `
     <ul>  
     <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-dub">DUB</span> <span class="class-10">10</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">DENTRO DA MENTE DE UM CACHORRO</span> </div> </li> <hr class="filme-separador"> </li>    
@@ -50,7 +40,72 @@ function mostrarProgramacao(button, data) {
     <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E02 - T03</span></li> <hr class="filme-separador">    
     </ul>
 `;
+  }     
+  else if (data === '14/08') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E03 - T03</span></li> <hr class="filme-separador">    
+    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">THE UMBRELLA ACADEMY - E04 - T04</span></li> <hr class="filme-separador">    
+    </ul>
+`;
+  }  
+  else if (data === '15/08') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">17:35</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E04 - T03</span></li> <hr class="filme-separador">    
+    <li><span class="horario">17:55</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">THE UMBRELLA ACADEMY - E05 - T04</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">LIBERTADORES</span></li> <hr class="filme-separador">    
+    </ul>
+`;
+  }  
+  else if (data === '16/08') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E05 - T03</span></li> <hr class="filme-separador">    
+    </ul>
+`;
+  }    
+  else if (data === '19/08') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E06 - T03</span></li> <hr class="filme-separador">    
+    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">THE UMBRELLA ACADEMY - E06 - T04</span></li> <hr class="filme-separador">    
+    </ul>
+`;
+  }    
+  else if (data === '20/08') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E07 - T03</span></li> <hr class="filme-separador">    
+    </ul>
+`;
+  }    
+  else if (data === '21/08') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E08 - T03</span></li> <hr class="filme-separador">    
+    </ul>
+`;
   }      
+  else if (data === '23/08') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E09 - T03</span></li> <hr class="filme-separador">    
+    <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-10">10</span> <span class="filme">A VIDA SECRETA DOS ORANGOTANGOS - E01 - T01</span></li> <hr class="filme-separador">    
+    </ul>
+`;
+  }    
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
 
   else if (data === 'em-breve') {
@@ -112,6 +167,18 @@ function mostrarProgramacao(button, data) {
 <span class="dia">30/08</span>
 <span class="class-16">16</span>
 <span class="filme">A LIBERTAÇÃO</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-apollo.jpg" alt="APOLLO 13: SOBREVIVENDO NO ESPAÇO">
+<div class="filme-texto">
+<span class="dia">05/09</span>
+<span class="class-14">14</span>
+<span class="filme">APOLLO 13: SOBREVIVENDO NO ESPAÇO</span>
 <div class="filme-texto">
 <span class="class-filme">Filme</span>
 </div>
