@@ -39,7 +39,44 @@ function mostrarProgramacao(button, data) {
   else if (data === '24/08') {
     programacaoDiv.innerHTML = `
     <ul>  
-    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-dub">DUB</span> <span class="class-10">10</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A VIDA SECRETA DOS ORANGOTANGOS - E01 - T01</span> </div> </li> <hr class="filme-separador"> </li>    
+    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-dub">DUB</span> <span class="class-10">10</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A VIDA SECRETA DOS ORANGOTANGOS</span> </div> </li> <hr class="filme-separador"> </li>    
+    </ul>
+`;
+  }    
+  else if (data === '26/08') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">OS NOVATOS</span> </div> </li> <hr class="filme-separador"> </li>    
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E10 - T03</span></li> <hr class="filme-separador">    
+    </ul>
+`;
+  }   
+  else if (data === '28/08') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E11 - T03</span></li> <hr class="filme-separador">    
+    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">UNTOLD: O LADRÃO DE SINAIS</span></li> <hr class="filme-separador">    
+    </ul>
+`;
+  }       
+  else if (data === '29/08') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E12 - T03</span></li> <hr class="filme-separador">    
+    <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">TERMINATOR - E01 - T01</span></li> <hr class="filme-separador">    
+    </ul>
+`;
+  }    
+  else if (data === '30/08') {
+    programacaoDiv.innerHTML = `
+    <ul>  
+    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+    <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E13 - T03</span></li> <hr class="filme-separador">    
     </ul>
 `;
   }     
@@ -186,7 +223,7 @@ function mostrarProgramacao(button, data) {
 <hr class="filme-separador">
 
 <li class="filme-poster">
-<img src="imgs//poster-.jpg" alt="TOMB RAIDER: A LENDA DE LARA CROFT">
+<img src="imgs//poster-tomb.jpg" alt="TOMB RAIDER: A LENDA DE LARA CROFT">
 <div class="filme-texto">
 <span class="dia">10/10</span>
 <span class="class-12">12</span>
