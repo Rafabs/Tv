@@ -10,16 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
  
- if (data === '20/08') {
-    programacaoDiv.innerHTML = `
-    <ul>  
-    <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-    <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
-    <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E07 - T03</span></li> <hr class="filme-separador">    
-    </ul>
-`;
-  }    
-  else if (data === '21/08') {
+ if (data === '21/08') {
     programacaoDiv.innerHTML = `
     <ul>  
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -241,6 +232,32 @@ function mostrarProgramacao(button, data) {
 <span class="dia">29/11</span>
 <span class="class-12">12</span>
 <span class="filme">SENNA</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-star.jpg" alt="STAR WARS: SKELETON CREW">
+<div class="filme-texto">
+<span class="dia">03/12</span>
+<span class="class-0">0</span>
+<span class="filme">STAR WARS: SKELETON CREW</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-win.jpg" alt="WIN OR LOSE">
+<div class="filme-texto">
+<span class="dia">06/12</span>
+<span class="class-0">0</span>
+<span class="filme">WIN OR LOSE</span>
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
