@@ -10,14 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
  
- if (data === '24/08') {
-    programacaoDiv.innerHTML = `
-    <ul>  
-    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-dub">DUB</span> <span class="class-10">10</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A VIDA SECRETA DOS ORANGOTANGOS</span> </div> </li> <hr class="filme-separador"> </li>    
-    </ul>
-`;
-  }    
-  else if (data === '26/08') {
+ if (data === '26/08') {
     programacaoDiv.innerHTML = `
     <ul>  
     <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">OS NOVATOS</span> </div> </li> <hr class="filme-separador"> </li>    
