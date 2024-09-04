@@ -23,7 +23,6 @@ function mostrarProgramacao(button, data) {
   else if (data === '05/09') {
     programacaoDiv.innerHTML = `
     <ul>  
-    <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A LIBERTAÇÃO</span> </div> </li> <hr class="filme-separador"> </li>    
     <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
     <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
     <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E17 - T03</span></li> <hr class="filme-separador">    
@@ -77,18 +76,6 @@ else if (data === '09/09') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-libertacao.jpg" alt="A LIBERTAÇÃO">
-<div class="filme-texto">
-<span class="dia">30/08</span>
-<span class="class-16">16</span>
-<span class="filme">A LIBERTAÇÃO</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-apollo.jpg" alt="APOLLO 13: SOBREVIVENDO NO ESPAÇO">
