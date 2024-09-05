@@ -74,18 +74,6 @@ else if (data === '12/09') {
       <ul>
 
 <li class="filme-poster">
-<img src="imgs//poster-apollo.jpg" alt="APOLLO 13: SOBREVIVENDO NO ESPAÇO">
-<div class="filme-texto">
-<span class="dia">05/09</span>
-<span class="class-14">14</span>
-<span class="filme">APOLLO 13: SOBREVIVENDO NO ESPAÇO</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-hotel.jpg" alt="MEIA-NOITE NO HOTEL PERA PALACE">
 <div class="filme-texto">
 <span class="dia">12/09</span>
