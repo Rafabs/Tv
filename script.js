@@ -162,6 +162,18 @@ else if (data === '12/09') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-joy.jpg" alt="JOY">
+<div class="filme-texto">
+<span class="dia">22/11</span>
+<span class="class-12">12</span>
+<span class="filme">JOY</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-senna.jpg" alt="SENNA">
 <div class="filme-texto">
 <span class="dia">29/11</span>
@@ -196,6 +208,19 @@ else if (data === '12/09') {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-round.jpg" alt="ROUND 6">
+<div class="filme-texto">
+<span class="dia">26/12</span>
+<span class="class-18">18</span>
+<span class="filme">ROUND 6</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T2</span>
 </div>
 </li>
 <hr class="filme-separador">
