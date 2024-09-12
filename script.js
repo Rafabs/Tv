@@ -10,15 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
  
-   if (data === '11/09') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E02 - T04</span></li> <hr class="filme-separador">    
-   </ul>
-`;
-}  
-else if (data === '12/09') {
+ if (data === '12/09') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
@@ -33,19 +25,6 @@ else if (data === '12/09') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-hotel.jpg" alt="MEIA-NOITE NO HOTEL PERA PALACE">
-<div class="filme-texto">
-<span class="dia">12/09</span>
-<span class="class-14">14</span>
-<span class="filme">MEIA-NOITE NO HOTEL PERA PALACE</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T2</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-lego.jpg" alt="LEGO® STAR WARS: REBUILD THE GALAXY">
