@@ -20,6 +20,43 @@ function mostrarProgramacao(button, data) {
   </ul>
 `;
 }  
+  else if (data === '13/09') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E04 - T04</span></li> <hr class="filme-separador">    
+  </ul>
+`;
+}  
+else if (data === '16/09') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E05 - T04</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">MEIA-NOITE NO HOTEL PERA PALACE - E02 - T01</span></li> <hr class="filme-separador">    
+  </ul>
+`;
+}  
+else if (data === '17/09') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">LEGO® STAR WARS: REBUILD THE GALAXY</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E06 - T04</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">MEIA-NOITE NO HOTEL PERA PALACE - E03 - T01</span></li> <hr class="filme-separador">    
+  </ul>
+`;
+}
+else if (data === '18/09') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E07 - T04</span></li> <hr class="filme-separador">    
+  </ul>
+`;
+}
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
 
   else if (data === 'em-breve') {
@@ -82,6 +119,19 @@ function mostrarProgramacao(button, data) {
 <span class="dia">10/10</span>
 <span class="class-12">12</span>
 <span class="filme">TOMB RAIDER: A LENDA DE LARA CROFT</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-tremor.jpg" alt="A ÚLTIMA NOITE EM TREMOR">
+<div class="filme-texto">
+<span class="dia">25/10</span>
+<span class="class-18">18</span>
+<span class="filme">A ÚLTIMA NOITE EM TREMOR</span>
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
