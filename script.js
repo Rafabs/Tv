@@ -46,18 +46,6 @@ else if (data === '18/09') {
       <ul>
 
 <li class="filme-poster">
-<img src="imgs//poster-lego.jpg" alt="LEGO® STAR WARS: REBUILD THE GALAXY">
-<div class="filme-texto">
-<span class="dia">13/09</span>
-<span class="class-10">10</span>
-<span class="filme">LEGO® STAR WARS: REBUILD THE GALAXY</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-agatha.jpg" alt="AGATHA DESDE SEMPRE">
 <div class="filme-texto">
 <span class="dia">18/09</span>
