@@ -15,8 +15,9 @@ function mostrarProgramacao(button, data) {
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E09 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">AGATHA DESDE SEMPRE - E02 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">AGATHA DESDE SEMPRE - E02 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">14:25</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">PINGUIM - E01 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">15:05</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">MEIA-NOITE NO HOTEL PERA PALACE - E05 - T02</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
   </ul>
 `;
@@ -43,7 +44,8 @@ else if (data === '25/09') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E12 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">AGATHA DESDE SEMPRE - E03 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">AGATHA DESDE SEMPRE - E03 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">MEIA-NOITE NO HOTEL PERA PALACE - E06 - T02</span></li> <hr class="filme-separador">    
   </ul>
 `;
 }
@@ -53,6 +55,7 @@ else if (data === '26/09') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E13 - T04</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">MEIA-NOITE NO HOTEL PERA PALACE - E07 - T02</span></li> <hr class="filme-separador">    
   </ul>
 `;
 }
@@ -89,7 +92,8 @@ else if (data === '04/10') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E18 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">23:45</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">AGATHA DESDE SEMPRE - E04 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">AGATHA DESDE SEMPRE - E04 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">MEIA-NOITE NO HOTEL PERA PALACE - E08 - T02</span></li> <hr class="filme-separador">    
   </ul>
 `;
 }
@@ -126,7 +130,7 @@ else if (data === '09/10') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E04 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">23:45</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">AGATHA DESDE SEMPRE - E05 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">23:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">AGATHA DESDE SEMPRE - E05 - T01</span></li> <hr class="filme-separador">    
   </ul>
 `;
 }
@@ -181,7 +185,7 @@ else if (data === '18/10') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E10 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">23:45</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">AGATHA DESDE SEMPRE - E06 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">23:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">AGATHA DESDE SEMPRE - E06 - T01</span></li> <hr class="filme-separador">    
   </ul>
 `;
 }
@@ -217,7 +221,7 @@ else if (data === '23/10') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E13 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">23:45</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">AGATHA DESDE SEMPRE - E07 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">23:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">AGATHA DESDE SEMPRE - E07 - T01</span></li> <hr class="filme-separador">    
   </ul>
 `;
 }
@@ -272,7 +276,7 @@ else if (data === '01/11') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E19 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">AGATHA DESDE SEMPRE - E08 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">AGATHA DESDE SEMPRE - E08 - T01</span></li> <hr class="filme-separador">    
   </ul>
 `;
 }
@@ -281,7 +285,7 @@ else if (data === '02/11') {
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E20 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">AGATHA DESDE SEMPRE - E09 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">AGATHA DESDE SEMPRE - E09 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
   </ul>
 `;
@@ -315,32 +319,6 @@ else if (data === '11/11') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-agatha.jpg" alt="AGATHA DESDE SEMPRE">
-<div class="filme-texto">
-<span class="dia">18/09</span>
-<span class="class-12">12</span>
-<span class="filme">AGATHA DESDE SEMPRE</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-pinguim.jpg" alt="PINGUIM">
-<div class="filme-texto">
-<span class="dia">19/09</span>
-<span class="class-16">16</span>
-<span class="filme">PINGUIM</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-poço.jpg" alt="O POÇO 2">
