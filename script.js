@@ -22,10 +22,11 @@ else if (data === '25/09') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E12 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">AGATHA DESDE SEMPRE - E03 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">MEIA-NOITE NO HOTEL PERA PALACE - E06 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">18:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E12 - T04</span></li> <hr class="filme-separador">    
+  <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:15</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">AGATHA DESDE SEMPRE - E03 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">MEIA-NOITE NO HOTEL PERA PALACE - E06 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">21:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">LIBERTADORES</span></li> <hr class="filme-separador">    
   </ul>
 `;
 }
@@ -83,6 +84,7 @@ else if (data === '05/10') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E01 - T05</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">O POÇO 2</span></li> <hr class="filme-separador">    
+  <li><span class="horario">15:45</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">DIVERTIDAMENTE 2</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
   </ul>
 `;
