@@ -10,26 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
  
- if (data === '01/10') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E16 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E15 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:20</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">PINGUIM - E02 - T01</span></li> <hr class="filme-separador">    
- </ul>
-`;
-}
-else if (data === '02/10') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E17 - T04</span></li> <hr class="filme-separador">    
-  </ul>
-`;
-}
-else if (data === '04/10') {
+if (data === '04/10') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -47,7 +28,7 @@ else if (data === '05/10') {
   <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E01 - T05</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">O POÇO 2</span></li> <hr class="filme-separador">    
   <li><span class="horario">15:45</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">DIVERTIDAMENTE 2</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+  <li><span class="horario">18:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">    
   </ul>
 `;
 }
@@ -266,30 +247,6 @@ else if (data === '11/11') {
       <ul>
 
 <li class="filme-poster">
-<img src="imgs//poster-prisioneiro.jpg" alt="PRISIONEIRO DO CAOS">
-<div class="filme-texto">
-<span class="dia">03/10</span>
-<span class="class-14">14</span>
-<span class="filme">PRISIONEIRO DO CAOS</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-poço.jpg" alt="O POÇO 2">
-<div class="filme-texto">
-<span class="dia">04/10</span>
-<span class="class-16">16</span>
-<span class="filme">O POÇO 2</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-tomb.jpg" alt="TOMB RAIDER: A LENDA DE LARA CROFT">
 <div class="filme-texto">
 <span class="dia">10/10</span>
@@ -423,6 +380,19 @@ else if (data === '11/11') {
 <span class="filme">AQUELE NATAL</span>
 <div class="filme-texto">
 <span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-casa.jpg" alt="QUEM VÊ CASA...">
+<div class="filme-texto">
+<span class="dia">12/12</span>
+<span class="class-16">16</span>
+<span class="filme">QUEM VÊ CASA...</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
 </div>
 </li>
 <hr class="filme-separador">
