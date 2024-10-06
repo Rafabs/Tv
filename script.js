@@ -14,8 +14,8 @@ function mostrarProgramacao(button, data) {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">19:10</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">PRISIONEIRO DO CAOS</span></li> <hr class="filme-separador">    
-  <li><span class="horario">21:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">PINGUIM - E03 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">22:00</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E02 - T05</span></li> <hr class="filme-separador">    
+  <li><span class="horario">21:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E02 - T05</span></li> <hr class="filme-separador">    
+  <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">PINGUIM - E03 - T01</span></li> <hr class="filme-separador">    
   </ul>
 `;
 }
