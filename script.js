@@ -10,16 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
  
- if (data === '06/10') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">19:10</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">PRISIONEIRO DO CAOS</span></li> <hr class="filme-separador">    
-  <li><span class="horario">21:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E02 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">PINGUIM - E03 - T01</span></li> <hr class="filme-separador">    
-  </ul>
-`;
-}
-else if (data === '07/10') {
+if (data === '07/10') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -41,9 +32,10 @@ else if (data === '10/10') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E05 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">TOMB RAIDER: A LENDA DE LARA CROFT - E01 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">18:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+  <li><span class="horario">18:50</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E05 - T05</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">TOMB RAIDER: A LENDA DE LARA CROFT - E01 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:50</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">ELIMINATÓRIAS DA COPA</span></li> <hr class="filme-separador">    
   </ul>
 `;
 }
@@ -222,19 +214,6 @@ else if (data === '11/11') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-tomb.jpg" alt="TOMB RAIDER: A LENDA DE LARA CROFT">
-<div class="filme-texto">
-<span class="dia">10/10</span>
-<span class="class-12">12</span>
-<span class="filme">TOMB RAIDER: A LENDA DE LARA CROFT</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-tremor.jpg" alt="A ÚLTIMA NOITE EM TREMOR">
