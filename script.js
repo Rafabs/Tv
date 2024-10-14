@@ -149,6 +149,7 @@ else if (data === '01/11') {
 else if (data === '02/11') {
   programacaoDiv.innerHTML = `
   <ul>  
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">O QUE TIVER QUE SER</span> </div> </li> <hr class="filme-separador"> </li>
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E20 - T05</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">AGATHA DESDE SEMPRE - E09 - T01</span></li> <hr class="filme-separador">    
@@ -220,6 +221,18 @@ else if (data === '11/11') {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-tiver.jpg" alt="O QUE TIVER QUE SER">
+<div class="filme-texto">
+<span class="dia">01/11</span>
+<span class="class-14">14</span>
+<span class="filme">O QUE TIVER QUE SER</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
 </div>
 </li>
 <hr class="filme-separador">
