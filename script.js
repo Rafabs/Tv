@@ -289,19 +289,6 @@ else if (data === '11/11') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
-<img src="imgs//poster-win.jpg" alt="WIN OR LOSE">
-<div class="filme-texto">
-<span class="dia">06/12</span>
-<span class="class-livre">L</span>
-<span class="filme">WIN OR LOSE</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-natal.jpg" alt="AQUELE NATAL">
 <div class="filme-texto">
 <span class="dia">06/12</span>
@@ -335,6 +322,19 @@ else if (data === '11/11') {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T2</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-win.jpg" alt="WIN OR LOSE">
+<div class="filme-texto">
+<span class="dia">2025</span>
+<span class="class-livre">L</span>
+<span class="filme">WIN OR LOSE</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
 </div>
 </li>
 <hr class="filme-separador">
