@@ -403,21 +403,3 @@ function checkAndRemoveFirstButton() {
 
 // Chama a função para verificar a cada segundo
 setInterval(checkAndRemoveFirstButton, 1000);
-
-
-//  A DEFINIR
-/*
- 
-<li class="filme-poster">
-<img src="imgs//poster-ironheart.jpg" alt="Ironheart">
-<div class="filme-texto">
-<span class="dia">EM BREVE</span>
-<span class="class-0">0</span>
-<span class="filme">IRONHEART - T01</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-      <li><span class="dia">EM BREVE</span> <span class="class-0">0</span> <span class="filme">THE PENGUIN - T01</span></li>      
-      <hr class="filme-separador">
-*/

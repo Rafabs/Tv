@@ -522,3 +522,15 @@ footer {
   margin:0% 3%;
   }
   }
+
+.poster-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.program-poster {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
