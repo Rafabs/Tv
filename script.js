@@ -122,6 +122,18 @@ else if (data === '11/11') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-conspiracao.jpg" alt="A CONSPIRAÇÃO CONSUMISTA">
+<div class="filme-texto">
+<span class="dia">20/11</span>
+<span class="class-12">12</span>
+<span class="filme">A CONSPIRAÇÃO CONSUMISTA</span>
+<div class="filme-texto">
+<span class="class-documentario">Documentário</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-piano.jpg" alt="PIANO DE FAMÍLIA">
 <div class="filme-texto">
 <span class="dia">22/11</span>
@@ -205,6 +217,19 @@ else if (data === '11/11') {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T2</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-indomavel.jpg" alt="TERRA INDOMÁVEL">
+<div class="filme-texto">
+<span class="dia">09/01</span>
+<span class="class-18">18</span>
+<span class="filme">TERRA INDOMÁVEL</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
 </div>
 </li>
 <hr class="filme-separador">
