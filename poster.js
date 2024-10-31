@@ -6,13 +6,6 @@ function exibirProgramacao() {
     
     var diasProgramacao = [    
         {
-            data: "2024-10-30",
-            sessoes: [
-                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "13:25", titulo: "YOUNG SHELDON - E21 - T05", poster: "poster-sheldon.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
-            ]
-        },
-        {
             data: "2024-11-01",
             sessoes: [
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
