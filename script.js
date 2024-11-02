@@ -10,26 +10,11 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '01/11') {
+if (data === '02/11') {
   programacaoDiv.innerHTML = `
   <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E22 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">AGATHA DESDE SEMPRE - E08 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">A ÚLTIMA NOITE EM TREMOR - E02 - T01</span></li> <hr class="filme-separador">    
-  </ul>
-`;
-}
-else if (data === '02/11') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">O QUE TIVER QUE SER</span> </div> </li> <hr class="filme-separador"> </li>
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E01 - T06</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">AGATHA DESDE SEMPRE - E09 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">14:25</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">A ÚLTIMA NOITE EM TREMOR - E03 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
   </ul>
 `;
 }
@@ -38,24 +23,75 @@ else if (data === '03/11') {
   <ul>  
   <li><span class="horario">18:20</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">ABDUÇÃO EM MANHATTAN - E01 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">A ÚLTIMA NOITE EM TREMOR - E04 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:10</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E02 - T06</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">    
   <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">PINGUIM - E07 - T01</span></li> <hr class="filme-separador">    
   </ul>
 `;
 }
-else if (data === '04/11') {
+else if (data === '05/11') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">O QUE TIVER QUE SER</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E03 - T06</span></li> <hr class="filme-separador">    
+  </ul>
+`;
+}
+else if (data === '06/11') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E03 - T07</span></li> <hr class="filme-separador">    
+  <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:15</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E04 - T06</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:35</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">A ÚLTIMA NOITE EM TREMOR - E05 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">ABDUÇÃO EM MANHATTAN - E03 - T01</span></li> <hr class="filme-separador">    
+  </ul>
+`;
+}
+else if (data === '07/11') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">PEDRO PÁRAMO</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E05 - T06</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">A ÚLTIMA NOITE EM TREMOR - E06 - T01</span></li> <hr class="filme-separador">    
+  </ul>
+`;
+}
+else if (data === '08/11') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E06 - T06</span></li> <hr class="filme-separador">    
   </ul>
 `;
 }
 else if (data === '11/11') {
   programacaoDiv.innerHTML = `
   <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E07 - T06</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">PINGUIM - E08 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:50</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">A ÚLTIMA NOITE EM TREMOR - E07 - T01</span></li> <hr class="filme-separador">    
+  </ul>
+`;
+}
+else if (data === '12/11') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E08 - T06</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">A ÚLTIMA NOITE EM TREMOR - E08 - T01</span></li> <hr class="filme-separador">    
+  </ul>
+`;
+}
+else if (data === '13/11') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:15</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E09 - T06</span></li> <hr class="filme-separador">    
   </ul>
 `;
 }
@@ -64,31 +100,6 @@ else if (data === '11/11') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-abducao.jpg" alt="ABDUÇÃO EM MANHATTAN">
-<div class="filme-texto">
-<span class="dia">30/10</span>
-<span class="class-12">12</span>
-<span class="filme">ABDUÇÃO EM MANHATTAN</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-tiver.jpg" alt="O QUE TIVER QUE SER">
-<div class="filme-texto">
-<span class="dia">01/11</span>
-<span class="class-14">14</span>
-<span class="filme">O QUE TIVER QUE SER</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-paramo.jpg" alt="PEDRO PÁRAMO">
@@ -165,6 +176,19 @@ else if (data === '11/11') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-churchill.jpg" alt="churchill">
+<div class="filme-texto">
+<span class="dia">04/12</span>
+<span class="class-16">16</span>
+<span class="filme">CHURCHILL EM GUERRA</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-natal.jpg" alt="AQUELE NATAL">
 <div class="filme-texto">
 <span class="dia">06/12</span>
@@ -182,6 +206,19 @@ else if (data === '11/11') {
 <span class="dia">12/12</span>
 <span class="class-16">16</span>
 <span class="filme">QUEM VÊ CASA...</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-1992.jpg" alt="1992">
+<div class="filme-texto">
+<span class="dia">13/12</span>
+<span class="class-16">16</span>
+<span class="filme">1992</span>
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
