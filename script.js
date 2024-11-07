@@ -65,18 +65,6 @@ else if (data === '13/11') {
       <ul>
 
 <li class="filme-poster">
-<img src="imgs//poster-paramo.jpg" alt="PEDRO PÁRAMO">
-<div class="filme-texto">
-<span class="dia">06/11</span>
-<span class="class-16">16</span>
-<span class="filme">PEDRO PÁRAMO</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-conspiracao.jpg" alt="A CONSPIRAÇÃO CONSUMISTA">
 <div class="filme-texto">
 <span class="dia">20/11</span>
