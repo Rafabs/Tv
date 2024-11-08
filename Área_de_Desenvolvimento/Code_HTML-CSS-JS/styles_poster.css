@@ -1,0 +1,165 @@
+/* Fundo preto */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Estilo para o título do programa */
+#program-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #646464; /* Cor personalizada para o título */
+}
+
+/* Estilo do pôster com tamanho fixo */
+#poster {
+    width: 440px; /* Largura padrão para o pôster */
+    height: 590px; /* Altura padrão para o pôster */
+    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner sem distorção */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Estilo para os detalhes da programação */
+#programacao ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#programacao li {
+    font-size: 1.2em;
+    color: #ff9100;
+    margin: 5px 0;
+}
+
+/* Estilo para horário e detalhes do programa */
+
+.filme {
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+.label-orig, .label-dub, .label-leg {
+    background-color: #333;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    margin-right: 5px;
+}
+
+.class-livre {
+    color: #ffffff;
+    padding: 5px;
+    font-weight: 700;
+    background-color: #0ea477;     
+    border-radius: 5px;
+    max-width: 26px
+  }  
+  
+  .class-10 {
+    color: #ffffff;
+    padding: 5px;
+    font-weight: 700;
+    background-color: #0095de;     
+    border-radius: 5px;
+    max-width: 26px
+  } 
+  
+  .class-12 {
+    color: #ffffff;
+    padding: 5px;
+    font-weight: 700;
+    background-color: #ffca00;     
+    border-radius: 5px;
+    max-width: 26px  
+  }   
+  
+  .class-14 {
+    color: #ffffff;
+    padding: 5px;
+    font-weight: 700;
+    background-color: #f98300;     
+    border-radius: 5px;
+    max-width: 26px
+  }   
+  
+  .class-16 {
+    padding: 5px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ef2517;
+    border-radius: 5px;
+    max-width: 26px
+  }     
+     
+  .class-18 {
+    color: #ffffff;
+    padding: 5px;
+    font-weight: 700;
+    background-color: #242424;     
+    border-radius: 5px;
+    max-width: 26px
+  }     
+     
+  .class-0 {
+    color: #000000;
+    padding: 5px;
+    font-weight: 700;
+    background-color: #ffffff;     
+    border-radius: 5px;
+    max-width: 26px
+  } 
+
+  .label-dub {
+    color: #ffffff;
+    margin: 0;
+    padding: 5px;
+    background-color: #7a1600;     
+    border-radius: 5px;
+    text-align: center;
+    font-style: arial;  
+  }
+  
+  .label-leg {
+    color: #ffffff;
+    margin: 0;
+    padding: 5px;
+    background-color: #7a1600;     
+    border-radius: 5px;
+    text-align: center;
+    font-style: arial;
+  } 
+  
+  .label-orig {
+    color: #ffffff;
+    margin: 0;
+    padding: 5px;
+    background-color: #7a1600;     
+    border-radius: 5px;
+    text-align: center;
+    font-style: arial;
+  }   
+
+  .horario {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+    border:solid;
+    border-radius: 10px;
+    text-align: center;
+    font-style: arial;
+    /* Removemos a propriedade list-style-type que adicionava os pontos */
+    list-style-type: none;
+    display: inline; /* Adicionando para ficar em uma única linha */
+  }  
