@@ -4,15 +4,7 @@ function exibirProgramacao() {
     var programacaoDiv = document.getElementById("programacao");
     var now = new Date();
     
-    var diasProgramacao = [                                                      
-        {
-            data: "2024-11-17",
-            sessoes: [
-                { horario: "18:00", titulo: "DEADPOOL & WOLVERINE", poster: "poster-deadpool.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
-                { horario: "20:10", titulo: "YOUNG SHELDON", poster: "poster-sheldon.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
-                { horario: "20:30", titulo: "FANTÁSTICO", poster: "poster-fantastico.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-            ]
-        },                            
+    var diasProgramacao = [                                                                         
         {
             data: "2024-11-18",
             sessoes: [
