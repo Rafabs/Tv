@@ -55,30 +55,6 @@ else if (data === '30/11') {
       <ul>
 
 <li class="filme-poster">
-<img src="imgs//poster-piano.jpg" alt="PIANO DE FAMÍLIA">
-<div class="filme-texto">
-<span class="dia">22/11</span>
-<span class="class-12">12</span>
-<span class="filme">PIANO DE FAMÍLIA</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-joy.jpg" alt="JOY">
-<div class="filme-texto">
-<span class="dia">22/11</span>
-<span class="class-12">12</span>
-<span class="filme">JOY</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-senna.jpg" alt="SENNA">
 <div class="filme-texto">
 <span class="dia">29/11</span>
