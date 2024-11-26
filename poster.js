@@ -11,20 +11,20 @@ function exibirProgramacao() {
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
                 { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
                 { horario: "19:40", titulo: "YOUNG SHELDON", poster: "poster-sheldon.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
-                { horario: "23:59", titulo: "PIANO DE FAMÍLIA", poster: "poster-piano.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-12">12</span>` },
             ]
         },   
         {
             data: "2024-11-26",
             sessoes: [
+                { horario: "23:59", titulo: "PIANO DE FAMÍLIA", poster: "poster-piano.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-12">12</span>` },
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
                 { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "23:59", titulo: "JOY", poster: "poster-joy.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-12">12</span>` },
             ]
         },   
         {
             data: "2024-11-27",
             sessoes: [
+                { horario: "23:59", titulo: "JOY", poster: "poster-joy.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-12">12</span>` },
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
                 { horario: "13:25", titulo: "YOUNG SHELDON", poster: "poster-sheldon.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
                 { horario: "13:45", titulo: "YOUNG SHELDON", poster: "poster-sheldon.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
@@ -48,7 +48,15 @@ function exibirProgramacao() {
 
     if (programacaoHoje) {
         var proximaSessao = programacaoHoje.sessoes.find(sessao => sessao.horario >= horarioAtual);
-
+        if (!proximaSessao) {
+            var indiceDiaAtual = diasProgramacao.findIndex(dia => dia.data === dataAtual);
+            var proximosDias = diasProgramacao.slice(indiceDiaAtual + 1);
+            var proximoDiaDisponivel = proximosDias.find(dia => dia.sessoes.length > 0);
+            if (proximoDiaDisponivel) {
+                proximaSessao = proximoDiaDisponivel.sessoes[0]; // Primeira sessão do próximo dia
+                programacaoHoje = proximoDiaDisponivel; // Atualiza para exibir o próximo dia
+            }
+        }
         if (proximaSessao) {
             programTitle.innerText = proximaSessao.titulo;
             poster.src = `./posters/${proximaSessao.poster}`;
@@ -65,7 +73,7 @@ function exibirProgramacao() {
         programTitle.innerText = "Nenhuma Programação Disponível";
         programacaoDiv.innerHTML = "<p>Nenhum programa disponível no momento.</p>";
         poster.src = "./posters/default-poster.jpg";
-    }
+    }    
 }
 
 // Chama a função ao carregar a página
