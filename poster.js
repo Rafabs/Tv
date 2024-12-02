@@ -4,14 +4,7 @@ function exibirProgramacao() {
     var programacaoDiv = document.getElementById("programacao");
     var now = new Date();
     
-    var diasProgramacao = [                                                                                                      
-        {
-            data: "2024-12-01",
-            sessoes: [
-                { horario: "13:25", titulo: "YOUNG SHELDON", poster: "poster-sheldon.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
-                { horario: "13:45", titulo: "SENNA", poster: "poster-senna.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-16">16</span>` },
-            ]
-        },   
+    var diasProgramacao = [                                                                                                       
         {
             data: "2024-12-02",
             sessoes: [
