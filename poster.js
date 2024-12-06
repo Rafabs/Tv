@@ -6,23 +6,51 @@ function exibirProgramacao() {
     
     var diasProgramacao = [                                                                                                             
         {
-            data: "2024-12-05",
+            data: "2024-12-06",
+            sessoes: [
+                { horario: "23:59", titulo: "CHURCHILL EM GUERRA", poster: "poster-churchill.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "13:25", titulo: "YOUNG SHELDON", poster: "poster-sheldon.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+            ]
+        },       
+        {
+            data: "2024-12-09",
             sessoes: [
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
                 { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
                 { horario: "19:40", titulo: "YOUNG SHELDON", poster: "poster-sheldon.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
                 { horario: "20:00", titulo: "SENNA", poster: "poster-senna.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-16">16</span>` },
-                { horario: "21:15", titulo: "STAR WARS: SKELETON CREW", poster: "poster-star.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+                { horario: "21:00", titulo: "CHURCHILL EM GUERRA", poster: "poster-churchill.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
             ]
-        }, 
+        },    
         {
-            data: "2024-12-06",
+            data: "2024-12-10",
             sessoes: [
-                { horario: "00:01", titulo: "CHURCHILL EM GUERRA", poster: "poster-churchill.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "23:59", titulo: "AQUELE NATAL", poster: "poster-natal.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-10">10</span>` },
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:40", titulo: "YOUNG SHELDON", poster: "poster-sheldon.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+                { horario: "20:00", titulo: "CHURCHILL EM GUERRA", poster: "poster-churchill.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "23:00", titulo: "STAR WARS: SKELETON CREW", poster: "poster-star.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-12">12</span>` },
+            ]
+        },    
+        {
+            data: "2024-12-11",
+            sessoes: [
+                { horario: "23:59", titulo: "A BALEIA", poster: "poster-baleia.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
                 { horario: "13:25", titulo: "YOUNG SHELDON", poster: "poster-sheldon.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
             ]
-        },                                                                                 
+        },    
+        {
+            data: "2024-12-14",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "13:25", titulo: "YOUNG SHELDON", poster: "poster-sheldon.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+                { horario: "13:45", titulo: "CHURCHILL EM GUERRA", poster: "poster-churchill.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "14:45", titulo: "QUEM VÊ CASA...", poster: "poster-casa.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+            ]
+        },                                                                                                      
     ];
 
     var dataAtual = now.toISOString().split('T')[0];
