@@ -13,7 +13,6 @@ function mostrarProgramacao(button, data) {
    if (data === '14/12') {
   programacaoDiv.innerHTML = `
   <ul>  
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">OS FANTASMAS AINDA SE DIVERTEM</span> </div> </li> <hr class="filme-separador"> </li>
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E07 - T07</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">CHURCHILL EM GUERRA - E04 - T01</span></li> <hr class="filme-separador">    
@@ -34,6 +33,7 @@ else if (data === '15/12') {
 else if (data === '16/12') {
   programacaoDiv.innerHTML = `
   <ul>  
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">OS FANTASMAS AINDA SE DIVERTEM</span> </div> </li> <hr class="filme-separador"> </li>
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E09 - T07</span></li> <hr class="filme-separador">    
   </ul>
@@ -56,32 +56,6 @@ else if (data === '18/12') {
       <ul>
 
 <li class="filme-poster">
-<img src="imgs//poster-casa.jpg" alt="QUEM VÊ CASA...">
-<div class="filme-texto">
-<span class="dia">12/12</span>
-<span class="class-16">16</span>
-<span class="filme">QUEM VÊ CASA...</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-1992.jpg" alt="1992">
-<div class="filme-texto">
-<span class="dia">13/12</span>
-<span class="class-16">16</span>
-<span class="filme">1992</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-round.jpg" alt="ROUND 6">
 <div class="filme-texto">
 <span class="dia">26/12</span>
@@ -95,11 +69,48 @@ else if (data === '18/12') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-viver.jpg" alt="O HOMEM QUE QUER VIVER PARA SEMPRE">
+<div class="filme-texto">
+<span class="dia">01/01</span>
+<span class="class-12">12</span>
+<span class="filme">O HOMEM QUE QUER VIVER PARA SEMPRE</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-indomavel.jpg" alt="TERRA INDOMÁVEL">
 <div class="filme-texto">
 <span class="dia">09/01</span>
 <span class="class-18">18</span>
 <span class="filme">TERRA INDOMÁVEL</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-electric.jpg" alt="THE ELECTRIC STATE">
+<div class="filme-texto">
+<span class="dia">14/03</span>
+<span class="class-12">12</span>
+<span class="filme">THE ELECTRIC STATE</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-branca.jpg" alt="ASSASSINATO NA CASA BRANCA">
+<div class="filme-texto">
+<span class="dia">20/03</span>
+<span class="class-12">12</span>
+<span class="filme">ASSASSINATO NA CASA BRANCA</span>
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
