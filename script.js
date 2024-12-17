@@ -10,26 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
   
-if (data === '15/12') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">18:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E08 - T07</span></li> <hr class="filme-separador">    
-  <li><span class="horario">18:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">1992 - E01 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">QUEM VÊ CASA... - E02 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANSTÁSTICO</span></li> <hr class="filme-separador">    
-  </ul>
-`;
-}
-else if (data === '16/12') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">OS FANTASMAS AINDA SE DIVERTEM</span> </div> </li> <hr class="filme-separador"> </li>
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">YOUNG SHELDON - E09 - T07</span></li> <hr class="filme-separador">    
-  </ul>
-`;
-}
-else if (data === '18/12') {
+   if (data === '18/12') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
