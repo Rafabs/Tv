@@ -6,20 +6,9 @@ function exibirProgramacao() {
     
     var diasProgramacao = [                                                                                                                                           
         {
-            data: "2024-12-18",
-            sessoes: [
-                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "19:40", titulo: "YOUNG SHELDON", poster: "poster-sheldon.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
-                { horario: "20:00", titulo: "1992", poster: "poster-1992.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
-                { horario: "20:45", titulo: "QUEM VÊ CASA...", poster: "poster-casa.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
-                { horario: "23:00", titulo: "SKELETON CREW", poster: "poster-star.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-10">10</span>` },
-            ]
-        },   
-        {
             data: "2024-12-19",
             sessoes: [
-                { horario: "00:01", titulo: "CORINGA: DELÍRIO À DOIS", poster: "poster-coringa.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "23:59", titulo: "CORINGA: DELÍRIO À DOIS", poster: "poster-coringa.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
                 { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
                 { horario: "19:40", titulo: "YOUNG SHELDON", poster: "poster-sheldon.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
