@@ -60,19 +60,6 @@ else if (data === '30/12') {
       <ul>
 
 <li class="filme-poster">
-<img src="imgs//poster-round.jpg" alt="ROUND 6">
-<div class="filme-texto">
-<span class="dia">26/12</span>
-<span class="class-18">18</span>
-<span class="filme">ROUND 6</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T2</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-viver.jpg" alt="O HOMEM QUE QUER VIVER PARA SEMPRE">
 <div class="filme-texto">
 <span class="dia">01/01</span>
