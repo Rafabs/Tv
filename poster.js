@@ -6,23 +6,6 @@ function exibirProgramacao() {
     
     var diasProgramacao = [                                                                                                                                                                                                                                                                                             
         {
-            data: "2024-12-28",
-            sessoes: [
-                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "13:25", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
-                { horario: "13:40", titulo: "ROUND 6", poster: "poster-round.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },
-                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-            ]
-        },    
-        {
-            data: "2024-12-29",
-            sessoes: [
-                { horario: "19:15", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
-                { horario: "19:40", titulo: "ROUND 6", poster: "poster-round.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },
-                { horario: "20:30", titulo: "FANTÁSTICO", poster: "poster-fantastico.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-            ]
-        },    
-        {
             data: "2024-12-30",
             sessoes: [
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
