@@ -10,18 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
   
- if (data === '02/01') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E05 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">STAR WARS: SKELETON CREW - E06 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:45</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ROUND 6 - E05 - T02</span></li> <hr class="filme-separador">    
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">O HOMEM QUE QUER VIVER PARA SEMPRE</span> </div> </li> <hr class="filme-separador"> </li>
-  `;
-}
-else if (data === '03/01') {
+if (data === '03/01') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -59,18 +48,6 @@ else if (data === '08/01') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-viver.jpg" alt="O HOMEM QUE QUER VIVER PARA SEMPRE">
-<div class="filme-texto">
-<span class="dia">01/01</span>
-<span class="class-12">12</span>
-<span class="filme">O HOMEM QUE QUER VIVER PARA SEMPRE</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-indomavel.jpg" alt="TERRA INDOMÁVEL">

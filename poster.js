@@ -6,19 +6,9 @@ function exibirProgramacao() {
     
     var diasProgramacao = [                                                                                                                                                                                                                                                                                                
         {
-            data: "2025-01-02",
-            sessoes: [
-                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "19:40", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
-                { horario: "20:05", titulo: "STAR WARS: SKELETON CREW", poster: "poster-star.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-10">10</span>` },                
-                { horario: "20:45", titulo: "ROUND 6", poster: "poster-round.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },                
-                { horario: "23:59", titulo: "O HOMEM QUE QUER VIVER PARA SEMPRE", poster: "poster-viver.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-12">12</span>` },                
-            ]
-        },   
-        {
             data: "2025-01-03",
             sessoes: [
+                { horario: "23:59", titulo: "O HOMEM QUE QUER VIVER PARA SEMPRE", poster: "poster-viver.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-12">12</span>` },                
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
                 { horario: "13:25", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
             ]
