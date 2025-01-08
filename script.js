@@ -46,6 +46,19 @@ else if (data === '10/01') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-aranha.jpg" alt="SEU AMIGÃO DA VIZINHANÇA: HOMEM-ARANHA">
+<div class="filme-texto">
+<span class="dia">29/01</span>
+<span class="class-0">0</span>
+<span class="filme">SEU AMIGÃO DA VIZINHANÇA: HOMEM-ARANHA</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-electric.jpg" alt="THE ELECTRIC STATE">
 <div class="filme-texto">
 <span class="dia">14/03</span>
