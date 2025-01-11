@@ -65,6 +65,19 @@ else if (data === '15/01') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-familia.jpg" alt="A HISTÓRIA DA MINHA FAMÍLIA">
+<div class="filme-texto">
+<span class="dia">19/02</span>
+<span class="class-16">16</span>
+<span class="filme">A HISTÓRIA DA MINHA FAMÍLIA</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-electric.jpg" alt="THE ELECTRIC STATE">
 <div class="filme-texto">
 <span class="dia">14/03</span>
