@@ -10,23 +10,14 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '15/01') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E01 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">TERRA INDOMÁVEL - E03 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">21:05</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FUTEBOL</span></li> <hr class="filme-separador">    
-`;
-}
-else if (data === '16/01') {
+if (data === '16/01') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E02 - T02</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">TERRA INDOMÁVEL - E04 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">21:05</span> <span class="label-leg">LEG</span> <span class="class-10">10</span> <span class="filme">STAR WARS: SKELETON CREW - E08 - T01</span></li> <hr class="filme-separador">    
 `;
 }
 else if (data === '17/01') {
