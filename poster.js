@@ -6,29 +6,22 @@ function exibirProgramacao() {
     
     var diasProgramacao = [                                                                                                                                                                                                                                                                                                                                                                                
         {
-            data: "2025-01-16",
+            data: "2025-01-17",
             sessoes: [
+                { horario: "19:40", titulo: "CAMPEONATO PAULISTA", poster: "poster-paulistao-2025.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "19:40", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
-                { horario: "20:05", titulo: "TERRA INDOMÁVEL", poster: "poster-indomavel.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },                
-                { horario: "21:05", titulo: "STAR WARS: SKELETON CREW", poster: "poster-star.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-10">10</span>` },                
+                { horario: "13:25", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
             ]
         }, 
         {
             data: "2025-01-17",
             sessoes: [
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "13:25", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
-            ]
-        }, 
-        {
-            data: "2025-01-20",
-            sessoes: [
-                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
                 { horario: "18:45", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
                 { horario: "18:05", titulo: "TERRA INDOMÁVEL", poster: "poster-indomavel.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },                
                 { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:40", titulo: "CAMPEONATO PAULISTA", poster: "poster-paulistao-2025.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
             ]
         }, 
         {
@@ -47,6 +40,66 @@ function exibirProgramacao() {
                 { horario: "13:25", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
             ]
         },        
+        {
+            data: "2025-01-24",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:40", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
+                { horario: "20:05", titulo: "MEU AMIGO TOTORO", poster: "poster-totoro.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-livre">L</span>` },                
+            ]
+        },   
+        {
+            data: "2025-01-25",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "13:25", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
+                { horario: "13:45", titulo: "OLHOS DE GATO", poster: "poster-gato.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-10">10</span>` },                
+                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+            ]
+        },   
+        {
+            data: "2025-01-26",
+            sessoes: [
+                { horario: "17:45", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
+                { horario: "18:05", titulo: "O REINO DOS GATOS", poster: "poster-reino.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-10">10</span>` },                
+                { horario: "18:30", titulo: "CAMPEONATO PAULISTA", poster: "poster-paulistao-2025.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "20:30", titulo: "FANTÁSTICO", poster: "poster-fantastico.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+            ]
+        },   
+        {
+            data: "2025-01-27",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "13:25", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
+            ]
+        },   
+        {
+            data: "2025-01-29",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:40", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
+                { horario: "20:05", titulo: "SEU AMIGÃO DA VIZINHANÇA: HOMEM-ARANHA", poster: "poster-aranha.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+                { horario: "21:35", titulo: "CAMPEONATO PAULISTA", poster: "poster-paulistao-2025.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+            ]
+        },   
+        {
+            data: "2025-01-30",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:40", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
+                { horario: "20:05", titulo: "SEU AMIGÃO DA VIZINHANÇA: HOMEM-ARANHA", poster: "poster-aranha.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+            ]
+        },   
+        {
+            data: "2025-01-31",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "13:25", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
+            ]
+        },           
     ];
 
     var dataAtual = now.toISOString().split('T')[0];
