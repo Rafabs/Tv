@@ -10,17 +10,8 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '25/01') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">09:50</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FINAL - COPINHA</span></li> <hr class="filme-separador">    
-  <li><span class="horario">12:05</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E08 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:45</span> <span class="label-dub">DUB</span> <span class="class-10">10</span> <span class="filme">OLHOS DE GATO</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador">    
-`;
-}
-else if (data === '26/01') {
+
+if (data === '26/01') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">17:45</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E09 - T02</span></li> <hr class="filme-separador">    
