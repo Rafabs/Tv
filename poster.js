@@ -4,17 +4,7 @@ function exibirProgramacao() {
     var programacaoDiv = document.getElementById("programacao");
     var now = new Date();
     
-    var diasProgramacao = [                                                                                                                                                                                                                                                                                                                                                                                            
-        {
-            data: "2025-01-25",
-            sessoes: [
-                { horario: "09:50", titulo: "FINAL - COPINHA", poster: "poster-default.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "12:05", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "13:25", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
-                { horario: "13:45", titulo: "OLHOS DE GATO", poster: "poster-gato.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-10">10</span>` },                
-                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-            ]
-        },   
+    var diasProgramacao = [                                                                                                                                                                                                                                                                                                                                                                                               
         {
             data: "2025-01-26",
             sessoes: [
