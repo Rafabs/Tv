@@ -14,7 +14,7 @@ function mostrarProgramacao(button, data) {
 if (data === '26/01') {
   programacaoDiv.innerHTML = `
   <ul>  
-  <li><span class="horario">17:45</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E09 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">16:45</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E09 - T02</span></li> <hr class="filme-separador">    
   <li><span class="horario">17:05</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">O REINO DOS GATOS</span></li> <hr class="filme-separador">    
   <li><span class="horario">18:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO PAULISTA</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">    
