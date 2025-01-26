@@ -14,7 +14,7 @@ function mostrarProgramacao(button, data) {
 if (data === '26/01') {
   programacaoDiv.innerHTML = `
   <ul>  
-  <li><span class="horario">16:45</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E09 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">16:45</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E10 - T02</span></li> <hr class="filme-separador">    
   <li><span class="horario">17:05</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">O REINO DOS GATOS</span></li> <hr class="filme-separador">    
   <li><span class="horario">18:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO PAULISTA</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">    
@@ -24,7 +24,7 @@ else if (data === '27/01') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E10 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E11 - T02</span></li> <hr class="filme-separador">    
 `;
 }
 else if (data === '29/01') {
@@ -32,7 +32,7 @@ else if (data === '29/01') {
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E11 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E12 - T02</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:05</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">SEU AMIGÃO DA VIZINHANÇA: HOMEM-ARANHA - E01 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">21:35</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">    
 `;
@@ -42,7 +42,7 @@ else if (data === '30/01') {
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E12 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E01 - T04</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:05</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">SEU AMIGÃO DA VIZINHANÇA: HOMEM-ARANHA - E02 - T01</span></li> <hr class="filme-separador">    
 `;
 }
@@ -50,7 +50,7 @@ else if (data === '31/01') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E01 - T04</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E02 - T04</span></li> <hr class="filme-separador">    
 `;
 }
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
