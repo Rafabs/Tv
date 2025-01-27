@@ -6,15 +6,6 @@ function exibirProgramacao() {
     
     var diasProgramacao = [                                                                                                                                                                                                                                                                                                                                                                                               
         {
-            data: "2025-01-26",
-            sessoes: [
-                { horario: "17:45", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
-                { horario: "18:05", titulo: "O REINO DOS GATOS", poster: "poster-reino.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-10">10</span>` },                
-                { horario: "18:30", titulo: "CAMPEONATO PAULISTA", poster: "poster-paulistao-2025.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "20:30", titulo: "FANTÁSTICO", poster: "poster-fantastico.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-            ]
-        },   
-        {
             data: "2025-01-27",
             sessoes: [
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
