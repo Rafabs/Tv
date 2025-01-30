@@ -156,6 +156,19 @@ else if (data === '10/02') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-eternauta.jpg" alt="O ETERNAUTA">
+<div class="filme-texto">
+<span class="dia">30/04</span>
+<span class="class-14">14</span>
+<span class="filme">O ETERNAUTA</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-win.jpg" alt="WIN OR LOSE">
 <div class="filme-texto">
 <span class="dia">2025</span>
