@@ -10,15 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
- if (data === '03/02') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E03 - T04</span></li> <hr class="filme-separador">    
-`;
-}
-else if (data === '04/02') {
+if (data === '04/02') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -67,7 +59,6 @@ else if (data === '10/02') {
 `;
 }
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
-  //SEU AMIGÃO DA VIZINHANÇA: HOMEM-ARANHA 5 de fevereiro - Episódios 3, 4 e 5
   //SEU AMIGÃO DA VIZINHANÇA: HOMEM-ARANHA 12 de fevereiro - Episódios 6, 7 e 8
   //SEU AMIGÃO DA VIZINHANÇA: HOMEM-ARANHA 19 de fevereiro - Episódios 9 e 10
 
@@ -92,11 +83,23 @@ else if (data === '10/02') {
 <img src="imgs//poster-demolidor.jpg" alt="DEMOLIDOR: RENASCIDO">
 <div class="filme-texto">
 <span class="dia">04/03</span>
-<span class="class-0">0</span>
+<span class="class-18">18</span>
 <span class="filme">DEMOLIDOR: RENASCIDO</span>
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-plankton.jpg" alt="PLANKTON: O FILME">
+<div class="filme-texto">
+<span class="dia">07/03</span>
+<span class="class-livre">L</span>
+<span class="filme">PLANKTON: O FILME</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
 </div>
 </li>
 <hr class="filme-separador">
