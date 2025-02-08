@@ -34,10 +34,77 @@ else if (data === '10/02') {
   <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E09 - T04</span></li> <hr class="filme-separador">    
 `;
 }
+else if (data === '12/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:45</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E10 - T04</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:05</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">SEU AMIGÃO DA VIZINHANÇA: HOMEM-ARANHA - E06 - T01</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '13/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:45</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E11 - T04</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:05</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">SEU AMIGÃO DA VIZINHANÇA: HOMEM-ARANHA - E07 - T01</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '14/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E12 - T04</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '17/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:45</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E01 - T05</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:05</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">SEU AMIGÃO DA VIZINHANÇA: HOMEM-ARANHA - E08 - T01</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '18/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:45</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E02 - T05</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '19/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E03 - T05</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '21/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:45</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E04 - T05</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:05</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">SEU AMIGÃO DA VIZINHANÇA: HOMEM-ARANHA - E09 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:35</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">A HISTÓRIA DA MINHA FAMÍLIA - E01 - T01</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '22/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:01</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A HISTÓRIA DA MINHA FAMÍLIA - E02 - T01</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E05 - T05</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:55</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">SEU AMIGÃO DA VIZINHANÇA: HOMEM-ARANHA - E10 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">14:25</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">GANHAR OU PERDER - E01 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+`;
+}
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
-  //SEU AMIGÃO DA VIZINHANÇA: HOMEM-ARANHA 12 de fevereiro - Episódios 6, 7 e 8
-  //SEU AMIGÃO DA VIZINHANÇA: HOMEM-ARANHA 19 de fevereiro - Episódios 9 e 10
-
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
@@ -48,6 +115,19 @@ else if (data === '10/02') {
 <span class="dia">19/02</span>
 <span class="class-16">16</span>
 <span class="filme">A HISTÓRIA DA MINHA FAMÍLIA</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-win.jpg" alt="GANHAR OU PERDER">
+<div class="filme-texto">
+<span class="dia">19/02</span>
+<span class="class-livre">L</span>
+<span class="filme">GANHAR OU PERDER</span>
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
@@ -132,11 +212,11 @@ else if (data === '10/02') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
-<img src="imgs//poster-win.jpg" alt="WIN OR LOSE">
+<img src="imgs//poster-asterix.jpg" alt="ASTERIX E OBELIX: O COMBATE DOS CHEFES">
 <div class="filme-texto">
-<span class="dia">2025</span>
-<span class="class-livre">L</span>
-<span class="filme">WIN OR LOSE</span>
+<span class="dia">30/04</span>
+<span class="class-10">10</span>
+<span class="filme">ASTERIX E OBELIX: O COMBATE DOS CHEFES</span>
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
