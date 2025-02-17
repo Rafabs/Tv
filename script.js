@@ -137,6 +137,19 @@ else if (data === '22/02') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-drogas.jpg" alt="COMO VENDER DROGAS ONLINE (RÁPIDO)">
+<div class="filme-texto">
+<span class="dia">08/04</span>
+<span class="class-16">16</span>
+<span class="filme">COMO VENDER DROGAS ONLINE (RÁPIDO)</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T4</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-you.jpg" alt="YOU">
 <div class="filme-texto">
 <span class="dia">24/04</span>
