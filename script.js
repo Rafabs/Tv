@@ -21,36 +21,84 @@ if (data === '22/02') {
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
 `;
 }
+else if (data === '23/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">16:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E06 - T05</span></li> <hr class="filme-separador">    
+  <li><span class="horario">16:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">A HISTÓRIA DA MINHA FAMÍLIA - E03 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">17:30</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">GANHAR OU PERDER - E02 - T01</span></li> <hr class="filme-separador">      
+  <li><span class="horario">18:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO PAULISTA</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
+`;
+}
+else if (data === '24/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E07 - T05</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '26/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:45</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E08 - T05</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:05</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">GANHAR OU PERDER - E03 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:35</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">A HISTÓRIA DA MINHA FAMÍLIA - E04 - T01</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '27/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E09 - T05</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:05</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">GANHAR OU PERDER - E04 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:35</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">A HISTÓRIA DA MINHA FAMÍLIA - E05 - T01</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '28/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E10 - T05</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '03/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E11 - T05</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">A HISTÓRIA DA MINHA FAMÍLIA - E06 - T01</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '04/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E12 - T05</span></li> <hr class="filme-separador">    
+  <li><span class="horario">23:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">DEMOLIDOR: RENASCIDO - E01 - T01</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '05/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E01 - T06</span></li> <hr class="filme-separador">    
+`;
+}
+// Episódio 5 – 5 de março de 2025
+// Episódio 6 – 5 de março de 2025
+// Episódio 7 – 12 de março de 2025
+// Episódio 8 – 12 de março de 2025
+
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-familia.jpg" alt="A HISTÓRIA DA MINHA FAMÍLIA">
-<div class="filme-texto">
-<span class="dia">19/02</span>
-<span class="class-16">16</span>
-<span class="filme">A HISTÓRIA DA MINHA FAMÍLIA</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-win.jpg" alt="GANHAR OU PERDER">
-<div class="filme-texto">
-<span class="dia">19/02</span>
-<span class="class-livre">L</span>
-<span class="filme">GANHAR OU PERDER</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-demolidor.jpg" alt="DEMOLIDOR: RENASCIDO">
@@ -90,6 +138,18 @@ if (data === '22/02') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-tornado.jpg" alt="TORNADO: JOPLIN EM RUÍNAS">
+<div class="filme-texto">
+<span class="dia">19/03</span>
+<span class="class-12">12</span>
+<span class="filme">TORNADO: JOPLIN EM RUÍNAS</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-branca.jpg" alt="ASSASSINATO NA CASA BRANCA">
 <div class="filme-texto">
 <span class="dia">20/03</span>
@@ -103,6 +163,18 @@ if (data === '22/02') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-siberia.jpg" alt="PEQUENA SIBÉRIA">
+<div class="filme-texto">
+<span class="dia">21/03</span>
+<span class="class-12">12</span>
+<span class="filme">PEQUENA SIBÉRIA</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-drogas.jpg" alt="COMO VENDER DROGAS ONLINE (RÁPIDO)">
 <div class="filme-texto">
 <span class="dia">08/04</span>
@@ -111,6 +183,18 @@ if (data === '22/02') {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T4</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-trem.jpg" alt="EXPLOSÃO NO TREM-BALA">
+<div class="filme-texto">
+<span class="dia">23/04</span>
+<span class="class-14">14</span>
+<span class="filme">EXPLOSÃO NO TREM-BALA</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
 </div>
 </li>
 <hr class="filme-separador">
