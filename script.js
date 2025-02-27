@@ -10,23 +10,13 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '26/02') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:45</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E08 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:05</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">GANHAR OU PERDER - E03 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:35</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">A HISTÓRIA DA MINHA FAMÍLIA - E04 - T01</span></li> <hr class="filme-separador">    
-`;
-}
-else if (data === '27/02') {
+if (data === '27/02') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E09 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:05</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">GANHAR OU PERDER - E04 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:05</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">GANHAR OU PERDER - E04 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:35</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">A HISTÓRIA DA MINHA FAMÍLIA - E05 - T01</span></li> <hr class="filme-separador">    
 `;
 }
@@ -41,9 +31,10 @@ else if (data === '03/03') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">18:25</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">A HISTÓRIA DA MINHA FAMÍLIA - E06 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E11 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">A HISTÓRIA DA MINHA FAMÍLIA - E06 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO PAULISTA</span></li> <hr class="filme-separador"> 
 `;
 }
 else if (data === '04/03') {
@@ -98,6 +89,19 @@ else if (data === '05/03') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-f1.jpg" alt="F1: DIRIGIR PARA VIVER">
+<div class="filme-texto">
+<span class="dia">07/03</span>
+<span class="class-12">12</span>
+<span class="filme">F1: DIRIGIR PARA VIVER</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T7</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-electric.jpg" alt="THE ELECTRIC STATE">
 <div class="filme-texto">
 <span class="dia">14/03</span>
@@ -147,6 +151,44 @@ else if (data === '05/03') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-revelacoes.jpg" alt="REVELAÇÕES">
+<div class="filme-texto">
+<span class="dia">21/03</span>
+<span class="class-14">14</span>
+<span class="filme">REVELAÇÕES</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-fenn.jpg" alt="A CAÇA AO TESOURO DE FENN">
+<div class="filme-texto">
+<span class="dia">27/03</span>
+<span class="class-12">12</span>
+<span class="filme">A CAÇA AO TESOURO DE FENN</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-lista.jpg" alt="A LISTA DA MINHA VIDA">
+<div class="filme-texto">
+<span class="dia">28/03</span>
+<span class="class-14">14</span>
+<span class="filme">A LISTA DA MINHA VIDA</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-drogas.jpg" alt="COMO VENDER DROGAS ONLINE (RÁPIDO)">
 <div class="filme-texto">
 <span class="dia">08/04</span>
@@ -155,6 +197,19 @@ else if (data === '05/03') {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T4</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-andor.jpg" alt="ANDOR">
+<div class="filme-texto">
+<span class="dia">08/04</span>
+<span class="class-16">16</span>
+<span class="filme">ANDOR</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T2</span>
 </div>
 </li>
 <hr class="filme-separador">
