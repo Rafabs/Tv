@@ -10,17 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '03/03') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">17:55</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">A HISTÓRIA DA MINHA FAMÍLIA - E06 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:15</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E11 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO PAULISTA</span></li> <hr class="filme-separador"> 
-`;
-}
-else if (data === '04/03') {
+if (data === '04/03') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -36,28 +26,79 @@ else if (data === '05/03') {
   <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E01 - T06</span></li> <hr class="filme-separador">    
 `;
 }
-// Episódio 5 – 5 de março de 2025
-// Episódio 6 – 5 de março de 2025
-// Episódio 7 – 12 de março de 2025
-// Episódio 8 – 12 de março de 2025
+else if (data === '07/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E02 - T06</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">GANHAR OU PERDER - E05 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:30</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">F1: DIRIGIR PARA VIVER - E01 - T07</span></li> <hr class="filme-separador">    
+  <li><span class="horario">23:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">DEMOLIDOR: RENASCIDO - E02 - T01</span></li> <hr class="filme-separador">    
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">PLANKTON: O FILME</span> </div> </li> <hr class="filme-separador"> </li>
+  `;
+}
+else if (data === '08/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E03 - T06</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:45</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">GANHAR OU PERDER - E06 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">14:25</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">F1: DIRIGIR PARA VIVER - E02 - T07</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+`;
+}
+else if (data === '09/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">19:00</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E04 - T06</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:35</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">F1: DIRIGIR PARA VIVER - E03 - T07</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
+`;
+}
+else if (data === '10/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E05 - T06</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '12/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E07 - T06</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">GANHAR OU PERDER - E07 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:30</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">F1: DIRIGIR PARA VIVER - E04 - T07</span></li> <hr class="filme-separador">    
+  <li><span class="horario">23:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">DEMOLIDOR: RENASCIDO - E03 - T01</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '13/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E08 - T06</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">GANHAR OU PERDER - E08 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:30</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">F1: DIRIGIR PARA VIVER - E05 - T07</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '14/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E09 - T06</span></li> <hr class="filme-separador">    
+`;
+}
+// DEMODLIDOR
+// Episódio 4: 18 de março
+// Episódios 5 e 6: 25 de março
 
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-demolidor.jpg" alt="DEMOLIDOR: RENASCIDO">
-<div class="filme-texto">
-<span class="dia">04/03</span>
-<span class="class-18">18</span>
-<span class="filme">DEMOLIDOR: RENASCIDO</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-plankton.jpg" alt="PLANKTON: O FILME">
@@ -248,6 +289,18 @@ else if (data === '05/03') {
 </li>
 <hr class="filme-separador">
 
+<li class="filme-poster">
+<img src="imgs//poster-ginny.jpg" alt="GINNY E GEORGIA">
+<div class="filme-texto">
+<span class="dia">05/06</span>
+<span class="class-16">16</span>
+<span class="filme">GINNY E GEORGIA</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T2</span>
+</div>
+</li>
+<hr class="filme-separador">
       </ul>
     `;
   } else {
