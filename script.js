@@ -10,19 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '07/03') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E02 - T06</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">GANHAR OU PERDER - E05 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:30</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">F1: DIRIGIR PARA VIVER - E01 - T07</span></li> <hr class="filme-separador">    
-  <li><span class="horario">23:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">DEMOLIDOR: RENASCIDO - E02 - T01</span></li> <hr class="filme-separador">    
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">PLANKTON: O FILME</span> </div> </li> <hr class="filme-separador"> </li>
-  `;
-}
-else if (data === '08/03') {
+if (data === '08/03') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -83,31 +71,6 @@ else if (data === '14/03') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-plankton.jpg" alt="PLANKTON: O FILME">
-<div class="filme-texto">
-<span class="dia">07/03</span>
-<span class="class-livre">L</span>
-<span class="filme">PLANKTON: O FILME</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-f1.jpg" alt="F1: DIRIGIR PARA VIVER">
-<div class="filme-texto">
-<span class="dia">07/03</span>
-<span class="class-12">12</span>
-<span class="filme">F1: DIRIGIR PARA VIVER</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T7</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-electric.jpg" alt="THE ELECTRIC STATE">

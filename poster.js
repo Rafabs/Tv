@@ -5,19 +5,7 @@ function exibirProgramacao() {
     var now = new Date();
     
     var diasProgramacao = [                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
-           
-        {
-            data: "2025-03-07",
-            sessoes: [
-                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "19:40", titulo: "AEROPORTO - ÁREA RESTRITA", poster: "poster-aeroporto.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
-                { horario: "20:00", titulo: "GANHAR OU PERDER", poster: "poster-win.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-livre">L</span>` },
-                { horario: "20:30", titulo: "F1: DIRIGIR PARA VIVER", poster: "poster-f1.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-12">12</span>` },
-                { horario: "23:00", titulo: "DEMOLIDOR: RENASCIDO", poster: "poster-demolidor.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },
-                { horario: "23:59", titulo: "PLANKTON: O FILME", poster: "poster-plankton.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-livre">L</span>` },
-            ]
-        },         
+            
         {
             data: "2025-03-08",
             sessoes: [
