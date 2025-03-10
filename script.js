@@ -10,25 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '08/03') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E03 - T06</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:45</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <span class="filme">GANHAR OU PERDER - E06 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">14:25</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">F1: DIRIGIR PARA VIVER - E02 - T07</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-`;
-}
-else if (data === '09/03') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">19:00</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E04 - T06</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:35</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">F1: DIRIGIR PARA VIVER - E03 - T07</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
-`;
-}
-else if (data === '10/03') {
+if (data === '10/03') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
