@@ -10,80 +10,69 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '19/03') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">AEROPORTO - ÁREA RESTRITA - E12 - T06</span></li> <hr class="filme-separador">    
-`;
-}
-else if (data === '21/03') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MEET YOUR MOTHER - E01 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">F1: DIRIGIR PARA VIVER - E08 - T07</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:55</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">ASSASSINATO NA CASA BRANCA - E01 - T01</span></li> <hr class="filme-separador">    
-`;
-}
-else if (data === '22/03') {
+if (data === '22/03') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TORNADO: JOPLIN EM RUÍNAS</span> </div> </li> <hr class="filme-separador"> </li>
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MEET YOUR MOTHER - E02 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:50</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">F1: DIRIGIR PARA VIVER - E08 - T07</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E02 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:50</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">F1: DIRIGIR PARA VIVER - E09 - T07</span></li> <hr class="filme-separador">    
   <li><span class="horario">14:35</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">ASSASSINATO NA CASA BRANCA - E02 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">15:20</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">PEQUENA SIBÉRIA - E01 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">15:20</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">PEQUENA SIBÉRIA</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
  `;
 }
-// INSERIR MOANA 2 EM ALGUMA DATA POSTERIOR 22/03
-// DEMODLIDOR
-// Episódios 5 e 6: 25 de março
-
+else if (data === '23/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">16:15</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E03 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">16:35</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">F1: DIRIGIR PARA VIVER - E10 - T07</span></li> <hr class="filme-separador">    
+  <li><span class="horario">17:30</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">ASSASSINATO NA CASA BRANCA - E03 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">18:20</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">REVELAÇÕES</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
+ `;
+}
+else if (data === '24/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">MOANA 2</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E04 - T01</span></li> <hr class="filme-separador">    
+ `;
+}
+else if (data === '26/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E05 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">ASSASSINATO NA CASA BRANCA - E04 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:50</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">DEMOLIDOR: RENASCIDO - E05 - T01</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '27/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">UM LUGAR SILENCIOSO: DIA UM</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E06 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">ASSASSINATO NA CASA BRANCA - E05 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:50</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">A CAÇA AO TESOURO DE FENN - E01 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">23:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">DEMOLIDOR: RENASCIDO - E06 - T01</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '28/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E04 - T01</span></li> <hr class="filme-separador">    
+ `;
+}
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-tornado.jpg" alt="TORNADO: JOPLIN EM RUÍNAS">
-<div class="filme-texto">
-<span class="dia">19/03</span>
-<span class="class-12">12</span>
-<span class="filme">TORNADO: JOPLIN EM RUÍNAS</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-branca.jpg" alt="ASSASSINATO NA CASA BRANCA">
-<div class="filme-texto">
-<span class="dia">20/03</span>
-<span class="class-12">12</span>
-<span class="filme">ASSASSINATO NA CASA BRANCA</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-siberia.jpg" alt="PEQUENA SIBÉRIA">
-<div class="filme-texto">
-<span class="dia">21/03</span>
-<span class="class-12">12</span>
-<span class="filme">PEQUENA SIBÉRIA</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-revelacoes.jpg" alt="REVELAÇÕES">
@@ -261,6 +250,19 @@ else if (data === '22/03') {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T2</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-round.jpg" alt="ROUND 6">
+<div class="filme-texto">
+<span class="dia">27/06</span>
+<span class="class-18">18</span>
+<span class="filme">ROUND 6</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T3</span>
 </div>
 </li>
 <hr class="filme-separador">
