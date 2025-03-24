@@ -10,17 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '23/03') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">16:15</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E03 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">16:35</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">F1: DIRIGIR PARA VIVER - E10 - T07</span></li> <hr class="filme-separador">    
-  <li><span class="horario">17:30</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">ASSASSINATO NA CASA BRANCA - E03 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">18:20</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">REVELAÇÕES</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
- `;
-}
-else if (data === '24/03') {
+if (data === '24/03') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">MOANA 2</span> </div> </li> <hr class="filme-separador"> </li>
