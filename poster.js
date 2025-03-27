@@ -61,7 +61,6 @@ function exibirProgramacao() {
                 { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
                 { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
                 { horario: "20:00", titulo: "ASSASSINATO NA CASA BRANCA", poster: "poster-branca.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-12">12</span>` },
-                { horario: "21:20", titulo: "A CAÇA AO TESOURO DE FENN", poster: "poster-fenn.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-12">12</span>` },
             ]
         },    
         {
@@ -70,8 +69,7 @@ function exibirProgramacao() {
                 { horario: "23:59", titulo: "A LISTA DA MINHA VIDA", poster: "poster-lista.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
                 { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
-                { horario: "13:45", titulo: "A CAÇA AO TESOURO DE FENN", poster: "poster-fenn.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-12">12</span>` },
-                { horario: "14:45", titulo: "A LISTA DA MINHA VIDA", poster: "poster-lista.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },
+                { horario: "13:45", titulo: "A LISTA DA MINHA VIDA", poster: "poster-lista.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },
                 { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
             ]
         },                                                                      

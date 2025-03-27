@@ -65,7 +65,6 @@ else if (data === '04/04') {
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E11 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">ASSASSINATO NA CASA BRANCA - E08 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">21:20</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">A CAÇA AO TESOURO DE FENN - E04 - T01</span></li> <hr class="filme-separador">    
 `;
 }
 else if (data === '05/04') {
@@ -74,8 +73,7 @@ else if (data === '05/04') {
   <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A LISTA DA MINHA VIDA - E04 - T01</span> </div> </li> <hr class="filme-separador"> </li>
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E11 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">A CAÇA AO TESOURO DE FENN - E05 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">A LISTA DA MINHA VIDA - E05 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">A LISTA DA MINHA VIDA - E05 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
 `;
 }
