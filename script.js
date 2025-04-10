@@ -83,12 +83,10 @@ else if (data === '19/04') {
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   `;
 }
-// AGUARDAR POSSÍVEL JOGO SPFC
 else if (data === '20/04') {
   programacaoDiv.innerHTML = `
   <ul>  
-  
-  <li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">COMO VENDER DROGAS ONLINE (RÁPIDO) - E05 - T04</span></li> <hr class="filme-separador">    
+  <li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">COMO VENDER DROGAS ONLINE (RÁPIDO) - E06 - T04</span></li> <hr class="filme-separador">    
   <li><span class="horario">15:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador"> 
   <li><span class="horario">18:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">O DOMO DE VIDRO - E04 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">18:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O JARDINEIRO - E05 - T01</span></li> <hr class="filme-separador">    
@@ -262,6 +260,19 @@ else if (data === '21/04') {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-robots.jpg" alt="LOVE, DEATH & ROBOTS">
+<div class="filme-texto">
+<span class="dia">15/05</span>
+<span class="class-18">18</span>
+<span class="filme">LOVE, DEATH & ROBOTS</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T4</span>
 </div>
 </li>
 <hr class="filme-separador">
