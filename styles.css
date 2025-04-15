@@ -38,7 +38,7 @@ h1 {
 
 .logo-dts {
   height: 35px; /* ajuste conforme necessário */
-  width: 45px; /* ajuste conforme necessário */
+  width: 100px; /* ajuste conforme necessário */
 }
 
 .filme-poster {
@@ -92,7 +92,7 @@ h1 {
 
 /* Adicionamos uma classe para o card de programação */
 #programacao {
-  background-color: rgba(43, 43, 43, 0.7);
+  background-color: rgba(70, 70, 70, 0.281);
   border-radius: 10px;
   padding: 10px;
   max-width: 75%;
@@ -104,7 +104,7 @@ h1 {
   /* height e overflow não são mais necessários */
 
 .ativo {
-  background-color: rgba(43, 43, 43, 0.7);
+  background-color: rgba(58, 58, 58, 0.185);
   font-style: oblique;
   list-style-type: none;
 }

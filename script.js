@@ -44,7 +44,7 @@ else if (data === '18/04') {
 }
 else if (data === '19/04') {
   programacaoDiv.innerHTML = `
-  <ul>  
+  <ul>
   <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">BLACK MIRROR - E04 - T07</span> </div> </li> <hr class="filme-separador"> </li>
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E20 - T01</span></li> <hr class="filme-separador">    
@@ -63,7 +63,7 @@ else if (data === '20/04') {
   <li><span class="horario">18:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O JARDINEIRO - E05 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:10</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E21 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANSTÁSTICO</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">23:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">THE LAST OF US - E02 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">THE LAST OF US - E02 - T02</span></li> <hr class="filme-separador">    
  `;
 }
 else if (data === '21/04') {
