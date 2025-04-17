@@ -10,15 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '16/04') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">BLACK MIRROR - E03 - T07</span> </div> </li> <hr class="filme-separador"> </li>
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E18 - T01</span></li> <hr class="filme-separador">    
- `;
-}
-else if (data === '18/04') {
+if (data === '18/04') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -139,18 +131,6 @@ else if (data === '02/05') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-bastidores.jpg" alt="NOS BASTIDORES DE STRANGER THINGS: A PRIMEIRA SOMBRA">
-<div class="filme-texto">
-<span class="dia">15/04</span>
-<span class="class-14">14</span>
-<span class="filme">NOS BASTIDORES DE STRANGER THINGS: A PRIMEIRA SOMBRA</span>
-<div class="filme-texto">
-<span class="class-documentario">Documentário</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-andor.jpg" alt="ANDOR">
