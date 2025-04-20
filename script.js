@@ -10,20 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-
- if (data === '19/04') {
-  programacaoDiv.innerHTML = `
-  <ul>
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">BLACK MIRROR - E04 - T07</span> </div> </li> <hr class="filme-separador"> </li>
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E20 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">COMO VENDER DROGAS ONLINE (RÁPIDO) - E05 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">14:20</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O JARDINEIRO - E04 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">15:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">O DOMO DE VIDRO - E03 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  `;
-}
-else if (data === '20/04') {
+if (data === '20/04') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">COMO VENDER DROGAS ONLINE (RÁPIDO) - E06 - T04</span></li> <hr class="filme-separador">    
@@ -260,7 +247,21 @@ else if (data === '02/05') {
 </div>
 </li>
 <hr class="filme-separador">
-      </ul>
+
+<li class="filme-poster">
+<img src="imgs//poster-sandman.jpg" alt="SANDMAN">
+<div class="filme-texto">
+<span class="dia">03/07</span>
+<span class="class-18">18</span>
+<span class="filme">SANDMAN</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T2</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+</ul>
     `;
   } else {
     programacaoDiv.innerHTML = "<p>Não há programação disponível para esta data.</p>";

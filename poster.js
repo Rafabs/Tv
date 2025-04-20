@@ -6,20 +6,7 @@ function exibirProgramacao() {
     
     var diasProgramacao = [                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
                                                                                                                                              
-    
-        {
-            data: "2025-04-19",
-            sessoes: [
-                { horario: "23:59", titulo: "BLACK MIRROR", poster: "poster-mirror.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },
-                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
-                { horario: "13:45", titulo: "COMO VENDER DROGAS ONLINE (RÁPIDO)", poster: "poster-drogas.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
-                { horario: "14:20", titulo: "O JARDINEIRO", poster: "poster-jardineiro.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },
-                { horario: "15:00", titulo: "O DOMO DE VIDRO", poster: "poster-vidro.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
-                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-            ]
-        },      
-        {
+            {
             data: "2025-04-20",
             sessoes: [
                 { horario: "14:45", titulo: "COMO VENDER DROGAS ONLINE (RÁPIDO)", poster: "poster-drogas.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
