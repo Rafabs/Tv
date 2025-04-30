@@ -48,7 +48,7 @@ else if (data === '04/05') {
   <li><span class="horario">17:10</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E10 - T02</span></li> <hr class="filme-separador">    
   <li><span class="horario">17:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ANDOR - E04 - T02</span></li> <hr class="filme-separador">    
   <li><span class="horario">18:30</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">CONGONHAS: TRAGÉDIA ANUNCIADA - E03 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:30</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O ETERNAUTA - E01 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:30</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O ETERNAUTA - E02 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
   <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">THE LAST OF US - E04 - T02</span></li> <hr class="filme-separador">    
 `;
@@ -81,6 +81,7 @@ else if (data === '08/05') {
   <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E13 - T02</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ANDOR - E06 - T02</span></li> <hr class="filme-separador">    
   <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">AS QUATRO ESTAÇÕES DO ANO - E02 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O ETERNAUTA - E03 - T01</span></li> <hr class="filme-separador">    
 `;
 }
 else if (data === '09/05') {
