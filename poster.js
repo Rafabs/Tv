@@ -9,16 +9,104 @@ function exibirProgramacao() {
 
                                                                                                                                           
         {
-            data: "2025-05-02",
+            data: "2025-05-03",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+                { horario: "13:45", titulo: "AS QUATRO ESTAÇÕES", poster: "poster-estacoes.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "14:45", titulo: "CONGONHAS: TRAGÉDIA ANUNCIADA", poster: "poster-congonhas.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
+                { horario: "15:45", titulo: "O ETERNAUTA", poster: "poster-eternauta.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },
+                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+            ]
+        }, 
+        {
+            data: "2025-05-04",
+            sessoes: [
+                { horario: "18:10", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+                { horario: "18:30", titulo: "AS QUATRO ESTAÇÕES", poster: "poster-estacoes.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "19:30", titulo: "O ETERNAUTA", poster: "poster-eternauta.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },
+                { horario: "20:30", titulo: "FANTÁSTICO", poster: "poster-fantastico.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "22:00", titulo: "THE LAST OF US", poster: "poster-tlou.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+            ]
+        },        
+        {
+            data: "2025-05-05",
+            sessoes: [
+                { horario: "23:59", titulo: "YOU", poster: "poster-you.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+            ]
+        },          
+        {
+            data: "2025-05-07",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "18:45", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:10", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+                { horario: "19:40", titulo: "AS QUATRO ESTAÇÕES", poster: "poster-estacoes.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "20:40", titulo: "YOU", poster: "poster-you.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+            ]
+        },    
+        {
+            data: "2025-05-08",
+            sessoes: [
+                { horario: "23:59", titulo: "YOU", poster: "poster-you.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+                { horario: "20:00", titulo: "AS QUATRO ESTAÇÕES", poster: "poster-estacoes.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "20:40", titulo: "O ETERNAUTA", poster: "poster-eternauta.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },
+            ]
+        },       
+        {
+            data: "2025-05-09",
+            sessoes: [
+                { horario: "23:59", titulo: "YOU", poster: "poster-you.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+            ]
+        },     
+        {
+            data: "2025-05-12",
             sessoes: [
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
                 { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
                 { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
-                { horario: "20:00", titulo: "ANDOR", poster: "poster-andor.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
-                { horario: "20:50", titulo: "CONGONHAS: TRAGÉDIA ANUNCIADA", poster: "poster-shadow.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
-                { horario: "21:30", titulo: "CAMPEONATO BRASILEIRO", poster: "poster-campeonato-brasileiro.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "20:00", titulo: "AS QUATRO ESTAÇÕES", poster: "poster-estacoes.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "20:40", titulo: "O ETERNAUTA", poster: "poster-eternauta.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },
             ]
-        }, 
+        },   
+        {
+            data: "2025-05-13",
+            sessoes: [
+                { horario: "23:59", titulo: "YOU", poster: "poster-you.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+                { horario: "20:00", titulo: "AS QUATRO ESTAÇÕES", poster: "poster-estacoes.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "20:40", titulo: "O ETERNAUTA", poster: "poster-eternauta.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },
+            ]
+        },   
+        {
+            data: "2025-05-14",
+            sessoes: [
+                { horario: "23:59", titulo: "YOU", poster: "poster-you.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+            ]
+        },     
+        {
+            data: "2025-05-15",
+            sessoes: [
+                { horario: "23:59", titulo: "YOU", poster: "poster-you.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+                { horario: "20:00", titulo: "AS QUATRO ESTAÇÕES", poster: "poster-estacoes.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "20:40", titulo: "O ETERNAUTA", poster: "poster-eternauta.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },
+                { horario: "22:00", titulo: "LOVE, DEATH & ROBOTS", poster: "poster-robots.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },
+            ]
+        },                                                
     ];
 
     var dataAtual = now.toISOString().split('T')[0];

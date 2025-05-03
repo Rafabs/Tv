@@ -10,36 +10,23 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '02/05') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E08 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ANDOR - E03 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:50</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">CONGONHAS: TRAGÉDIA ANUNCIADA - E02 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">21:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador">    
-`;
-}
-else if (data === '03/05') {
+if (data === '03/05') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">YOU - E02 - T05</span> </div> </li> <hr class="filme-separador"> </li>
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E09 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ANDOR - E04 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">AS QUATRO ESTAÇÕES DO ANO - E01 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">14:45</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">CONGONHAS: TRAGÉDIA ANUNCIADA - E03 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">15:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O ETERNAUTA - E01 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
 `;
 }
-// CONFIRMAR DURAÇÃO ETERNAUTA E ASTERIX E OBELIX: O COMBATE DOS CHEFES E AS QUATRO ESTAÇÕES DO ANO
 else if (data === '04/05') {
   programacaoDiv.innerHTML = `
   <ul>  
-  <li><span class="horario">17:10</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E10 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">17:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ANDOR - E04 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">18:30</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">CONGONHAS: TRAGÉDIA ANUNCIADA - E03 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">18:10</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E10 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">18:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">AS QUATRO ESTAÇÕES DO ANO - E02 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:30</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O ETERNAUTA - E02 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
   <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">THE LAST OF US - E04 - T02</span></li> <hr class="filme-separador">    
@@ -59,9 +46,8 @@ else if (data === '07/05') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   <li><span class="horario">19:10</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E12 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ANDOR - E05 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">AS QUATRO ESTAÇÕES DO ANO - E01 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">21:30</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">YOU - E04 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">AS QUATRO ESTAÇÕES DO ANO - E03 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:20</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">YOU - E04 - T02</span></li> <hr class="filme-separador">    
 `;
 }
 else if (data === '08/05') {
@@ -71,9 +57,8 @@ else if (data === '08/05') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E13 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ANDOR - E06 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">AS QUATRO ESTAÇÕES DO ANO - E02 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O ETERNAUTA - E03 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">AS QUATRO ESTAÇÕES DO ANO - E04 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O ETERNAUTA - E03 - T01</span></li> <hr class="filme-separador">    
 `;
 }
 else if (data === '09/05') {
@@ -84,53 +69,53 @@ else if (data === '09/05') {
   <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E14 - T02</span></li> <hr class="filme-separador">    
  `;
 }
+else if (data === '12/05') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E15 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">AS QUATRO ESTAÇÕES DO ANO - E05 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O ETERNAUTA - E04 - T01</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '13/05') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">YOU - E07 - T05</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E16 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">AS QUATRO ESTAÇÕES DO ANO - E06 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O ETERNAUTA - E05 - T01</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '14/05') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">YOU - E08 - T05</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E17 - T02</span></li> <hr class="filme-separador">    
+ `;
+}
+else if (data === '16/05') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E18 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">AS QUATRO ESTAÇÕES DO ANO - E07 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O ETERNAUTA - E06 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">LOVE, DEATH & ROBOTS - E01 - T04</span></li> <hr class="filme-separador">    
+`;
+}
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
-  //ANDOR - EP. 1-3 - 22/04
   //ANDOR - EP. 4-6 - 29/04
   //ANDOR - EP. 7-9 - 06/05
   //ANDOR - EP. 10-12 - 13/05
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-eternauta.jpg" alt="O ETERNAUTA">
-<div class="filme-texto">
-<span class="dia">30/04</span>
-<span class="class-14">14</span>
-<span class="filme">O ETERNAUTA</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-asterix.jpg" alt="ASTERIX E OBELIX: O COMBATE DOS CHEFES">
-<div class="filme-texto">
-<span class="dia">30/04</span>
-<span class="class-10">10</span>
-<span class="filme">ASTERIX E OBELIX: O COMBATE DOS CHEFES</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-estacoes.jpg" alt="AS QUATRO ESTAÇÕES DO ANO">
-<div class="filme-texto">
-<span class="dia">01/05</span>
-<span class="class-16">16</span>
-<span class="filme">AS QUATRO ESTAÇÕES DO ANO</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-robots.jpg" alt="LOVE, DEATH & ROBOTS">
@@ -177,6 +162,32 @@ else if (data === '09/05') {
 <span class="dia">03/07</span>
 <span class="class-18">18</span>
 <span class="filme">SANDMAN</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T2</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-wandinha.jpg" alt="WANDINHA - Parte 1">
+<div class="filme-texto">
+<span class="dia">06/08</span>
+<span class="class-16">16</span>
+<span class="filme">WANDINHA - Parte 1</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T2</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-wandinha.jpg" alt="WANDINHA - Parte 2">
+<div class="filme-texto">
+<span class="dia">03/09</span>
+<span class="class-16">16</span>
+<span class="filme">WANDINHA - Parte 2</span>
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T2</span>
