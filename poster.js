@@ -9,17 +9,6 @@ function exibirProgramacao() {
 
                                                                                                                                           
         {
-            data: "2025-05-03",
-            sessoes: [
-                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
-                { horario: "13:45", titulo: "AS QUATRO ESTAÇÕES", poster: "poster-estacoes.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
-                { horario: "14:45", titulo: "CONGONHAS: TRAGÉDIA ANUNCIADA", poster: "poster-congonhas.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-14">14</span>` },
-                { horario: "15:45", titulo: "O ETERNAUTA", poster: "poster-eternauta.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },
-                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-            ]
-        }, 
-        {
             data: "2025-05-04",
             sessoes: [
                 { horario: "18:10", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
