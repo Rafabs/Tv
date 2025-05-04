@@ -10,19 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '03/05') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">YOU - E02 - T05</span> </div> </li> <hr class="filme-separador"> </li>
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E09 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">AS QUATRO ESTAÇÕES DO ANO - E01 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">14:45</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <span class="filme">CONGONHAS: TRAGÉDIA ANUNCIADA - E03 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">15:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O ETERNAUTA - E01 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-`;
-}
-else if (data === '04/05') {
+if (data === '04/05') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">18:10</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E10 - T02</span></li> <hr class="filme-separador">    
