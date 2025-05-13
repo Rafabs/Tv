@@ -5,18 +5,7 @@ function exibirProgramacao() {
     var now = new Date();
     
     var diasProgramacao = [                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
-
                                                                                                                                                                                                                                                                                                          
-        {
-            data: "2025-05-12",
-            sessoes: [
-                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
-                { horario: "20:00", titulo: "AS QUATRO ESTAÇÕES", poster: "poster-estacoes.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
-                { horario: "20:40", titulo: "O ETERNAUTA", poster: "poster-eternauta.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },
-            ]
-        },   
         {
             data: "2025-05-13",
             sessoes: [
