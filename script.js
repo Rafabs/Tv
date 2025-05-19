@@ -10,17 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-
-if (data === '18/05') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E20 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">LOVE, DEATH & ROBOTS - E03 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">    
-  <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">THE LAST OF US - E05 - T02</span></li> <hr class="filme-separador">    
-`;
-}
-else if (data === '19/05') {
+if (data === '19/05') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li <class="filme-container"> <div class="filme-info"> <span class="horario">00:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">YOU - E10 - T05</span> </div> </li> <hr class="filme-separador"> </li>
