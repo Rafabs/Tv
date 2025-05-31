@@ -10,16 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '30/05') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E06 - T03</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">LOVE, DEATH & ROBOTS - E08 - T04</span></li> <hr class="filme-separador">    
-`;
-}
-else if (data === '31/05') {
+if (data === '31/05') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -82,6 +73,30 @@ else if (data === '06/06') {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T2</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-gota.jpg" alt="ATÉ A ÚLTIMA GOTA">
+<div class="filme-texto">
+<span class="dia">06/06</span>
+<span class="class-14">14</span>
+<span class="filme">ATÉ A ÚLTIMA GOTA</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-tempos.jpg" alt="NOSSOS TEMPOS">
+<div class="filme-texto">
+<span class="dia">11/06</span>
+<span class="class-12">12</span>
+<span class="filme">NOSSOS TEMPOS</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
 </div>
 </li>
 <hr class="filme-separador">
