@@ -10,15 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '01/06') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E08 - T03</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">LOVE, DEATH & ROBOTS - E10 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador">    
-`;
-}
-else if (data === '02/06') {
+if (data === '02/06') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -37,9 +29,10 @@ else if (data === '05/06') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E11 - T03</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">GINNY E GEORGIA - E01 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">18:25</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">18:40</span> <span class="label-orig">DUB</span> <span class="class-12">12</span> <span class="filme">HOW I MET YOUR MOTHER - E11 - T03</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">GINNY E GEORGIA - E01 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:50</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">ELIMINATÓRIAS DA COPA</span></li> <hr class="filme-separador"> 
 `;
 }
 else if (data === '06/06') {
