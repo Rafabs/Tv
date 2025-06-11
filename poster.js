@@ -7,17 +7,6 @@ function exibirProgramacao() {
     var diasProgramacao = [                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
                                                                                                                                                                                                                                                                                                             
         {
-            data: "2025-06-10",
-            sessoes: [
-                { horario: "23:59", titulo: "ATÉ A ÚLTIMA GOTA", poster: "poster-gota.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },
-                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "18:45", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "19:15", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
-                { horario: "19:35", titulo: "GINNY E GEORGIA", poster: "poster-ginny.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
-                { horario: "21:45", titulo: "ELIMINATÓRIAS DA COPA", poster: "poster-default.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-            ]
-        },  
-        {
             data: "2025-06-11",
             sessoes: [
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
