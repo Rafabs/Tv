@@ -4,22 +4,13 @@ function exibirProgramacao() {
     var programacaoDiv = document.getElementById("programacao");
     var now = new Date();
     
-    var diasProgramacao = [                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
-        {
-            data: "2025-06-13",
-            sessoes: [
-                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
-                { horario: "20:00", titulo: "GINNY E GEORGIA", poster: "poster-ginny.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
-                { horario: "23:59", titulo: "NOSSOS TEMPOS", poster: "poster-tempos.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-12">12</span>` },
-            ]
-        },               
+    var diasProgramacao = [                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
         {
             data: "2025-06-14",
             sessoes: [
+                { horario: "23:59", titulo: "NOSSOS TEMPOS", poster: "poster-tempos.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-12">12</span>` },
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },
                 { horario: "13:45", titulo: "GINNY E GEORGIA", poster: "poster-ginny.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
                 { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
             ]
@@ -27,7 +18,7 @@ function exibirProgramacao() {
         {
             data: "2025-06-15",
             sessoes: [
-                { horario: "19:00", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+                { horario: "19:00", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },
                 { horario: "19:20", titulo: "GINNY E GEORGIA", poster: "poster-ginny.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
                 { horario: "20:30", titulo: "FANTÁSTICO", poster: "poster-fantastico.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
             ]
@@ -36,9 +27,72 @@ function exibirProgramacao() {
             data: "2025-06-16",
             sessoes: [
                 { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-12">12</span>` },
+                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },
             ]
-        },                   
+        },      
+        {
+            data: "2025-06-18",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },
+                { horario: "20:00", titulo: "GINNY E GEORGIA", poster: "poster-ginny.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+            ]
+        },    
+                {
+            data: "2025-06-19",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },
+                { horario: "20:00", titulo: "GINNY E GEORGIA", poster: "poster-ginny.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+            ]
+        },    
+                {
+            data: "2025-06-20",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },
+            ]
+        },    
+                {
+            data: "2025-06-23",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },
+                { horario: "20:00", titulo: "GINNY E GEORGIA", poster: "poster-ginny.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+            ]
+        },    
+                {
+            data: "2025-06-24",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },
+                { horario: "20:00", titulo: "GINNY E GEORGIA", poster: "poster-ginny.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },
+                { horario: "21:00", titulo: "CORAÇÃO DE FERRO", poster: "poster-ironheart.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },            
+            ]
+        },    
+                {
+            data: "2025-06-25",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },
+                { horario: "20:00", titulo: "CORAÇÃO DE FERRO", poster: "poster-ironheart.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },  
+            ]
+        },                    
+                {
+            data: "2025-06-27",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-sp1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:10", titulo: "SP2", poster: "poster-sp2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
+                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },
+                { horario: "20:00", titulo: "CORAÇÃO DE FERRO", poster: "poster-ironheart.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },  
+                { horario: "20:45", titulo: "ROUND 6", poster: "poster-round.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },              
+            ]
+        },                 
     ];
 
     var dataAtual = now.toISOString().split('T')[0];
