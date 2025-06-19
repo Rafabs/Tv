@@ -10,16 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '18/06') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">18:50</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:20</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E20 - T03</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">GINNY E GEORGIA - E07 - T03</span></li> <hr class="filme-separador">    
-  `;
-}
-else if (data === '19/06') {
+if (data === '19/06') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -39,19 +30,19 @@ else if (data === '23/06') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E03 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">GINNY E GEORGIA - E09 - T03</span></li> <hr class="filme-separador">    
+  <li><span class="horario">18:50</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:20</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E03 - T04</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">GINNY E GEORGIA - E09 - T03</span></li> <hr class="filme-separador">    
   `;
 }
 else if (data === '24/06') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E04 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">GINNY E GEORGIA - E10 - T03</span></li> <hr class="filme-separador">    
-  <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">CORAÇÃO DE FERRO - E01 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">18:50</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:20</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E04 - T04</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">GINNY E GEORGIA - E10 - T03</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">CORAÇÃO DE FERRO - E01 - T01</span></li> <hr class="filme-separador">    
 `;
 }
 else if (data === '25/06') {
