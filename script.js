@@ -10,16 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '23/06') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">18:50</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:20</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E03 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">GINNY E GEORGIA - E09 - T03</span></li> <hr class="filme-separador">    
-  `;
-}
-else if (data === '24/06') {
+if (data === '24/06') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -51,19 +42,6 @@ else if (data === '27/06') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-ironheart.jpg" alt="CORAÇÃO DE FERRO">
-<div class="filme-texto">
-<span class="dia">24/06</span>
-<span class="class-14">14</span>
-<span class="filme">CORAÇÃO DE FERRO</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-round.jpg" alt="ROUND 6">
@@ -110,6 +88,18 @@ else if (data === '27/06') {
 <span class="dia">11/06</span>
 <span class="class-16">16</span>
 <span class="filme">BRICK</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-84m2.jpg" alt="MEUS 84m²">
+<div class="filme-texto">
+<span class="dia">18/07</span>
+<span class="class-14">14</span>
+<span class="filme">MEUS 84m²</span>
 <div class="filme-texto">
 <span class="class-filme">Filme</span>
 </div>
