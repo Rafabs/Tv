@@ -10,51 +10,83 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '24/06') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">18:50</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:20</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E04 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:40</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">GINNY E GEORGIA - E10 - T03</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:40</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">CORAÇÃO DE FERRO - E01 - T01</span></li> <hr class="filme-separador">    
-`;
-}
-else if (data === '25/06') {
+if (data === '25/06') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E05 - T04</span></li> <hr class="filme-separador">    
 `;
 }
-// Confirmar duração ep. IRONHEART
 else if (data === '27/06') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E04 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">CORAÇÃO DE FERRO - E01 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:45</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ROUND 6 - E01 - T03</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E05 - T04</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">CORAÇÃO DE FERRO - E02 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:55</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ROUND 6 - E01 - T03</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '28/06') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E06 - T04</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">CORAÇÃO DE FERRO - E03 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ROUND 6 - E02 - T03</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+`;
+}
+else if (data === '29/06') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">19:10</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E07 - T04</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:30</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">ROUND 6 - E03 - T03</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
+`;
+}
+else if (data === '30/06') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E08 - T04</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '02/07') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E09 - T04</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">CORAÇÃO DE FERRO - E04 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:55</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - E01 - T03</span></li> <hr class="filme-separador">    
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">ROUND 6 - E04 - T03</span> </div> </li> <hr class="filme-separador"> </li>
+`;
+}
+// Confirmar Tour de France
+else if (data === '03/07') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E10 - T04</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">CORAÇÃO DE FERRO - E05 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:55</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - E02 - T03</span></li> <hr class="filme-separador">    
+  // <li><span class="horario">21:30</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E01 - T02</span></li> <hr class="filme-separador">    
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">ROUND 6 - E05 - T03</span> </div> </li> <hr class="filme-separador"> </li>
+`;
+}
+else if (data === '04/07') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E11 - T04</span></li> <hr class="filme-separador">    
 `;
 }
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-round.jpg" alt="ROUND 6">
-<div class="filme-texto">
-<span class="dia">27/06</span>
-<span class="class-18">18</span>
-<span class="filme">ROUND 6</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T3</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-tour.jpg" alt="TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO">
