@@ -4,15 +4,7 @@ function exibirProgramacao() {
     var programacaoDiv = document.getElementById("programacao");
     var now = new Date();
     
-    var diasProgramacao = [                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
-        {
-            data: "2025-06-29",
-            sessoes: [
-                { horario: "19:10", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },
-                { horario: "19:30", titulo: "ROUND 6", poster: "poster-round.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` }, 
-                { horario: "20:30", titulo: "FANTÁSTICO", poster: "poster-fantastico.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },
-            ]
-        },    
+    var diasProgramacao = [                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
         {
             data: "2025-06-30",
             sessoes: [
