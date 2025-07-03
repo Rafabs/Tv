@@ -10,19 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '02/07') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E09 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">CORAÇÃO DE FERRO - E04 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:55</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - E01 - T03</span></li> <hr class="filme-separador">    
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">ROUND 6 - E04 - T03</span> </div> </li> <hr class="filme-separador"> </li>
-`;
-}
-// Confirmar Tour de France
-else if (data === '03/07') {
+if (data === '03/07') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -30,7 +18,7 @@ else if (data === '03/07') {
   <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E10 - T04</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">CORAÇÃO DE FERRO - E05 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:55</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - E02 - T03</span></li> <hr class="filme-separador">    
-  // <li><span class="horario">21:30</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E01 - T02</span></li> <hr class="filme-separador">    
+  <span class="horario">21:35</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E01 - T02</span></li> <hr class="filme-separador">    
   <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">ROUND 6 - E05 - T03</span> </div> </li> <hr class="filme-separador"> </li>
 `;
 }
@@ -45,32 +33,6 @@ else if (data === '04/07') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-tour.jpg" alt="TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO">
-<div class="filme-texto">
-<span class="dia">02/07</span>
-<span class="class-12">12</span>
-<span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T3</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-sandman.jpg" alt="SANDMAN">
-<div class="filme-texto">
-<span class="dia">03/07</span>
-<span class="class-18">18</span>
-<span class="filme">SANDMAN</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T2</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-brick.jpg" alt="BRICK">
@@ -116,6 +78,32 @@ else if (data === '04/07') {
 <span class="filme">MEUS 84m²</span>
 <div class="filme-texto">
 <span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-sandman.jpg" alt="SANDMAN">
+<div class="filme-texto">
+<span class="dia">24/07</span>
+<span class="class-18">18</span>
+<span class="filme">SANDMAN - EPISÓDIOS 7 - 11</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T2</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-sandman.jpg" alt="SANDMAN">
+<div class="filme-texto">
+<span class="dia">24/07</span>
+<span class="class-18">18</span>
+<span class="filme">SANDMAN - EPISÓDIO 12</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T2</span>
 </div>
 </li>
 <hr class="filme-separador">
