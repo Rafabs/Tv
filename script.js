@@ -10,19 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '07/07') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:25</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:50</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E12 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:10</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">CORAÇÃO DE FERRO - E06 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">21:10</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - E03 - T03</span></li> <hr class="filme-separador">    
-  <li><span class="horario">21:55</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E02 - T02</span></li> <hr class="filme-separador">    
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">ROUND 6 - E06 - T03</span> </div> </li> <hr class="filme-separador"> </li>
-`;
-}
-else if (data === '08/07') {
+if (data === '08/07') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -313,6 +301,19 @@ else if (data === '09/08') {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-alice.jpg" alt="ALICE IN BORDERLAND">
+<div class="filme-texto">
+<span class="dia">25/09</span>
+<span class="class-16">16</span>
+<span class="filme">ALICE IN BORDERLAND</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T3</span>
 </div>
 </li>
 <hr class="filme-separador">
