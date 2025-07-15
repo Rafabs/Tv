@@ -10,26 +10,10 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '13/07') {
+if (data === '16/07') {
   programacaoDiv.innerHTML = `
   <ul>  
-  <li><span class="horario">18:20</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E15 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">18:40</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - E05 - T03</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:20</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E05 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
-`;
-}
-else if (data === '14/07') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E16 - T04</span></li> <hr class="filme-separador">    
-`;
-}
-else if (data === '16/07') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">18:50</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E17 - T04</span></li> <hr class="filme-separador">   
+  <li><span class="horario">16:50</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E17 - T04</span></li> <hr class="filme-separador">   
   <li><span class="horario">17:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">17:30</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - E06 - T03</span></li> <hr class="filme-separador">    
   <li><span class="horario">18:10</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E06 - T02</span></li> <hr class="filme-separador">    
@@ -281,6 +265,18 @@ else if (data === '09/08') {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T3</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-batalha.jpg" alt="UM FANTASMA NA BATALHA">
+<div class="filme-texto">
+<span class="dia">17/10</span>
+<span class="class-14">14</span>
+<span class="filme">UM FANTASMA NA BATALHA</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
 </div>
 </li>
 <hr class="filme-separador">
