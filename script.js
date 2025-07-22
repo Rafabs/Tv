@@ -10,17 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '21/07') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E20 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">TOUR DE FRANCE: NO CORAÇÃO DO PELOTÃO - E08 - T03</span></li> <hr class="filme-separador">    
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-orig">NAC</span> <span class="class-10">10</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">FAMÍLIAS, PERO NO MUCHO</span> </div> </li> <hr class="filme-separador"> </li>
-`;
-}
-else if (data === '22/07') {
+if (data === '22/07') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -128,30 +118,6 @@ else if (data === '09/08') {
       <ul>
 
 <li class="filme-poster">
-<img src="imgs//poster-familia.jpg" alt="FAMÍLIA, PERO NO MUCHO">
-<div class="filme-texto">
-<span class="dia">18/07</span>
-<span class="class-10">10</span>
-<span class="filme">FAMÍLIA, PERO NO MUCHO</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-84m2.jpg" alt="MEUS 84m²">
-<div class="filme-texto">
-<span class="dia">18/07</span>
-<span class="class-14">14</span>
-<span class="filme">MEUS 84m²</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-sandman.jpg" alt="SANDMAN">
 <div class="filme-texto">
 <span class="dia">24/07</span>
@@ -186,6 +152,18 @@ else if (data === '09/08') {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T2</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-noite.jpg" alt="A NOITE SEMPRE CHEGA">
+<div class="filme-texto">
+<span class="dia">15/08</span>
+<span class="class-16">16</span>
+<span class="filme">A NOITE SEMPRE CHEGA</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
 </div>
 </li>
 <hr class="filme-separador">
