@@ -10,20 +10,12 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '25/07') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E23 - T04</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E07 - T02</span></li> <hr class="filme-separador">    
-`;
-}
-else if (data === '28/07') {
+if (data === '26/07') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E24 - T04</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E08 - T02</span></li> <hr class="filme-separador">    
 `;
 }
 else if (data === '30/07') {
@@ -32,7 +24,7 @@ else if (data === '30/07') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E01 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E08 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E09 - T02</span></li> <hr class="filme-separador">    
 `;
 }
 else if (data === '31/07') {
@@ -40,7 +32,7 @@ else if (data === '31/07') {
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">17:50</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E02 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">18:10</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E09 - T02</span></li> <hr class="filme-separador">      
+  <li><span class="horario">18:10</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E10 - T02</span></li> <hr class="filme-separador">      
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">CAMPEONATO BRASILEIRO</span></li> <hr class="filme-separador"> 
   
 `;
@@ -58,7 +50,7 @@ else if (data === '04/08') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E04 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E10 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E11 - T02</span></li> <hr class="filme-separador">    
 `;
 }
 else if (data === '05/08') {
@@ -67,7 +59,7 @@ else if (data === '05/08') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E05 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E11 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E12 - T02</span></li> <hr class="filme-separador">    
 `;
 }
 else if (data === '06/08') {
@@ -84,7 +76,6 @@ else if (data === '08/08') {
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E07 - T05</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">WANDINHA - E01 - T02</span></li> <hr class="filme-separador">      
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">SANDMAN - E12 - T02</span> </div> </li> <hr class="filme-separador"> </li>
 `;
 }
 else if (data === '09/08') {
