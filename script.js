@@ -10,16 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
   
-if (data === '04/08') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E04 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">SANDMAN - E11 - T02</span></li> <hr class="filme-separador">    
-`;
-}
-else if (data === '05/08') {
+if (data === '05/08') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -156,6 +147,45 @@ else if (data === '09/08') {
 <span class="filme">UM FANTASMA NA BATALHA</span>
 <div class="filme-texto">
 <span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-things.jpg" alt="STRANGER THINGS - Ep. 01 - 04">
+<div class="filme-texto">
+<span class="dia">26/11</span>
+<span class="class-16">16</span>
+<span class="filme">STRANGER THINGS - Ep. 01 - 04</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T5</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-things.jpg" alt="STRANGER THINGS - Ep. 05 - 07">
+<div class="filme-texto">
+<span class="dia">25/12</span>
+<span class="class-16">16</span>
+<span class="filme">STRANGER THINGS - Ep. 05 - 07</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T5</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-things.jpg" alt="STRANGER THINGS - Ep. 08">
+<div class="filme-texto">
+<span class="dia">31/12</span>
+<span class="class-16">16</span>
+<span class="filme">STRANGER THINGS - Ep. 08</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T5</span>
 </div>
 </li>
 <hr class="filme-separador">
