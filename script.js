@@ -10,22 +10,52 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
   
-if (data === '08/08') {
+if (data === '09/08') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E07 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">WANDINHA - E01 - T02</span></li> <hr class="filme-separador">      
+  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E08 - T05</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">WANDINHA - E02 - T02</span></li> <hr class="filme-separador">      
 `;
 }
-else if (data === '09/08') {
+else if (data === '10/08') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">19:05</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E09 - T05</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:25</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">WANDINHA - E03 - T02</span></li> <hr class="filme-separador">      
+  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
+`;
+}
+else if (data === '11/08') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E10 - T05</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '13/08') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:15</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E11 - T05</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:35</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">WANDINHA - E04 - T02</span></li> <hr class="filme-separador">      
+`;
+}
+else if (data === '14/08') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E07 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">WANDINHA - E02 - T02</span></li> <hr class="filme-separador">      
+  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E12 - T05</span></li> <hr class="filme-separador">    
+`;
+}
+else if (data === '15/08') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E13 - T05</span></li> <hr class="filme-separador">    
 `;
 }
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">01:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
@@ -148,6 +178,19 @@ else if (data === '09/08') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-percy.jpg" alt="PERCY JACKSON E OS OLÍMPIANOS">
+<div class="filme-texto">
+<span class="dia">10/12</span>
+<span class="class-0">0</span>
+<span class="filme">PERCY JACKSON E OS OLÍMPIANOS</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T2</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-things.jpg" alt="STRANGER THINGS - Ep. 05 - 07">
 <div class="filme-texto">
 <span class="dia">25/12</span>
@@ -169,19 +212,6 @@ else if (data === '09/08') {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T5</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-percy.jpg" alt="PERCY JACKSON E OS OLÍMPIANOS">
-<div class="filme-texto">
-<span class="dia">DEZEMBRO</span>
-<span class="class-0">0</span>
-<span class="filme">PERCY JACKSON E OS OLÍMPIANOS</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T2</span>
 </div>
 </li>
 <hr class="filme-separador">
