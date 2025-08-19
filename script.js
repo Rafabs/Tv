@@ -10,23 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-  if (data === '15/08') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E13 - T05</span></li> <hr class="filme-separador">    
-`;
-}
-else if (data === '18/08') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-orig">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E14 - T05</span></li> <hr class="filme-separador">    
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">A NOITE SEMPRE CHEGA</span> </div> </li> <hr class="filme-separador"> </li>
-`;
-}
-else if (data === '19/08') {
+if (data === '19/08') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -74,18 +58,6 @@ else if (data === '24/08') {
       <ul>
 
 <li class="filme-poster">
-<img src="imgs//poster-noite.jpg" alt="A NOITE SEMPRE CHEGA">
-<div class="filme-texto">
-<span class="dia">15/08</span>
-<span class="class-16">16</span>
-<span class="filme">A NOITE SEMPRE CHEGA</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-long.jpg" alt="LONG STORY SHORT">
 <div class="filme-texto">
 <span class="dia">22/08</span>
@@ -117,6 +89,19 @@ else if (data === '24/08') {
 <span class="dia">19/09</span>
 <span class="class-16">16</span>
 <span class="filme">O REFÚGIO ATÔMICO</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-hotel.jpg" alt="HOTEL ASSOMBRADO">
+<div class="filme-texto">
+<span class="dia">19/09</span>
+<span class="class-16">16</span>
+<span class="filme">HOTEL ASSOMBRADO</span>
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
@@ -158,6 +143,31 @@ else if (data === '24/08') {
 <span class="filme">UM FANTASMA NA BATALHA</span>
 <div class="filme-texto">
 <span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-frankenstein.jpg" alt="FRANKENSTEIN">
+<div class="filme-texto">
+<span class="dia">07/11</span>
+<span class="class-0">0</span>
+<span class="filme">FRANKENSTEIN</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-monstro.jpg" alt="O MONSTRO EM MIM">
+<div class="filme-texto">
+<span class="dia">13/11</span>
+<span class="class-0">0</span>
+<span class="filme">O MONSTRO EM MIM</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
 </div>
 </li>
 <hr class="filme-separador">
@@ -277,7 +287,7 @@ function formatDate(date) {
 
 // Função para obter a temperatura e o clima da API de clima (substitua "YOUR_API_KEY" pela sua chave de API real)
 function getWeather() {
-  var apiKey = '16771021c6dc278a8a9ebdb23e682e50'; // Substitua "YOUR_API_KEY" pela sua chave de API real
+  var apiKey = '46ad9bcd907578b771c54270a3560cb3'; // Substitua "YOUR_API_KEY" pela sua chave de API real
   var url = "https://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo&appid=" + apiKey;
 
   // Fazer uma requisição GET para a API de clima
