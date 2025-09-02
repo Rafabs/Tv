@@ -10,29 +10,12 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '29/08') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E23 - T05</span></li> <hr class="filme-separador">    
-`;
-}
-else if (data === '01/09') {
+if (data === '02/09') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E24 - T05</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">LONG STORY SHORT - E06 - T01</span></li> <hr class="filme-separador">    
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">O BRUTALISTA</span> </div> </li> <hr class="filme-separador"> </li>
-  `;
-}
-else if (data === '02/09') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E01 - T06</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E02 - T06</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">LONG STORY SHORT - E07 - T01</span></li> <hr class="filme-separador">    
   <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">JOGOS VORAZES: A CANTIGA DOS PÁSSAROS E DAS SERPENTES</span> </div> </li> <hr class="filme-separador"> </li>
   `;
@@ -41,7 +24,7 @@ else if (data === '03/09') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E23 - T05</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E03 - T06</span></li> <hr class="filme-separador">    
 `;
 }
 else if (data === '05/09') {
@@ -49,7 +32,7 @@ else if (data === '05/09') {
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E01 - T06</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E04 - T06</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">LONG STORY SHORT - E07 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:25</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">WANDINHA - E05 - T02</span></li> <hr class="filme-separador">      
   <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">LOOPER: ASSASSINOS DO FUTURO</span> </div> </li> <hr class="filme-separador"> </li>
@@ -59,7 +42,7 @@ else if (data === '06/09') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E02 - T06</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E05 - T06</span></li> <hr class="filme-separador">    
   <li><span class="horario">13:45</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">LONG STORY SHORT - E08 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:25</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">WANDINHA - E06 - T02</span></li> <hr class="filme-separador">        
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
@@ -162,6 +145,18 @@ else if (data === '06/09') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-caramelo.jpg" alt="CARAMELO">
+<div class="filme-texto">
+<span class="dia">08/10</span>
+<span class="class-0">0</span>
+<span class="filme">CARAMELO</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-batalha.jpg" alt="UM FANTASMA NA BATALHA">
 <div class="filme-texto">
 <span class="dia">17/10</span>
@@ -224,6 +219,18 @@ else if (data === '06/09') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-beatles.jpg" alt="THE BEATLES ANTHOLOGY">
+<div class="filme-texto">
+<span class="dia">26/11</span>
+<span class="class-0">0</span>
+<span class="filme">THE BEATLES ANTHOLOGY</span>
+<div class="filme-texto">
+<span class="class-documentario">Documentário</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-percy.jpg" alt="PERCY JACKSON E OS OLÍMPIANOS">
 <div class="filme-texto">
 <span class="dia">10/12</span>
@@ -232,6 +239,18 @@ else if (data === '06/09') {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T2</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-knives.jpg" alt="VIVO OU MORTO: UM MISTÉRIO KNIVES OUT">
+<div class="filme-texto">
+<span class="dia">12/12</span>
+<span class="class-0">0</span>
+<span class="filme">VIVO OU MORTO: UM MISTÉRIO KNIVES OUT</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
 </div>
 </li>
 <hr class="filme-separador">
