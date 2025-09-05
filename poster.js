@@ -6,14 +6,6 @@ function exibirProgramacao() {
     
     var diasProgramacao = [                  
     {   
-            data: "2025-09-03",
-            sessoes: [
-                { horario: "23:59", titulo: "JOGOS VORAZES: A CANTIGA DOS PÁSSAROS E DAS SERPENTES", poster: "poster-jogos.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-14">14</span>` },   
-                { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },   
-            ]
-        },   
-    {   
             data: "2025-09-05",
             sessoes: [
                 { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
@@ -22,7 +14,18 @@ function exibirProgramacao() {
                 { horario: "20:00", titulo: "LONG SHORT STORY", poster: "poster-long.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-16">16</span>` },   
                 { horario: "20:25", titulo: "WANDINHA", poster: "poster-wandinha.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
             ]
-        },                                                                                                 
+        },    
+    {   
+            data: "2025-09-06",
+            sessoes: [
+                { horario: "23:59", titulo: "LOOPER: ASSASSINOS DO FUTURO", poster: "poster-default.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
+                { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },   
+                { horario: "13:45", titulo: "LONG SHORT STORY", poster: "poster-long.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-16">16</span>` },   
+                { horario: "14:15", titulo: "WANDINHA", poster: "poster-wandinha.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
+                { horario: "19:10", titulo: "SP2", poster: "poster-SP2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+            ]
+        },                                                                                                         
     ];
 
     var dataAtual = now.toISOString().split('T')[0];
