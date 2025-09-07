@@ -4,24 +4,12 @@ function exibirProgramacao() {
     var programacaoDiv = document.getElementById("programacao");
     var now = new Date();
     
-    var diasProgramacao = [                    
-    {   
-            data: "2025-09-06",
-            sessoes: [
-                { horario: "23:59", titulo: "LOOPER: ASSASSINOS DO FUTURO", poster: "poster-default.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
-                { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },   
-                { horario: "13:45", titulo: "LONG SHORT STORY", poster: "poster-long.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-16">16</span>` },   
-                { horario: "14:15", titulo: "WANDINHA", poster: "poster-wandinha.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
-                { horario: "19:10", titulo: "SP2", poster: "poster-SP2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-            ]
-        },     
+    var diasProgramacao = [                       
     {   
             data: "2025-09-07",
             sessoes: [
-                { horario: "16:20", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },   
-                { horario: "16:40", titulo: "LONG SHORT STORY", poster: "poster-long.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-16">16</span>` },   
-                { horario: "17:00", titulo: "CAMPEONATO BRASILEIRO", poster: "poster-campeonato-brasileiro.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+                { horario: "17:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },   
+                { horario: "17:45", titulo: "LONG SHORT STORY", poster: "poster-long.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-16">16</span>` },   
                 { horario: "18:15", titulo: "WANDINHA", poster: "poster-wandinha.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
                 { horario: "20:30", titulo: "FANTÁSTICO", poster: "poster-fantastico.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
             ]
