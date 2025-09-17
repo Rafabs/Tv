@@ -10,15 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '15/09') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E12 - T06</span></li> <hr class="filme-separador">    
-  `;
-}
-else if (data === '16/09') {
+if (data === '16/09') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -39,7 +31,8 @@ else if (data === '19/09') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E15 - T06</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">HOTEL ASSOMBRADO - E01 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">O REFÚGIO ATÔMICO - E01 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">23:59</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">HOTEL ASSOMBRADO - E01 - T01</span></li> <hr class="filme-separador">    
   `;
 }
   // <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
@@ -113,6 +106,30 @@ else if (data === '19/09') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-caramelo.jpg" alt="CARAMELO">
+<div class="filme-texto">
+<span class="dia">08/10</span>
+<span class="class-12">12</span>
+<span class="filme">CARAMELO</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-limpa.jpg" alt="LIMPA">
+<div class="filme-texto">
+<span class="dia">10/10</span>
+<span class="class-16">16</span>
+<span class="filme">LIMPA</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-splinter.jpg" alt="SPLINTER CELL: DEATHEATCH">
 <div class="filme-texto">
 <span class="dia">14/10</span>
@@ -121,18 +138,6 @@ else if (data === '19/09') {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-caramelo.jpg" alt="CARAMELO">
-<div class="filme-texto">
-<span class="dia">08/10</span>
-<span class="class-12">12</span>
-<span class="filme">CARAMELO</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
 </div>
 </li>
 <hr class="filme-separador">
