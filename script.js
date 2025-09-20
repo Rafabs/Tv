@@ -55,32 +55,6 @@ else if (data === '22/09') {
       <ul>
 
 <li class="filme-poster">
-<img src="imgs//poster-refugio.jpg" alt="O REFÚGIO ATÔMICO">
-<div class="filme-texto">
-<span class="dia">19/09</span>
-<span class="class-16">16</span>
-<span class="filme">O REFÚGIO ATÔMICO</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-hotel.jpg" alt="HOTEL ASSOMBRADO">
-<div class="filme-texto">
-<span class="dia">19/09</span>
-<span class="class-16">16</span>
-<span class="filme">HOTEL ASSOMBRADO</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-alice.jpg" alt="ALICE IN BORDERLAND">
 <div class="filme-texto">
 <span class="dia">25/09</span>
