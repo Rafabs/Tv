@@ -10,27 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '19/09') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E15 - T06</span></li> <hr class="filme-separador">    
-  <li><span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">O REFÚGIO ATÔMICO - E01 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">23:59</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">HOTEL ASSOMBRADO - E01 - T01</span></li> <hr class="filme-separador">    
-  `;
-}
-else if (data === '20/09') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E16 - T06</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">O REFÚGIO ATÔMICO - E02 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">14:45</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">HOTEL ASSOMBRADO - E02 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  `;
-}
-else if (data === '21/09') {
+if (data === '21/09') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">18:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E17 - T06</span></li> <hr class="filme-separador">    
