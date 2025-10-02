@@ -10,19 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '01/10') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">18:40</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:15</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E19 - T06</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:35</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">O REFÚGIO ATÔMICO - E05 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:20</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">HOTEL ASSOMBRADO - E05 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">HOUSE OF GUINNESS - E01 - T01</span></li> <hr class="filme-separador">    
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">ALICE IN BORDERLAND - E01 - T03</span> </div> </li> <hr class="filme-separador"> </li>
-  `;
-}
-else if (data === '02/10') {
+if (data === '02/10') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -94,32 +82,6 @@ else if (data === '07/10') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-alice.jpg" alt="ALICE IN BORDERLAND">
-<div class="filme-texto">
-<span class="dia">25/09</span>
-<span class="class-16">16</span>
-<span class="filme">ALICE IN BORDERLAND</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T3</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-house.jpg" alt="HOUSE OF GUINNESS">
-<div class="filme-texto">
-<span class="dia">25/09</span>
-<span class="class-16">16</span>
-<span class="filme">HOUSE OF GUINNESS</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-desobedientes.jpg" alt="DESOBEDIENTES">
