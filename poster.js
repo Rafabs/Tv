@@ -6,13 +6,60 @@ function exibirProgramacao() {
     
     var diasProgramacao = [                                    
     {   
-            data: "2025-09-08",
+            data: "2025-10-03",
             sessoes: [
-                { horario: "23:59", titulo: "LILO & STITCH", poster: "poster-lilo.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-10">10</span>` },   
+                { horario: "23:59", titulo: "ALICE IN BORDERLAND", poster: "poster-alice.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
                 { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },   
+                { horario: "19:10", titulo: "SP2", poster: "poster-SP2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
+                { horario: "20:00", titulo: "O REFÚGIO ATÔMICO", poster: "poster-refugio.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
+                { horario: "20:50", titulo: "HOTEL ASSOMBRADO", poster: "poster-hotel.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-16">16</span>` },   
+                { horario: "21:15", titulo: "HOUSE OF GUINNESS", poster: "poster-house.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
             ]
-        },                                                                                                              
+        },      
+    {   
+            data: "2025-10-04",
+            sessoes: [
+                { horario: "23:59", titulo: "ALICE IN BORDERLAND", poster: "poster-alice.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
+                { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
+                { horario: "14:40", titulo: "O REFÚGIO ATÔMICO", poster: "poster-refugio.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
+                { horario: "15:00", titulo: "HOTEL ASSOMBRADO", poster: "poster-hotel.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-16">16</span>` },   
+                { horario: "19:10", titulo: "SP2", poster: "poster-SP2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+            ]
+        },     
+    {   
+            data: "2025-10-05",
+            sessoes: [
+                { horario: "15:40", titulo: "CAMPEONATO BRASILEIRO", poster: "poster-campeonato-brasileiro.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+                { horario: "18:15", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
+                { horario: "18:35", titulo: "HOUSE OF GUINNESS", poster: "poster-house.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
+                { horario: "19:30", titulo: "HOTEL ASSOMBRADO", poster: "poster-hotel.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-16">16</span>` },   
+                { horario: "20:30", titulo: "FANTÁSTICO", poster: "poster-fantastico.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+            ]
+        },    
+    {   
+            data: "2025-10-06",
+            sessoes: [
+                { horario: "23:59", titulo: "ALICE IN BORDERLAND", poster: "poster-alice.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
+                { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+                { horario: "19:10", titulo: "SP2", poster: "poster-SP2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
+                { horario: "20:00", titulo: "HOUSE OF GUINNESS", poster: "poster-house.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },                   
+                { horario: "20:50", titulo: "HOTEL ASSOMBRADO", poster: "poster-hotel.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-16">16</span>` },   
+            ]
+        },    
+    {   
+            data: "2025-10-07",
+            sessoes: [
+                { horario: "23:59", titulo: "ALICE IN BORDERLAND", poster: "poster-alice.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
+                { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+                { horario: "19:10", titulo: "SP2", poster: "poster-SP2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
+                { horario: "20:00", titulo: "HOUSE OF GUINNESS", poster: "poster-house.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },                   
+                { horario: "20:00", titulo: "DESOBEDIENTES", poster: "poster-desobedientes.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },                   
+            ]
+        },                                                                                                                                        
     ];
 
     var dataAtual = now.toISOString().split('T')[0];
