@@ -4,19 +4,7 @@ function exibirProgramacao() {
     var programacaoDiv = document.getElementById("programacao");
     var now = new Date();
     
-    var diasProgramacao = [                                    
-    {   
-            data: "2025-10-03",
-            sessoes: [
-                { horario: "23:59", titulo: "ALICE IN BORDERLAND", poster: "poster-alice.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
-                { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-                { horario: "19:10", titulo: "SP2", poster: "poster-SP2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
-                { horario: "20:00", titulo: "O REFÚGIO ATÔMICO", poster: "poster-refugio.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
-                { horario: "20:50", titulo: "HOTEL ASSOMBRADO", poster: "poster-hotel.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-16">16</span>` },   
-                { horario: "21:15", titulo: "HOUSE OF GUINNESS", poster: "poster-house.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },   
-            ]
-        },      
+    var diasProgramacao = [                                      
     {   
             data: "2025-10-04",
             sessoes: [
