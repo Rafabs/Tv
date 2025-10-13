@@ -10,21 +10,13 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '12/10') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">19:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E06 - T07</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">DESOBEDIENTES - E07 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
-  `;
-}
-else if (data === '13/10') {
+if (data === '13/10') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E07 - T07</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">DESOBEDIENTES - E08 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">DESOBEDIENTES - E78 - T01</span></li> <hr class="filme-separador">    
   `;
 }
 else if (data === '14/10') {
@@ -33,7 +25,8 @@ else if (data === '14/10') {
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E08 - T07</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">SPLINTER CELL: DEATHEATCH - E01 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">DESOBEDIENTES - E08 - T01</span></li> <hr class="filme-separador">      
+  <li><span class="horario">20:40</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">SPLINTER CELL: DEATHEATCH - E01 - T01</span></li> <hr class="filme-separador">    
   `;
 }
 else if (data === '15/10') {
