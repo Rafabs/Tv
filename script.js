@@ -133,6 +133,18 @@ else if (data === '29/10') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-yorker.jpg" alt="THE NEW YORKER: 100 ANOS DE HISTÓRIA">
+<div class="filme-texto">
+<span class="dia">05/12</span>
+<span class="class-0">0</span>
+<span class="filme">THE NEW YORKER: 100 ANOS DE HISTÓRIA</span>
+<div class="filme-texto">
+<span class="class-documentario">Documentário</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-percy.jpg" alt="PERCY JACKSON E OS OLÍMPIANOS">
 <div class="filme-texto">
 <span class="dia">10/12</span>
