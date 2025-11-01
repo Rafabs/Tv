@@ -6,14 +6,39 @@ function exibirProgramacao() {
     
     var diasProgramacao = [                                                                                                                                                                                                                                                                          
     {   
-            data: "2025-10-31",
+            data: "2025-11-01",
             sessoes: [
                 { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+                { horario: "17:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
+                { horario: "17:45", titulo: "THE WITCHER", poster: "poster-witcher.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },  
                 { horario: "19:10", titulo: "SP2", poster: "poster-SP2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-                { horario: "19:45", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
-                { horario: "20:05", titulo: "THE WITCHER", poster: "poster-witcher.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },  
             ]
-        },                              
+        }, 
+    {   
+            data: "2025-11-02",
+            sessoes: [
+                { horario: "18:35", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
+                { horario: "19:00", titulo: "THE WITCHER", poster: "poster-witcher.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },  
+                { horario: "20:00", titulo: "CAMPEONATO BRASILEIRO", poster: "poster-campeonato-brasileiro.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+            ]
+        },      
+    {   
+            data: "2025-11-03",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
+            ]
+        },     
+    {   
+            data: "2025-11-05",
+            sessoes: [
+                { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+                { horario: "18:40", titulo: "SP2", poster: "poster-SP2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+                { horario: "19:10", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
+                { horario: "19:30", titulo: "THE WITCHER", poster: "poster-witcher.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },  
+                { horario: "21:15", titulo: "CAMPEONATO BRASILEIRO", poster: "poster-campeonato-brasileiro.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
+            ]
+        },                                                      
     ];
 
     var dataAtual = now.toISOString().split('T')[0];
