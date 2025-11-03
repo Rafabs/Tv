@@ -4,15 +4,7 @@ function exibirProgramacao() {
     var programacaoDiv = document.getElementById("programacao");
     var now = new Date();
     
-    var diasProgramacao = [                                                                                                                                                                                                                                                                          
-    {   
-            data: "2025-11-02",
-            sessoes: [
-                { horario: "18:35", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
-                { horario: "19:00", titulo: "THE WITCHER", poster: "poster-witcher.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },  
-                { horario: "20:00", titulo: "CAMPEONATO BRASILEIRO", poster: "poster-campeonato-brasileiro.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-            ]
-        },      
+    var diasProgramacao = [                                                                                                                                                                                                                                                                              
     {   
             data: "2025-11-03",
             sessoes: [
