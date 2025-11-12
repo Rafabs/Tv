@@ -6,16 +6,6 @@ function exibirProgramacao() {
     
     var diasProgramacao = [                                                                                                                                                                                                                                                                                              
     {   
-            data: "2025-11-11",
-            sessoes: [
-                { horario: "23:59", titulo: "FRANKENSTEIN", poster: "poster-frankenstein.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-16">16</span>` },  
-                { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-                { horario: "19:10", titulo: "SP2", poster: "poster-SP2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
-                { horario: "20:05", titulo: "THE WITCHER", poster: "poster-witcher.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },  
-            ]
-        },    
-    {   
             data: "2025-11-12",
             sessoes: [
                 { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
