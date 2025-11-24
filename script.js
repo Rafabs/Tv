@@ -43,8 +43,8 @@ else if (data === '28/11') {
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   <li><span class="horario">19:45</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E16 - T08</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">O MONSTRO EM MIM - E08 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">21:05</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">STRANGER THINGS - E01 - T05</span></li> <hr class="filme-separador">    
-  <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-0">0</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">THE BEATLES ANTHOLOGY</span> </div> </li> <hr class="filme-separador"> </li>
+  <li><span class="horario">21:05</span> <span class="label-leg">LEG</span> <span class="class-0">0</span> <span class="filme">THE BEATLES ANTHOLOGY</span></li> <hr class="filme-separador">    
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">STRANGER THINGS - E01 - T05</span> </div> </li> <hr class="filme-separador"> </li>
   `;
 }
 // confirmar beatles
