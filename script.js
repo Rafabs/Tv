@@ -33,9 +33,9 @@ else if (data === '29/11') {
 else if (data === '30/11') {
   programacaoDiv.innerHTML = `
   <ul>  
-  <li><span class="horario">18:45</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E18 - T08</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">STRANGER THINGS - E03 - T05</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E18 - T08</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">STRANGER THINGS - E03 - T05</span> </div> </li> <hr class="filme-separador"> </li>
   `;
 }
 else if (data === '01/12') {
