@@ -10,23 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '01/12') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">18:45</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E19 - T08</span></li> <hr class="filme-separador">    
-  `;
-}
-else if (data === '03/12') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:45</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E20 - T08</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:10</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">STRANGER THINGS - E04 - T05</span></li> <hr class="filme-separador">    
-  `;
-}
-else if (data === '04/12') {
+if (data === '04/12') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
@@ -47,19 +31,6 @@ else if (data === '05/12') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-abandonados.jpg" alt="OS ABANDONADOS">
-<div class="filme-texto">
-<span class="dia">04/12</span>
-<span class="class-18">18</span>
-<span class="filme">OS ABANDONADOS</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-yorker.jpg" alt="THE NEW YORKER: 100 ANOS DE HISTÓRIA">
