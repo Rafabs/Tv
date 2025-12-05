@@ -10,20 +10,68 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '04/12') {
+if (data === '05/12') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E22 - T08</span></li> <hr class="filme-separador">    
+  `;
+}
+else if (data === '08/12') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:45</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E21 - T08</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:10</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">OS ABANDONADOS - E01 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:45</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E23 - T08</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:10</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">OS ABANDONADOS - E02 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">THE NEW YORKER: 100 ANOS DE HISTÓRIA</span></li> <hr class="filme-separador">    
   `;
 }
-else if (data === '05/12') {
+else if (data === '09/12') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
-  <li><span class="horario">18:45</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E22 - T08</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:45</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E24 - T08</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:10</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">OS ABANDONADOS - E03 - T01</span></li> <hr class="filme-separador">    
+  `;
+}
+else if (data === '10/12') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E01 - T09</span></li> <hr class="filme-separador">    
+  `;
+}
+else if (data === '12/12') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:45</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E23 - T08</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:10</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">OS ABANDONADOS - E04 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:50</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">PERCY JACKSON E OS OLÍMPIANOS - E01 - T02</span></li> <hr class="filme-separador">    
+  <li <class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">VIVO OU MORTO: UM MISTÉRIO KNIVES OUT</span> </div> </li> <hr class="filme-separador"> </li>
+  `;
+}
+else if (data === '13/12') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E23 - T08</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">OS ABANDONADOS - E05 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">PERCY JACKSON E OS OLÍMPIANOS - E02 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  `;
+}
+// CONFIRMAR PERCY JACKSON NO DIA 14/12
+else if (data === '14/12') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">HOW I MET YOUR MOTHER - E23 - T08</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">OS ABANDONADOS - E05 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">PERCY JACKSON E OS OLÍMPIANOS - E02 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
   `;
 }
 
