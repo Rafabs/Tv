@@ -120,6 +120,19 @@ else if (data === '14/12') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-sete.jpg" alt="O CAVALEIRO DOS SETE REINOS">
+<div class="filme-texto">
+<span class="dia">18/01</span>
+<span class="class-0">0</span>
+<span class="filme">O CAVALEIRO DOS SETE REINOS</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-elizabeth.jpg" alt="SEQUESTRO: ELIZABETH SMART">
 <div class="filme-texto">
 <span class="dia">21/01</span>
