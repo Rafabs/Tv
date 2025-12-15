@@ -4,25 +4,7 @@ function exibirProgramacao() {
     var programacaoDiv = document.getElementById("programacao");
     var now = new Date();
     
-    var diasProgramacao = [                                                                                                                                                                                                                                                                                                         
-    {   
-            data: "2025-12-13",
-            sessoes: [
-                { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
-                { horario: "13:45", titulo: "OS ABANDONADOS", poster: "poster-abandonados.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },  
-                { horario: "14:45", titulo: "PERCY JACKSON E OS OLÍMPIANOS", poster: "poster-percy.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-12">12</span>` },  
-                { horario: "19:10", titulo: "SP2", poster: "poster-SP2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-            ]
-        },        
-    {   
-            data: "2025-12-14",
-            sessoes: [
-                { horario: "19:20", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
-                { horario: "19:40", titulo: "OS ABANDONADOS", poster: "poster-abandonados.jpg", detalhes: `<span class="label-leg">LEG</span> <span class="class-18">18</span>` },  
-                { horario: "20:30", titulo: "FANTASTICO", poster: "poster-fantastico.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-            ]
-        },           
+    var diasProgramacao = [                                                                                                                                                                                                                                                                                                                  
     {   
             data: "2025-12-15",
             sessoes: [
