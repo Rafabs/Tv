@@ -4,30 +4,7 @@ function exibirProgramacao() {
     var programacaoDiv = document.getElementById("programacao");
     var now = new Date();
     
-    var diasProgramacao = [                                                                                                                                                                                                                                                                                                                         
-    {   
-            data: "2025-01-05",
-            sessoes: [
-                { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-                { horario: "19:10", titulo: "SP2", poster: "poster-SP2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
-            ]
-        },         
-    {   
-            data: "2025-01-06",
-            sessoes: [
-                { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-                { horario: "19:10", titulo: "SP2", poster: "poster-SP2.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-                { horario: "19:40", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
-            ]
-        },           
-    {   
-            data: "2025-01-07",
-            sessoes: [
-                { horario: "11:45", titulo: "SP1", poster: "poster-SP1.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },        
-                { horario: "13:25", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
-            ]
-        },             
+    var diasProgramacao = [                                                                                                                                                                                                                                                                                                                                 
     {   
             data: "2025-01-09",
             sessoes: [
@@ -41,7 +18,7 @@ function exibirProgramacao() {
             data: "2025-01-11",
             sessoes: [
                 { horario: "20:05", titulo: "HOW I MET YOUR MOTHER", poster: "poster-himym.jpg", detalhes: `<span class="label-dub">DUB</span> <span class="class-14">14</span>` },  
-                { horario: "20:30", titulo: "FANTÁSTICO", poster: "poster-fantastico.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },                                                                                  
+                { horario: "20:30", titulo: "PAULISTÃO", poster: "poster-paulistao-2025.jpg", detalhes: `<span class="label-orig">NAC</span> <span class="class-12">12</span>` },                                                                                  
             ]
         },        
     {   
