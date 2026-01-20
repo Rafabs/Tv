@@ -10,30 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '09/01') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">PERCY JACKSON E OS OLÍMPIANOS - E06 - T02</span></li> <hr class="filme-separador">    
-  `;
-}
-
-else if (data === '16/01') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">MODERN FAMILY - E02 - T01</span></li> <hr class="filme-separador">    
-  `;
-}
-else if (data === '19/01') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">MODERN FAMILY - E03 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">O CAVALEIRO DOS SETE REINOS - E01 - T01</span></li> <hr class="filme-separador">    
-  `;
-}
-else if (data === '20/01') {
+if (data === '20/01') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
@@ -123,19 +100,6 @@ else if (data === '02/02') {
       <ul>
 
 <li class="filme-poster">
-<img src="imgs//poster-sete.jpg" alt="O CAVALEIRO DOS SETE REINOS">
-<div class="filme-texto">
-<span class="dia">18/01</span>
-<span class="class-16">16</span>
-<span class="filme">O CAVALEIRO DOS SETE REINOS</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
 <img src="imgs//poster-elizabeth.jpg" alt="SEQUESTRO: ELIZABETH SMART">
 <div class="filme-texto">
 <span class="dia">21/01</span>
@@ -166,6 +130,19 @@ else if (data === '02/02') {
 <span class="dia">12/02</span>
 <span class="class-12">12</span>
 <span class="filme">DE BELFAST AO PARAÍSO</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-seguidores.jpg" alt="MISTÉRIO DE UM MILHÃO DE SEGUIDORES">
+<div class="filme-texto">
+<span class="dia">12/02</span>
+<span class="class-14">14</span>
+<span class="filme">MISTÉRIO DE UM MILHÃO DE SEGUIDORES</span>
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
