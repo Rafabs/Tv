@@ -10,14 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '26/01') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-12">12</span> <span class="filme">MODERN FAMILY - E09 - T01</span></li> <hr class="filme-separador">    
-  `;
-}
-else if (data === '28/01') {
+if (data === '28/01') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
@@ -113,6 +106,31 @@ else if (data === '02/02') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-pavana.jpg" alt="PAVANA">
+<div class="filme-texto">
+<span class="dia">20/02</span>
+<span class="class-16">16</span>
+<span class="filme">PAVANA</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-law.jpg" alt="STRIP LAW">
+<div class="filme-texto">
+<span class="dia">20/02</span>
+<span class="class-16">16</span>
+<span class="filme">STRIP LAW</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-peaky.jpg" alt="PEAKY BLINDERS: O HOMEM IMORTAL">
 <div class="filme-texto">
 <span class="dia">20/03</span>
@@ -120,6 +138,19 @@ else if (data === '02/02') {
 <span class="filme">PEAKY BLINDERS: O HOMEM IMORTAL</span>
 <div class="filme-texto">
 <span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-horrivel.jpg" alt="ALGO HORRÍVEL VAI ACONTECER">
+<div class="filme-texto">
+<span class="dia">26/03</span>
+<span class="class-0">0</span>
+<span class="filme">ALGO HORRÍVEL VAI ACONTECER</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
 </div>
 </li>
 <hr class="filme-separador">
