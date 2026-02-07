@@ -10,22 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '04/02') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E15 - T01</span></li> <hr class="filme-separador">    
-  `;
-}
-else if (data === '06/02') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E16 - T01</span></li> <hr class="filme-separador">    
-  `;
-}
-else if (data === '07/02') {
+if (data === '07/02') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
@@ -47,6 +32,15 @@ else if (data === '09/02') {
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
   <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E19 - T01</span></li> <hr class="filme-separador">    
+  `;
+}
+else if (data === '11/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:10</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E20 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">19:40</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">FILHOS DO CHUMBO - E01 - T01</span></li> <hr class="filme-separador"> 
   `;
 }
 // O CAVALEIRO DOS SETE REINOS - EP.05 - 15/02 - 23H59
@@ -101,7 +95,7 @@ else if (data === '09/02') {
 <img src="imgs//poster-fogo.jpg" alt="CORTA-FOGO">
 <div class="filme-texto">
 <span class="dia">20/02</span>
-<span class="class-0">0</span>
+<span class="class-14">14</span>
 <span class="filme">CORTA-FOGO</span>
 <div class="filme-texto">
 <span class="class-filme">Filme</span>
@@ -135,6 +129,31 @@ else if (data === '09/02') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-tiktok.jpg" alt="O ASSASSINO DO TIKTOK">
+<div class="filme-texto">
+<span class="dia">06/03</span>
+<span class="class-14">14</span>
+<span class="filme">O ASSASSINO DO TIKTOK</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-guerra.jpg" alt="MÁQUINA DE GUERRA">
+<div class="filme-texto">
+<span class="dia">06/03</span>
+<span class="class-16">16</span>
+<span class="filme">MÁQUINA DE GUERRA</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-peaky.jpg" alt="PEAKY BLINDERS: O HOMEM IMORTAL">
 <div class="filme-texto">
 <span class="dia">20/03</span>
@@ -152,6 +171,32 @@ else if (data === '09/02') {
 <span class="dia">26/03</span>
 <span class="class-0">0</span>
 <span class="filme">ALGO HORRÍVEL VAI ACONTECER</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-stranger.jpg" alt="STRANGER THINGS: HISTÓRIAS DE 85">
+<div class="filme-texto">
+<span class="dia">23/04</span>
+<span class="class-0">0</span>
+<span class="filme">STRANGER THINGS: HISTÓRIAS DE 85</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-inferno.jpg" alt="DIRETO PRO INFERNO">
+<div class="filme-texto">
+<span class="dia">27/04</span>
+<span class="class-0">0</span>
+<span class="filme">DIRETO PRO INFERNO</span>
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
