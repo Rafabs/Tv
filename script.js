@@ -10,20 +10,31 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '09/02') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E19 - T01</span></li> <hr class="filme-separador">    
-  `;
-}
-else if (data === '11/02') {
+if (data === '11/02') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
   <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   <li><span class="horario">19:10</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E20 - T01</span></li> <hr class="filme-separador">    
   <li><span class="horario">19:40</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">FILHOS DO CHUMBO - E01 - T01</span></li> <hr class="filme-separador"> 
+  `;
+}
+else if (data === '12/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E21 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">FILHOS DO CHUMBO - E02 - T01</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">DE BELFAST AO PARAÍSO - E01 - T01</span></li> <hr class="filme-separador"> 
+  <li><class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">MISTÉRIO DE UM MILHÃO DE SEGUIDORES - E01 - T01</span> </div> </li> <hr class="filme-separador"> </li>  
+  `;
+}
+else if (data === '13/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E22 - T01</span></li> <hr class="filme-separador">    
   `;
 }
 // O CAVALEIRO DOS SETE REINOS - EP.05 - 15/02 - 23H59
@@ -34,19 +45,6 @@ else if (data === '11/02') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-chumbo.jpg" alt="FILHOS DO CHUMBO">
-<div class="filme-texto">
-<span class="dia">11/02</span>
-<span class="class-14">14</span>
-<span class="filme">FILHOS DO CHUMBO</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-belfast.jpg" alt="DE BELFAST AO PARAÍSO">
