@@ -10,16 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '11/02') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:10</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E20 - T01</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:40</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">FILHOS DO CHUMBO - E01 - T01</span></li> <hr class="filme-separador"> 
-  `;
-}
-else if (data === '12/02') {
+if (data === '12/02') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
@@ -37,7 +28,76 @@ else if (data === '13/02') {
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E22 - T01</span></li> <hr class="filme-separador">    
   `;
 }
-// O CAVALEIRO DOS SETE REINOS - EP.05 - 15/02 - 23H59
+else if (data === '16/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E23 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">FILHOS DO CHUMBO - E03 - T01</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">DE BELFAST AO PARAÍSO - E02 - T01</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">MISTÉRIO DE UM MILHÃO DE SEGUIDORES - E02 - T01</span></li> <hr class="filme-separador"> 
+  <li><class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">O CAVALEIRO DOS SETE REINOS - EP.05 - T01</span> </div> </li> <hr class="filme-separador"> </li>  
+  `;
+}
+else if (data === '17/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E24 - T01</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">FILHOS DO CHUMBO - E04 - T01</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">DE BELFAST AO PARAÍSO - E03 - T01</span></li> <hr class="filme-separador"> 
+  <li><class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">MISTÉRIO DE UM MILHÃO DE SEGUIDORES - E03 - T01</span> </div> </li> <hr class="filme-separador"> </li>  
+  `;
+}
+else if (data === '18/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E01 - T02</span></li> <hr class="filme-separador">    
+  `;
+}
+else if (data === '20/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E02 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">FILHOS DO CHUMBO - E05 - T01</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">21:00</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">DE BELFAST AO PARAÍSO - E04 - T01</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">22:00</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">MISTÉRIO DE UM MILHÃO DE SEGUIDORES - E04 - T01</span></li> <hr class="filme-separador">   
+  `;
+}
+else if (data === '21/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E03 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">FILHOS DO CHUMBO - E06 - T01</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">14:45</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">DE BELFAST AO PARAÍSO - E05 - T01</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">15:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">MISTÉRIO DE UM MILHÃO DE SEGUIDORES - E05 - T01</span></li> <hr class="filme-separador">   
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  `;
+}
+else if (data === '22/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">17:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E04 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">18:00</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">STRIP LAW - E01 - T01</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">18:30</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">DE BELFAST AO PARAÍSO - E06 - T01</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:30</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">MISTÉRIO DE UM MILHÃO DE SEGUIDORES - E06 - T01</span></li> <hr class="filme-separador">   
+  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
+  <li><class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">O CAVALEIRO DOS SETE REINOS - EP.06 - T01</span> </div> </li> <hr class="filme-separador"> </li>  
+  `;
+}
+else if (data === '23/02') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E05 - T02</span></li> <hr class="filme-separador">    
+  `;
+}
 // O CAVALEIRO DOS SETE REINOS - EP.06 - 22/02 - 23H59
 // DTF ST. LOUIS - EM MARÇO
 
@@ -45,32 +105,6 @@ else if (data === '13/02') {
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-belfast.jpg" alt="DE BELFAST AO PARAÍSO">
-<div class="filme-texto">
-<span class="dia">12/02</span>
-<span class="class-12">12</span>
-<span class="filme">DE BELFAST AO PARAÍSO</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-seguidores.jpg" alt="MISTÉRIO DE UM MILHÃO DE SEGUIDORES">
-<div class="filme-texto">
-<span class="dia">12/02</span>
-<span class="class-14">14</span>
-<span class="filme">MISTÉRIO DE UM MILHÃO DE SEGUIDORES</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-fogo.jpg" alt="CORTA-FOGO">
@@ -135,6 +169,19 @@ else if (data === '13/02') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-radioativa.jpg" alt="EMERGÊNCIA RADIOATIVA">
+<div class="filme-texto">
+<span class="dia">18/03</span>
+<span class="class-12">12</span>
+<span class="filme">EMERGÊNCIA RADIOATIVA</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-peaky.jpg" alt="PEAKY BLINDERS: O HOMEM IMORTAL">
 <div class="filme-texto">
 <span class="dia">20/03</span>
@@ -160,6 +207,18 @@ else if (data === '13/02') {
 <hr class="filme-separador">
 
 <li class="filme-poster">
+<img src="imgs//poster-desligue.jpg" alt="DESLIGUE!">
+<div class="filme-texto">
+<span class="dia">26/03</span>
+<span class="class-16">16</span>
+<span class="filme">DESLIGUE!</span>
+<div class="filme-texto">
+<span class="class-filme">Filme</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
 <img src="imgs//poster-stranger.jpg" alt="STRANGER THINGS: HISTÓRIAS DE 85">
 <div class="filme-texto">
 <span class="dia">23/04</span>
@@ -176,7 +235,7 @@ else if (data === '13/02') {
 <img src="imgs//poster-inferno.jpg" alt="DIRETO PRO INFERNO">
 <div class="filme-texto">
 <span class="dia">27/04</span>
-<span class="class-0">0</span>
+<span class="class-16">16</span>
 <span class="filme">DIRETO PRO INFERNO</span>
 <div class="filme-texto">
 <span class="class-serie">Série</span>
