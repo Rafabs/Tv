@@ -10,18 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '22/02') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">17:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E04 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">18:00</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">STRIP LAW - E01 - T01</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">18:30</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <span class="filme">DE BELFAST AO PARAÍSO - E06 - T01</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:30</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">MISTÉRIO DE UM MILHÃO DE SEGUIDORES - E06 - T01</span></li> <hr class="filme-separador">   
-  <li><span class="horario">20:30</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
-  <li><class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">O CAVALEIRO DOS SETE REINOS - EP.06 - T01</span> </div> </li> <hr class="filme-separador"> </li>  
-  `;
-}
-else if (data === '23/02') {
+if (data === '23/02') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
