@@ -10,20 +10,12 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '04/03') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E11 - T02</span></li> <hr class="filme-separador">    
-  `;
-}
-else if (data === '06/03') {
+if (data === '06/03') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E12 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">STRIP LAW - E06 - T01</span></li> <hr class="filme-separador"> 
   <li><span class="horario">20:30</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O ASSASSINO DO TIKTOK - E01 - T01</span></li> <hr class="filme-separador">      
   <li class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">MÁQUINA DE GUERRA</span> </div> </li> <hr class="filme-separador"> </li>  
   `;
@@ -33,50 +25,87 @@ else if (data === '07/03') {
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
   <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E13 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:45</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">STRIP LAW - E07 - T01</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">14:20</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O ASSASSINO DO TIKTOK - E02 - T01</span></li> <hr class="filme-separador">      
+  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O ASSASSINO DO TIKTOK - E02 - T01</span></li> <hr class="filme-separador">      
   <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
   `;
 }
-// CONFIRMAR DURAÇÃO O ASSASSINO DO TIKTOK
 else if (data === '08/03') {
   programacaoDiv.innerHTML = `
   <ul>  
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E13 - T02</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:45</span> <span class="label-dub">DUB</span> <span class="class-16">16</span> <span class="filme">STRIP LAW - E08 - T01</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">14:20</span> <span class="label-leg">LEG</span> <span class="class-14">14</span> <span class="filme">O ASSASSINO DO TIKTOK - E02 - T01</span></li> <hr class="filme-separador">      
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E14 - T02</span></li> <hr class="filme-separador">    
   <li><span class="horario">20:15</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
+  <li class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-orig">NAC</span> <span class="class-16">16</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">O AGENTE SECRETO</span> </div> </li> <hr class="filme-separador"> </li>  
+  `;
+}
+else if (data === '09/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E15 - T02</span></li> <hr class="filme-separador">    
+  `;
+}
+else if (data === '11/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">18:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:10</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E16 - T02</span></li> <hr class="filme-separador">    
+  <li class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-dub">DUB</span> <span class="class-livre">L</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">SÔNIC 3</span> </div> </li> <hr class="filme-separador"> </li>  
+  `;
+}
+else if (data === '12/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E17 - T02</span></li> <hr class="filme-separador">    
+  <li class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-orig">NAC</span> <span class="class-14">14</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">CASA GRANDE</span> </div> </li> <hr class="filme-separador"> </li>  
+  `;
+}
+else if (data === '13/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E18 - T02</span></li> <hr class="filme-separador">    
+  `;
+}
+else if (data === '16/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E19 - T02</span></li> <hr class="filme-separador">    
+  `;
+}
+else if (data === '17/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E20 - T02</span></li> <hr class="filme-separador">    
+  `;
+}
+else if (data === '18/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E21 - T02</span></li> <hr class="filme-separador">    
+  `;
+}
+else if (data === '20/03') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E22 - T02</span></li> <hr class="filme-separador">    
+  <li><span class="horario">20:00</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">EMERGÊNCIA RADIOATIVA - E01 - T01</span></li> <hr class="filme-separador"> 
+  <li class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">PEAKY BLINDERS: O HOMEM IMORTAL</span> </div> </li> <hr class="filme-separador"> </li>  
   `;
 }
   // <li><class="filme-container"> <div class="filme-info"> <span class="horario">23:59</span> <span class="label-leg">LEG</span> <span class="class-12">12</span> <img src="imgs//dts.png" alt="Logo DTS" class="logo-dts"> <span class="filme">TESTE TESTE TESTE TESTE</span> </div> </li> <hr class="filme-separador"> </li>
   else if (data === 'em-breve') {
     programacaoDiv.innerHTML = `    
       <ul>
-
-<li class="filme-poster">
-<img src="imgs//poster-tiktok.jpg" alt="O ASSASSINO DO TIKTOK">
-<div class="filme-texto">
-<span class="dia">06/03</span>
-<span class="class-14">14</span>
-<span class="filme">O ASSASSINO DO TIKTOK</span>
-<div class="filme-texto">
-<span class="class-serie">Série</span>
-<span class="class-temporada">T1</span>
-</div>
-</li>
-<hr class="filme-separador">
-
-<li class="filme-poster">
-<img src="imgs//poster-guerra.jpg" alt="MÁQUINA DE GUERRA">
-<div class="filme-texto">
-<span class="dia">06/03</span>
-<span class="class-16">16</span>
-<span class="filme">MÁQUINA DE GUERRA</span>
-<div class="filme-texto">
-<span class="class-filme">Filme</span>
-</div>
-</li>
-<hr class="filme-separador">
 
 <li class="filme-poster">
 <img src="imgs//poster-radioativa.jpg" alt="EMERGÊNCIA RADIOATIVA">
@@ -163,6 +192,19 @@ else if (data === '08/03') {
 <div class="filme-texto">
 <span class="class-serie">Série</span>
 <span class="class-temporada">T1</span>
+</div>
+</li>
+<hr class="filme-separador">
+
+<li class="filme-poster">
+<img src="imgs//poster-estacoes.jpg" alt="AS QUATRO ESTAÇÕES DO ANO">
+<div class="filme-texto">
+<span class="dia">28/05</span>
+<span class="class-16">16</span>
+<span class="filme">AS QUATRO ESTAÇÕES DO ANO</span>
+<div class="filme-texto">
+<span class="class-serie">Série</span>
+<span class="class-temporada">T2</span>
 </div>
 </li>
 <hr class="filme-separador">
