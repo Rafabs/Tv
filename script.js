@@ -10,57 +10,7 @@ function mostrarProgramacao(button, data) {
   // Adiciona a classe 'active' apenas ao botão clicado
   button.classList.add("active");
 
-if (data === '31/03') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">18:20</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">18:45</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E06 - T03</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:05</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ALGO HORRÍVEL VAI ACONTECER - E03 - T01</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">20:05</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">DEMOLIDOR: RENASCIDO - E02 - T02</span></li> <hr class="filme-separador"> 
-  `;
-}
-else if (data === '01/04') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E07 - T03</span></li> <hr class="filme-separador">    
-  `;
-}
-else if (data === '03/04') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E08 - T03</span></li> <hr class="filme-separador">    
-  <li><span class="horario">20:00</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ALGO HORRÍVEL VAI ACONTECER - E04 - T01</span></li> <hr class="filme-separador"> 
-  `;
-}
-else if (data === '04/04') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">13:25</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E09 - T03</span></li> <hr class="filme-separador">    
-  <li><span class="horario">13:45</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ALGO HORRÍVEL VAI ACONTECER - E05 - T01</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
-  `;
-}
-else if (data === '05/04') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">18:45</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E10 - T03</span></li> <hr class="filme-separador">    
-  <li><span class="horario">19:10</span> <span class="label-leg">LEG</span> <span class="class-16">16</span> <span class="filme">ALGO HORRÍVEL VAI ACONTECER - E06 - T01</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">20:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">FANTÁSTICO</span></li> <hr class="filme-separador"> 
-  `;
-}
-else if (data === '06/04') {
-  programacaoDiv.innerHTML = `
-  <ul>  
-  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
-  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E11 - T03</span></li> <hr class="filme-separador">    
-  `;
-}
-else if (data === '08/04') {
+if (data === '08/04') {
   programacaoDiv.innerHTML = `
   <ul>  
   <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
@@ -86,8 +36,30 @@ else if (data === '10/04') {
   <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E14 - T03</span></li> <hr class="filme-separador">    
   `;
 }
-
-//demolidor t2 - 14/04 - E04
+else if (data === '13/04') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E15 - T03</span></li> <hr class="filme-separador">    
+  `;
+}
+else if (data === '14/04') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:10</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP2</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E16 - T03</span></li> <hr class="filme-separador">    
+  <li><span class="horario">23:00</span> <span class="label-leg">LEG</span> <span class="class-18">18</span> <span class="filme">DEMOLIDOR: RENASCIDO - E04 - T02</span></li> <hr class="filme-separador"> 
+  `;
+}
+else if (data === '15/04') {
+  programacaoDiv.innerHTML = `
+  <ul>  
+  <li><span class="horario">11:45</span> <span class="label-orig">NAC</span> <span class="class-12">12</span> <span class="filme">SP1</span></li> <hr class="filme-separador"> 
+  <li><span class="horario">19:40</span> <span class="label-dub">DUB</span> <span class="class-14">14</span> <span class="filme">MODERN FAMILY - E17 - T03</span></li> <hr class="filme-separador">    
+  `;
+}
 //demolidor t2 - 21/04 - E05
 //demolidor t2 - 28/04 - E06
 //demolidor t2 - 05/05 - E07
