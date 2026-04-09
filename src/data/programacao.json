@@ -36,7 +36,7 @@
       "dia": "23/04",
       "class": "10",
       "titulo": "STRANGER THINGS: HISTÓRIAS DE 85",
-      "poster": "/imgs/poster-stranger.jpg",
+      "poster": "./imgs/poster-stranger.jpg",
       "tipo": "Série",
       "temporada": "T1"
     },
@@ -44,7 +44,7 @@
       "dia": "27/04",
       "class": "16",
       "titulo": "DIRETO PRO INFERNO",
-      "poster": "/imgs/poster-inferno.jpg",
+      "poster": "./imgs/poster-inferno.jpg",
       "tipo": "Série",
       "temporada": "T1"
     },
@@ -52,7 +52,7 @@
       "dia": "15/05",
       "class": "0",
       "titulo": "BERLIM E A DAMA COM ARMINHO",
-      "poster": "/imgs/poster-berlim.jpg",
+      "poster": "./imgs/poster-berlim.jpg",
       "tipo": "Série",
       "temporada": "T1"
     },
@@ -60,7 +60,7 @@
       "dia": "28/05",
       "class": "16",
       "titulo": "AS QUATRO ESTAÇÕES DO ANO",
-      "poster": "/imgs/poster-estacoes.jpg",
+      "poster": "./imgs/poster-estacoes.jpg",
       "tipo": "Série",
       "temporada": "T2"
     }
