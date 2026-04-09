@@ -1,0 +1,239 @@
+:root {
+  --neon-pink: #ff008c;
+  --neon-green: #42ca64;
+  --bg-dark: #000;
+  --gradient-rainbow: linear-gradient(270deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: var(--bg-dark);
+  color: #fff;
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("/imgs/capa.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: clamp(28px, 5vw, 36px);
+  margin: 20px 0;
+  background: var(--gradient-rainbow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+/* Container de Programação com Desfoque */
+#programacao {
+  background-color: rgba(70, 70, 70, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+/* Listagem */
+#programacao ul { list-style: none; padding: 0; }
+#programacao li { padding: 15px 0; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+
+/* --- CORES INDICATIVAS (SUA IDENTIDADE) --- */
+
+.horario {
+  color: #42ca64;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 2px solid #00ff4c;
+  border-radius: 10px;
+  min-width: 60px;
+  text-align: center;
+}
+
+/* Labels de áudio/origem */
+.label-dub, .label-leg, .label-nac {
+  color: #ffffff;
+  padding: 5px 8px;
+  background-color: #7a1600;     
+  border-radius: 5px;
+  font-size: 0.85em;
+}
+
+/* Classificações Etárias */
+.class-livre { background-color: #0ea477; }
+.class-10    { background-color: #0095de; }
+.class-12    { background-color: #ffca00; }
+.class-14    { background-color: #f98300; }
+.class-16    { background-color: #ef2517; }
+.class-18    { background-color: #242424; }
+.class-0     { background-color: #ffffff; color: #000; }
+
+[class^="class-"] {
+  padding: 5px;
+  font-weight: 700;
+  border-radius: 5px;
+  min-width: 26px;
+  text-align: center;
+}
+
+/* Categorias */
+.class-serie      { background-color: rgba(0, 80, 90, 0.5); }
+.class-temporada  { background-color: #000872; }
+.class-filme      { background-color: #501300; }
+
+/* --- FIM DAS CORES INDICATIVAS --- */
+
+.filme {
+  color: #ffffff;
+  font-size: 1.1em;
+  flex: 1;
+}
+
+.filme-separador {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 0;
+}
+
+/* Estilo para o pôster reduzido */
+.filme-poster img {
+  width: 115px;          /* Reduzido de 100px para 85px */
+  height: 155px;        /* Altura proporcional para não distorcer */
+  object-fit: cover;    /* Mantém o corte da imagem correto */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  margin-right: 15px;   /* Espaço entre imagem e texto */
+  flex-shrink: 0;       /* Impede que o navegador amasse a imagem no mobile */
+}
+
+/* Ajuste no texto para acompanhar o pôster menor */
+.filme-texto {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+/* Botões de Data */
+.dates-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 30px 10px;
+}
+
+.button {
+  background: #111;
+  color: #fff;
+  border: 1px solid #333;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.button.active {
+  border-color: var(--neon-pink);
+  box-shadow: 0 0 10px var(--neon-pink);
+  background: #1a1a1a;
+}
+
+.embreve {
+  background: var(--gradient-rainbow);
+  color: #000;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-thumb {
+  background-color: var(--neon-pink);
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  /* 1. Body: O layout original usa margin/padding para o desktop.
+        Vamos garantir que no mobile o conteúdo use toda a largura. */
+  body {
+    padding: 10px; /* Reduzimos o padding global para dar mais espaço */
+  }
+
+  /* 2. Centralizando o Título */
+  h1 {
+    font-size: 26px;
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  /* 3. Container de Datas: A GRANDE MUDANÇA */
+  .dates-container {
+    display: flex;
+    flex-direction: row; /* Mantém em linha */
+    justify-content: center; /* CENTRALIZA OS BOTÕES NA TELA */
+    flex-wrap: wrap; /* Se não couber, quebra para a linha de baixo */
+    gap: 15px; /* Espaço entre os botões */
+    padding: 20px 0;
+    width: 100%; /* Garante que o container use toda a largura */
+    position: static !important; /* Resolve conflito de posição */
+    margin: 0 auto;
+  }
+
+  /* 4. Botões Proporcionais e o "Em Breve" Consertado */
+  .button, .embreve {
+    /* MATAMOS TODAS AS POSIÇÕES ABSOLUTAS DO GLOBAL */
+    position: static !important; 
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+
+    /* Novo tamanho proporcional e confortável para toque */
+    width: auto; /* Deixa o tamanho flutuar com o texto */
+    min-width: 100px; /* Impede que fique muito pequeno */
+    height: 50px; /* Altura de toque confortável */
+    font-size: 16px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto; /* Impede que diminua */
+  }
+
+  /* 5. Centralizando o Container de Programação */
+  #programacao {
+    max-width: 100%; /* Usa toda a largura disponível */
+    margin: 10px 0 0 0; /* Centralizado horizontalmente via margin global */
+    padding: 15px;
+    border-radius: 12px;
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho */
+  }
+
+  /* 6. Lista de Filmes: Mais respiro */
+  #programacao li {
+    font-size: 15px;
+    gap: 10px;
+    padding: 15px 0;
+  }
+
+  .horario {
+    font-size: 14px;
+    padding: 5px 8px;
+    min-width: 55px;
+  }
+
+  /* 7. Pôsteres no Mobile */
+  .filme-poster img {
+    width: 70px;
+    height: 105px;
+  }
+}

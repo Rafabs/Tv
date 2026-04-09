@@ -1,0 +1,68 @@
+{
+  "08/04": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "18:40", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:10", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E12 - T03" },
+    { "horario": "19:40", "label": "LEG", "class": "16", "titulo": "ALGO HORRÍVEL VAI ACONTECER - E07 - T01" },
+    { "horario": "20:40", "label": "LEG", "class": "18", "titulo": "DEMOLIDOR: RENASCIDO - E03 - T02" }
+  ],
+  "09/04": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E13 - T03" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "ALGO HORRÍVEL VAI ACONTECER - E08 - T01" }
+  ],
+  "10/04": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E14 - T03" }
+  ],
+  "13/04": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E15 - T03" }
+  ],
+  "14/04": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E16 - T03" },
+    { "horario": "23:00", "label": "LEG", "class": "18", "titulo": "DEMOLIDOR: RENASCIDO - E04 - T02" }
+  ],
+  "15/04": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E17 - T03" }
+  ],
+  "em-breve": [
+    {
+      "dia": "23/04",
+      "class": "10",
+      "titulo": "STRANGER THINGS: HISTÓRIAS DE 85",
+      "poster": "/imgs/poster-stranger.jpg",
+      "tipo": "Série",
+      "temporada": "T1"
+    },
+    {
+      "dia": "27/04",
+      "class": "16",
+      "titulo": "DIRETO PRO INFERNO",
+      "poster": "/imgs/poster-inferno.jpg",
+      "tipo": "Série",
+      "temporada": "T1"
+    },
+    {
+      "dia": "15/05",
+      "class": "0",
+      "titulo": "BERLIM E A DAMA COM ARMINHO",
+      "poster": "/imgs/poster-berlim.jpg",
+      "tipo": "Série",
+      "temporada": "T1"
+    },
+    {
+      "dia": "28/05",
+      "class": "16",
+      "titulo": "AS QUATRO ESTAÇÕES DO ANO",
+      "poster": "/imgs/poster-estacoes.jpg",
+      "tipo": "Série",
+      "temporada": "T2"
+    }
+  ]
+}

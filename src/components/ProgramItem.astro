@@ -1,0 +1,10 @@
+---
+const { horario, label, faixa, titulo } = Astro.props;
+---
+<li>
+  <span class="horario">{horario}</span>
+  <span class={`label-${label.toLowerCase()}`}>{label}</span>
+  <span class={`class-${faixa}`}>{faixa}</span>
+  <span class="filme">{titulo}</span>
+</li>
+<hr class="filme-separador" />
