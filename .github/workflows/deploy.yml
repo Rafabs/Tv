@@ -2,7 +2,7 @@ name: Deploy Astro site to Pages
 
 on:
   push:
-    branches: ["main"] # Ou a sua branch principal
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -16,19 +16,29 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: 'npm'
+
       - name: Install dependencies
-        run: npm install
+        # 'npm ci' é mais rigoroso e seguro para CI/CD que o 'npm install'
+        run: npm ci
+
+      - name: Fix Astro Permissions
+        # Isso resolve o erro de "Permissão negada" no binário do Astro
+        run: chmod +x node_modules/.bin/astro
+
       - name: Build Astro
-        run: npm run build
+        # Usar npx garante que ele use o executável local do projeto
+        run: npx astro build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist # O Astro gera a build na pasta dist
+          path: ./dist
 
   deploy:
     needs: build
