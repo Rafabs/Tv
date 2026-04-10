@@ -63,6 +63,22 @@
       "poster": "./imgs/poster-estacoes.jpg",
       "tipo": "Série",
       "temporada": "T2"
-    }
+    },
+    {
+      "dia": "05/06",
+      "class": "0",
+      "titulo": "A LUZ DO FUTURO",
+      "poster": "./imgs/poster-luz.jpg",
+      "tipo": "Série",
+      "temporada": "T1"
+    },        
+    {
+      "dia": "09/06",
+      "class": "0",
+      "titulo": "UMA CASA NA PRADARIA",
+      "poster": "./imgs/poster-pradaria.jpg",
+      "tipo": "Série",
+      "temporada": "T1"
+    }    
   ]
 }
