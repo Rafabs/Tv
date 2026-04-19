@@ -1,32 +1,54 @@
 {
-  "14/04": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "17:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E16 - T03" },
-    { "horario": "18:00", "label": "LEG", "class": "18", "titulo": "DEMOLIDOR: RENASCIDO - E04 - T02" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "TAÇA SULAMERICANA" }    
-  ],
-  "15/04": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E17 - T03" }
-  ],
-  "17/04": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E18 - T03" }
-  ],  
-  "18/04": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E19 - T03" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
-  ],
   "19/04": [
-    { "horario": "19:50", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E20 - T03" },
-    { "horario": "20:10", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }
-  ],
+    { "horario": "20:10", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E20 - T03" },
+    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }
+  ],    
   "20/04": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E21 - T03" }
+  ],    
+  "22/04": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E22 - T03" },
+    { "horario": "20:00", "label": "LEG", "class": "18", "titulo": "DEMOLIDOR: RENASCIDO - E05 - T02" },    
+    { "horario": "23:59", "label": "LEG", "class": "14", "titulo": "ANACONDA (2025)" }    
+  ],    
+  "23/04": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E23 - T03" },
+    { "horario": "20:00", "label": "DUB", "class": "10", "titulo": "STRANGER THINGS: HISTÓRIAS DE 85 - E01 - T01" }    
+  ],   
+  "24/04": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E24 - T03" }
+  ],   
+  "25/04": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E01 - T04" },
+    { "horario": "20:00", "label": "DUB", "class": "10", "titulo": "STRANGER THINGS: HISTÓRIAS DE 85 - E02 - T01" }    
   ],      
+  "26/04": [
+    { "horario": "20:10", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E02 - T04" },
+    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" },
+    { "horario": "23:59", "label": "LEG", "class": "14", "titulo": "SUPERMAN (2025)" }    
+  ],    
+  "27/04": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E03 - T04" },
+    { "horario": "20:00", "label": "DUB", "class": "10", "titulo": "STRANGER THINGS: HISTÓRIAS DE 85 - E03 - T01" },
+    { "horario": "23:59", "label": "LEG", "class": "12", "titulo": "TRON: ARES" }    
+  ],   
+  "28/04": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E04 - T04" },
+    { "horario": "20:00", "label": "DUB", "class": "10", "titulo": "STRANGER THINGS: HISTÓRIAS DE 85 - E04 - T01" },
+    { "horario": "23:59", "label": "LEG", "class": "12", "titulo": "QUARTETO FANTÁSTICO: PRIMEIROS PASSOS" }    
+  ],     
   "em-breve": [
     {
       "dia": "23/04",
