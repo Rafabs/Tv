@@ -1,51 +1,53 @@
 {
-  "27/04": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E03 - T04" },
-    { "horario": "20:00", "label": "DUB", "class": "10", "titulo": "STRANGER THINGS: HISTÓRIAS DE 85 - E03 - T01" },
-    { "horario": "20:30", "label": "LEG", "class": "16", "titulo": "DIRETO PRO INFERNO - E01 - T01" },
-    { "horario": "23:59", "label": "LEG", "class": "12", "titulo": "TRON: ARES" }    
-  ],   
-  "28/04": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E04 - T04" },
-    { "horario": "20:00", "label": "DUB", "class": "10", "titulo": "STRANGER THINGS: HISTÓRIAS DE 85 - E04 - T01" },
-    { "horario": "20:30", "label": "LEG", "class": "16", "titulo": "DIRETO PRO INFERNO - E02 - T01" },
-    { "horario": "23:59", "label": "LEG", "class": "12", "titulo": "QUARTETO FANTÁSTICO: PRIMEIROS PASSOS" }    
-  ],  
-  "29/04": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E05 - T04" }
-  ],  
-  "01/05": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E06 - T04" },
-    { "horario": "20:00", "label": "DUB", "class": "10", "titulo": "STRANGER THINGS: HISTÓRIAS DE 85 - E05 - T01" },
-    { "horario": "20:30", "label": "LEG", "class": "16", "titulo": "DIRETO PRO INFERNO - E03 - T01" }
-  ],   
-  "02/05": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E07 - T04" },
-    { "horario": "13:45", "label": "DUB", "class": "10", "titulo": "STRANGER THINGS: HISTÓRIAS DE 85 - E06 - T01" },    
-    { "horario": "14:15", "label": "LEG", "class": "16", "titulo": "DIRETO PRO INFERNO - E04 - T01" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }  
-  ],   
-  "03/05": [
-    { "horario": "19:10", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E08 - T04" },
-    { "horario": "19:30", "label": "LEG", "class": "16", "titulo": "DIRETO PRO INFERNO - E05 - T01" },
-    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }
-  ],   
   "04/05": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E09 - T04" }
-  ],         
+  ],   
+  "06/05": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "18:45", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:15", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E10 - T04" },
+    { "horario": "19:35", "label": "DUB", "class": "10", "titulo": "STRANGER THINGS: HISTÓRIAS DE 85 - E08 - T01" }
+  ],    
+  "07/05": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E11 - T04" }
+  ],    
+  "08/05": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E10 - T04" }
+  ], 
+  "11/05": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E12 - T04" }
+  ],     
+  "12/05": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E13 - T04" }
+  ],   
+  "13/05": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E14 - T04" }
+  ],    
+  "15/05": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E15 - T04" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E01 - T01" }
+  ],          
+  "16/05": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E16 - T04" },
+    { "horario": "13:45", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E02 - T01" },    
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
+  ],       
   "em-breve": [
     {
       "dia": "15/05",
-      "class": "0",
+      "class": "16",
       "titulo": "BERLIM E A DAMA COM ARMINHO",
       "poster": "./imgs/poster-berlim.jpg",
       "tipo": "Série",
