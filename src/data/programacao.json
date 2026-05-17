@@ -1,25 +1,4 @@
-{  
-  "12/05": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E13 - T04" }
-  ],   
-  "13/05": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E14 - T04" }
-  ],    
-  "15/05": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E15 - T04" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E01 - T01" }
-  ],          
-  "16/05": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E16 - T04" },
-    { "horario": "13:45", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E02 - T01" },    
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
-  ],    
+{     
   "17/05": [
     { "horario": "19:10", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E17 - T04" },
     { "horario": "19:30", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E03 - T01" },    
@@ -36,20 +15,55 @@
     { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E19 - T04" },
     { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E04 - T01" },
     { "horario": "23:59", "label": "DUB", "class": "18", "titulo": "UM FILME MINECRAFT" }
-  ],     
+  ],    
+  "21/05": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E20 - T04" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E05 - T01" },
+    { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "QUEDA LIVRE: A TRAGÉDIA DO CASO BOEING" }
+  ],       
+  "22/05": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E21 - T04" }
+  ],   
+  "25/05": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E22 - T04" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E06 - T01" },
+    { "horario": "20:55", "label": "DUB", "class": "16", "titulo": "RICK & MORTY - E01 - T09" }
+  ],  
+  "26/05": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E23 - T04" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E07 - T01" },
+    { "horario": "20:55", "label": "DUB", "class": "16", "titulo": "RICK & MORTY - E02 - T09" }
+  ],    
+  "27/05": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E24 - T04" }
+  ],  
+  "29/05": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E01 - T05" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E08 - T01" },
+    { "horario": "20:55", "label": "DUB", "class": "16", "titulo": "RICK & MORTY - E03 - T09" }
+  ],   
+  "30/05": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E02 - T05" },
+    { "horario": "13:45", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E01 - T02" },
+    { "horario": "14:20", "label": "DUB", "class": "16", "titulo": "RICK & MORTY - E03 - T09" },    
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
+  ],   
   "em-breve": [
-    {
-      "dia": "15/05",
-      "class": "16",
-      "titulo": "BERLIM E A DAMA COM ARMINHO",
-      "poster": "./imgs/poster-berlim.jpg",
-      "tipo": "Série",
-      "temporada": "T1"
-    },
     {
       "dia": "25/05",
       "class": "16",
-      "titulo": "RICK & MAORTY",
+      "titulo": "RICK & MORTY",
       "poster": "./imgs/poster-rick.jpg",
       "tipo": "Série",
       "temporada": "T9"
@@ -78,6 +92,30 @@
       "tipo": "Série",
       "temporada": "T1"
     },
+    {
+      "dia": "01/07",
+      "class": "0",
+      "titulo": "ENOLA HOLMES 3",
+      "poster": "./imgs/poster-enola.jpg",
+      "tipo": "Filme",
+      "temporada": ""
+    },      
+    {
+      "dia": "23/07",
+      "class": "0",
+      "titulo": "STUART NÃO CONSEGUE SALVAR O UNIVERSO",
+      "poster": "./imgs/poster-stuart.jpg",
+      "tipo": "Série",
+      "temporada": "T1"
+    },    
+    {
+      "dia": "19/08",
+      "class": "0",
+      "titulo": "QUEDA LIVRE: AS CONSEQUÊNCIAS DO CASO BOEING",
+      "poster": "./imgs/poster-default.jpg",
+      "tipo": "Filme",
+      "temporada": ""
+    },    
     {
       "dia": "EM BREVE",
       "class": "0",
