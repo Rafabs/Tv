@@ -1,22 +1,4 @@
 {     
-  "20/05": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E19 - T04" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E04 - T01" },
-    { "horario": "23:59", "label": "DUB", "class": "18", "titulo": "UM FILME MINECRAFT" }
-  ],    
-  "21/05": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E20 - T04" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E05 - T01" },
-    { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "QUEDA LIVRE: A TRAGÉDIA DO CASO BOEING" }
-  ],       
-  "22/05": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E21 - T04" }
-  ],   
   "25/05": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
@@ -27,39 +9,29 @@
   "26/05": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E23 - T04" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E07 - T01" },
-    { "horario": "20:55", "label": "DUB", "class": "16", "titulo": "RICK & MORTY - E02 - T09" }
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E24 - T04" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E07 - T01" }
   ],    
   "27/05": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E24 - T04" }
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E01 - T05" }
   ],  
   "29/05": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E01 - T05" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E02 - T05" },
     { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E08 - T01" },
-    { "horario": "20:55", "label": "DUB", "class": "16", "titulo": "RICK & MORTY - E03 - T09" },
+    { "horario": "21:30", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E01 - T02" },
     { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR - E01 - T01" }
   ],   
   "30/05": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E02 - T05" },
-    { "horario": "13:45", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E01 - T02" },
-    { "horario": "14:20", "label": "DUB", "class": "16", "titulo": "RICK & MORTY - E03 - T09" },    
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E03 - T05" },
+    { "horario": "13:45", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E02 - T02" },
     { "horario": "14:50", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR - E02 - T01" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
   ],   
-  "em-breve": [
-    {
-      "dia": "25/05",
-      "class": "16",
-      "titulo": "RICK & MORTY",
-      "poster": "./imgs/poster-rick.jpg",
-      "tipo": "Série",
-      "temporada": "T9"
-    },    
+  "em-breve": [   
     {
       "dia": "27/05",
       "class": "16",
@@ -92,6 +64,14 @@
       "tipo": "Série",
       "temporada": "T1"
     },
+    {
+      "dia": "25/06",
+      "class": "14",
+      "titulo": "AVATAR: O ÚLTIMO MESTRE DO AR",
+      "poster": "./imgs/poster-avatar.jpg",
+      "tipo": "Série",
+      "temporada": "T2"
+    },    
     {
       "dia": "01/07",
       "class": "0",
