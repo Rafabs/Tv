@@ -22,13 +22,13 @@
     { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E02 - T05" },
     { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E08 - T01" },
     { "horario": "21:30", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E01 - T02" },
-    { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR - E01 - T01" }
+    { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E01 - T01" }
   ],   
   "30/05": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E03 - T05" },
     { "horario": "13:45", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E02 - T02" },
-    { "horario": "14:50", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR - E02 - T01" },
+    { "horario": "14:50", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E02 - T01" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
   ],   
   "em-breve": [   
