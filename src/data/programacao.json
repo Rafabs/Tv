@@ -1,53 +1,49 @@
 {     
-  "25/05": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E22 - T04" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E06 - T01" },
-    { "horario": "20:55", "label": "DUB", "class": "16", "titulo": "RICK & MORTY - E01 - T09" }
-  ],  
-  "26/05": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E24 - T04" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E07 - T01" }
-  ],    
-  "27/05": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E01 - T05" }
-  ],  
-  "29/05": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E02 - T05" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "BERLIM E A DAMA COM ARMINHO - E08 - T01" },
-    { "horario": "21:30", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E01 - T02" },
-    { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E01 - T01" }
-  ],   
   "30/05": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E03 - T05" },
     { "horario": "13:45", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E02 - T02" },
     { "horario": "14:50", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E02 - T01" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
+  ],  
+  "31/05": [
+    { "horario": "16:30", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E04 - T05" },
+    { "horario": "16:50", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E03 - T02" },
+    { "horario": "17:20", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E03 - T01" },
+    { "horario": "18:00", "label": "NAC", "class": "12", "titulo": "FUTEBOL" },
+    { "horario": "20:40", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }
+  ],     
+  "01/06": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E04 - T05" }
+  ],    
+  "03/06": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E05 - T05" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E04 - T02" },
+    { "horario": "20:30", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E04 - T01" }
+  ],    
+  "04/06": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E06 - T05" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E05 - T02" },
+    { "horario": "20:30", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E05 - T01" }
   ],   
+  "05/06": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E07 - T05" }
+  ],  
+  "08/06": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E08 - T05" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E06 - T02" },
+    { "horario": "20:30", "label": "DUB", "class": "0", "titulo": "A LUZ DO FUTURO - E01 - T01" },
+    { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E06 - T01" }
+  ],          
   "em-breve": [   
-    {
-      "dia": "27/05",
-      "class": "16",
-      "titulo": "SPIDER NOIR",
-      "poster": "./imgs/poster-spider.jpg",
-      "tipo": "Série",
-      "temporada": "T1"
-    },       
-    {
-      "dia": "28/05",
-      "class": "16",
-      "titulo": "AS QUATRO ESTAÇÕES DO ANO",
-      "poster": "./imgs/poster-estacoes.jpg",
-      "tipo": "Série",
-      "temporada": "T2"
-    },
     {
       "dia": "05/06",
       "class": "0",
