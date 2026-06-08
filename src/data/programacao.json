@@ -1,36 +1,4 @@
 {     
-  "30/05": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E03 - T05" },
-    { "horario": "13:45", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E02 - T02" },
-    { "horario": "14:50", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E02 - T01" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
-  ],  
-  "31/05": [
-    { "horario": "16:30", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E04 - T05" },
-    { "horario": "16:50", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E03 - T02" },
-    { "horario": "17:20", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E03 - T01" },
-    { "horario": "18:00", "label": "NAC", "class": "12", "titulo": "FUTEBOL" },
-    { "horario": "20:40", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }
-  ],     
-  "01/06": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E04 - T05" }
-  ],    
-  "03/06": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E05 - T05" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E04 - T02" },
-    { "horario": "20:30", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E04 - T01" }
-  ],    
-  "04/06": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E06 - T05" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E05 - T02" },
-    { "horario": "20:30", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E05 - T01" }
-  ],   
   "05/06": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E07 - T05" }
@@ -39,22 +7,30 @@
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
     { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E08 - T05" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "AS QUATRO ESTAÇÕES DO ANO - E06 - T02" },
-    { "horario": "20:30", "label": "DUB", "class": "0", "titulo": "A LUZ DO FUTURO - E01 - T01" },
-    { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E06 - T01" }
-  ],          
-  "em-breve": [   
-    {
-      "dia": "05/06",
-      "class": "0",
-      "titulo": "A LUZ DO FUTURO",
-      "poster": "./imgs/poster-luz.jpg",
-      "tipo": "Série",
-      "temporada": "T1"
-    },        
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E06 - T01" }
+  ],  
+  "09/06": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E09 - T05" },
+    { "horario": "20:00", "label": "LEG", "class": "12", "titulo": "UMA CASA NA PRADARIA - E01 - T01" },
+    { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E07 - T01" }
+  ],  
+  "10/06": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E10 - T05" }
+  ],    
+  "12/06": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E11 - T05" },
+    { "horario": "20:00", "label": "LEG", "class": "12", "titulo": "UMA CASA NA PRADARIA - E02 - T01" },
+    { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E08 - T01" }
+  ],             
+  "em-breve": [          
     {
       "dia": "09/06",
-      "class": "0",
+      "class": "12",
       "titulo": "UMA CASA NA PRADARIA",
       "poster": "./imgs/poster-pradaria.jpg",
       "tipo": "Série",
@@ -76,6 +52,14 @@
       "tipo": "Filme",
       "temporada": ""
     },      
+    {
+      "dia": "05/07",
+      "class": "0",
+      "titulo": "A LUZ DO FUTURO",
+      "poster": "./imgs/poster-luz.jpg",
+      "tipo": "Série",
+      "temporada": "T1"
+    },     
     {
       "dia": "23/07",
       "class": "0",
