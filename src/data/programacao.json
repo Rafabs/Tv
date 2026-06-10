@@ -1,19 +1,8 @@
 {     
-  "05/06": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E07 - T05" }
-  ],  
-  "08/06": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E08 - T05" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E06 - T01" }
-  ],  
   "09/06": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
     { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E09 - T05" },
-    { "horario": "20:00", "label": "LEG", "class": "12", "titulo": "UMA CASA NA PRADARIA - E01 - T01" },
     { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E07 - T01" }
   ],  
   "10/06": [
@@ -22,20 +11,13 @@
   ],    
   "12/06": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E11 - T05" },
-    { "horario": "20:00", "label": "LEG", "class": "12", "titulo": "UMA CASA NA PRADARIA - E02 - T01" },
-    { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E08 - T01" }
+    { "horario": "18:45", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:15", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E11 - T05" },
+    { "horario": "19:45", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E08 - T01" },
+    { "horario": "21:35", "label": "NAC", "class": "12", "titulo": "COPA DO MUNDO 2026" },
+    { "horario": "23:59", "label": "DUB", "class": "10", "titulo": "CARINHA DE UM, FOCINHO DO OUTRO" }
   ],             
   "em-breve": [          
-    {
-      "dia": "09/06",
-      "class": "12",
-      "titulo": "UMA CASA NA PRADARIA",
-      "poster": "./imgs/poster-pradaria.jpg",
-      "tipo": "Série",
-      "temporada": "T1"
-    },
     {
       "dia": "25/06",
       "class": "14",
@@ -59,7 +41,15 @@
       "poster": "./imgs/poster-luz.jpg",
       "tipo": "Série",
       "temporada": "T1"
-    },     
+    }, 
+    {
+      "dia": "09/07",
+      "class": "12",
+      "titulo": "UMA CASA NA PRADARIA",
+      "poster": "./imgs/poster-pradaria.jpg",
+      "tipo": "Série",
+      "temporada": "T1"
+    },        
     {
       "dia": "23/07",
       "class": "0",
