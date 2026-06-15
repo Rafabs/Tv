@@ -12,21 +12,21 @@
     { "horario": "23:59", "label": "DUB", "class": "10", "titulo": "CARINHA DE UM, FOCINHO DE OUTRO" }
   ],  
   "15/06": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E13 - T05" }
   ],   
   "17/06": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "18:45", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:15", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E14 - T05" },
-    { "horario": "21:35", "label": "NAC", "class": "12", "titulo": "COPA DO MUNDO 2026" }
+    { "horario": "19:35", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:50", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E14 - T05" }
   ],       
   "18/06": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "18:45", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:15", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E15 - T05" },
-    { "horario": "21:35", "label": "NAC", "class": "12", "titulo": "COPA DO MUNDO 2026" }
-  ],  
+    { "horario": "18:50", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:10", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E15 - T05" }
+  ], 
   "19/06": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E16 - T05" }
   ],           
   "em-breve": [      
