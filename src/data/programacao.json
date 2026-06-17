@@ -1,20 +1,4 @@
-{          
-  "13/06": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E12 - T05" },
-    { "horario": "13:45", "label": "LEG", "class": "16", "titulo": "SPIDER NOIR (PRETO E BRANCO) - E08 - T01" },
-    { "horario": "18:30", "label": "NAC", "class": "12", "titulo": "COPA DO MUNDO 2026" }
-  ],  
-  "14/06": [
-    { "horario": "21:45", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E12 - T05" },
-    { "horario": "22:10", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" },
-    { "horario": "22:40", "label": "NAC", "class": "12", "titulo": "COPA DO MUNDO 2026" },
-    { "horario": "23:59", "label": "DUB", "class": "10", "titulo": "CARINHA DE UM, FOCINHO DE OUTRO" }
-  ],  
-  "15/06": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E13 - T05" }
-  ],   
+{           
   "17/06": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:35", "label": "NAC", "class": "12", "titulo": "SP2" },
@@ -28,7 +12,22 @@
   "19/06": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E16 - T05" }
-  ],           
+  ],        
+  "22/06": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "18:15", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "18:45", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E17 - T05" },
+    { "horario": "19:10", "label": "LEG", "class": "18", "titulo": "A CASA DO DRAGÃO - E01 - T03" }
+  ],    
+  "23/06": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:40", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "20:00", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E18 - T05" }
+  ],       
+  "24/06": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E19 - T05" }
+  ],   
   "em-breve": [      
     {
       "dia": "21/06",
