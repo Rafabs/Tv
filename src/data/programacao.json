@@ -1,18 +1,4 @@
-{           
-  "17/06": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:35", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:50", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E14 - T05" }
-  ],       
-  "18/06": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "18:50", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:10", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E15 - T05" }
-  ], 
-  "19/06": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E16 - T05" }
-  ],        
+{                   
   "22/06": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "18:15", "label": "NAC", "class": "12", "titulo": "SP2" },
@@ -27,16 +13,14 @@
   "24/06": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E19 - T05" }
-  ],   
-  "em-breve": [      
-    {
-      "dia": "21/06",
-      "class": "18",
-      "titulo": "A CASA DO DRAGÃO",
-      "poster": "./imgs/poster-dragao.jpg",
-      "tipo": "Série",
-      "temporada": "T3"
-    },         
+  ],  
+  "26/06": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:40", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "20:00", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E20 - T05" },
+    { "horario": "20:25", "label": "LEG", "class": "14", "titulo": "AVATAR: O ÚLTIMO MESTRE DO AR - E01 - T02" }
+  ],    
+  "em-breve": [          
     {
       "dia": "25/06",
       "class": "14",
@@ -47,15 +31,31 @@
     },    
     {
       "dia": "01/07",
-      "class": "0",
+      "class": "14",
       "titulo": "ENOLA HOLMES 3",
       "poster": "./imgs/poster-enola.jpg",
       "tipo": "Filme",
       "temporada": ""
     },      
     {
+      "dia": "01/07",
+      "class": "16",
+      "titulo": "A PIOR VIZINHANÇA",
+      "poster": "./imgs/poster-vizinhanca.jpg",
+      "tipo": "Série",
+      "temporada": "T1"
+    },        
+    {
+      "dia": "02/07",
+      "class": "14",
+      "titulo": "SUPER SUBBU",
+      "poster": "./imgs/poster-subbu.jpg",
+      "tipo": "Série",
+      "temporada": "T1"
+    },            
+    {
       "dia": "05/07",
-      "class": "0",
+      "class": "12",
       "titulo": "A LUZ DO FUTURO",
       "poster": "./imgs/poster-luz.jpg",
       "tipo": "Série",
@@ -77,6 +77,22 @@
       "tipo": "Série",
       "temporada": "T1"
     },    
+    {
+      "dia": "07/08",
+      "class": "0",
+      "titulo": "A ÚLTIMA CASA",
+      "poster": "./imgs/poster-casa.jpg",
+      "tipo": "Filme",
+      "temporada": ""
+    },      
+    {
+      "dia": "16/08",
+      "class": "0",
+      "titulo": "LANTERNAS",
+      "poster": "./imgs/poster-default.jpg",
+      "tipo": "Série",
+      "temporada": "T1"
+    },        
     {
       "dia": "19/08",
       "class": "0",
