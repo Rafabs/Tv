@@ -1,34 +1,29 @@
 {                   
-  "22/06": [
+  "27/06": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "18:15", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "18:45", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E17 - T05" },
-    { "horario": "19:10", "label": "LEG", "class": "18", "titulo": "A CASA DO DRAGÃO - E01 - T03" }
-  ],    
-  "23/06": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:40", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "20:00", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E18 - T05" }
-  ],       
-  "24/06": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E19 - T05" }
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E21 - T05" },
+    { "horario": "13:45", "label": "LEG", "class": "14", "titulo": "AVATAR: O ÚLTIMO MESTRE DO AR - E02 - T02" }
+  ],   
+  "28/06": [
+    { "horario": "17:00", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E22 - T05" },
+    { "horario": "17:20", "label": "LEG", "class": "14", "titulo": "AVATAR: O ÚLTIMO MESTRE DO AR - E03 - T02" },
+    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" },
+    { "horario": "22:00", "label": "LEG", "class": "18", "titulo": "A CASA DO DRAGÃO - E02 - T03" }
   ],  
-  "26/06": [
+  "29/06": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:40", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "20:00", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E20 - T05" },
-    { "horario": "20:25", "label": "LEG", "class": "14", "titulo": "AVATAR: O ÚLTIMO MESTRE DO AR - E01 - T02" }
-  ],    
-  "em-breve": [          
-    {
-      "dia": "25/06",
-      "class": "14",
-      "titulo": "AVATAR: O ÚLTIMO MESTRE DO AR",
-      "poster": "./imgs/poster-avatar.jpg",
-      "tipo": "Série",
-      "temporada": "T2"
-    },    
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E23 - T05" }
+  ],   
+  "01/07": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "18:40", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:00", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E21 - T05" },
+    { "horario": "19:20", "label": "LEG", "class": "14", "titulo": "AVATAR: O ÚLTIMO MESTRE DO AR - E02 - T02" },
+    { "horario": "20:30", "label": "DUB", "class": "14", "titulo": "X-MEN '97 - E01 - T02" },
+    { "horario": "21:10", "label": "LEG", "class": "16", "titulo": "A PIOR VIZINHANÇA - E01 - T02" },
+    { "horario": "23:59", "label": "LEG", "class": "14", "titulo": "ENOLA HOLMES 3" }
+  ],          
+  "em-breve": [            
     {
       "dia": "01/07",
       "class": "14",
@@ -36,6 +31,14 @@
       "poster": "./imgs/poster-enola.jpg",
       "tipo": "Filme",
       "temporada": ""
+    },      
+    {
+      "dia": "01/07",
+      "class": "14",
+      "titulo": "X-MEN '97",
+      "poster": "./imgs/poster-xmen.jpg",
+      "tipo": "Série",
+      "temporada": "T2"
     },      
     {
       "dia": "01/07",
