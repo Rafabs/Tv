@@ -1,27 +1,4 @@
 {                          
-  "02/07": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:00", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:30", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E02 - T06" },
-    { "horario": "19:55", "label": "DUB", "class": "14", "titulo": "X-MEN '97 - E02 - T02" },
-    { "horario": "20:30", "label": "LEG", "class": "14", "titulo": "AVATAR: O ÚLTIMO MESTRE DO AR - E05 - T02" },
-    { "horario": "21:30", "label": "LEG", "class": "16", "titulo": "A PIOR VIZINHANÇA - E02 - T02" },
-    { "horario": "22:30", "label": "LEG", "class": "14", "titulo": "SUPER SUBBU - E01 - T01" }
-  ],   
-  "03/07": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E03 - T06" }
-  ],  
-  "06/07": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:00", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:30", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E04 - T06" },
-    { "horario": "19:55", "label": "DUB", "class": "14", "titulo": "X-MEN '97 - E03 - T02" },
-    { "horario": "20:30", "label": "LEG", "class": "14", "titulo": "AVATAR: O ÚLTIMO MESTRE DO AR - E06 - T02" },
-    { "horario": "21:30", "label": "LEG", "class": "16", "titulo": "A PIOR VIZINHANÇA - E03 - T02" },
-    { "horario": "22:30", "label": "LEG", "class": "14", "titulo": "SUPER SUBBU - E02 - T01" },
-    { "horario": "23:59", "label": "LEG", "class": "12", "titulo": "A LUZ DO FUTURO - E01 - T01" }
-  ],  
   "07/07": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:00", "label": "NAC", "class": "12", "titulo": "SP2" },
@@ -31,7 +8,7 @@
     { "horario": "22:00", "label": "LEG", "class": "14", "titulo": "SUPER SUBBU - E03 - T01" },
     { "horario": "23:59", "label": "LEG", "class": "12", "titulo": "A LUZ DO FUTURO - E02 - T01" }
   ],     
-  "08/06": [
+  "08/07": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E06 - T06" }
   ], 
@@ -40,26 +17,18 @@
     { "horario": "19:00", "label": "NAC", "class": "12", "titulo": "SP2" },
     { "horario": "19:30", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E07 - T06" },
     { "horario": "19:55", "label": "DUB", "class": "14", "titulo": "X-MEN '97 - E04 - T02" },
-    { "horario": "20:55", "label": "LEG", "class": "14", "titulo": "SUPER SUBBU - E04 - T01" },
-    { "horario": "23:59", "label": "LEG", "class": "12", "titulo": "A LUZ DO FUTURO - E03 - T01" }
-  ],                   
+    { "horario": "20:25", "label": "LEG", "class": "14", "titulo": "SUPER SUBBU - E04 - T01" },
+    { "horario": "21:00", "label": "LEG", "class": "12", "titulo": "UMA CASA NA PRADARIA - E01 - T01" },
+    { "horario": "23:59", "label": "LEG", "class": "18", "titulo": "A CASA DO DRAGÃO - E03 - T03" }
+  ],     
+  "11/07": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E08 - T06" },
+    { "horario": "14:35", "label": "LEG", "class": "14", "titulo": "SUPER SUBBU - E05 - T01" },
+    { "horario": "15:00", "label": "LEG", "class": "12", "titulo": "UMA CASA NA PRADARIA - E02 - T01" },
+    { "horario": "19:00", "label": "NAC", "class": "12", "titulo": "SP2" }
+  ],                  
   "em-breve": [                 
-    {
-      "dia": "02/07",
-      "class": "14",
-      "titulo": "SUPER SUBBU",
-      "poster": "./imgs/poster-subbu.jpg",
-      "tipo": "Série",
-      "temporada": "T1"
-    },            
-    {
-      "dia": "05/07",
-      "class": "12",
-      "titulo": "A LUZ DO FUTURO",
-      "poster": "./imgs/poster-luz.jpg",
-      "tipo": "Série",
-      "temporada": "T1"
-    }, 
     {
       "dia": "09/07",
       "class": "12",
