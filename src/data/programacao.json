@@ -1,26 +1,4 @@
-{                          
-  "07/07": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:00", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:30", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E05 - T06" },
-    { "horario": "19:55", "label": "LEG", "class": "14", "titulo": "AVATAR: O ÚLTIMO MESTRE DO AR - E07 - T02" },
-    { "horario": "21:00", "label": "LEG", "class": "16", "titulo": "A PIOR VIZINHANÇA - E04 - T02" },
-    { "horario": "22:00", "label": "LEG", "class": "14", "titulo": "SUPER SUBBU - E03 - T01" },
-    { "horario": "23:59", "label": "LEG", "class": "14", "titulo": "O DEVORADOR DE ESTRELAS" }
-  ],     
-  "08/07": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E06 - T06" }
-  ], 
-  "10/07": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:00", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:30", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E07 - T06" },
-    { "horario": "19:55", "label": "DUB", "class": "14", "titulo": "X-MEN '97 - E04 - T02" },
-    { "horario": "20:25", "label": "LEG", "class": "14", "titulo": "SUPER SUBBU - E04 - T01" },
-    { "horario": "21:00", "label": "LEG", "class": "12", "titulo": "UMA CASA NA PRADARIA - E01 - T01" },
-    { "horario": "23:59", "label": "LEG", "class": "18", "titulo": "A CASA DO DRAGÃO - E03 - T03" }
-  ],     
+{                            
   "11/07": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E08 - T06" },
@@ -39,24 +17,34 @@
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E10 - T06" }
   ],   
-  "15/06": [
+  "15/07": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
     { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E11 - T06" },
     { "horario": "20:05", "label": "DUB", "class": "14", "titulo": "X-MEN '97 - E05 - T02" },
-    { "horario": "20:40", "label": "LEG", "class": "12", "titulo": "UMA CASA NA PRADARIA - E03 - T01" },
+    { "horario": "20:40", "label": "LEG", "class": "12", "titulo": "UMA CASA NA PRADARIA - E04 - T01" },
     { "horario": "21:40", "label": "LEG", "class": "14", "titulo": "SUPER SUBBU - E07 - T01" },
     { "horario": "23:59", "label": "DUB", "class": "12", "titulo": "A LUZ DO FUTURO - E02 - T01" }
+  ],    
+  "16/07": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E12 - T06" },
+    { "horario": "20:00", "label": "LEG", "class": "12", "titulo": "UMA CASA NA PRADARIA - E05 - T01" },
+    { "horario": "21:00", "label": "LEG", "class": "14", "titulo": "SUPER SUBBU - E08 - T01" }
+  ],      
+  "17/07": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E13 - T06" }
+  ],    
+  "20/07": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E14 - T06" },
+    { "horario": "20:00", "label": "LEG", "class": "12", "titulo": "UMA CASA NA PRADARIA - E06 - T01" },
+    { "horario": "21:00", "label": "LEG", "class": "18", "titulo": "A CASA DO DRAGÃO - E05 - T03" }
   ],                       
-  "em-breve": [                 
-    {
-      "dia": "09/07",
-      "class": "12",
-      "titulo": "UMA CASA NA PRADARIA",
-      "poster": "./imgs/poster-pradaria.jpg",
-      "tipo": "Série",
-      "temporada": "T1"
-    },        
+  "em-breve": [                       
     {
       "dia": "23/07",
       "class": "0",
