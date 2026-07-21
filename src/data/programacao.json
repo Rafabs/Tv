@@ -1,32 +1,4 @@
-{                            
-  "15/07": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E11 - T06" },
-    { "horario": "20:05", "label": "DUB", "class": "14", "titulo": "X-MEN '97 - E05 - T02" },
-    { "horario": "20:40", "label": "LEG", "class": "12", "titulo": "UMA CASA NA PRADARIA - E04 - T01" },
-    { "horario": "21:40", "label": "LEG", "class": "14", "titulo": "SUPER SUBBU - E07 - T01" },
-    { "horario": "23:59", "label": "DUB", "class": "12", "titulo": "A LUZ DO FUTURO - E02 - T01" }
-  ],    
-  "16/07": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E12 - T06" },
-    { "horario": "20:00", "label": "LEG", "class": "12", "titulo": "UMA CASA NA PRADARIA - E05 - T01" },
-    { "horario": "21:00", "label": "LEG", "class": "14", "titulo": "SUPER SUBBU - E08 - T01" }
-  ],      
-  "17/07": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E13 - T06" }
-  ],    
-  "20/07": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E14 - T06" },
-    { "horario": "20:00", "label": "LEG", "class": "12", "titulo": "UMA CASA NA PRADARIA - E06 - T01" },
-    { "horario": "21:00", "label": "DUB", "class": "12", "titulo": "A LUZ DO FUTURO - E03 - T01" },
-    { "horario": "23:59", "label": "LEG", "class": "18", "titulo": "A CASA DO DRAGÃO - E05 - T03" }
-  ],      
+{                                 
   "21/07": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
@@ -36,7 +8,32 @@
   "22/07": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E16 - T06" }
-  ],                         
+  ],   
+  "24/07": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E17 - T06" },
+    { "horario": "20:00", "label": "LEG", "class": "12", "titulo": "UMA CASA NA PRADARIA - E08 - T01" },
+    { "horario": "21:00", "label": "DUB", "class": "0", "titulo": "STUART NÃO CONSEGUE SALVAR O UNIVERSO - E01 - T01" },
+    { "horario": "23:59", "label": "DUB", "class": "14", "titulo": "X-MEN '97 - E06 - T02" }
+  ],    
+  "25/07": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E18 - T06" },
+    { "horario": "13:45", "label": "DUB", "class": "0", "titulo": "STUART NÃO CONSEGUE SALVAR O UNIVERSO - E02 - T01" },    
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
+  ],     
+  "26/07": [
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E19 - T06" },
+    { "horario": "20:00", "label": "DUB", "class": "12", "titulo": "A LUZ DO FUTURO - E04 - T01" },
+    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" },
+    { "horario": "22:00", "label": "LEG", "class": "18", "titulo": "A CASA DO DRAGÃO - E06 - T03" },
+    { "horario": "23:45", "label": "DUB", "class": "0", "titulo": "STUART NÃO CONSEGUE SALVAR O UNIVERSO - E03 - T01" }
+  ],     
+  "27/07": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E20 - T06" }
+  ],                            
   "em-breve": [                       
     {
       "dia": "23/07",
@@ -78,6 +75,14 @@
       "tipo": "Filme",
       "temporada": ""
     },    
+    {
+      "dia": "10/09",
+      "class": "0",
+      "titulo": "DIX POUR CENT: O FILME",
+      "poster": "./imgs/poster-dix.jpg",
+      "tipo": "Filme",
+      "temporada": ""
+    },       
     {
       "dia": "23/09",
       "class": "0",
