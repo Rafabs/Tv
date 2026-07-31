@@ -1,32 +1,5 @@
 {                                 
-  "25/07": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E18 - T06" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
-  ],     
-  "26/07": [
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E19 - T06" },
-    { "horario": "20:00", "label": "DUB", "class": "12", "titulo": "A LUZ DO FUTURO - E04 - T01" },
-    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" },
-    { "horario": "22:00", "label": "LEG", "class": "18", "titulo": "A CASA DO DRAGÃO - E06 - T03" }
-  ],     
-  "27/07": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E20 - T06" }
-  ],     
-  "28/07": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "18:45", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:15", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E21 - T06" },
-    { "horario": "19:35", "label": "DUB", "class": "14", "titulo": "X-MEN '97 - E07 - T02" }
-  ],    
-  "29/07": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E22 - T06" },
-    { "horario": "20:00", "label": "DUB", "class": "16", "titulo": "STUART NÃO CONSEGUE SALVAR O UNIVERSO - E02 - T01" }
-  ],    
-  "30/07": [
+  "31/07": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E23 - T06" }
   ],  
@@ -34,17 +7,32 @@
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
     { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E24 - T06" },
-    { "horario": "20:00", "label": "LEG", "class": "18", "titulo": "A CASA DO DRAGÃO - E07 - T03" }
+    { "horario": "20:00", "label": "DUB", "class": "16", "titulo": "STUART NÃO CONSEGUE SALVAR O UNIVERSO - E02 - T01" },
+    { "horario": "20:30", "label": "LEG", "class": "18", "titulo": "A CASA DO DRAGÃO - E07 - T03" },
+    { "horario": "23:59", "label": "DUB", "class": "12", "titulo": "O DIABO VESTE PRADA 2" }
   ],   
   "04/08": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E01 - T07" }
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E01 - T07" },
+    { "horario": "23:59", "label": "LEG", "class": "14", "titulo": "HAMNET - A VIDA ANTES DE HAMLET" }
+  ],  
+  "05/08": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E02 - T07" }
+  ],     
+  "07/08": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E03 - T07" },
+    { "horario": "20:05", "label": "DUB", "class": "16", "titulo": "GATOS DE RUA, DE RICKY GERVAIS - E01 - T01" },
+    { "horario": "23:59", "label": "LEG", "class": "14", "titulo": "A ÚLTIMA CASA" }
+
   ],         
   "em-breve": [                           
     {
       "dia": "07/08",
-      "class": "0",
+      "class": "14",
       "titulo": "A ÚLTIMA CASA",
       "poster": "./imgs/poster-casa.jpg",
       "tipo": "Filme",
@@ -57,7 +45,15 @@
       "poster": "./imgs/poster-gatos.jpg",
       "tipo": "Série",
       "temporada": "T1"
-    },           
+    },     
+    {
+      "dia": "12/08",
+      "class": "14",
+      "titulo": "NANDO ENTRE DOIS MUNDOS - UM FILME SINTONIA",
+      "poster": "./imgs/poster-nando.jpg",
+      "tipo": "Filme",
+      "temporada": ""
+    },            
     {
       "dia": "16/08",
       "class": "0",
@@ -68,9 +64,9 @@
     },        
     {
       "dia": "19/08",
-      "class": "0",
+      "class": "16",
       "titulo": "QUEDA LIVRE: AS CONSEQUÊNCIAS DO CASO BOEING",
-      "poster": "./imgs/poster-default.jpg",
+      "poster": "./imgs/poster-boeing.jpg",
       "tipo": "Filme",
       "temporada": ""
     },    
