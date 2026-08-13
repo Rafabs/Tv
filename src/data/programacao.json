@@ -25,24 +25,35 @@
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
     { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E08 - T07" },
-    { "horario": "20:05", "label": "DUB", "class": "16", "titulo": "GATOS DE RUA, DE RICKY GERVAIS - E05 - T01" }
+    { "horario": "20:05", "label": "DUB", "class": "16", "titulo": "GATOS DE RUA, DE RICKY GERVAIS - E05 - T01" },
+    { "horario": "23:59", "label": "NAC", "class": "16", "titulo": "CARANDIRU" }
   ], 
   "14/08": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E09 - T07" }
-  ],                   
-  "em-breve": [                               
-    {
-      "dia": "12/08",
-      "class": "14",
-      "titulo": "NANDO ENTRE DOIS MUNDOS - UM FILME SINTONIA",
-      "poster": "./imgs/poster-nando.jpg",
-      "tipo": "Filme",
-      "temporada": ""
-    },            
+  ],  
+  "17/08": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E10 - T07" },
+    { "horario": "20:05", "label": "DUB", "class": "16", "titulo": "GATOS DE RUA, DE RICKY GERVAIS - E06 - T01" },
+    { "horario": "20:30", "label": "LEG", "class": "16", "titulo": "LANTERNAS - E01 - T01" },
+    { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "O DRAMA" }
+  ],       
+  "18/08": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E11 - T07" },
+    { "horario": "23:59", "label": "LEG", "class": "18", "titulo": "BUGONIA" }
+  ],  
+  "19/08": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E12 - T07" }
+  ],                    
+  "em-breve": [                                          
     {
       "dia": "16/08",
-      "class": "0",
+      "class": "16",
       "titulo": "LANTERNAS",
       "poster": "./imgs/poster-default.jpg",
       "tipo": "Série",
