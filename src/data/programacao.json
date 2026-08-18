@@ -1,45 +1,4 @@
 {                                 
-  "08/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E04 - T07" },
-    { "horario": "20:05", "label": "DUB", "class": "16", "titulo": "GATOS DE RUA, DE RICKY GERVAIS - E02 - T01" }
-  ], 
-  "09/08": [
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E05 - T07" },
-    { "horario": "20:03", "label": "DUB", "class": "16", "titulo": "GATOS DE RUA, DE RICKY GERVAIS - E03 - T01" },
-    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }
-  ],  
-  "10/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E06 - T07" }
-  ],   
-  "12/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "18:40", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:10", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E07 - T07" },
-    { "horario": "19:35", "label": "DUB", "class": "16", "titulo": "GATOS DE RUA, DE RICKY GERVAIS - E04 - T01" },
-    { "horario": "23:59", "label": "NAC", "class": "14", "titulo": "NANDO ENTRE DOIS MUNDOS - UM FILME SINTONIA" }
-  ],        
-  "13/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E08 - T07" },
-    { "horario": "20:05", "label": "DUB", "class": "16", "titulo": "GATOS DE RUA, DE RICKY GERVAIS - E05 - T01" },
-    { "horario": "23:59", "label": "NAC", "class": "16", "titulo": "CARANDIRU" }
-  ], 
-  "14/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E09 - T07" }
-  ],  
-  "17/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E10 - T07" },
-    { "horario": "20:05", "label": "DUB", "class": "16", "titulo": "GATOS DE RUA, DE RICKY GERVAIS - E06 - T01" },
-    { "horario": "20:30", "label": "LEG", "class": "16", "titulo": "LANTERNAS - E01 - T01" },
-    { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "O DRAMA" }
-  ],       
   "18/08": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
@@ -49,16 +8,25 @@
   "19/08": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E12 - T07" }
-  ],                    
-  "em-breve": [                                          
-    {
-      "dia": "16/08",
-      "class": "16",
-      "titulo": "LANTERNAS",
-      "poster": "./imgs/poster-default.jpg",
-      "tipo": "Série",
-      "temporada": "T1"
-    },        
+  ],      
+  "21/08": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E13 - T07" },
+    { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "QUEDA LIVRE: AS CONSEQUÊNCIAS DO CASO BOEING" }
+  ],    
+  "22/08": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E14 - T07" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "QUEDA LIVRE: AS CONSEQUÊNCIAS DO CASO BOEING" }
+  ],   
+  "23/08": [
+    { "horario": "20:00", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E15 - T07" },
+    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" },
+    { "horario": "22:00", "label": "LEG", "class": "16", "titulo": "LANTERNAS - E02 - T01" }
+  ],                 
+  "em-breve": [                                                 
     {
       "dia": "19/08",
       "class": "16",
