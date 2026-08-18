@@ -44,6 +44,14 @@
       "temporada": ""
     },       
     {
+      "dia": "17/09",
+      "class": "18",
+      "titulo": "MONSTRO: A HISTÓRIA DE LIZZIE BORDEN",
+      "poster": "./imgs/poster-monstro.jpg",
+      "tipo": "Série",
+      "temporada": "T1"
+    },     
+    {
       "dia": "23/09",
       "class": "0",
       "titulo": "WONKA: O BILHETE DOURADO - EP: 1 - 7",
@@ -52,10 +60,26 @@
       "temporada": "T1"
     },  
     {
+      "dia": "25/09",
+      "class": "0",
+      "titulo": "UNABOMBER",
+      "poster": "./imgs/poster-unabomber.jpg",
+      "tipo": "Filme",
+      "temporada": ""
+    },        
+    {
       "dia": "30/09",
       "class": "0",
       "titulo": "WONKA: O BILHETE DOURADO - EP: 8 - 9",
       "poster": "./imgs/poster-wonka.jpg",
+      "tipo": "Série",
+      "temporada": "T1"
+    },      
+    {
+      "dia": "01/10",
+      "class": "0",
+      "titulo": "A LESTE DO ÉDEN",
+      "poster": "./imgs/poster-eden.jpg",
       "tipo": "Série",
       "temporada": "T1"
     },            
