@@ -1,49 +1,35 @@
-{                                 
-  "18/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E11 - T07" },
-    { "horario": "23:59", "label": "LEG", "class": "18", "titulo": "BUGONIA" }
-  ],  
-  "19/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E12 - T07" }
-  ],      
-  "21/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E13 - T07" },
-    { "horario": "23:59", "label": "LEG", "class": "16", "titulo": "QUEDA LIVRE: AS CONSEQUÊNCIAS DO CASO BOEING" }
-  ],    
-  "22/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E14 - T07" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
-  ],   
-  "23/08": [
-    { "horario": "20:00", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E15 - T07" },
-    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" },
-    { "horario": "22:00", "label": "LEG", "class": "16", "titulo": "LANTERNAS - E02 - T01" }
-  ], 
-  "24/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E16 - T07" }
-  ],  
+{                                   
   "25/08": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
     { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E17 - T07" }
-  ],                     
-  "em-breve": [                                                 
-    {
-      "dia": "19/08",
-      "class": "16",
-      "titulo": "QUEDA LIVRE: AS CONSEQUÊNCIAS DO CASO BOEING",
-      "poster": "./imgs/poster-boeing.jpg",
-      "tipo": "Filme",
-      "temporada": ""
-    },    
+  ],     
+  "26/08": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E18 - T07" }
+  ],  
+  "27/08": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E19 - T07" }
+  ],  
+  "28/08": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E20 - T07" }
+  ],    
+  "29/08": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E21 - T07" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
+  ],               
+  "30/08": [
+    { "horario": "20:00", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E22 - T07" },
+    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" },
+    { "horario": "22:00", "label": "LEG", "class": "16", "titulo": "LANTERNAS - E03 - T01" }
+  ],            
+  "em-breve": [                                                   
     {
       "dia": "10/09",
       "class": "0",
