@@ -1,54 +1,4 @@
 {                                   
-  "25/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E17 - T07" }
-  ],     
-  "26/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E18 - T07" }
-  ],  
-  "27/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E19 - T07" }
-  ],  
-  "28/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E20 - T07" }
-  ],    
-  "29/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E21 - T07" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
-  ],               
-  "30/08": [
-    { "horario": "20:00", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E22 - T07" },
-    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" },
-    { "horario": "22:00", "label": "LEG", "class": "16", "titulo": "LANTERNAS - E03 - T01" }
-  ],     
-  "31/08": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E01 - T08" }
-  ],       
-  "01/09": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E02 - T08" }
-  ],      
-  "02/09": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E03 - T08" }
-  ],    
-  "03/09": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E04 - T08" }
-  ],    
   "04/09": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
@@ -63,11 +13,43 @@
     { "horario": "20:00", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E07 - T08" },
     { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" },
     { "horario": "22:00", "label": "LEG", "class": "16", "titulo": "LANTERNAS - E04 - T01" }
-  ],             
+  ],    
+  "07/09": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E08 - T08" },
+    { "horario": "20:00", "label": "LEG", "class": "14", "titulo": "STAR WARS: O MANDALORIANO E GROGU" }
+  ],       
+  "08/09": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E09 - T08" }
+  ],   
+  "09/09": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E10 - T08" }
+  ],   
+  "10/09": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E11 - T08" }
+  ],  
+  "11/09": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E12 - T08" },
+    { "horario": "23:59", "label": "LEG", "class": "12", "titulo": "DIX POUR CENT: O FILME" }
+  ],  
+  "12/09": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E13 - T08" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
+  ],                  
   "em-breve": [                                                   
     {
       "dia": "10/09",
-      "class": "0",
+      "class": "12",
       "titulo": "DIX POUR CENT: O FILME",
       "poster": "./imgs/poster-dix.jpg",
       "tipo": "Filme",
