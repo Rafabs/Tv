@@ -23,31 +23,28 @@
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
     { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E07 - T09" },
-    { "horario": "20:00", "label": "LEG", "class": "18", "titulo": "MONSTRO: A HISTÓRIA DE LIZZIE BORDEN - E08 - T01" }
+    { "horario": "20:00", "label": "LEG", "class": "18", "titulo": "MONSTRO: A HISTÓRIA DE LIZZIE BORDEN - E07 - T01" }
   ],   
   "29/09": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
     { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E08 - T09" },
-    { "horario": "20:00", "label": "LEG", "class": "18", "titulo": "MONSTRO: A HISTÓRIA DE LIZZIE BORDEN - E09 - T01" }
+    { "horario": "20:00", "label": "LEG", "class": "18", "titulo": "MONSTRO: A HISTÓRIA DE LIZZIE BORDEN - E08 - T01" }
   ],  
   "30/09": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E09 - T09" },
-    { "horario": "20:00", "label": "LEG", "class": "18", "titulo": "MONSTRO: A HISTÓRIA DE LIZZIE BORDEN - E10 - T01" }
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E09 - T09" }
   ],  
   "01/10": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E10 - T09" },
-    { "horario": "20:00", "label": "LEG", "class": "18", "titulo": "MONSTRO: A HISTÓRIA DE LIZZIE BORDEN - E11 - T01" }
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E10 - T09" }
   ],  
   "02/10": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E11 - T09" },
-    { "horario": "20:00", "label": "LEG", "class": "18", "titulo": "MONSTRO: A HISTÓRIA DE LIZZIE BORDEN - E12 - T01" }
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E11 - T09" }
   ],             
   "em-breve": [                                                                  
     {
