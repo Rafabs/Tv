@@ -1,68 +1,54 @@
 {                                   
-  "25/09": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E04 - T09" },
-    { "horario": "20:00", "label": "LEG", "class": "18", "titulo": "MONSTRO: A HISTÓRIA DE LIZZIE BORDEN - E05 - T01" },
-    { "horario": "21:00", "label": "LEG", "class": "10", "titulo": "WONKA: O BILHETE DOURADO - E03 - T01" }
-  ], 
-  "26/09": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E05 - T09" },
-    { "horario": "13:45", "label": "LEG", "class": "18", "titulo": "MONSTRO: A HISTÓRIA DE LIZZIE BORDEN - E06 - T01" },
-    { "horario": "14:45", "label": "LEG", "class": "18", "titulo": "MONSTRO: A HISTÓRIA DE LIZZIE BORDEN - E07 - T01" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
-  ],  
-  "27/09": [
-    { "horario": "18:20", "label": "LEG", "class": "14", "titulo": "UNABOMBER" },
-    { "horario": "20:00", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E06 - T09" },
-    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" },
-    { "horario": "22:00", "label": "LEG", "class": "16", "titulo": "LANTERNAS - E07 - T01" }
-  ],    
-  "28/09": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E07 - T09" },
-    { "horario": "20:00", "label": "LEG", "class": "18", "titulo": "MONSTRO: A HISTÓRIA DE LIZZIE BORDEN - E07 - T01" }
-  ],   
-  "29/09": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E08 - T09" },
-    { "horario": "20:00", "label": "LEG", "class": "18", "titulo": "MONSTRO: A HISTÓRIA DE LIZZIE BORDEN - E08 - T01" }
-  ],  
-  "30/09": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E09 - T09" }
-  ],  
-  "01/10": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E10 - T09" }
-  ],  
   "02/10": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
     { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E11 - T09" }
-  ],             
-  "em-breve": [                                                                  
-    {
-      "dia": "30/09",
-      "class": "10",
-      "titulo": "WONKA: O BILHETE DOURADO - EP: 8 - 9",
-      "poster": "./imgs/poster-wonka.jpg",
-      "tipo": "Série",
-      "temporada": "T1"
-    },      
-    {
-      "dia": "01/10",
-      "class": "16",
-      "titulo": "A LESTE DO ÉDEN",
-      "poster": "./imgs/poster-eden.jpg",
-      "tipo": "Série",
-      "temporada": "T1"
-    },    
+  ],      
+  "03/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E01 - T01" },
+    { "horario": "13:45", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E12 - T09" },    
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
+  ],   
+  "04/10": [
+    { "horario": "19:00", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E02 - T01" },
+    { "horario": "19:30", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E13 - T09" },    
+    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }
+  ],     
+  "05/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E14 - T09" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E03 - T01" }
+  ],   
+  "06/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E15 - T09" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E04 - T01" }
+  ],   
+  "07/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E16 - T09" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E05 - T01" }
+  ],   
+  "08/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E17 - T09" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E06 - T01" },
+    { "horario": "21:00", "label": "LEG", "class": "16", "titulo": "PROFUNDEZAS - E01 - T01" }
+  ],   
+  "09/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E18 - T09" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E07 - T01" },
+    { "horario": "21:00", "label": "LEG", "class": "16", "titulo": "PROFUNDEZAS - E02 - T01" },
+    { "horario": "22:00", "label": "DUB", "class": "16", "titulo": "HOTEL ASSOMBRADO - E01 - T02" }
+  ],                   
+  "em-breve": [                                                                    
     {
       "dia": "08/10",
       "class": "16",
