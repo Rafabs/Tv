@@ -47,24 +47,54 @@
     { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E07 - T01" },
     { "horario": "21:00", "label": "LEG", "class": "16", "titulo": "PROFUNDEZAS - E02 - T01" },
     { "horario": "22:00", "label": "DUB", "class": "16", "titulo": "HOTEL ASSOMBRADO - E01 - T02" }
-  ],                   
+  ],  
+  "10/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E19 - T09" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E08 - T01" },
+    { "horario": "21:00", "label": "LEG", "class": "16", "titulo": "PROFUNDEZAS - E03 - T01" },
+    { "horario": "22:00", "label": "DUB", "class": "16", "titulo": "HOTEL ASSOMBRADO - E02 - T02" }
+  ],  
+  "11/10": [
+    { "horario": "21:00", "label": "LEG", "class": "16", "titulo": "PROFUNDEZAS - E04 - T01" },
+    { "horario": "22:00", "label": "DUB", "class": "16", "titulo": "HOTEL ASSOMBRADO - E03 - T02" },
+    { "horario": "19:30", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E20 - T09" },    
+    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }
+  ],                    
+  "12/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E21 - T09" },
+    { "horario": "21:00", "label": "LEG", "class": "16", "titulo": "PROFUNDEZAS - E05 - T01" },
+    { "horario": "22:00", "label": "DUB", "class": "16", "titulo": "HOTEL ASSOMBRADO - E04 - T02" }
+  ],  
+  "13/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E22 - T09" },
+    { "horario": "21:00", "label": "LEG", "class": "16", "titulo": "PROFUNDEZAS - E06 - T01" },
+    { "horario": "22:00", "label": "DUB", "class": "16", "titulo": "HOTEL ASSOMBRADO - E05 - T02" }
+  ],   
+  "14/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E23 - T09" },
+    { "horario": "22:00", "label": "DUB", "class": "16", "titulo": "HOTEL ASSOMBRADO - E06 - T02" }
+  ],   
+   "15/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E24 - T09" },
+    { "horario": "22:00", "label": "DUB", "class": "16", "titulo": "HOTEL ASSOMBRADO - E07 - T02" }
+  ],  
+   "16/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E01 - T10" },
+    { "horario": "22:00", "label": "DUB", "class": "16", "titulo": "HOTEL ASSOMBRADO - E08 - T02" }
+  ],     
   "em-breve": [                                                                    
-    {
-      "dia": "08/10",
-      "class": "16",
-      "titulo": "PROFUNDEZAS",
-      "poster": "./imgs/poster-profundezas.jpg",
-      "tipo": "Série",
-      "temporada": "T1"
-    },      
-    {
-      "dia": "09/10",
-      "class": "16",
-      "titulo": "HOTEL ASSOMBRADO",
-      "poster": "./imgs/poster-hotel.jpg",
-      "tipo": "Série",
-      "temporada": "T2"
-    },             
     {
       "dia": "23/10",
       "class": "16",
