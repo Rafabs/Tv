@@ -1,61 +1,4 @@
 {                                   
-  "02/10": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E11 - T09" }
-  ],      
-  "03/10": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E01 - T01" },
-    { "horario": "13:45", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E12 - T09" },    
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
-  ],   
-  "04/10": [
-    { "horario": "19:00", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E02 - T01" },
-    { "horario": "19:30", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E13 - T09" },    
-    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }
-  ],     
-  "05/10": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E14 - T09" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E03 - T01" }
-  ],   
-  "06/10": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E15 - T09" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E04 - T01" }
-  ],   
-  "07/10": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E16 - T09" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E05 - T01" }
-  ],   
-  "08/10": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E17 - T09" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E06 - T01" },
-    { "horario": "21:00", "label": "LEG", "class": "16", "titulo": "PROFUNDEZAS - E01 - T01" }
-  ],   
-  "09/10": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E18 - T09" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E07 - T01" },
-    { "horario": "21:00", "label": "LEG", "class": "16", "titulo": "PROFUNDEZAS - E02 - T01" },
-    { "horario": "22:00", "label": "DUB", "class": "16", "titulo": "HOTEL ASSOMBRADO - E01 - T02" }
-  ],  
-  "10/10": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E19 - T09" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "A LESTE DO ÉDEN - E08 - T01" },
-    { "horario": "21:00", "label": "LEG", "class": "16", "titulo": "PROFUNDEZAS - E03 - T01" },
-    { "horario": "22:00", "label": "DUB", "class": "16", "titulo": "HOTEL ASSOMBRADO - E02 - T02" }
-  ],  
   "11/10": [
     { "horario": "21:00", "label": "LEG", "class": "16", "titulo": "PROFUNDEZAS - E04 - T01" },
     { "horario": "22:00", "label": "DUB", "class": "16", "titulo": "HOTEL ASSOMBRADO - E03 - T02" },
@@ -91,9 +34,55 @@
    "16/10": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E01 - T10" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E03 - T10" },
     { "horario": "22:00", "label": "DUB", "class": "16", "titulo": "HOTEL ASSOMBRADO - E08 - T02" }
+  ],  
+   "17/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E04 - T10" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
   ],     
+   "18/10": [
+    { "horario": "20:00", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E05 - T10" },
+    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }
+  ],     
+   "19/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E06 - T10" }
+  ],  
+   "20/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E07 - T10" }
+  ],  
+   "21/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E08 - T10" }
+  ],  
+   "22/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E09 - T10" }
+  ],  
+   "23/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E10 - T10" },
+    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "LUPIN - E01 - T04" }
+  ],   
+   "24/10": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E11 - T10" },
+    { "horario": "13:45", "label": "LEG", "class": "16", "titulo": "LUPIN - E02 - T04" },    
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
+  ],   
+   "25/10": [
+    { "horario": "19:10", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E12 - T10" },
+    { "horario": "19:30", "label": "LEG", "class": "16", "titulo": "LUPIN - E03 - T04" },
+    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }
+  ],              
   "em-breve": [                                                                    
     {
       "dia": "23/10",
