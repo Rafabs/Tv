@@ -73,7 +73,22 @@
    "08/11": [
     { "horario": "20:10", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E05 - T11" },
     { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }
-  ],                        
+  ],      
+   "09/11": [
+    { "horario": "23:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E03 - T12" }
+  ],
+   "10/11": [
+    { "horario": "23:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E03 - T13" }
+  ],
+   "11/11": [
+    { "horario": "23:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E03 - T14" }
+  ],
+   "12/11": [
+    { "horario": "23:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E03 - T15" }
+  ],
+   "13/11": [
+    { "horario": "23:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E03 - T16" }
+  ],                             
   "em-breve": [                                                                      
     {
       "dia": "03/12",
