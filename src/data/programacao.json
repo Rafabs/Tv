@@ -1,94 +1,35 @@
 {                                   
-   "25/10": [
-    { "horario": "19:10", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E12 - T10" },
-    { "horario": "19:30", "label": "LEG", "class": "16", "titulo": "LUPIN - E03 - T04" },
-    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }
-  ],      
-   "26/10": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E13 - T10" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "LUPIN - E04 - T04" }
-  ],  
-   "27/10": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E14 - T10" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "LUPIN - E05 - T04" }
-  ],  
-   "28/10": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E15 - T10" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "LUPIN - E06 - T04" }
-  ],  
-   "29/10": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E16 - T10" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "LUPIN - E07 - T04" }
-  ],  
-   "30/10": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E17 - T10" },
-    { "horario": "20:00", "label": "LEG", "class": "16", "titulo": "LUPIN - E08 - T04" }
-  ],    
-   "31/10": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E19 - T10" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
-  ],      
-   "01/11": [
-    { "horario": "20:10", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E20 - T10" },
-    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" },
-    { "horario": "23:30", "label": "NAC", "class": "16", "titulo": "CARANDIRU" }
-  ],  
-   "02/11": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E21 - T10" }
-  ],   
-   "03/11": [
-    { "horario": "18:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E22 - T10" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
-  ],    
-   "04/11": [
-    { "horario": "18:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E01 - T11" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
-  ],
-   "05/11": [
-    { "horario": "18:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E02 - T11" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
-  ],
-   "06/11": [
-    { "horario": "18:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E03 - T11" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
-  ],         
-   "07/11": [
-    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
-    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E04 - T11" },
-    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
-  ],   
-   "08/11": [
-    { "horario": "20:10", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E05 - T11" },
-    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }
-  ],      
-   "09/11": [
-    { "horario": "23:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E06 - T12" }
-  ],
-   "10/11": [
-    { "horario": "23:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E07 - T13" }
-  ],
-   "11/11": [
-    { "horario": "23:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E08 - T14" }
-  ],
    "12/11": [
     { "horario": "23:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E09 - T15" }
   ],
    "13/11": [
     { "horario": "23:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E10 - T16" }
-  ],                             
+  ],  
+   "14/11": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:40", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E11 - T11" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }
+  ],   
+   "15/11": [
+    { "horario": "20:10", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E12 - T11" },
+    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }
+  ],   
+   "16/11": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E13 - T11" }
+  ],    
+   "17/11": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E14 - T11" }
+  ],   
+   "18/11": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E15 - T11" }
+  ],   
+   "19/11": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E16 - T11" }
+  ],                                  
   "em-breve": [                                                                      
     {
       "dia": "03/12",
@@ -98,6 +39,22 @@
       "tipo": "Série",
       "temporada": "T1"
     },     
+    {
+      "dia": "11/12",
+      "class": "12",
+      "titulo": "DIA RUIM",
+      "poster": "./imgs/poster-ruim.jpg",
+      "tipo": "Filme",
+      "temporada": ""
+    },      
+    {
+      "dia": "18/12",
+      "class": "14",
+      "titulo": "ALÉM DA SOCIEDADE",
+      "poster": "./imgs/poster-sociedade.jpg",
+      "tipo": "Série",
+      "temporada": "T1"
+    },       
     {
       "dia": "23/12",
       "class": "0",
