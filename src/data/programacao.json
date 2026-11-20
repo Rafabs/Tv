@@ -29,7 +29,24 @@
    "19/11": [
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E16 - T11" }
-  ],                                  
+  ],          
+   "20/11": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" },
+    { "horario": "19:50", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E17 - T11" },
+    { "horario": "21:10", "label": "LEG", "class": "12", "titulo": "PERCY JACKSON E OS OLÍMPIANOS - E01 - T03" }    
+  ],         
+   "21/11": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "13:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E18 - T11" },
+    { "horario": "13:45", "label": "LEG", "class": "12", "titulo": "PERCY JACKSON E OS OLÍMPIANOS - E02 - T03" },
+    { "horario": "19:10", "label": "NAC", "class": "12", "titulo": "SP2" }  
+  ],     
+   "22/11": [
+    { "horario": "19:25", "label": "DUB", "class": "14", "titulo": "MODERN FAMILY - E19 - T11" },
+    { "horario": "19:45", "label": "LEG", "class": "12", "titulo": "PERCY JACKSON E OS OLÍMPIANOS - E03 - T03" },
+    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }  
+  ],                      
   "em-breve": [                                                                      
     {
       "dia": "03/12",
