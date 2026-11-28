@@ -40,7 +40,31 @@
     { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
     { "horario": "13:25", "label": "DUB", "class": "12", "titulo": "THE OFFICE - E01 - T02" },
     { "horario": "14:55", "label": "LEG", "class": "12", "titulo": "PERCY JACKSON E OS OLÍMPIANOS - E04 - T03" }
-  ],                
+  ],     
+   "29/11": [
+    { "horario": "19:25", "label": "DUB", "class": "12", "titulo": "THE OFFICE - E02 - T02" },
+    { "horario": "20:30", "label": "NAC", "class": "12", "titulo": "FANTÁSTICO" }  
+  ],  
+   "30/11": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:25", "label": "DUB", "class": "12", "titulo": "THE OFFICE - E03 - T02" }
+  ],       
+   "01/12": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:25", "label": "DUB", "class": "12", "titulo": "THE OFFICE - E04 - T02" }
+  ],    
+   "02/12": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:25", "label": "DUB", "class": "12", "titulo": "THE OFFICE - E05 - T02" }
+  ],    
+   "03/12": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:25", "label": "DUB", "class": "12", "titulo": "THE OFFICE - E06 - T02" }
+  ],    
+   "04/12": [
+    { "horario": "11:45", "label": "NAC", "class": "12", "titulo": "SP1" },
+    { "horario": "19:25", "label": "DUB", "class": "12", "titulo": "THE OFFICE - E07 - T02" }
+  ],                    
   "em-breve": [     
     {
       "dia": "21/01",
